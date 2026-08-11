@@ -4,6 +4,63 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 13 — 2026-08-11 — The overshoot and the fingerprints (author input)
+
+**Author input.** (1) Retirees living better than workers is itself the anomaly, not merely its financing: parity might be defensible, but they also hold the capital, and bequests land on the already-comfortable 45-50+. (2) Dig into "policy serves its principal voter": pension indexation vs the unindexed vehicles of the working; the 10% deduction for professional expenses retirees do not have; source all of it.
+
+**Research (two parallel tracks, primary sources: COR, DREES, INSEE HVP, OECD PaG 2025, CAE, France Strategie, CPO, Legifrance, AN records).** Key findings, with the precision discipline applied:
+
+- **Living standard**: cash parity with the population (median 100%, mean 97%, 2022); +5 to +9 points above it counting imputed rents (COR Feb 2026: 106.5%, "very close to workers"); poverty a third lower, less than half the OECD average. The essay now says exactly that — the author's "better" holds through the homes owned outright, and the overstatement trap was avoided.
+- **The capital**: households 50-79 hold 61% of wealth (HVP 2024); retired households +29% net worth vs working ones; retirees still SAVE ~8% of income (the transfer exceeds consumption need at the margin by construction — the sharpest single fact of the run); average heir is ~50, heading to 58; inherited share of wealth 35%→60% since 1970.
+- **The abattement story is better than remembered**: created in 1977 by parliamentary amendment AGAINST the government — budget minister Boulin objected on the record that pensions carry no professional costs; parliament voted it anyway. Cost EUR 4.5-4.8bn/yr, ~30% to the top decile; CPO recommended abolition (2024). The 2026 episode corrected the author's memory in the argument's favor: the government proposed the EUR 2,000 forfait FOR RETIREES (the workers' deduction was never touched), and the ASSEMBLY killed the reform 213-17.
+- **December 2024, the double demonstration**: pension indexation was the pivot group's declared red line; the censure (first since 1962) killed the budget; pensions rose the full +2.2% BY DEFAULT (L161-25 makes indexation the legal default) while workers' tax brackets sat frozen until February. The asymmetry is a default-rule asymmetry — stronger than any single number.
+- **CSG 2018-2019**: the hike was offset for workers via contribution cuts, borne raw by retirees, then half-repealed for retirees within twelve months.
+- **Counterevidence found and absorbed [F084]**: majority governments squeezed pensions four times over 2014-2020 (2014 delay, 2018 skip, 2019-20 +0.3% caps, 2013 fiscalization of the family bonus). The refined law — *survivable with a majority, fatal without one* — SHARPENS C25: the constraint binds exactly when the median voter's proxies hold the balance, which demography makes likelier every cycle.
+
+**What changed.** `facts.json`: +8 facts (F077-F084, all verified, honest caveats in notes) + 9 source entries; C25 refined (the impasse steers legislation, beyond vetoing repair; the not-a-monolith counterargument answered by revealed preference). `thesis.md`: I.4 gains the overshoot block (with the C19 guardrail stated: indict the design, never the people); I.13 gains the fingerprints block with the counterevidence; II.6 the heir-at-fifty line; claim tree updated. `article.md` (~+570 words): "The trade nobody named" now goes past the "magnificent" concession into the overshoot (wealth stock, the banked pensions, the heir at fifty, "something its politics has never named"); "The impasse" gains the fingerprints paragraph and the honest-complication paragraph; the 25-year-old's ledger gains her inheritance date. Audit: clean (one "pivotal" caught and removed), no sentence over 32 words, ~6,950 words.
+
+**Next run should attack, in order:** unchanged queue from run 12 — [Q20] Athens incidence first, [Q34] median gap, the last `?` facts (F048, F056, F059, F062), [Q31] degrowth numbers, then the fresh-eyes prose-only pass. New candidate: the F078 saving-loop (pensions → retiree savings → life insurance → OATs → the deficit that pays pensions) could complete the loop in "What France believes" — verify the holding chain (insurers' OAT share by holder age is NOT yet a fact) before writing a word of it.
+
+---
+
+## Run 12 — 2026-08-11 — The verification sweep lands: 70 of 76 facts verified, the impasse pinned, the opening rebuilt on 2025 data
+
+**Author directive.** Iterate on everything: copy and style (Julian, Boron Letters, but/therefore, the Scott Adams rules), facts and counterarguments, the thesis itself; take the bird's-eye view.
+
+**The sweep (the run's core).** Five parallel research tracks checked 38 facts against primary sources. Result: 70 of 76 facts now `verified` (was 32 of 71); the six left (F012 superseded, F048 universities, F056 Germany floor, F059 RAND, F062 GDP-B, F076 median gap) carry no number the essay quotes. Q01, Q02, Q09, Q24, Q32 resolved.
+
+**Killed or corrected by the sweep (challenge-before-add, as ordered):**
+
+- "One of the sharpest math declines in the developed world" — WRONG: seven OECD countries fell more in the COVID cycle; the honest sharp version is "the sharpest decline in the French series; France now tests exactly average". The essay now says that ("Average. The country of Pascal.").
+- "The 2022 collapse is concentrated among weaker students" — REFUTED by both OECD and DEPP (high and low achievers fell alike; over 2012-2022 the top decile fell more). Replaced with the below-Level-2 share (22.4% to 29% in a decade).
+- "A hundred dismissals a year across 5.7mn agents" — the truth is starker and narrower: 13 dismissals for professional insufficiency in 2022, State service only, 2.5mn agents. The essay now uses the real number ("Thirteen.").
+- "France exceeded the US around 1980" — current WDI vintage says matched ($12,565 vs $12,575), never exceeded; "in the dollars of the day... matched" stands.
+- Grid intensities updated (Germany ~330 not 350-400; EU ~210 not 250): "a tenth of Germany's" became "an eighth".
+- Fertility: 2010 rank was second (behind Ireland), "highest family spending" holds only on the broad IGAS measure; 2025 TFR 1.56, deaths outnumbered births for the first time since 1945 (added to the essay — it earns its place).
+- "Most anti-capitalist public in the rich world" and "the most class-determined schooling" softened to what F021/F047 actually support.
+- Unemployment: the 2015-2023 fall (10.4→7.4) reversed after 2025 (8.3% by Q2 2026). Stated in the essay in both directions — it strengthens the ratchet argument rather than weakening the responsiveness one.
+- F006 (the gap) finally reconciled and de-`challenged`: the BdF-vs-WDI dispute is a PPP-vintage artifact; constant-PPP series agree on ~10-11pp of widening since 2000; the essay now attributes its series ("on the Banque de France's accounting") and concedes the mean-vs-median point in place [F076?, Q34].
+
+**The opening rebuilt.** INSEE's May-2026 vintage: 2025 deficit EUR 152.5bn against EUR 55.8bn of nominal GDP growth — almost three euros of new debt per euro of new economy (2024: 1.7). The old "every euro borrowed buys 55 cents of economy" phrasing was causally over-claiming; the new framing ("three euros of new debt for every euro of new economy") is pure accounting and sharper. The honesty rules (never a causal multiplier; 2023 was inflation-flattered; quote 2024 alongside 2025) are in F027's notes.
+
+**Q32 pinned (the peak's number).** INSEE registered rolls x INSEE turnout by age, cross-checked against Ipsos day-of surveys: voters 55+ cast ~53-56% of ballots at the 2022 legislatives, ~50% at the higher-turnout 2024 ones, 45-48% at the presidential. The essay's peak now states the 2022 majority and the 2024 nuance instead of an unpinned claim. F070 verified, high confidence.
+
+**Thesis strengthened.** C25 synced into the spine (new I.13, Part 0 sentence, claim tree, III.8 constitutional anchoring, IV.10 rewritten as pointer). Two NEW steelmanned objections a reader would raise: IV.15 the inflation exit (the 2021-23 natural experiment: five points shaved, re-spent; 11% of debt indexed; the lever sits in Frankfurt — F074) and IV.16 the mean-vs-median objection (conceded at the median, answered on production decomposition + Germany-based comparisons + internal fiscal arithmetic). Both also entered the essay (fifth collapsible; concession paragraph in "The road here"). Also new: F073 (France under the EU excessive-deficit procedure — "another hand is now resting on the pen"), F072 (the FRR raid, now sourced to the Cour des comptes), F075 (the 42 regimes).
+
+**Prose pass (Adams/Julian/Boron).** Pruned overweight sentences; all numbers made concrete ("Spain spends two points of GDP less and its people live a year longer"; "one permit in six... six admissions in ten"); fixed the "A operating manual" typo; killed the untraceable "twenty-five million envelopes". `audit.py` committed (the previously ephemeral audit script, now permanent; AGENTS.md table updated). Final audit: 0 banned patterns, 0 intensifiers, 6 X-not-Y per 6,400 words, 9 questions (all answered in place), no sentence over 32 words, average 13.0.
+
+**Bird's-eye verdict.** The promise-delivery chain holds: opening arithmetic → the wall → the trade → the impasse (peak) → beliefs → the hand → the program → the two mornings. The weakest remaining link is evidential, not structural: the "poorest pay fastest, the way they paid in Athens" line rests on C14, still a hypothesis (Q20 raised to high).
+
+**Next run should attack, in order:**
+
+1. [Q20] Greek adjustment incidence — the essay states C14 in "The choice"; pin it or soften it.
+2. [Q34] The median-to-median income gap (F076) — the essay's concession paragraph should carry the number once pinned.
+3. [Q25] The two-curves dashboard and F056 (Germany floor check); F048 (universities, Fields ratio) — the last `?` facts.
+4. [Q31] The steelmanned degrowth answer with decoupling-speed numbers.
+5. A prose-only cold read by a fresh run (definition-of-done #4), then citation conversion and the HTML/charts phase.
+
+---
+
 ## Run 11 — 2026-08-11 — Sentence-length purge (author catch)
 
 **Author catch.** Quoted a 34-word sentence from the degrowth collapsible ("The 3,300 billion stays nominal while... forced consolidations") - "elle est longue, elle est longue, elle est longue". Correct: it stacked four consequences and a moral into one breath, against the writing standard's first rules (short sentences, one thought per sentence).

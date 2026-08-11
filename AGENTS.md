@@ -25,6 +25,7 @@ The thesis must be a **vision**, not a list of politically safe tweaks. The auth
 | `article.md` | The copy itself — the essay the reader will see | Prose lives here. It is the narrative rendering of `thesis.md`, never a source of new claims. **Gate rule (added run 2 after a violation): essay prose may only be written or extended for parts whose spine is marked settled/stable in `thesis.md`. Spine first, prose second — always.** |
 | `journal.md` | The logbook | Append one entry per run. Newest entry on top. |
 | `model.py` | The growth-accounting model behind the target claim (C13) | Pure Python, no dependencies; `python3 model.py` regenerates the scenario table in `thesis.md`. Change parameters only with a sourced fact or an explicit assumption tag, and update the table in `thesis.md` in the same run. |
+| `audit.py` | The anti-tell audit script (committed run 12) | Run `python3 audit.py` before committing any prose to `article.md`; keep its pattern lists in sync with the checklist below; log the result in the journal. |
 
 Everything in the repo is in English.
 
