@@ -4,6 +4,27 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 9 — 2026-08-11 — The essay, complete: consequence-chained, side quests cut (author feedback)
+
+**Author feedback on v0.2.** The opening grabs (keep). "The road here" ran long with uninteresting stretches. Build the narrative on therefore/but chaining: every statement carries its consequence, then the consequence's consequence, then the turn. Too many side quests (the 673-hours passage didn't say where it was going). Use Boron Letters-style rhetorical questions to build tension. Cut the "nurse is worth" teaser line. And: write the WHOLE article.
+
+**What was done (`article.md` v0.3, ~5,650 words, end to end).**
+
+- **Structure rebuilt on consequence chains.** The key repair: the hours statistics now land on their consequence ("a career is a payer. French pensions run on repartition... Every missing career is a missing payer in a machine that is now short five points of GDP a year. The hours gap is not a lifestyle detail. It is the deficit, seen from upstream."). Same treatment throughout: each section ends by opening the next (money -> the trade -> the beliefs -> the loop -> ownership as the engine -> the hand -> the program -> the window -> the pen).
+- **Sections drafted this run:** The trade nobody named (pensions arithmetic: three ways to pay, France chose the credit card; the two anesthetics; the 25-year-old's ledger). What France believes (the reform cycle, the 62%, the honest reading of the belief, the savings loop run slowly, and the two ownership experiments as the pivot). What growth is for (two curves as the yardstick; Baumol; the double burial: pay is not merit / billionaires are not proof of theft). The hand France holds (nuclear-AI moment, savings, talent, the expiring demographic card). The program (seven moves, each feeding the next, with the model's honest numbers: doubling not tripling, overtake conditional on Germany, relay-race warning). The objections (four real collapsibles: degrowth full four-step, Japan, ECB, wealth tax; gerontocracy deliberately on the main page as the strongest). How it actually happens (Lindbeck; phase zero by decree; the window; winners first, by account number). The choice (two mornings; close on the pen).
+- **Cuts per author:** the nurse-teaser line; the road-here fat. Boron-style questions used as tension devices, each answered immediately by the next sentence.
+
+**Anti-tell audit (scripted + manual):** 0 em-dashes; 0 not-just/no-longer scaffolds; 0 hedge openers/closers (one regex false positive: "83 billion euros in today's money" is a specific use, kept); 1 stock-word hit ("leverage" as noun) replaced with "scale"; 0 Paris metonymies. Judgment calls logged: 11 questions in 5,650 words (~1 per 500), all immediately answered, per the author's explicit Boron Letters directive; 5 plain "X, not Y" contrasts (~1 per 1,100 words, ration says ~1/1,500) - each is a precise technical contrast ("a stock, not a flow"; "bites flows, not stocks"), none is the punchline scaffold; next runs should not add more.
+
+**Next run should attack, in order:**
+
+1. The verification sweep is now URGENT: the complete essay leans on ~20 `?`-flagged facts. Priority order: F027/Q09 (the opening arithmetic), F069 (the 1980 anchor), F051 (pensions = 2x education), F011, F049, F050, F054/F055, F063, F064/F065, F042-F045, F052, F058, F061, F066, F022, F020, F019, F017, F053, F034, F068.
+2. [Q25] The two-curves dashboard (the "What growth is for" section will need its numbers).
+3. A cold-read prose pass a run later (fresh eyes rule): rhythm, cuts, the question density.
+4. Then reader-facing citation conversion and the HTML/charts phase.
+
+---
+
 ## Run 8 — 2026-08-11 — Two author edits: the 1980 high-water mark, and no more "Paris" (author input)
 
 **Author input.** (1) Add early in the article that French GDP per capita was once comparable to, even above, the American level (author dated it "50s or 80s"). (2) Stop using "Paris" as a metonymy for decision-makers: in the French imagination "Paris" also means the disconnected executive class; name the government plainly.

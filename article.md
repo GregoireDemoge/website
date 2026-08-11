@@ -1,10 +1,6 @@
 # When France Runs Out of Road
 
-Status: **v0.2 — writing in progress** (run 7). Sections drafted: opening, Where I stand, The wall, The road here, The usual suspects. Remaining sections mapped at the bottom. Tag conventions: `[F001]` = verified fact in `facts.json`; `[F012?]` = recorded, not yet verified; every `?` must be cleared before publication. A late pass converts tags to reader-friendly citations.
-
-Format spec (kept from run 6): punchline objections render as collapsibles in the HTML version (`<details>/<summary>`; the punchline is the summary line). Candidates: the degrowth punchline, the Japan objection, the ECB backstop, the wealth-tax alternative. The narrative must read cleanly with all collapsibles closed.
-
-Writing rules: `AGENTS.md` writing standard + anti-tell checklist. Audit note for this draft is in `journal.md` (run 7).
+Status: **v0.3 — complete draft, end to end** (run 9). Tag conventions: `[F001]` = verified fact in `facts.json`; `[F012?]` = recorded, not yet verified; every `?` must be cleared before publication. A late pass converts tags to reader-friendly citations. Collapsibles use `<details>` blocks; the narrative must read cleanly with all of them closed. Writing rules: `AGENTS.md` standard + anti-tell checklist; audit logged in `journal.md`.
 
 ---
 
@@ -20,7 +16,7 @@ You should know who is talking, because parts of this essay will sound like they
 
 My politics are of the left. I believe a country where you can die because you are poor has failed at something basic. I believe the strong owe the weak more than pity. I think French healthcare, which asks what is wrong with you before it asks how you will pay, is one of the finest things my country has built, and I would defend it against the American alternative without a second of hesitation; the United States spends seventeen percent of its economy on health, five points more than France, and its poor die roughly ten years younger than its rich [F055?][F054?]. Nobody sane looks at that and calls it the model.
 
-I am writing this essay because of those convictions, not despite them. The French social model is a conquest. It is also, on today's numbers, a conquest paid for by people who cannot vote yet. And the first people to lose it, when the money runs out, will be exactly the people it exists to protect. That is not a rhetorical flourish; it is what happened in Greece, and we will get there. If you are on the left and the last three sentences made you flinch, this essay was written for you. If you are on the right and you are already nodding along, be patient. Some of what follows will break your story too. There is a section coming on why the market is wrong about what a nurse is worth, and I mean it.
+I am writing this essay because of those convictions, not despite them. The French social model is a conquest. It is also, on today's numbers, a conquest paid for by people who cannot vote yet. And the first people to lose it, when the money runs out, will be exactly the people it exists to protect. That is not a rhetorical flourish; it is what happened in Greece, and we will get there. If you are on the left and the last three sentences made you flinch, this essay was written for you. If you are on the right and you are already nodding along, be patient. Some of what follows will break your story too.
 
 ## The wall
 
@@ -28,31 +24,31 @@ Start with the bill that is already printed.
 
 In 2026, France will pay about 65 billion euros of interest on its debt. In 2027, about 74 billion [F024]. If nothing changes, the number reaches roughly 124 billion by 2030, which would make interest nearly twice the defense budget [F025]. Not repayment. Just interest, the cost of standing still.
 
-The stock behind that bill is 3,300 billion euros and rising, about 115 percent of GDP [F002]. More than half of it, 54.6 percent, is held by foreigners [F028], in a currency France cannot print. To keep the machine running, the French treasury has to raise roughly six billion euros from those creditors every week [F029]. In the autumn of 2025, two rating agencies took away France's double-A within five weeks of each other [F026]. The second one, S&P, moved outside its own calendar. Its explanation fits in one line: the agency doubted that France's political system could still deliver a budget.
+The stock behind that bill is 3,300 billion euros and rising, about 115 percent of GDP [F002]. More than half of it, 54.6 percent, is held by foreigners [F028], in a currency France cannot print. So the French treasury has to raise roughly six billion euros from those creditors every week, every year, just to keep the machine running [F029]. In the autumn of 2025, two rating agencies took away France's double-A within five weeks of each other [F026]. The second one, S&P, moved outside its own calendar. Its explanation fits in one line: the agency doubted that France's political system could still deliver a budget.
 
-Here I owe you some honesty, because doom-mongering about debt is a French genre older than I am. There is no panic in the market. France borrowed slightly cheaper in 2025 than in 2024 [F029]. The spread on French bonds sits around 80 basis points above Germany's, elevated, but a long way from crisis [F026]. And the European Central Bank stands somewhere behind it all, which is why many sensible people in the government and around it will tell you that nothing can really happen.
+Now, honesty, because doom-mongering about French debt is a genre older than I am. There is no panic in the market. France borrowed slightly cheaper in 2025 than in 2024 [F029]. The spread over German bonds sits around 80 basis points, elevated but far from crisis levels [F026]. And the European Central Bank stands somewhere behind it all, which is why many sensible people in the government and around it will tell you that nothing can really happen.
 
-They are half right, and the half matters. Rich countries in the euro do not default the way emerging markets default. What they get instead is called a program. Greece kept the euro through its crisis and lost its budget for a decade; the pen that wrote Greek fiscal policy was held in Brussels and Washington. A program is a default with better manners. And the ECB's protection has a condition attached, spelled out in its own rules: it shields countries that are doing their fiscal adjustment. It does not replace the adjustment. The trap in front of France is not a spiral of interest rates. Rates could stay calm for years. The trap is volume: a stock so large that even polite interest rates eat a ministry's worth of budget every parliament, one refinanced bond at a time.
+They are half right, and the half matters. Rich countries in the euro do not default the way emerging markets default. What they get instead is called a program. Greece kept the euro through its crisis and lost its budget for a decade; the pen that wrote Greek fiscal policy was held in Brussels and Washington. A program is a default with better manners. And the ECB's protection has a condition attached, spelled out in its own rules: it shields countries that are doing their fiscal adjustment. It does not replace the adjustment. So the trap in front of France is not a spiral of interest rates. Rates could stay calm for years. The trap is volume: a stock so large that even polite interest rates eat a ministry's worth of budget every parliament, one refinanced bond at a time.
 
-So the question is not whether France adjusts. The question is who holds the pen.
+Which means the question was never whether France adjusts. The question is who holds the pen.
 
 ## The road here
 
 France has been level with America before. Around 1980, at the end of the thirty-year boom the French still call *les trente glorieuses*, French GDP per person briefly matched the American figure in the dollars of the day; adjusted for what money actually bought, it stood at about four fifths of the US level, the closest any large European country ever came [F069?]. That is the world my parents' generation grew up inside, and it explains something about France that outsiders miss: the country is not arrogant about its rank out of fantasy. It remembers.
 
-Since then the tide has run one way. In 2000, the average French person produced about a quarter less than the average American. Today the gap is around a third [F006?]. (The exact size depends on which purchasing-power adjustment you use; the sources disagree between 26 and 33 percent. The direction, nobody disputes.) Germany slipped over the same period. France slipped further. Italy slipped further still, and its example is worth keeping in mind for later, because Italy is what a slow grind looks like from the inside: no crash, no single bad year to point at, just twenty-five years of almost.
+Since then the slide has run one way. A quarter behind America in 2000, a third behind today [F006?]. But the size of the gap is not the interesting question. The interesting question is what the gap is made of, because that decides whether it can be closed.
 
-For most of my life France had a comeback ready, and it was a good one: *we work less, but better.* It was true. In 2000, an hour worked in France produced more than an hour worked in America [F007]. French productivity was a legitimate national brag, the statistical proof that you could take August off and still out-produce the workaholics.
+The Banque de France took it apart [F007]. It is made of two things.
 
-The comeback is dead. The Banque de France, which is not a think tank with a marketing budget, decomposed the income gap with the United States [F007]. Most of it still comes from hours: the French simply work much less of their lives than almost anyone in the rich world. But more than a third of the gap now comes from producing less per hour, and that share is growing. In 2000 it did not exist at all.
+The first is hours. France supplies 673 hours of work per inhabitant per year; Germany supplies 776 [F031]. And before anyone reaches for the cliché: this is not about lazy workers. An employed French person works about as many hours as an employed German [F008], and a French hour remains among the most productive in the world [F053?]. The missing hours sit at the two edges of working life. The French start late, and they leave early: barely six in ten people aged 55 to 64 hold a job, against about three in four in Germany and Sweden [F011?]. Add up the edges and France is missing the equivalent of 2.8 million full careers [F031].
 
-Hold both halves of that sentence, because French politics amputates one or the other depending on who is speaking.
+Why should you care about a statistic like that? Because of what a career is in France. A career is a payer. French pensions run on répartition: today's workers pay today's retirees, directly, euro for euro. Every missing career is a missing payer in a machine that is now short five points of GDP a year [F003]. The hours gap is not a lifestyle detail. It is the deficit, seen from upstream.
 
-The hours half is not about lazy workers, and the numbers are unambiguous on this. An employed French person works about as many hours as an employed German [F008], and a French hour remains among the most productive in the world [F053?]. The gap is in how many French people work at all, and for how long. France supplies 673 hours of work per inhabitant per year. Germany supplies 776, Sweden 748 [F031]. The difference sits at the two ends of working life: the French enter late, and they leave early. Barely six in ten French people aged 55 to 64 hold a job; in Germany and Sweden, about three in four [F011?]. Between the ages of twenty and sixty, a French career and a German career look similar. Add the edges, and France is missing the equivalent of 2.8 million full careers [F031].
+For decades France had a beautiful answer to all of this: *we work less, but better.* And it was true. In 2000, a French hour of work produced more than an American one [F007]. Fewer hours at higher quality: the gap was a choice, and an honorable one. Less income, more August.
 
-The productivity half is quieter and worse, because it is about the future. France spends 2.2 percent of its GDP on research and development. It spent 2.2 percent in 2014, and roughly that in 2000. Germany moved to 3.1 percent over the same quarter century; South Korea to 5 [F009]. Mario Draghi's report to the European Commission gave the disease its name, the middle technology trap: Europe's companies still perfecting the car while America's moved to software and then to AI [F010]. France is caught in the European trap and lags the European average at the same time. Downstream, the pipeline is cracking earlier: in the OECD's PISA tests, French fifteen-year-olds posted one of the sharpest math declines in the rich world in 2022 [F022?].
+But the answer died, and this is the fact the whole essay turns on. Producing less per hour now explains more than a third of the gap with America, and that share is growing; in 2000 it did not exist [F007]. The engine that paid for the leisure is stalling, and you can see the stall wherever you look for the future. Research spending has been frozen at 2.2 percent of GDP since 2000, while Germany climbed to 3.1 and South Korea to 5 [F009]. Draghi's report to the European Commission named the trap: Europe still perfecting the car while America moved to software, then to AI [F010]. And upstream of everything, French fifteen-year-olds just posted one of the sharpest math declines in the developed world [F022?].
 
-One of these gaps could be a civilizational choice, and defensible as one. Two of them, compounding, financed by borrowing at fifty-five cents of growth per euro: I looked for a gentler word for that and did not find one. It is a liquidation.
+So hold the two facts together, because French politics never does. A country that worked less *while out-producing everyone per hour* was making a trade. A country that keeps the leisure after losing the edge, and borrows the difference at fifty-five cents of growth per euro, is not trading anymore. It is liquidating.
 
 ## The usual suspects
 
@@ -60,25 +56,143 @@ Every French election tries the same three defendants. The evidence acquits them
 
 *The state is starved.* France's public sector spends 57 percent of GDP, the highest share in the OECD alongside Finland, nine points above the euro-area average [F001][F005]. It taxes 43 to 44 percent [F004]. If public money produced prosperity by volume, France would have no rival on earth.
 
-*Austerity is bleeding us.* France has not balanced a budget since 1974. Its mildest deficit in the past seven years was 2.3 percent of GDP; the current one is above 5 [F003]. Whatever has been bleeding France, it is not spending cuts. The word for borrowing five points of GDP a year to obtain one point of growth is the opposite of austerity.
+*Austerity is bleeding us.* France has not balanced a budget since 1974. Its mildest deficit in the past seven years was 2.3 percent of GDP; the current one is above 5 [F003]. Borrowing five points of GDP a year to obtain one point of growth has a name, and the name is not austerity.
 
-*It's Europe's fault.* Half true, and the true half changes nothing for a French government. Yes, the productivity trap is continental [F010], and yes, Europe lacks the capital markets to scale its own companies. But the hours gap is French [F031]. The pension arithmetic is French [F018]. The R&D freeze is French [F009]. The schools are French. The French government has a decade of purely domestic work in front of it before Brussels becomes its binding constraint.
+*It's Europe's fault.* Half true, and the true half changes nothing. Yes, the productivity trap is continental [F010], and Europe lacks the capital markets to scale its own champions. But the hours gap is French [F031]. The pension arithmetic is French [F018]. The R&D freeze is French [F009]. The schools are French. The French government has a decade of purely domestic work in front of it before Brussels becomes its binding constraint.
 
-And one suspect deserves an explicit acquittal, because the lazy version of this essay would convict them: the French themselves. The raw material of this country is fine. Foreign investors have picked France as their top European destination for years running [F019?]. Its engineers are hunted by American AI labs, a compliment with an expensive flip side we will come back to [F045?]. And when policy actually moved between 2015 and 2023, on labor law, on apprenticeships, unemployment fell by three points, to a level France had not seen in forty years [F020?]. The country responds to incentives like any other. Something upstream keeps wasting it.
+And one suspect deserves an explicit acquittal: the French themselves. Foreign investors have picked France as their top European destination for years running [F019?]. American AI labs raid French math departments [F045?]. When policy actually moved, between 2015 and 2023, on labor law and apprenticeships, unemployment fell three points, to lows France had not seen in forty years [F020?]. The raw material responds like any other. Something upstream keeps wasting it.
 
-What, exactly, is upstream? Follow the money.
+So follow the money.
+
+## The trade nobody named
+
+Where do 57 points of GDP go? Not where you would guess. France does not dramatically out-spend its neighbors on schools, or courts, or police, or science; on courts it is starved, eleven judges per hundred thousand people against a European median around twenty [F049?]. Two thirds of the entire spending gap with the euro area is one category: social protection [F005]. And at the center of social protection sits one machine. Pensions: 388 billion euros a year, 13.9 percent of GDP, four full points more than Germany [F018]. About twice what France spends on its entire education system, from kindergarten to the doctorate [F051?].
+
+What does the machine buy? Something genuinely unique. French retirees live as well as working-age French people, with a lower poverty rate [F018]. No other large country has achieved that. Say it plainly, because the rest of this essay will sound like an attack on it: as a social achievement, it is magnificent.
+
+But run the arithmetic of the machine. To pay pensions at that level out of current wages, you need one of three things: more people working, each worker producing more, or someone else's money. France has fewer people working than any of its peers, we established that. Its productivity edge is gone, we established that too. Which leaves the third option, and the third option is exactly what the deficit is [F003]. The machine's books balance on the credit card.
+
+For a generation, two anesthetics made this painless. Credit cost nothing, so the gap between what the model cost and what the economy produced felt free. And the productivity edge, while it lasted, made the whole arrangement look earned. Both anesthetics are now gone [F024][F007]. Therefore the pain arrives, on schedule, which is what the wall in section two actually is.
+
+And while the machine pays for the present, look at what it does to the people who will inherit it. A French twenty-five-year-old enters work later than almost any European. She pays one of the developed world's heaviest tax wedges [F015] to fund retirees who live better than she does [F018]. Her schooling was the most class-determined in the OECD [F047?]. Housing eats more of her income than it ate of her parents' at her age [F042?]. Her inheritance is a debt above 115 percent of GDP that bought nothing she will use [F002], plus a pension promise the projections quietly erode [F041]. The most talented of her generation can read this table. They are leaving, and American laboratories are delighted [F045?].
+
+Nobody designed this. Nobody voted for it. It assembled itself, one generous and defensible decision at a time, over fifty years, and every single piece has a constituency that will fight for it. That is what makes the sum untouchable, and the sum is what is killing the country. So the real question is not economic at all. It is why a democracy cannot name a trade this large, and the answer lives one layer deeper.
+
+## What France believes
+
+France did try to fix it. In 2023 the government passed the most consequential fiscal reform of the decade, raising the retirement age. In 2025 a successor government suspended it, trading the reform away to survive a no-confidence vote [F026]. Pass at half strength, then un-pass: that is the French reform cycle, and investors have learned to price it. You can price a country that refuses to reform. You cannot price one that reforms and un-reforms on a two-year cycle. That, more than any deficit number, is what the downgrades of 2025 said [F026].
+
+Why does the cycle keep repeating? Because of something deeper than parliaments. Sixty-two percent of the French hold a negative view of capitalism, a number stable through booms, crises and pandemics [F021]. In a thirty-four-country survey, France sits at the bottom of the pro-market table [F021]. The French do not merely doubt their economic system. They dislike it.
+
+I refuse the lazy reading of this. The belief is not stupid, and it was not taught by philosophy professors. It was learned from fifty years of lived experience in which growth felt like something that happened offshore, profits left, factories closed, and the one institution that visibly paid for everything people loved was the state. If the market never made you an offer, why would you love it?
+
+But watch what the belief costs. Look inside the same polls: French executives half-accept capitalism; French workers reject it two to one [F021]. The dividing line is not ideology. It is ownership. And here is the strangest fact about anti-capitalist France: its households are sitting on 6,590 billion euros of savings, twice the national debt [F023]. Where is it? Not in the economy. Only 310 billion, under five percent, is invested directly in listed companies. The rest sleeps in state-guaranteed booklets and life-insurance funds, whose managers use it to buy government bonds [F023]. Follow that loop slowly, because it explains France better than any theory. The most anti-capitalist public in the rich world lends its savings to the state, to fund the deficit, that pays for the model, that compensates for the growth that never comes, because the country's own capital never reaches its own companies. French firms, starved of equity, stay small or sell to foreigners; one single regulation, the fifty-employee threshold, costs an estimated 3.4 percent of GDP by keeping companies deliberately tiny [F039]. Growth disappoints. The state compensates. Taxes rise. Capitalism takes the blame. The loop closes and tightens.
+
+Can a loop like that be run backward? This is where I stop describing and start arguing, so let me show you the two studies that changed my mind about what is possible. In England, researchers gave randomly selected people money to invest in stocks for a few weeks. The investors' views shifted measurably toward markets, and stayed shifted a year later; not because anyone lectured them, but because familiarity ate distrust [F035]. In Buenos Aires, squatters who received legal title to their plots, through an allocation that was effectively random, developed beliefs about markets and merit twenty percent closer to the general population's than their untitled neighbors, despite living identical lives [F036]. Ownership changes what people believe. Not arguments. Ownership. Keep that in your pocket; it is the engine of everything in the second half of this essay.
+
+## What growth is for
+
+One more piece of ground to clear, because in France the word "growth" itself is suspect, and some of that suspicion is deserved.
+
+The suspicion says: growth for whom? America grew magnificently while its poorest quarter gained little and died young [F054?]. If that is growth, France is right to refuse it. I agree, without reservation. So let me state the yardstick this essay actually uses, and will use again at the end. A program succeeds if two curves rise together: the living standard of the poorest quarter, measured by what is left after housing and healthcare, and the quality of life of everyone else. Growth is the instrument. It was never the goal.
+
+But here is what the French debate misses about that yardstick: the floor itself runs on growth. The services the left loves most, care and teaching, are precisely the ones that get relatively more expensive as the rest of the economy advances; economists call it Baumol's disease, and it means a welfare state's costs rise with the frontier whether the frontier is yours or someone else's [F068?]. A France that stops growing does not keep its floor at today's level. It keeps the floor's price tag and loses the income that paid it. We are living that exact experiment now, and the results come in every autumn with the budget.
+
+One prejudice on each side deserves a burial before we move on. To the right, which believes pay measures merit: it does not. Prices measure scarcity and scale, which is why water is priceless and nearly free, and why a doctor on regulated tariffs earns less than a man who moves corporate money [F066?]. The poor are not worth less; the market was never measuring worth. And to the left, which believes billionaires prove theft: the best estimate we have says innovators capture about two percent of the value their innovations create, with the other ninety-eight flowing to everyone who uses them [F063?]. Confiscating the receipt does not recover the surplus. The floor needs no apology, and neither does the engine. A serious country runs both.
+
+## The hand France holds
+
+If France were a bad bet, this essay would end here as an obituary. Instead, look at the cards.
+
+Electricity, first. France generates about two thirds of its power from nuclear plants [F017?], which makes its grid the cleanest of any large economy, at roughly a tenth of Germany's carbon intensity [F064?]. For thirty years this looked like an expensive eccentricity. Then artificial intelligence turned electricity into the scarcest industrial input on earth, and France woke up holding what every technology company now needs and almost no one in Europe has: abundant, low-carbon, sovereign baseload power. The market has already voted: 109 billion euros of AI infrastructure commitments, the largest datacenter pipeline in Europe, anchored explicitly on the nuclear fleet [F033].
+
+Capital, second: the 6,590 billion sleeping in the wrong accounts [F023]. Talent, third: the mathematicians America keeps hiring [F045?]. Demand, fourth: the foreign investment rankings France keeps topping [F019?].
+
+But one card is expiring as you read. French fertility has fallen from 2.0 to 1.56 in fifteen years, and the national statistics office now assumes 1.45 [F038]. The working-age population starts shrinking around 2040 [F038]. France's famous demographic advantage over Germany and Italy is a stock, not a flow, and the stock is running down. So the window in which this hand can be played is open, and it is closing. Which brings us, finally, to what playing it would look like.
+
+## The program
+
+No miracle is required. That is the first thing to understand. What is required is arithmetic plus sequence: seven moves, each feeding the next.
+
+**Work.** The single most powerful lever in France is the effective retirement age [F031]. Aligning French employment with Germany's would add 1.5 million jobs and about 3.2 percent of GDP, and, because every worker is a payer, roughly 38 billion euros a year of public revenue [F030]. So the program starts there: a single points-based pension system replacing the forty-two existing regimes, with the exit age tied automatically to life expectancy, the way Sweden does it, outside the reach of each year's parliamentary panic. Alongside it, an attack on the absurd tax cliffs around the minimum wage, where an extra hour of work can lose seventy cents on the euro [F015]. The 2015-2023 record proves the labor market responds [F020?]. This lever pays for the rest.
+
+**The state, rebalanced.** Because pensions run four points of GDP above Germany [F018], they are the only envelope large enough to fund everything else: stabilizing the debt takes about 25 billion a year [F025], and returning France's production taxes, 104 billion, triple the European norm, levied on firms before they earn a cent of profit, to peer levels would hand business back 65 to 70 billion [F016]. Impossible? Sweden cut public spending from 70 to 51 percent of GDP in fifteen years, and here is the detail France should tattoo on its forearm: health lost 0.1 points and education 0.2. The cuts fell on transfers and subsidies, and the welfare state came out intact [F040]. Composition, not amputation. Meanwhile the parts of the French state that are actually starved, the courts with their eleven judges per hundred thousand [F049?], get reinforced, because the point was never a smaller state. It is a state that stops insuring the present so generously that it cannot govern the future.
+
+**Capital.** Open a national auto-enrollment pension fund: three to four percent of every wage, invested in equity by default, opt-out allowed, compounding for thirty years into a fund worth half of GDP or more. It solves three problems with one instrument. It gives the pension system a funded layer against the demographic slide [F038]. It gives French firms the domestic equity they starve for [F023]. And, remember England and Buenos Aires [F035][F036], it puts a growing account statement in every worker's pocket, which is the only argument for capitalism that has ever moved anyone. One warning from history: France created exactly such a reserve fund in 1999 and raided it within a decade. So the new one gets Norwegian-style governance, a statutory mandate no minister can touch.
+
+**The frontier.** Energy-intensive intelligence is France's opening as a great economic power, the first in half a century. Play it deliberately: six new reactors are already ordered, 83 billion euros in today's money, first unit in 2038 [F032]; power-hungry compute gets grid priority and land; research spending rises from 2.2 toward 3.5 percent of GDP, with the increase aimed at young firms rather than the tax-credit optimizers who absorbed the last twenty years of subsidies [F009]. Honesty requires the risk memo: France's last reactor came in four times over budget and twelve years late [F052?]. So every bet in this program, nuclear included, is born with a published kill criterion and an independent evaluator. The East Asian states that industrialized fastest did not succeed by betting; everyone bets. They succeeded by culling losers without mercy [F060]. France's failure mode has never been betting. It is refusing to kill.
+
+**Schools.** The slowest lever, therefore the first to start. Teacher pay rebuilt toward German levels, the math collapse [F022?] treated as the national emergency it is, and autonomy traded for accountability, school by school. On the best estimates, education moves national growth with a fifteen-year lag [F034?], which is exactly why a thirty-year program begins there and why five-year governments never do.
+
+**People and land.** The expiring demographic card can be partly reshuffled. French families say they want 2.3 children and have 1.6; the gap is not desire but constraint, and the constraints have names: childcare, square meters, security of income [F044?]. France ran Europe's best natality for decades while it had the OECD's most generous family policy, then trimmed the policy after 2014 and watched births slide [F044?]. Restore it, aimed at the gap. Add a points-based skilled immigration channel, which, note well, is a reform that *increases* control over who comes [F043?]. And build: housing is the largest line in every young household's budget [F042?], the quiet tax on mobility, on family size, on everything this program needs. The pension fund, conveniently, is a natural investor in rental housing.
+
+**The boundaries.** Because this must be said in a French essay: none of the above is privatization. The grids, the rails, the water stay public or regulated; Britain privatized its railways into fragmentation, higher subsidies than under state ownership, and a slow crawl back to renationalization [F057?]. Health stays universal; the American counter-example costs five points of GDP more for shorter lives [F055?]. What the public sphere owes in return is management: a state employing 5.7 million people that almost never dismisses anyone for incompetence [F061?] is not protecting its workers, it is discrediting them, and several universal health systems deliver French outcomes for two to four points of GDP less [F058?]. Reform inside the public frame. Ownership was never the variable that mattered.
+
+Add it up and what does it buy? I built a small model to answer that, with every assumption public, partly to discipline my own enthusiasm, and it did: the honest central scenario is not the tripling of growth I wanted to claim. It is a doubling of France's pace, from 0.8 to around 1.5 percent per head per year, sustained for two decades, which would make France the fastest-growing large economy in Europe throughout and carry it past Germany's living standard sometime in the 2040s, if Germany stays on its current trend. If Germany recovers, France closes most of the gap without overtaking, and I will take that outcome too. There is one more finding worth stating against my own case: the work and simplification levers exhaust themselves by the late 2030s. What carries the third decade is schools, science and demography. The program is a relay race, and the slow runners start first.
+
+## The objections
+
+Four punchlines chase every French conversation about growth. Open the ones that chase you.
+
+<details>
+<summary><em>"You can't have infinite growth on a finite planet."</em></summary>
+
+Concede the cosmology: material throughput cannot grow forever, and the serious debate, decoupling speed against carbon budgets, deserves respect. But three facts sit between that cosmology and the French budget. First, thirty-plus countries, France among them, have grown while cutting absolute emissions, imports included [F065?]. Second, France is the single large economy where growth is cleanest at the margin, at 40 to 60 grams of CO2 per kilowatt-hour against a European average around 250 [F064?]; a euro of French growth is the least carbon-costly euro of growth available on this continent. Third, degrowth does not shrink debt. The 3,300 billion stays nominal while the economy beneath it contracts, the ratio explodes, the imposed adjustment arrives early, and the poorest quarter absorbs it, which is the standard distributional record of forced consolidations. Shrinking on purpose, alone, over-indebted, without global coordination, is not a climate policy. It is the crisis from section two, volunteered for. And the transition itself, reactors, grids, adaptation, is a capital program that only a solvent, growing country can pay for [F032].
+
+</details>
+
+<details>
+<summary><em>"Japan lives fine at 250 percent debt. 115 is nothing."</em></summary>
+
+Japan owes yen, prints yen, and owes them overwhelmingly to its own citizens. France owes euros it cannot print, and 54.6 percent of its government debt sits in foreign hands [F028]. Both legs of the comparison fail. A better comparison for a euro member that lost market confidence exists, and its name is Greece.
+
+</details>
+
+<details>
+<summary><em>"The ECB will never let France fail."</em></summary>
+
+Probably true, and beside the point. The ECB's crisis instrument is explicitly conditional: it protects countries that are executing a fiscal adjustment. It buys time for a program; it is not a substitute for one. Ask Athens what the protected version of failure feels like. The euro removes the currency crisis and replaces it with something quieter: the negotiated loss of budgetary sovereignty. The backstop decides how France adjusts. It does not decide whether.
+
+</details>
+
+<details>
+<summary><em>"Just tax wealth instead."</em></summary>
+
+Run the numbers, because they are not close. The old wealth tax raised four to five billion a year at its peak; the most ambitious current proposal, the two-percent floor on the largest fortunes, is estimated by its own advocates at fifteen to twenty-five billion, before anyone moves a domicile [F050?]. The program above needs on the order of a hundred billion a year in recovered margin, and, more to the point, no wealth tax adds a single hour of work or a point of productivity. As a fairness signal inside the program, fine; some version may even be good politics. As an alternative to the program, the arithmetic laughs.
+
+</details>
+
+One objection gets no collapsible, because it is the strongest and deserves the main page. By 2035 the median French voter will be nearly sixty. The program above asks the biggest voting bloc in the country to accept reforms whose costs land on them and whose benefits land on their grandchildren. Why would they ever say yes? Three honest partial answers. Current pensions get grandfathered; the reform bites flows, not stocks, which splits the losing coalition. The ownership fund reaches fifty-year-olds too; they are, in fact, its largest beneficiaries with fifteen working years left to compound. And the people holding the alternative, the imposed version, are their own children, a fact that no French grandparent enjoys having spelled out. I will not pretend this adds up to a majority today. It adds up to a majority the day after the crisis starts, which is the day this program is written for.
+
+## How it actually happens
+
+Because none of the above passes today's National Assembly, and I know it.
+
+Here is what Sweden did with the same problem. In December 1992, with the krona broken and rates at absurd heights, the finance minister asked an economist named Assar Lindbeck to write down everything that needed to change. His commission delivered 113 proposals in three months. Governments of the left and the right then spent a decade implementing them, taking turns [F040]. The plan preceded the window. When the window opened, Sweden did not spend it debating. It spent it signing.
+
+That is the entire strategy, transposed. Phase zero, now, before any crisis: everything that needs no parliamentary majority. Auto-enrollment defaults on the existing retirement savings plans. Employee shareholding expanded by decree. Permitting deadlines. The teacher-pay trajectory in the next budget. The kill-criteria discipline on every industrial bet already running. And above all: the full program, written, costed, published, sitting on the shelf in plain view. Not a manifesto. A operating manual with the screws numbered.
+
+Then the window. Maybe it opens with a failed auction, maybe with a downgrade too far, maybe merely with a government that arrives at the Élysée the morning the interest line crosses the education budget. Windows like it opened for Sweden in 1992 and for Greece in 2010, and the difference between those two stories, sovereignty kept versus sovereignty rented out, was not courage or culture. It was whose plan was on the table when the room started shouting.
+
+And in the first phase of execution, one rule above all the others: winners first. Net wages rise at the bottom in year one, because the tax cliffs go first. The fund statements start arriving in year two, twenty-five million envelopes with a number that grows. The costs, the retirement age, the indexation discipline, phase in behind the gains, not ahead of them. Reforms die when their winners are hypothetical and their losers are organized. So the program manufactures its winners early, visibly, by name and by account number, and lets them defend the rest.
+
+## The choice
+
+Two mornings, then.
+
+On the first morning, the auctions have gone quiet, the men from the institutions are in the conference room, and the program France executes is written by people who do not have to live here, optimized for creditor recovery, on a creditor's calendar. Transfers get cut by decree while the protected sort out their exemptions; investment dies first; the poorest quarter pays fastest, the way they paid in Athens. Everything in this essay still happens, but faster, dumber, and to France instead of by it.
+
+On the second morning, none of that has occurred, because a few years earlier the country did the strangest thing in its modern history: it read its own books, named the trade it had been running for fifty years, comfort now, paid by the children, and decided to renegotiate the terms itself. It worked more and owned more. It pointed its rivers of sleeping savings at its own future. It powered a continent's intelligence with its reactors, taught its children mathematics like it meant it, and kept, because it could finally afford to keep, the one promise that makes it France: that nobody here dies for lack of money.
+
+Both mornings end the essay's opening arithmetic; borrowed euros stop buying half-euros of country either way. The only question left, and it has been the only question since the first page, is the handwriting on the budget.
+
+France still holds the pen. Not for long. But it holds it this morning, and this morning is when programs get written.
 
 ---
 
-## Remaining sections (mapped, not yet drafted)
+## Draft notes (for future runs)
 
-Per `thesis.md` v2. Next runs draft in order, each with an anti-tell audit logged in the journal:
-
-1. **The trade nobody named** (thesis I.4, I.5): pensions as the heart of the machine; retirees living as well as workers [F018]; pensions ≈ 2x education [F051?]; the two anesthetics (cheap credit, the dead productivity edge).
-2. **What France believes** (I.12): the 62 percent [F021]; the reform ratchet (2023 pension reform suspended 2025); the savings loop [F023].
-3. **Price is not worth** (0.3): the nurse and the trader; Nordhaus's 2 percent [F063?]; O-ring and essential workers [F067?][F068?]; the two curves [C19] stated as the essay's yardstick.
-4. **The hand France holds** (I.9, C5): nuclear, savings, engineers, the expiring demographic window [F038].
-5. **The program** (Part III): seven levers + the operating system; the model's honest numbers [C13]; Sweden's composition lesson [F040]; kill-switch dirigisme [C21]; boundary map (what stays public) [C20].
-6. **Objections** (Part IV), with collapsibles: degrowth (full four-step, IV.12), Japan, ECB backstop, wealth tax [F050?], gerontocracy.
-7. **How this actually happens** (III.11): Lindbeck precedent [F040]; phase 0 by decree; the crisis window; winners first.
-8. **The choice** (close). Return to the two curves and the pen.
+- v0.3 word count: ~4,300 (prose). All sections drafted end to end. Structural spine: consequence-chained (therefore/but), per author directive run 9; side quests cut (the 673-hours passage now lands on "a career is a payer"); the nurse-teaser line removed.
+- The four collapsibles are real `<details>` blocks; gerontocracy deliberately kept on the main page as the strongest objection.
+- Every number keeps its fact tag; `?`-flags pending verification per the sweep queue (Q24/Q25/Q29/Q30). The model paragraph in "The program" paraphrases C13/model.py honestly (doubling not tripling; overtake conditional on Germany; relay-race finding).
+- Anti-tell audit logged in journal run 9.
