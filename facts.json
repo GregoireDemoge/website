@@ -234,6 +234,20 @@
       "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20130232",
       "type": "peer_reviewed",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S032",
+      "name": "Sweden 1990s crisis and reform: Bosworth (Brookings/IMF Fiscal Forum) on expenditure reform; Hassler ('Experiences from the Swedish Crisis in the 1990s', Intereconomics); EEAG Report 2012 ch.4; IMF Sweden Selected Issues",
+      "url": "https://www.brookings.edu/wp-content/uploads/2016/06/0706_imf_fiscal_forum_bosworth.pdf",
+      "type": "institutional_report",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S033",
+      "name": "European Commission - 2024 Ageing Report (economic and budgetary projections 2022-2070), incl. Germany country fiche",
+      "url": "https://economy-finance.ec.europa.eu/publications/2024-ageing-report-economic-and-budgetary-projections-eu-member-states-2022-2070_en",
+      "type": "institutional_report",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -691,18 +705,42 @@
       "confidence": "high",
       "status": "verified",
       "notes": "Garicano-Lelarge-Van Reenen, AER 2016 (data 1995-2007; thresholds partially softened since - check post-2019 PACTE reforms before quoting as current). Anchors the reallocation lever (L2 in model.py): if ONE distortion cluster costs 3.4%, a broad simplification agenda claiming +2.5% of GDP level is conservative in spirit, though the essay must not sum distortion studies naively."
+    },
+    {
+      "id": "F040",
+      "statement": "Sweden's post-1991 turnaround, verified: public expenditure peaked at ~70% of GDP (1993, deficit 11.2%), fell to 58% by 1998 and ~51% by 2007. The Lindbeck Commission (appointed Dec 1992, reported March 1993) delivered 113 proposals that were implemented CONSISTENTLY ACROSS ALTERNATING governments (social-democrat and centre-right): multi-year expenditure ceilings, local balanced-budget rules, independent central bank, the 1999 NDC pension reform with automatic demographic balancing, broad privatizations. Composition of the cuts 1993-2000 (total -9.5pp of GDP): social protection -3.3, housing subsidies -1.9, economic affairs -1.9 - while HEALTH (-0.1) and EDUCATION (-0.2) were left nearly untouched.",
+      "values": { "spending_peak_1993_pct": 70, "spending_1998_pct": 58, "spending_2007_pct": 51, "deficit_1993_pct": 11.2, "lindbeck_proposals": 113, "cuts_social_protection_pp": -3.3, "cuts_health_pp": -0.1, "cuts_education_pp": -0.2 },
+      "unit": "% of GDP / count",
+      "geography": "Sweden",
+      "sources": ["S032"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Validates comparable X01 and supplies the thesis's two key Swedish lessons: (1) composition - cut transfers and subsidies, protect schools and hospitals; (2) process - the plan was PRE-WRITTEN by an expert commission in 3 months and survived changes of government. Honest caveat kept: even Sweden's 'automatic' pension brake was softened politically when it bit (2009-10) - no design fully escapes politics."
+    },
+    {
+      "id": "F041",
+      "statement": "EC 2024 Ageing Report baselines: EU potential GDP growth averages 1.3%/yr over 2022-2070 (1.1% in the lower-TFP sensitivity, which the report itself flags as a considerable risk since the baseline assumes a reversal of the decades-long TFP decline). Germany's potential growth declines from ~1.4 toward ~1.0 across the horizon (country fiche). TWO-SIDED for France: the report projects French total age-related expenditure FALLING over 2022-2070 under current legislation - because current indexation rules mechanically erode relative pension generosity.",
+      "values": { "eu_potential_baseline_pct": 1.3, "eu_potential_low_tfp_pct": 1.1, "germany_potential_range": "1.4 -> 1.0" },
+      "unit": "%/yr",
+      "geography": "EU, Germany, France",
+      "sources": ["S033"],
+      "confidence": "medium",
+      "status": "verified",
+      "chartable": false,
+      "notes": "Calibrates the model's comparison baseline (A3) - now run with a Germany sensitivity row. The French finding must be handled honestly by C11: on paper, current-law pension spending declines long-run; the catch is that the decline works through politically fragile indexation erosion (the same politics that suspended the 2023 reform), and the report's own low-TFP scenario shows the baseline is optimistic. Exact per-capita paths by country still to extract from the statistical annex [Q18]."
     }
   ],
   "comparables": [
     {
       "id": "X01",
       "country": "Sweden",
-      "episode": "Post-1991 crisis reforms: public spending cut from ~70% to ~50% of GDP over 15 years, notional defined-contribution pension reform, school choice, deregulation - while keeping universal welfare.",
-      "why_relevant": "Existence proof that a high-tax, high-trust European welfare state can cut spending by ~20pp of GDP, restore growth, and keep its social model. Closest ideological starting point to France.",
+      "episode": "Post-1991 crisis reforms: public spending cut from ~70% (1993) to 58% (1998) to ~51% (2007) of GDP, NDC pension reform with automatic balancing, expenditure ceilings, school choice, privatizations - while keeping universal welfare (health -0.1pp, education -0.2pp only).",
+      "why_relevant": "Existence proof that a high-tax, high-trust European welfare state can cut ~20pp of GDP of spending, restore growth, and keep its social model - by cutting transfers/subsidies, not services. Process lesson: the Lindbeck Commission pre-wrote the plan (113 proposals in 3 months) and it survived alternating governments. Closest ideological starting point to France.",
       "comparability": "partial",
-      "caveats": "9-10M people vs 68M; much higher social trust; krona depreciation did part of the work; corporatist wage bargaining eased adjustment; reform was forced by an acute crisis, not chosen.",
-      "status": "candidate",
-      "facts": []
+      "caveats": "9-10M people vs 68M; much higher social trust; krona depreciation did part of the work; corporatist wage bargaining eased adjustment; reform was forced by an acute crisis, not chosen; even the 'automatic' pension brake was softened politically when it bit (2009-10).",
+      "status": "validated",
+      "facts": ["F040"]
     },
     {
       "id": "X02",
@@ -899,12 +937,14 @@
       "id": "C11",
       "claim": "SOLUTION - State: the pension machine is the financing source for everything else. France spends 4 points of GDP more than Germany on pensions (~EUR 115bn/year at current GDP); recovering even a third of that over 15 years - via retirement age, indexation discipline and convergence of special regimes - simultaneously (a) stabilizes the debt (needs ~EUR 25bn/year, F025), (b) funds the production-tax normalization (~EUR 65-70bn, F016), and (c) leaves room for education and research investment. No other budget line has this capacity; refusing this lever means refusing the program.",
       "status": "supported",
-      "supporting_facts": ["F018", "F025", "F016", "F005"],
-      "contradicting_facts": [],
+      "supporting_facts": ["F018", "F025", "F016", "F005", "F040"],
+      "contradicting_facts": ["F041"],
       "counterarguments": [
         { "argument": "Pension cuts are recessionary: retirees consume locally.", "status": "open", "note": "Answer via composition and phasing: the program shifts spending from transfers to investment gradually; and the labor lever (C8) generates +EUR 38bn of revenue that reduces the required cut. Model properly in [Q12]." },
         { "argument": "This is the exact reform France just proved it cannot hold (2023 reform suspended 2025).", "status": "open", "note": "The honest answer is C12 plus crisis dynamics (C7): the program exists for the moment the countdown forces the choice. Sweden passed its NDC pension reform AFTER its 1991 crisis, with cross-party consensus." },
-        { "argument": "Gerontocracy: by 2035 the French median voter will be near or past 55 (F038 aging); a program financed by the pension machine is democratically impossible - the losers hold the majority.", "status": "open", "note": "The darkest objection to the entire program, added run 3. Partial answers to develop: (a) grandfathering current retirees while reforming flows splits the losing coalition; (b) universal ownership (C12) gives retirees-to-be a compensating asset; (c) retirees' own children carry the debt - the intergenerational frame must be made personal; (d) crisis dynamics override median-voter statics (Sweden). Needs real thought, possibly its own essay section." }
+        { "argument": "Gerontocracy: by 2035 the French median voter will be near or past 55 (F038 aging); a program financed by the pension machine is democratically impossible - the losers hold the majority.", "status": "open", "note": "The darkest objection to the entire program, added run 3. Partial answers to develop: (a) grandfathering current retirees while reforming flows splits the losing coalition; (b) universal ownership (C12) gives retirees-to-be a compensating asset; (c) retirees' own children carry the debt - the intergenerational frame must be made personal; (d) crisis dynamics override median-voter statics (Sweden). Needs real thought, possibly its own essay section." },
+        { "argument": "The EC Ageing Report projects French age-related spending FALLING to 2070 under current law (F041) - so the pension 'war chest' may not need raiding; time solves it.", "status": "open", "note": "Two-part answer to develop: (1) the projected decline works through indexation rules that mechanically erode relative pensions - the exact kind of quiet cut French politics keeps reversing (2023 reform suspended; Sweden softened its own brake); banking on it is banking on 40 years of political stoicism. (2) The decline is long-run; the debt wall (C7) is this decade - the LEVEL gap (14% vs 10% of GDP, F018) is what funds the program now. Still, the essay must cite F041 rather than let a critic discover it."
+      }
       ]
     },
     {
@@ -926,7 +966,7 @@
       "contradicting_facts": [],
       "counterarguments": [
         { "argument": "Adding lever effects double-counts; level effects are dressed as permanent growth effects.", "status": "answered", "note": "ANSWERED structurally (run 3): model.py enforces the rules - pensions have no separate GDP effect (their effect IS the labor lever), labor gains are net of composition, R&D and education are jointly capped, level levers expire on explicit windows. Result: growth PEAKS in decade 2 and falls back in decade 3 as level levers exhaust - an honest structural finding the essay must own: only innovation, education, and the missing demographic pillars (Q16) sustain the third decade." },
-        { "argument": "The overtake date is an artifact of assumptions about Germany (0.8%/yr) and the starting gap (-10%).", "status": "open", "note": "True - sensitivity: with Germany at 1.0%/yr and a -13% starting gap, central overtake slips toward 2050+. Pin both parameters via EC Ageing Report and one PPP dataset [Q02][Q18] and publish the sensitivity, not just the central date." },
+        { "argument": "The overtake date is an artifact of assumptions about Germany (0.8%/yr) and the starting gap (-10%).", "status": "answered", "note": "ANSWERED by publishing the sensitivity (run 3, model.py): at Germany 1.1%/yr (Ageing Report optimistic baseline, F041), central France does NOT overtake by 2055 (FR/DE = 0.98 in 2050). The claim is therefore stated conditionally: the robust part is 'double the pace, fastest large economy in Europe, close most of the gap'; the overtake headline requires German TFP not to recover. Starting gap still to pin [Q02][Q18]." },
         { "argument": "Every country claims it will out-grow its neighbors; general-equilibrium effects erode relative gains.", "status": "open", "note": "Partial answer: the levers are absolute supply-side levers (hours, TFP, capital), not beggar-thy-neighbor wage compression; Germany 2005-2019 proves persistent relative gains inside the euro are possible. The essay should also not confuse ranking with welfare - the deculottee is the motivational frame, not the welfare criterion." }
       ]
     }

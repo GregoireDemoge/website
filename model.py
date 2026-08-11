@@ -25,9 +25,12 @@ HORIZON = list(range(2027, 2056))  # 29 years
 #     central [F038] => ~ -0.10 pp/yr; no policy drift assumed post-suspension.
 FR_BASE_PRODHOUR = 0.9
 FR_BASE_HOURS = -0.10
-# A3: Germany per-capita baseline ~0.8 (worse working-age decline, higher prodhour
-#     drag per EC Ageing Report ranges - TO FIRM UP, see Q18). Euro area ~0.9.
+# A3: Germany per-capita baseline. Recent-trend view ~0.8; EC 2024 Ageing Report
+#     baseline is more optimistic (potential 1.4 -> 1.0 over horizon, assumes TFP
+#     recovery the report itself flags as risky) [F041]. Run both: 0.8 central,
+#     1.1 as sensitivity. Exact per-capita path still to pin [Q18].
 DE_BASE = 0.8
+DE_BASE_HIGH = 1.1
 
 def phased(level_gain_pct, start, end):
     """A level gain (% of GDP) linearly realized between start and end years,
@@ -70,18 +73,18 @@ def drag(year, scale=1.0):
     return -scale * 0.25 if year < 2033 else 0.0
 
 SCENARIOS = {
-    # scale applied to all levers; ai=1 activates L6; drag scale
-    "Low (levers at 50%)":    dict(scale=0.5, ai=0.0, dragscale=1.0),
-    "Central":                dict(scale=1.0, ai=0.0, dragscale=1.0),
-    "High (full + AI bonus)": dict(scale=1.0, ai=1.0, dragscale=0.8),
+    # scale applied to all levers; ai=1 activates L6; drag scale; Germany baseline
+    "Low (levers at 50%)":        dict(scale=0.5, ai=0.0, dragscale=1.0, de=DE_BASE),
+    "Central":                    dict(scale=1.0, ai=0.0, dragscale=1.0, de=DE_BASE),
+    "Central, Germany at 1.1":    dict(scale=1.0, ai=0.0, dragscale=1.0, de=DE_BASE_HIGH),
+    "High (full + AI bonus)":     dict(scale=1.0, ai=1.0, dragscale=0.8, de=DE_BASE),
 }
 
 def run(scenario):
     p = SCENARIOS[scenario]
-    fr_level, de_level = 100.0, 100.0
     # France starts ~10% below Germany per capita (PPP) - A10, range 8-13%,
     # to be pinned by Q02/Q18.
-    fr_level = 90.0
+    fr_level, de_level = 90.0, 100.0
     rows = []
     for y in HORIZON:
         tfp_edu = min(LEVERS["L4_rnd"](y, p["scale"]) + LEVERS["L5_edu"](y, p["scale"]), TFP_EDU_CAP)
@@ -92,7 +95,7 @@ def run(scenario):
                 + tfp_edu
                 + l6_ai(y, p["ai"])
                 + drag(y, p["dragscale"]))
-        g_de = DE_BASE
+        g_de = p["de"]
         fr_level *= (1 + g_fr / 100)
         de_level *= (1 + g_de / 100)
         rows.append((y, g_fr, g_de, fr_level, de_level))

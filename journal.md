@@ -23,13 +23,18 @@ INSEE 2026 projections [F038]: fertility 1.56 → 1.45 assumed from 2028; active
 
 **6. Darkest objection added (C11): gerontocracy.** By 2035 the median voter nears 55; the program's losers may be the majority. Partial answers recorded (grandfathering, ownership as compensating asset, crisis dynamics); needs its own treatment.
 
+**Continuation (same run): Sweden verified, Germany sensitivity published, Ageing-Report counter-fact absorbed.**
+
+- **X01 validated** [F040]: Sweden 70% → 58% → 51% of GDP (1993/1998/2007); Lindbeck Commission (Dec 1992 → March 1993, 113 proposals) implemented across ALTERNATING governments; composition of cuts: social protection -3.3pp, housing/business subsidies -3.8pp, health -0.1, education -0.2. The two Swedish lessons are now sourced: cut transfers not services; pre-write the plan. Caveat kept: even Sweden's automatic pension brake was softened politically in 2009-10.
+- **Germany sensitivity run and published** [F041, model.py]: at Germany 1.1%/yr per capita (Ageing Report optimistic baseline), central France does NOT overtake by 2055 (FR/DE 0.98 in 2050). C13's overtake counterargument moved to 'answered by conditionality': the robust claim is double-the-pace + fastest-in-Europe + close-most-of-the-gap; the overtake headline requires German TFP not to recover.
+- **Counter-fact absorbed before a critic finds it** [F041 → C11]: the Ageing Report projects French age-related spending FALLING to 2070 under current law (via indexation erosion). Answered in Lever 4: that mechanism is the kind of quiet cut French politics keeps reversing, and the debt wall is this decade while the projected relief is generational.
+
 **Next run should attack, in order:**
 
-1. [Q18] Pin Germany/EA baselines (EC Ageing Report) and the starting gap [Q02] — the overtake date depends on them; publish the sensitivity grid.
+1. [Q02][Q18] Pin the France-Germany starting gap on one PPP dataset and extract exact per-capita paths from the Ageing Report statistical annex.
 2. [Q16] Build or reject the demography pillar (family policy effectiveness, points-based immigration evidence).
-3. Verify the Sweden X01 numbers and the Lindbeck Commission story; source Fernandez-Rodrik 1991 and Algan-Cahuc; verify F034 (Hanushek-Woessmann) and the employee-shareholding base.
-4. [Q19] Fund governance: document the FRR raid; AP7/GPFG/superannuation governance comparison.
-5. Then: declare Part II stable or not; if stable, unfreeze `article.md` and rewrite the essay end-to-end against the full spine.
+3. Source Fernandez-Rodrik 1991 and Algan-Cahuc; verify F034 (Hanushek-Woessmann) and the employee-shareholding base; [Q19] document the FRR raid.
+4. Then: declare Part II stable or not; if stable, unfreeze `article.md` and rewrite the essay end-to-end against the full spine.
 
 ---
 
