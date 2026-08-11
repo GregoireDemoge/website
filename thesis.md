@@ -1,0 +1,294 @@
+# The Thesis — complete spine (v2)
+
+Status: **v2 — the full thesis: diagnosis, consequences, program, objections.** Written as if no further run existed, per the author's directive. This is not the essay (`article.md` stays frozen); it is the complete argumentative content the essay will render. Every load-bearing number carries a tag into `facts.json`: `[F001]` = verified against a primary or peer-reviewed source; `[F042?]` = recorded, sourced-to-check, not yet verified — the full list of verification debt is [Q24]. `model.py` regenerates the quantitative scenarios.
+
+---
+
+# 0. The claim
+
+**France runs the developed world's largest transfer from the future to the present — and the machine that hid its cost has broken. The transfer will now be unwound. The only open question is whether France unwinds it by design, and converts the unwinding into three decades of growth that no large European economy will match — or has it unwound for it, fast, dumb, and cruel.**
+
+In three sentences: France pays for today's comfort — the rich world's shortest working lives, retirees living as well as workers [F018], the highest social spending on earth [F001][F005] — with tomorrow's resources: borrowed money [F002][F003], unworked hours [F031], an innovation engine idling at 2.2% of GDP for twenty-five years [F009], and its children's schooling [F022?][F051?]. Two anesthetics hid the cost for a generation — cheap credit and a productivity lead that let the French say "we work less, but better" — and both are now gone [F007][F024]. What remains is arithmetic: the trade gets renegotiated this decade or the next, and the renegotiation is either a French program that doubles the country's growth pace [C13], or a creditors' program that decides for it [C7].
+
+What this thesis is *not*: not a declinist lament (France's assets are real and rare — Part III runs on them); not an austerity tract (the program's arithmetic rests on composition, not on shrinking everything [F040][C18]); not an American import (the models are Sweden, Denmark, and France's own successes); and not politically feasible today — by design. Feasibility today is not a constraint; it is one of the variables the program changes [C12].
+
+## 0.1 The two curves — what the program actually optimizes [C19]
+
+Growth is the instrument of this thesis, not its goal. The goal is stated as two curves, judged jointly:
+
+1. **The floor:** the living standard of the bottom quartile — measured honestly as command over essentials: disposable income *net of housing and health costs*, access to care, life expectancy. Not relative inequality indices; absolute lives.
+2. **The rest:** the quality of life of the other 75% — income, but also the technology-driven surplus that GDP misses (the internet costs nothing and changed everything [F062?]) and that only productive, growing societies generate at the frontier.
+
+The evidence discipline behind the criterion: the US proves growth without a floor fails the poor on the metric that matters most — the income-mortality gradient there is an abyss [F054?], and its health system devours 17% of GDP for worse outcomes [F055?]. France proves the opposite failure in slow motion: a magnificent floor [F018] financed by debt [F003] is a floor with an expiry date, and when the model breaks, the first quartile pays first and hardest (Part II.2). Germany — the author's initial candidate counter-example — may well not cooperate: its bottom-decile wages stagnated through the Hartz era and France likely beats it at the floor today [F056?]. **Instruction encoded: follow the data** [Q25]. If it lands there, the argument sharpens rather than weakens: France already wins at the bottom — on borrowed money; the fight is to make the floor permanent, and only growth does that. The benchmark throughout is not Germany or America but the best performer on each dimension — the Nordic quadrant (floor AND growth) as the existence proof, East Asia for state-led ambition [F060], and the US only as the frontier's measuring stick.
+
+## 0.2 The author's position (to appear, first-person, in the essay's introduction)
+
+The essay will say this openly: the author's premises are of the left — a country where no one dies for lack of money, where health and education are common goods, where the strong contribute to the weak's dignity. That is precisely why the thesis exists: the French floor is a conquest worth defending, it is currently financed by the future, and the people who will lose it first are the people it protects. Growth is not the enemy of that conviction; it is its only long-term funding source. A reader of the left should find here the most redistributive program actually available; a reader of the right should find the most credible growth program; both should find their comfortable stories broken — the left's "tax wealth and nothing must change" meets the arithmetic [F050?], the right's "privatize and shrink" meets the boundary map (III.13). The philosophical ground under this position is 0.3.
+
+## 0.3 Price is not worth — the two arguments under the two curves [C22][C23]
+
+The position above is not sentiment bolted onto economics; it rests on two arguments that markets' own logic supports.
+
+**First: market income measures scarcity and leverage, not contribution.** This is the oldest resolved paradox in economics: water is priceless and nearly free; diamonds are useless and expensive — because price reflects the *marginal* unit's scarcity, not total value to human life. The same logic runs through wages. A French doctor saves lives for an administered CNAM tariff; a software engineer's identical talent earns multiples in tech because code has zero marginal cost of scale [F066?]. Capitalism pays for producing what people want, *at scale, with a novelty premium* — and it systematically marks down what is essential and abundant, which is why the essential-work class is underpaid relative to its importance [F067?]. Two consequences, running in opposite political directions, and the thesis needs both. Against the right's story: market outcomes carry **no moral verdict** — the poor are not "worth less"; prices are an allocation device, not a theory of desert; the floor needs no apology. Against the left's story: the billionaire entrepreneur is not the proof of theft — on the canonical estimate, innovators capture ~2% of the surplus they create and give ~98% away as consumer surplus [F063?]; confiscating the receipt does not recover the surplus, it discourages its creation. The honest carve-out, stated: much high income *is* rent (finance, monopoly, capture), not surplus — the program's competition agenda and kill-switch rule [C21] are its anti-rent instruments, and the essay must keep the distinction sharp [Q29].
+
+**Second: the two workforces are complements, not competitors.** An economy runs on growth engines (those who improve the productive system) *and* execution workers (those who run it every day). Production is an O-ring chain [F068?]: one failing link destroys the value of all the others — the pandemic's "essential worker" lists, dominated by below-median-wage jobs, were the empirical demonstration [F067?]. And Baumol's cost disease closes the loop [F068?]: as the frontier gets more productive, the labor-intensive services the floor depends on (care, teaching) get *relatively more expensive* — so the floor's affordability is funded by frontier growth, or not at all. This is the deepest pro-growth argument available to a person of the left: the services the left most values are precisely the ones whose funding requires the growth the left distrusts. Protecting the bottom quartile is therefore not charity taxed on growth; it is maintenance of the productive chain, paid for by the chain's own output.
+
+---
+
+# Part I — Diagnosis: the machine France actually built
+
+## I.1 The fact: a widening gap
+
+Within living memory France was nearly America's economic equal per person. In 2000 the gap was ~24%; by 2023, ~33% (Banque de France, PPP; World Bank data implies ~26% — vintage dispute recorded, direction undisputed) [F006?]. Germany slipped less (16→23%); Italy more (18→36%) [F006?]. Potential growth has fallen to ~1% [F013?]. This is not a cyclical dip; it is a twenty-five-year trend that survived every government of both blocs.
+
+## I.2 Two gaps, not one — and the second is the new one
+
+The Banque de France decomposition [F007] is the diagnosis's cornerstone. France's income gap with the US divides into (a) fewer hours worked per inhabitant and (b) output per hour. In 2000, (b) was *negative* — the French produced more per hour than Americans, and the national comeback "we work less, but better" was true. By 2023, (b) explains more than a third of the gap and is growing. Both halves must be held simultaneously, because French debate amputates one or the other:
+
+- **The hours half.** France works 673 hours per inhabitant per year; Germany 776, Sweden 748, the EU 750 [F031]. Not because French workers slack — hours *per worker* are Germany-like [F008] and hourly output remains world-class [F053?] — but because too few French people work at all, and for too little of their lives: employment gap vs Germany 8.7 points [F030], concentrated on the young (late entry) and the 55-64 cohort (~60% employed vs ~75%+ in Germany/Sweden [F011?]).
+- **The productivity half.** Hourly output has slid ~3-5% below its own pre-2019 trend [F014?], R&D intensity is frozen where it was in 2000 (2.18% vs Germany 3.13%, Korea 4.96%) [F009], and the EU-wide "middle technology trap" [F010] is worse in France than the EU average trend.
+
+One gap could be a preference. Two gaps, compounding, funded by debt, is a liquidation.
+
+## I.3 The fiscal machine: record intake, record spending, structural deficit
+
+France spends 57-58% of GDP publicly — the OECD's highest with Finland, nine points above the euro-area average [F001][F005] — and taxes 43-44% [F004]. Yet it has not balanced a budget since 1974 and now runs deficits above 5% of GDP at the top of the tax cycle [F003]. The gap with peers has *widened* since 2001 (5.5pp → 7.5pp) [F005]. Whatever France's problem is, it is not revenue [C2].
+
+## I.4 Where the money goes: the transfer machine
+
+Two-thirds of the spending gap with the euro area is social protection [F005], and its heart is one machine: pensions — 13.9% of GDP, EUR 388bn, four points of GDP more than Germany [F018]. What it buys is, in one sense, magnificent: French retirees live as well as workers, with *lower* poverty — unique among large OECD countries [F018]. What it costs is the future's budget: France spends roughly twice as much on pensions as on its entire education system [F051?], and pensions drove the 2024 spending increase [F001 notes]. The machine was assembled one defensible decision at a time over fifty years; no one voted on the sum; every part has a constituency that will defend it to the death — which is why the sum is simultaneously indefensible and untouchable.
+
+## I.5 The debt dynamics: each euro buys less economy
+
+The author's core intuition, recorded as the load-bearing arithmetic [F027?]: in 2024 France borrowed ~EUR 170bn (deficit 5.8% of GDP) while nominal GDP grew ~EUR 95bn — 55 cents of economy per euro of debt. The stock consequences are no longer projections: interest is the fastest-growing budget line (EUR 64.8bn 2026 → 74.2bn 2027 → ~124bn by 2030 on current policy — more than the school system) [F024][F025]; the double-A rating fell twice in five weeks in autumn 2025 [F026]; debt heads past 130% of GDP on unchanged policy [F025]; 54.6% of it is held abroad, in a currency France does not print [F028]; and ~EUR 6bn must be raised every week [F029]. Honesty markers kept: 2025 issuance rates *eased* (2.78% vs 3.06%) [F029] — the squeeze is stock-driven, not a rate panic; and the OAT spread (~80bp) shows pressure, not crisis [F026].
+
+## I.6 The productivity engine: stalled by design
+
+Three mechanisms, each policy-made:
+
+1. **Innovation starvation at the frontier.** R&D frozen at 2.2% for twenty-five years [F009], business R&D far below US/Korea despite the CIR, one of the OECD's most generous R&D tax credits — the unexplained "CIR puzzle" [Q05]. Corporate R&D remains in mature sectors: the middle-technology trap [F010].
+2. **Misallocation in the middle.** One regulation cluster alone — the thresholds binding at 50 employees — acts as a 2.3% labor tax and costs ~3.4% of GDP [F039]. French firms stay small by design; equity to scale them is missing (I.7).
+3. **A measured slide.** Post-2019 hourly productivity sits 3-5% under its own trend [F014?] — partly benign composition (the apprenticeship boom pulled marginal workers in), partly not; resolving this is [Q01].
+
+## I.7 Capital: a nation of savers that funds its state, not its firms
+
+French households save 17.9% of income and hold EUR 6,590bn — twice the public debt, 2.7 times the CAC 40 [F023]. Allocation: EUR 3,911bn in rate products vs 2,576bn equity-type; EUR 310bn in directly-held listed shares; EUR 947bn in state-guaranteed booklets; EUR 1,571bn in euro-fund life insurance whose insurers hold ~10% of state debt [F023]. The circle closes perfectly: the world's most anti-capitalist rich public [F021] lends its savings to its own state's deficit, starving its firms of equity; firms sell out or stay small; growth disappoints; the state compensates with transfers; capitalism takes the blame. Meanwhile production taxes take EUR 104bn from firms *before* profit — 3.57% of GDP, triple the peer median, ~6x Germany [F016].
+
+## I.8 Human capital: the leak at both ends
+
+At the bottom: France's PISA math score fell ~21 points in 2022, among the sharpest declines in the rich world [F022?], and nowhere does social origin determine outcomes more strongly [F047?]. At the top: France still mints elite mathematicians (most Fields medals per capita among large countries [F048?]) — and exports them: a top-5 origin country for elite AI researchers, most working in US labs [F045?]. France pays for the world's best training and the US collects the returns. Universities in between: ~EUR 11-12k per student, rigid governance, a handful in the world's top 100 [F048?]. On the Hanushek-Woessmann elasticity (~+0.5pp long-run growth per +25 PISA points [F034?]), the school slide is a first-order growth event with a twenty-year fuse.
+
+## I.9 Energy: the underused crown jewel
+
+France generates ~two-thirds of its electricity from nuclear [F017?] — the only large economy on earth with cheap, expandable, low-carbon baseload at the exact moment AI demand is constrained by that input. The market has noticed: EUR 109bn of AI-infrastructure commitments, Europe's largest datacenter pipeline, explicitly anchored on the nuclear fleet [F033]. The paradox: the asset is real, and France almost lost it (fleet aging, Flamanville's 4x-over-budget precedent [F052?], EDF's ~EUR 54bn debt [F052?]) before deciding to extend it (six EPR2, EUR 72.8bn₂₀₂₀, first unit 2038 [F032]). The jewel exists; the operating system around it barely does.
+
+## I.10 Demography: the expiring advantage
+
+The one French asset everyone still cites is quietly expiring: fertility fell from ~2.0 (2010) to 1.56 (2025), INSEE's central scenario assumes 1.45 from 2028; the active population peaks ~2040 then declines; old-age dependency goes 40→62 by 2070 [F038]. France dismantled parts of the OECD's most generous family-policy complex after 2014, just before the slide — causality debated, coincidence recorded [F044?]. Aging is a slow fiscal shock stacked on top of the debt [C7], and it moves the median voter toward the program's losing coalition (Part IV, objection 10).
+
+## I.11 State capacity: a giant insurer with an understaffed core
+
+The French state is not uniformly big. It is overweight in transfers [F005][F018] and underweight where states are irreplaceable: ~11 judges per 100k inhabitants vs ~20 European median, multi-year civil delays, prisons at 120% [F049?]; defense at ~2% of GDP about to be dwarfed by interest payments (124bn interest vs ~70bn defense by 2030) [F024][F025]. The size-of-state debate misses this completely [C18]: France's problem is a state that insures the present generously and governs the future poorly.
+
+## I.12 The deep layer: beliefs and the reform ratchet
+
+The French public's hostility to the market system is real, stable, and distributional: 62% negative on capitalism, #1 stated criticism "it produces inequality"; executives half-accept it, workers reject it 69% [F021]. This belief is not stupid — it is a rational reading of a half-century in which gains felt offshore and the state visibly paid for everything loved. But it has a mechanical consequence: **it caps the dose of every reform and voids the warranty on all of them** — reforms pass at half-strength and get un-passed (the 2023 pension reform, the decade's single most load-bearing fiscal act, was suspended in 2025 to buy one parliamentary season [F026]). Investors can price a country that refuses reform; they cannot price one that reforms and un-reforms on a two-year cycle. That — not any single deficit — is what the 2025 downgrades said [F026]. The causal literature (Part III.5) says beliefs follow ownership [F035][F036]; France has arranged for its citizens to own nothing of its economy's upside [F023] and then wondered why they despise it.
+
+## I.13 The innocent suspects
+
+For completeness, what the diagnosis rules *out*: **under-taxation** (record levies [F004]); **austerity** (record spending, no balanced budget in 50 years [F001][F003]); **Europe alone** (the EU trap is real [F010], but the hours gap, the pension machine, the R&D freeze and the misallocation are French [F031][F018][F009][F039]); **the workers** (hourly output world-class [F053?]); **attractiveness** (Europe's #1 FDI destination for years [F019?]); and **reform impossibility** (2015-2023 reforms cut unemployment three points [F020?] — the constraint is dose and durability, not possibility).
+
+---
+
+# Part II — Consequences: what the current course delivers
+
+## II.1 The countdown has three endings
+
+On unchanged policy, the arithmetic [F025] admits three exits, none of them "stability": (a) **the market strike** — a failed auction season, spreads through Italy's, an ECB backstop whose condition is precisely the adjustment France refused (TPI is conditional; the backstop protects the adjusting, it does not replace adjustment); (b) **the program** — Brussels/IMF-flavored, Greece with better manners: default on sovereignty rather than on coupons; (c) **the slow grind** — no discrete crisis, just interest eating one ministry per parliament [F024][F025], quiet erosion of pensions by indexation [F041], services degrading inside a record-tax state, and the gap with the US and Germany compounding [F006?]. Most French elites implicitly bet on (c) as the painless option. Part II's point: (c) is not painless — it is (a) and (b) in slow motion, plus decades of foregone compounding.
+
+## II.2 The imposed adjustment is regressive [C14]
+
+When consolidation is forced, it is fast and falls on what can be cut by decree: transfers to the vulnerable, public investment, public wages — while the protected statuses that caused the drift resist longest (they are organized; emergencies are not). Greece's program years crushed the young (emigration, 50%+ youth unemployment) more than the settled [Q20]. Sweden's *chosen* adjustment, by contrast, protected schools and hospitals almost entirely (-0.1/-0.2pp) while cutting transfers and subsidies [F040]. **Timing determines the option set.** This inverts the standard French moral framing: choosing reform early is not right-wing cruelty; it is the only progressive version of the inevitable.
+
+## II.3 The slow grind is a choice about relative position
+
+Compounding at the baseline (~0.8%/yr per capita) against a US at ~1.5% and even a weak Germany at 0.8-1.1 [F041] means: by 2050 the US gap grows from ~30% toward ~40%+, Germany stays ahead, and Italy — whose per-capita GDP already brushed France's [F016 notes] — potentially passes it. France's per-capita rank among rich economies has already slid for two decades [F006?]; the grind scenario makes France a mid-table European economy by mid-century, with a welfare state built for a top-3 one. The welfare state does not survive that mismatch intact — it erodes by stealth [F041] while its defenders celebrate having "protected the model."
+
+## II.4 The political loop [C15]
+
+Stagnation shrinks the pie; distribution fights intensify; anti-system blocs grow (roughly half of first-round votes by 2022-2024 [F046?]); majorities fragment; governments trade structural reforms for survival ([F026]: pension suspension against no-confidence votes); reversibility raises the risk premium [F026]; investment and growth fall; repeat. France is visibly inside this loop. Two implications: the loop will not be exited by a "courageous" program of front-loaded sacrifice (it would be devoured in one budget cycle); and any viable program must **create visible winners in its first phase** — ownership accounts, net-wage gains — before it spends political capital (Part III.11).
+
+## II.5 The geopolitical bill
+
+By 2030 France pays more in interest than for its entire military [F024][F025] — while wars return to Europe and the US retrenches. A France at 1% growth cannot fund the defense build-up it advocates, cannot anchor EU strategic autonomy, and enters every European negotiation as the demandeur with the downgraded rating [F026] rather than the indispensable economy. The European project's second pillar becoming its fiscal problem child is a continental event, not a French one. Growth is not vanity; it is the precondition of every French ambition, national and European.
+
+## II.6 The generational rupture
+
+Assemble the per-capita life-arithmetic of a French 25-year-old on current course: they enter work late into a market that under-employs the young [F030 notes]; they pay Europe's near-highest labor wedge [F015] to fund retirees who live better than they do [F018]; their schooling was the OECD's most class-determined [F047?]; housing absorbs the largest share of their income at price levels their parents never faced [F042?]; the debt they inherit crossed 115% of GDP buying nothing they will use [F002]; and the pension promise made to them is precisely the one the arithmetic says will not be kept [F041][F025]. The most talented of them can read this table — they are leaving [F045?]. A model that calls itself solidarity and produces this ledger is running on reputation.
+
+## II.7 Why muddling through is chosen every year — and how it ends
+
+Each year, the rational move for any French government is one more year of the grind: the crisis is not *this* year, the reform costs *this* year. The sum of thirty rational years is the trap of Part I. This is the same structure as the original trade — individually defensible decisions, indefensible sum — which is why exhortation has never worked and why the thesis bets on two exits only: the countdown forcing the choice (C7), and a program engineered so its first phase pays rather than costs (III.11). Anything else has been tried.
+
+---
+
+# Part III — The program: seven levers and an operating system
+
+## III.0 Design principles
+
+1. **Bold, not feasible-today** (author's constraint): feasibility is a variable the program changes, not a filter.
+2. **Composition, not austerity**: Sweden cut 20 points of GDP and left health and education untouched [F040]; the French translation is transfers down, sovereign core and future-investment up [C18].
+3. **Sequenced by political capital**: start with what builds constituencies (ownership, net-wage gains), end with what spends them (III.11).
+4. **Dirigiste in form, liberal in content**: sold as a thirty-year national project — *le Plan* — because that is the grammar French political culture ratifies (nuclear, TGV, Airbus); guardrails against the wrapper eating the content (III.12).
+5. **Every number modeled, no double-counting** (`model.py`); every lever carries its risk budget explicitly.
+6. **Judged on the two curves** [C19]: every lever's success metric includes its effect on the bottom quartile's command over essentials — and the floor's financing must come from growth and composition, never from deficit.
+7. **Markets where they work, networks and universality where they don't** (III.13): the program privatizes nothing whose economics are a natural monopoly and keeps health universal; state bets are allowed only with a kill switch [C21].
+
+## III.1 Work — the bankable lever (+3 to +7% of GDP) [C8]
+
+*Content:* systemic points-based pension unifying the 42 regimes, effective retirement age linked automatically to life expectancy and placed outside annual politics (Sweden's design [F040]); senior-employment package; attack on the >70% effective marginal rates around the SMIC [F015 notes]; earlier, more vocational entry (protect the apprenticeship win [F020?]).
+*Numbers:* Germany-alignment = +1.5M jobs, +3.2% GDP net of composition, +EUR 38bn/yr revenue [F030]; full Nordic alignment up to +5-7% [F030][F031]. Most effective single instrument: the effective exit age [F031].
+*Risk budget:* political reversibility — answered by the OS (III.5) and sequencing (III.11), not by hope.
+
+## III.2 Capital — point the EUR 6.6tn at the future [C9]
+
+*Content:* universal auto-enrollment capitalization layer atop pay-as-you-go (Sweden premium pension / Australia superannuation as design anchors [Q13]) — 3-4% of wages compounding to a national fund of 50-100% of GDP in 25-30 years; production taxes normalized toward the peer median (-EUR 65-70bn, financed by Lever 5's envelope, not deficit) [F016]; euro-fund life insurance given equity-shifting defaults.
+*Why it works here:* the pool exists and is already home-biased (58% France) [F023]; this is plumbing, not patriotism.
+*Sequencing constraint:* the state must not lose its captive debt buyer (insurers hold ~10% of OATs [F023]) before stabilization is underway — capital reversal accompanies, never precedes, Lever 5.
+*Risk budget:* market crashes hitting default portfolios (lifecycle design, state co-contribution for low earners); political raid risk (III.12 — France already raided its own FRR once [Q19]).
+
+## III.3 Frontier — energy-intensive intelligence [C10]
+
+*Content:* treat power-for-compute as industrial strategy (grid queues, land, long-term contracts) on the nuclear base [F017?][F032]; R&D from 2.18% toward 3.5% of GDP with the increment aimed at young firms, not incumbent optimization (the CIR puzzle says optimize the *composition*, not the volume [Q05]); university autonomy and researcher pay to stop exporting the elite [F045?][F048?]; the full AI stack argument — cheap power attracts compute, compute anchors labs, labs anchor applications (Mistral as existence proof, EUR 109bn committed [F033]).
+*Numbers:* +1.3pp of GDP in R&D ≈ +EUR 35-40bn/yr; TFP payoff calibrated at ~+4.5% level over 20 years via OECD elasticities (0.13 business/0.17 public), haircut 50% for absorption [F037].
+*Risk budget:* EPR2 delivery — Flamanville ran 4x over budget [F052?] and EPR2 is +40% before first concrete [F032]; the bet is defensible only with series effects, design freeze, and the state risk-sharing now agreed [F032], and the thesis says so; also the "datacenters are low-margin hosting" objection stays open until the value-pool evidence is in [Q14].
+
+## III.4 Schools — the twenty-year lever started first [C10 education arm]
+
+*Content:* teacher pay rebuilt toward German levels at career-middle [F047?], recruitment crisis treated as the emergency it is; autonomy-for-accountability trade at establishment level; math reconquest (the 2022 collapse is concentrated at the bottom [F022?][F047?]); vocational tracks tied to the program's bottleneck sectors; universities funded per-student toward northern-European levels with governance reform [F048?].
+*Numbers:* +25 PISA points ≈ +0.5pp long-run growth on the canonical (contested) elasticity [F034?], halved in the model, arriving after 2039 — which is exactly why it starts in year one.
+*Equity framing:* France's school is the OECD's strongest class-reproduction machine [F047?]; reforming it is the *left* case inside the program.
+
+## III.5 The operating system — ownership changes the mind [C12]
+
+The program's engine, causally grounded: randomized stock ownership durably shifts economic values via reduced distrust of markets [F035]; exogenous property titles shift beliefs ~20% toward market values [F036]. France's anti-capitalism is distributional (owners half-accept, non-owners reject [F021]) — so make owners. The auto-enrollment fund (III.2) puts a growing, visible, personal account in every worker's pocket: growth becomes *my money*. The bootstrap is sequenced: (1) pre-crisis seeds needing decrees, not revolutions — employee-shareholding expansion, PER auto-enrollment defaults [to verify]; (2) the crisis window passes the big pieces with the plan pre-written (Lindbeck: 113 proposals in three months, implemented across alternating governments [F040]); (3) the fund becomes its own defending constituency — converting diffuse future winners into identifiable current ones (Fernandez-Rodrik logic [to source]). Narrative layer: name the trade (Part 0) and wrap the program as sovereignty, not enrichment — the French grammar of collective effort [I.12]. Scale caveat stated: the causal evidence is individual-level; the national extrapolation is the program's core assumption.
+
+## III.6 People — demography as growth policy [C16]
+
+The model says decade 3 sags without it [F038]. Three instruments: (a) **family policy restored and modernized**, aimed at the fertility-*intentions* gap (~2.3 desired vs ~1.6 realized [F044?]) — childcare guarantee, family housing, restored universality; France is the one country whose near-replacement fertility coexisted with (and arguably rested on) the OECD's most generous family complex, dismantled just before the slide [F044?]; (b) **a points-based skilled-immigration channel** at meaningful scale, aimed at program bottlenecks (construction, care, engineering) — a *control-increasing* reform relative to today's weakly-selected flows [F043?], and must be framed as such to survive politically [Q22]; (c) **diaspora return** — the exported elite [F045?] is a recoverable asset when III.3's ecosystem gives it something to return to.
+
+## III.7 Land — housing as the hidden tax [C17]
+
+The largest household expense [F042?], a brake on mobility (workers cannot follow jobs), on family formation (the intentions gap is partly a square-meters gap [F044?]), and on net income. Content: zoning liberalization around transit, ZAN recalibrated from prohibition to pricing, permitting deadlines with deemed approval, municipal fiscal incentives aligned with construction (national law currently punishes mayors who build), and the capitalization fund (III.2) as institutional build-to-rent investor — the levers reinforce each other. Fiscally the cheapest lever in the program [Q23].
+
+## III.8 State — the war chest and the rebalance [C11][C18]
+
+The financing keystone: the 4-points-of-GDP pension gap with Germany (~EUR 115bn/yr) [F018] is the only envelope large enough to fund debt stabilization (EUR 25bn/yr [F025]), the production-tax cut (EUR 65-70bn [F016]), the R&D/education increment (EUR 35-40bn), and a single-digit-billions sovereign-core uplift (justice, security [F049?]) — simultaneously, phased over 15 years, recovering roughly a third of the gap. Method: retirement age (= III.1), indexation discipline, special-regime convergence — plus a Swedish-style expenditure-ceiling framework so composition is governed by rule, not by annual panic [F040]. Counter-fact absorbed: the Ageing Report projects current-law pension spending falling by 2070 via indexation erosion [F041] — a mechanism French politics keeps reversing [F026], and generational relief anyway arrives decades after the debt wall. Honesty test unchanged: a French growth plan that does not touch pensions is decoration.
+
+## III.9 Financing coherence (no magic money)
+
+Sources over 15 years: pension-machine recovery (up to ~EUR 115bn/yr envelope; program uses roughly a third) [F018] + labor-lever fiscal dividend (+EUR 38bn/yr at maturity) [F030] + credibility dividend on interest (every 100bp on EUR 3.3tn ≈ EUR 33bn/yr, phased with refinancing [F029]). Uses: debt stabilization EUR 25bn/yr [F025]; production-tax normalization EUR 65-70bn [F016]; R&D + education + sovereign core EUR 40-50bn; family/housing pillars low tens of billions [Q21][Q23]. The arithmetic closes only if III.8 delivers — the keystone position is structural, not rhetorical. The wealth-tax alternative is steelmanned in Part IV.11: even optimistic yields (~EUR 15-25bn [F050?]) fund a fifth of the uses and none of the labor supply.
+
+## III.10 The model and the targets [C13]
+
+| Scenario | 2027-2035 | 2036-2045 | 2046-2055 | Overtakes Germany | FR/DE per capita, 2050 |
+|---|---|---|---|---|---|
+| Low (levers at 50%) | 1.0%/yr | 1.2%/yr | 1.0%/yr | not by 2055 | 0.97 |
+| **Central** (Germany at 0.8) | **1.3%/yr** | **1.6%/yr** | **1.3%/yr** | **2042** | **1.05** |
+| Central, Germany at 1.1 | 1.3%/yr | 1.6%/yr | 1.3%/yr | not by 2055 | 0.98 |
+| High (full + AI bonus) | 1.4%/yr | 1.8%/yr | 1.4%/yr | 2040 | 1.09 |
+
+The honest statement: the program **doubles France's per-capita pace** (0.8 → 1.3-1.8%/yr), makes it the fastest large economy in Europe throughout, and closes most or all of the German gap; the *overtake* headline is conditional on German TFP staying weak [F041]. The model also exposes the program's internal relay: level levers (work, simplification) carry decades 1-2 and exhaust; innovation, schools, and the people/land pillars must carry decade 3 — which is why the slowest levers start first. Original claim of 2.3-2.6% sustained: cut by the model, recorded as the method working [journal run 3].
+
+## III.11 Sequencing: three decades, ordered by political capital
+
+- **Phase 0 (now → crisis):** everything that needs decrees, not majorities: PER defaults, employee shareholding, permitting deadlines, points-channel plumbing, teacher-pay trajectory, EPR2 execution discipline — and the Commission: the French Lindbeck, the full program drafted, costed, published, waiting [F040]. This document is its seed.
+- **Phase 1 (the window, years 1-5):** the crisis or near-crisis opens it [C7]. Pass the systemic pension reform, the expenditure-ceiling framework, the fund, the production-tax cut financed by the first pension savings. Visible winners within 24 months: net wages up at the bottom (wedge cut), accounts growing in every pocket. Consolidation drag ~-0.25pp/yr absorbed early [model.py A9].
+- **Phase 2 (years 5-15):** the harvest of level levers (employment climbing toward Nordic rates, simplification), fund passes ~30-40% of GDP, R&D increment ramping, first reformed-school cohorts, EPR2 units arriving 2038+ [F032], debt ratio falling through 100%.
+- **Phase 3 (years 15-30):** TFP and education levers dominate [F037][F034?]; people and land pillars determine whether growth holds ~1.4%/yr or sags to 1.0 [F038]; the fund partially pre-funds pensions — closing the loop that started the crisis; overtake window vs Germany [C13].
+
+## III.12 Governance and anti-capture
+
+The program creates two honeypots — a national fund and a bigger R&D envelope — in the country that raided its own pension reserve (FRR) within a decade of creating it [Q19]. Guardrails, by design not by virtue: fund governance on the AP7/GPFG model (statutory mandate, independent board, no directed lending, parliamentary supermajority to amend) [Q19]; R&D increment allocated by arms-length agencies with sunset clauses and published evaluations; expenditure ceilings binding the annual budget [F040]; the automatic pension link deliberately placed beyond annual politics — with the Swedish caveat recorded that even automatic brakes get softened under enough pain [F040]. The wrapper (national project) must never eat the content (market allocation): the test is whether any minister can direct the fund's portfolio. If yes, the design has failed.
+
+## III.13 The boundary map: markets, monopolies, and state bets [C20][C21]
+
+The program's credibility requires saying out loud where markets do *not* belong — and where the state must learn discipline it has never had.
+
+**What stays public or universal, and why.** Network monopolies — rail infrastructure, electricity grids, water — stay single, regulated operators: competition there means duplicating physical networks, which destroys value; Britain's rail privatization is the standing anti-example (fragmentation, Railtrack's collapse back into public hands, subsidies above the British Rail era, quiet renationalization since [F057?]). Health insurance stays universal: the US market model consumes 17% of GDP for worse outcomes and a mortality gradient by income that no civilized country should envy [F055?][F054?]. This is not sentiment; it is the same empiricism the thesis applies everywhere else. The reflex "spending is high, therefore privatize" fails the evidence test in these domains.
+
+**The honest counterpart: public inefficiency is real and structural.** Defending public operators does not mean defending how France runs them. The deepest rigidity is human: dismissal for professional insufficiency is vanishingly rare across ~5.7 million agents [F061?] — a state that cannot manage out incompetence cannot manage, and it responds by under-hiring where it most needs people [F049?]. The remedy is management reform *within* the public frame — Nordic-style public employment under something closer to common labor law, real performance management, operator governance at arm's length [Q27] — and the health line is "universality kept, frontier sought": several universal systems deliver French-level outcomes for 2-4 points of GDP less [F058?], and smart user frictions (the 1-2 euro kind) have real behavioral effects *if* designed with caps and exemptions so they never bite the poorest and sickest [F059?].
+
+**State bets with a kill switch — the How Asia Works lesson [F060][C21].** The state is the only actor that can hold 10-30 year plans (EPR2's first unit arrives in 2038 [F032]; no private balance sheet waits that long), which legitimates dirigisme exactly where horizons fail: energy, compute infrastructure, foundational research, rail. But the East Asian record is unambiguous about the mechanism that separates development from waste: support conditional on verifiable external success, and losers culled. Korea's chaebols lived and died by export performance; France's own record obeys the same law — nuclear, TGV and Airbus had hard engineering targets and export tests; Plan Calcul and Minitel had neither and died expensively. France's failure mode is not betting; it is refusing to cull. Program rule, no exceptions: every state bet is born with a published kill criterion, an independent evaluator, and a sunset — Flamanville's 4x overrun [F052?] sits in the file as the permanent reminder of what undisciplined bets cost.
+
+---
+
+# Part IV — Objections, steelmanned
+
+1. **The happiness defense** ("France trades income for life; GDP misses it"). Concede what is true: life expectancy, health outcomes, low retiree poverty [F018] are real achievements. Then the ledger: the trade is debt-financed (5%+ deficits at record taxes [F003][F004]), demographically doomed on current settings [F038][F041], and its bill is assigned to the young [II.6]. Leisure honestly paid for is a preference; leisure on the children's credit card is not a value system, it is an arrears.
+2. **The Germany objection** ("Germans work fewer hours per worker and are richer"). Correct, and it proves the thesis: the French gap is *participation and career length*, not effort per worker [F008][F030][F031]. Germany employs 8.7 points more of its population. The lever is more French people in work, not more hours per French worker.
+3. **Reform fatalism and its mirror.** "Nothing can pass in France" — falsified by 2015-2023 (unemployment -3 points [F020?]). "France already reformed enough" — falsified by the arithmetic still pointing at the wall [F025]. The truth is the ratchet [I.12]: reforms pass at half-dose and reverse. The program's answer is not more courage but a different engine: ownership constituencies plus crisis windows [III.5].
+4. **The Draghi objection** ("the problem is European; fix Brussels"). The EU layer is real [F010] and out of scope by choice: the hours gap, pension machine, R&D freeze, misallocation, school slide are all domestically fixable [F031][F018][F009][F039][F022?]. France has a decade of purely domestic work before Brussels is the binding constraint — and a France executing this program is the only France that can lead the EU layer anyway [II.5].
+5. **The austerity objection** ("cutting kills growth"). The program is not net-restrictive: EUR 25bn/yr of consolidation [F025] against EUR 65-70bn of production-tax cuts [F016] plus investment — a *composition* shift from transfers to production, Sweden-style [F040], with the drag modeled honestly (-0.25pp/yr, phase 1) [model.py].
+6. **The inequality objection, full form** ("growth is useless if the poorest live badly — look at America"). The thesis *concedes the American evidence*: US growth coexists with a mortality abyss by income [F054?] and a predatory health market [F055?] — growth without a floor fails the poor, full stop. But the symmetrical evidence must be faced: a floor without growth expires — France's floor is debt-financed [F003][F018], and when such models break, the bottom quartile pays first (imposed adjustments cut transfers by decree while organized insiders resist [C14][F040]). The initial hope that Germany would show "less redistribution, but growth lifted the bottom anyway" may not survive the data — German bottom-decile wages stagnated for two decades and France likely beats Germany at the floor today [F056?]; the thesis follows the data wherever it lands [Q25]. The resulting position [C19]: the goal is the Nordic quadrant — floor AND growth — the program's success is *measured* on the bottom quartile's command over essentials (0.1), and its most redistributive acts are the school reconquest [F047?] and universal capital ownership [F023]. The US is the measuring stick of the frontier, never the destination.
+7. **The ECB-backstop objection** ("France cannot default; spreads prove calm"). TPI's condition is fiscal compliance: the backstop shields the adjusting, it does not cancel adjustment. Greece kept the euro and lost a decade of sovereignty. Spreads at 80bp [F026] price the *slow* scenario — which Part II shows is the same bill on layaway.
+8. **The Japan objection** ("250% debt, no crisis"). Japan borrows in its own currency from its own savers. France: 54.6% foreign-held [F028], in a currency it does not print. The comparison fails on both legs.
+9. **The crying-wolf objection** ("predicted for 30 years, never happened"). What changed: interest became the fastest-growing budget line [F024][F025]; the double-A fell [F026]; the productivity anesthetic wore off [F007]; demography flipped from tailwind to headwind [F038]; and rates eased in 2025 [F029] *without stopping any of the above* — the wolf this time is stock arithmetic, not a rate panic. The thesis still refuses a naked date and publishes markers instead [Part V].
+10. **Gerontocracy** ("the median voter is ~55+; the losers are the majority"). The darkest one. Partial answers: grandfather current pensions and reform flows — splitting the losing coalition; give the 50-somethings a compensating asset (the fund reaches them too); make the intergenerational ledger personal (their children hold the debt [II.6]); and note that crisis windows override median-voter statics (Sweden's pensioners voted for governments that cut [F040]). Recorded as only partially answered — this may be the essay's hardest section [C11].
+11. **The wealth-tax alternative** (the left's steelman: "keep the hours, tax capital"). Taken seriously with numbers: ISF peaked ~EUR 4-5bn; a Zucman-style 2% floor is estimated by its own proponents at EUR 15-25bn for France [F050?] — a fifth of the program's uses [III.9], zero effect on labor supply, contested exit effects. Verdict: possibly a *complement* (and politically potent as fairness signaling within Phase 1), arithmetically not an *alternative*. The program's real answer to inequality is III.4 + III.5.
+12. **The degrowth objection, full form** ("you cannot have infinite growth in a finite world") [C24]. The essay treats this in a collapsible (see `article.md` format notes) because it deserves a real answer, not a dodge. Four steps. *(a) Concede the kernel:* material throughput cannot grow forever; the honest debate is decoupling speed versus carbon budgets, and the steelmanned version (Parrique, Hickel) lives there [Q31]. *(b) Decoupling is observed, not hoped:* 30+ countries — France included — have grown GDP while cutting absolute CO2, consumption-based included [F065?]; and France is the large economy where the objection has least purchase of all, because its electricity already runs at ~40-60 gCO2/kWh versus ~250 for the EU [F064?][F017?] — French growth is the cleanest marginal growth available anywhere. *(c) Unilateral degrowth is Part II.2 with ideology:* the debt is nominal and does not shrink with the economy — a contracting GDP raises debt/GDP mechanically, collapses the tax base of the welfare state degrowthers want to protect, triggers the imposed adjustment [C7], and the bottom quartile pays first [C14]. Challenging the growth model is a legitimate *global, coordinated* project; France, alone, over-indebted, has neither the coordination nor the surplus to volunteer as the experiment. *(d) The author's debt arithmetic, stated plainly:* debt must eventually be paid or rolled. Rolling it sustainably requires nominal growth above the interest rate; paying it down requires primary surpluses France has not produced in fifty years [F003]. Degrowth forecloses both arms simultaneously. And the climate transition itself — EPR2, grids, adaptation — is a capital program only a growing economy funds [F032][F025]. Growth is not what threatens France's climate contribution; it is its financing plan.
+13. **AI makes the labor lever obsolete** ("why raise hours if machines do the work?"). If AI delivers a TFP boom, France's energy-and-talent position [C10] captures it disproportionately — and the fiscal wall arrives *before* any plausible AI dividend [F025]. If AI disappoints, the labor lever is indispensable. The lever is robust to both branches; only its decade-3 weight varies [model.py].
+14. **The zero-sum objection** ("overtaking Germany is beggar-thy-neighbor"). The levers are absolute supply-side improvements (hours, skills, capital, TFP) — France growing at 1.6% makes Europe richer, not poorer. The ranking frame is motivational (the déculottée the author wants); the welfare claim never depends on Germany losing [C13].
+
+---
+
+# Part V — Falsification and markers
+
+**What would break the diagnosis:** the France-US gap shown to be mostly PPP artifact [Q02]; the post-2019 productivity slide shown to be entirely benign composition [Q01]; net-social-expenditure analysis dissolving the spending gap [Q07].
+
+**What would break the countdown [C7]:** durable r−g reversal (inflation/growth surprise) stabilizing debt without adjustment [Q10]; or a decade of 80bp spreads *with* rising foreign demand at rising debt — the market repeatedly refusing the thesis.
+
+**What would break the program:** [Q18] pinning parameters such that even the high scenario shows no meaningful gap-closure (kills the powerhouse frame, leaves "escape the wall"); macro-scale evidence that ownership effects wash out nationally (downgrades C12 to complement — the program loses its political engine); EPR2 slipping Flamanville-style [F052?] (closes the energy-AI window); fertility on INSEE's low branch (1.2) *and* immigration politically frozen (decade 3 sags to ~1.0%/yr, target recedes) [F038]; the pension envelope dissolving under net-expenditure accounting [Q07].
+
+**Countdown markers (public, checkable):** interest line crossing each ministry's budget [F024][F025]; debt ratio through 120% [F025]; foreign-held share rising [F028]; further downgrades [F026]; reforms passed-then-suspended [F026]; auction cover ratios; the OAT-Bund spread converging on Italy's [F026].
+
+---
+
+# Part VI — Evidence map
+
+## Claim tree
+
+| ID | Claim | Status | Weakest point |
+|---|---|---|---|
+| C1 | The gap is hours per capita AND, increasingly, productivity; one lever cannot close it | supported | "Leisure preference" answered in IV.1 but happiness data not yet compiled |
+| C2 | Not a revenue problem: composition and efficiency | supported | Net social expenditure check pending [Q07] |
+| C3 | Middle-technology trap; innovation regime change required | supported | CIR puzzle unexplained [Q05] |
+| C4 | Mindset caps reform dose and voids the warranty | hypothesis | Causal half open — attitudes may be symptom [F020?] |
+| C5 | Latent assets real and rare — demographic one expiring | hypothesis | Activation mechanism = the whole of Part III |
+| C6 | Low labor input is policy-induced at the margins of working life | hypothesis | Germany wedge nuance [F015]; natural experiments pending [Q06] |
+| C7 | Debt-financed growth at its arithmetic limit; forced adjustment coming | supported | Crying-wolf managed via markers; rates eased 2025 [F029] |
+| C8 | Work lever: +3-7% GDP; retirement age is the instrument | supported | Political reversibility — carried by C12 |
+| C9 | Capital lever: redirect the EUR 6.6tn pool | supported | Scheme design [Q13]; captive-buyer sequencing |
+| C10 | Frontier lever: energy-intensive intelligence | hypothesis | EPR2 delivery risk [F052?]; AI value-pool question [Q14] |
+| C11 | State lever: the pension envelope funds everything | supported | Gerontocracy (IV.10) only partially answered; F041 absorbed |
+| C12 | Ownership changes beliefs — the program's OS | supported | National-scale extrapolation is an assumption |
+| C13 | Target: double the pace; overtake Germany conditionally | supported | Overtake conditional on German weakness [F041]; decade-3 sag |
+| C14 | Imposed adjustment is regressive; early choice is the progressive option | hypothesis | Greek incidence data pending [Q20] |
+| C15 | The political decline loop; winners-first design requirement | hypothesis | Vote-share data to verify [F046?] |
+| C16 | People pillar: demography is growth policy | hypothesis | Pro-natal causality debate [Q21]; immigration politics [Q22] |
+| C17 | Land pillar: housing scarcity taxes the whole program | hypothesis | GDP quantification pending [Q23] |
+| C18 | The state is an insurer with an understaffed sovereign core; rebalance, don't shrink | supported | CEPEJ numbers to verify [F049?] |
+| C19 | Normative anchor: optimize the two curves (bottom-quartile floor + the 75%'s quality of life); growth is the instrument | supported | The dashboard [Q25] must be built; Germany example may invert [F056?] |
+| C20 | Boundary map: network monopolies and universal health stay public/universal; fix them by management reform, not ownership transfer | hypothesis | "Within-public reform never happens" objection open [Q27]; statut rigidity [F061?] |
+| C21 | State bets only with export/market discipline and a kill switch (How Asia Works) | supported | Transferability of East Asian discipline to a democracy open; Flamanville as standing execution risk [F052?] |
+| C22 | Price is not worth: markets pay scarcity and leverage, not contribution; innovators keep ~2% of the surplus they create | hypothesis | Nordhaus/doctor-pay facts to verify [Q29]; rent-vs-surplus distinction must stay sharp |
+| C23 | The two workforces are complements (O-ring, essential workers, Baumol); the floor is chain maintenance funded by growth | hypothesis | Canonical papers to register [F068?]; AI-substitution branch stated |
+| C24 | Clean growth: France is where the finite-world objection has least purchase; unilateral degrowth = imposed adjustment with ideology | hypothesis | Steelmanned degrowth (decoupling speed vs carbon budgets) to be answered with numbers [Q31] |
+
+## Verification debt (must clear before the essay relies on them)
+
+[F006 gap vintage — Q02] [F011 senior employment] [F012 US hours comparison] [F013 potential growth] [F014 productivity puzzle — Q01] [F017 nuclear share & prices — Q14] [F019 FDI] [F020 unemployment record] [F022 PISA] [F027 debt-vs-GDP euro series — Q09] [F034 Hanushek-Woessmann] [F042-F053 run-4 additions — Q24] [F054-F059, F061, F062 run-5 additions — Q25/Q26/Q27] [F063-F068 run-6 additions — Q29/Q30/Q31] plus: Fernandez-Rodrik 1991, Algan-Cahuc, employee-shareholding base, FRR history [Q19].
+
+## Retired candidates and process history
+
+T-A "chosen decline" → narrative frame (Part 0). T-B "mindset bottleneck" → softened into C4 + the OS (III.5). T-C "assets without an OS" → the program. Original C13 (2.3-2.6% sustained) → cut by the model, run 3. Full history in `journal.md`.
