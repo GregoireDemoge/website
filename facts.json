@@ -595,6 +595,251 @@
    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028493476/",
    "type": "primary_legal",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S081",
+   "name": "Matsaganis & Leventi (2014), 'The Distributional Impact of Austerity and the Recession in Southern Europe', South European Society and Politics 19(3) (EUROMOD-based decile incidence for Greece)",
+   "url": "https://doi.org/10.1080/13608746.2014.947700",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S082",
+   "name": "Eurostat: at-risk-of-poverty rate anchored at 2008 (ilc_li22b), relative AROP by age (ilc_li02), unemployment rates (une_rt_a / une_rt_m); ELSTAT SILC releases",
+   "url": "https://ec.europa.eu/eurostat/databrowser/product/view/ilc_li22b",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S083",
+   "name": "Bank of Greece, Economic Bulletin 43 (July 2016), Lazaretou: the Greek brain drain 2008-2014 (cumulative outflow of residents 15-64)",
+   "url": "https://www.bankofgreece.gr/Publications/4320160703_en.pdf",
+   "type": "primary_central_bank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S084",
+   "name": "IMF Country Report 13/156 (June 2013): Greece - Ex Post Evaluation of Exceptional Access under the 2010 Stand-By Arrangement",
+   "url": "https://www.imf.org/external/pubs/ft/scr/2013/cr13156.pdf",
+   "type": "primary_institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S085",
+   "name": "Leventi & Matsaganis (2016), 'Estimating the distributional impact of the Greek crisis (2009-2014)', OECD Economics Department WP 1312",
+   "url": "https://doi.org/10.1787/5jlv2jl6c9f3-en",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S086",
+   "name": "Lenoel, Macchiarelli & Dolphin (2023), 'Greece 2010-18: What Could Have Been Done Differently?', Open Economies Review 34 (public investment as 'flagship adjustment variable'); World Bank, 'The Greek Pension Reform Strategy 2010-2016'; Tinios, 'Pensions: Halfway through adjustment'",
+   "url": "https://www.lse.ac.uk/Hellenic-Observatory/Assets/Documents/Publications/GreeSE-Papers/GreeSE-172.pdf",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S087",
+   "name": "OECD Income Distribution Database (DSD_WISE_IDD@DF_IDD, METH2012): median and mean equivalised disposable household income; converted at OECD household-consumption PPPs (ANA Table 4, PPP_P31S14; method per Society at a Glance 2024)",
+   "url": "https://data-explorer.oecd.org/vis?df[ag]=OECD.WISE.INE&df[id]=DSD_WISE_IDD%40DF_IDD",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S088",
+   "name": "Luxembourg Income Study (LIS), median equivalised disposable income, int-$ 2021 prices (accessed via Our World in Data grapher 'median-income-after-tax-lis')",
+   "url": "https://ourworldindata.org/grapher/median-income-after-tax-lis",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S089",
+   "name": "KFF 2024 Employer Health Benefits Survey (worker premium contributions, deductibles); Peterson-KFF Health System Tracker (out-of-pocket spending of insured families)",
+   "url": "https://www.kff.org/health-costs/2024-employer-health-benefits-survey/",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S090",
+   "name": "INSEE Analyses no. 118: 'Revenus des menages elargis a l'ensemble de l'economie en 2023' (in-kind transfers EUR 15,800 per consumption unit; 51% of broadened inequality reduction)",
+   "url": "https://www.insee.fr/fr/statistiques/8974371",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S091",
+   "name": "Verbist, Forster & Vaalavuo (2012), 'The Impact of Publicly Provided Services on the Distribution of Resources', OECD SEM WP 130 (in-kind transfers raise disposable income ~29% OECD average, >30% France)",
+   "url": "https://doi.org/10.1787/5k9h363c5szq-en",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S092",
+   "name": "Agence France Tresor, Bulletin mensuel no. 425 (Oct 2025): bond-by-bond OAT list with CAC flags; EU Economic and Financial Committee page on euro-area model CACs (mandatory since 2013)",
+   "url": "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/425_Bulletin%20mensuel%20octobre%202025.pdf",
+   "type": "primary_institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S093",
+   "name": "OFCE: Durand & Villemot, 'Balance sheets after the EMU' (WP 2016-31: foreign-law French sovereign debt ~zero on BIS data; franc misalignment ~11%); OFCE Policy Brief 16 (2017): competitiveness gain of exit ~zero, dominant effect a balance-sheet banking crisis; CEPII (Mar 2017) concurs",
+   "url": "https://sciencespo.hal.science/hal-03409079/file/WP2016-31.pdf",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S094",
+   "name": "Institut Montaigne (Feb 2017), costing of the FN euro-exit program (liberal-leaning think tank, leaning noted): 20% depreciation assumption; median scenario -2.3% GDP year one, -9% long run, ~500k jobs (numbers as reported by Les Echos and Capital)",
+   "url": "https://www.lesechos.fr/2017/02/sortie-de-leuro-les-effets-desastreux-du-projet-economique-du-front-national-160249",
+   "type": "think_tank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S095",
+   "name": "S&P Global (Moritz Kraemer, head of sovereign ratings, Feb 2017, via Reuters): redenomination of French debt into francs 'would be a default'; Moody's DRD default definitions (forced currency redenomination = default event); ISDA 2014 Credit Derivatives Definitions (redenomination = Restructuring credit event)",
+   "url": "https://www.reuters.com/article/world/le-pens-french-debt-plan-would-trigger-default-sp-tells-economist-idUSKBN15J0OD/",
+   "type": "primary_via_press_of_record",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S096",
+   "name": "Yale Journal of Financial Crises: 'Greece: Bank Holiday and Capital Controls, 2015' (deposit flight EUR 47.6bn = 27.5% of base Dec 2014-Jun 2015, on Bank of Greece data); Greek Legislative Act of 28 June 2015 (bank holiday, EUR 60/day ATM cap)",
+   "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1652&context=journal-of-financial-crises",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S097",
+   "name": "SDES (French ecology ministry statistical service): Bilan energetique de la France / Chiffres cles de l'energie - net energy import bill (EUR 116.3bn in 2022; ~71bn 2023; ~56-58bn 2024 provisional)",
+   "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-en-2023-synthese",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S098",
+   "name": "The euro-exit political record (press of record for current events): RN abandons Frexit (RTL 29 Jan 2019; Radio France 15 Apr 2019; Les Echos on the retiree fear); LFI/NUPES 'ni quitter l'Europe ni quitter l'euro' (La Croix/AFP 18 Jan 2022; Les Echos 2022); euro support: ECB Economic Bulletin 7/2025 box on Eurobarometer 103 (83% euro-area record; France lowest); Cluster17/Le Grand Continent barometer Sept 2025 (FR: 59% euro vs 23% national currency)",
+   "url": "https://www.radiofrance.fr/franceinter/europeennes-marine-le-pen-renonce-officiellement-au-frexit-dans-son-projet-7372164",
+   "type": "press_of_record",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S099",
+   "name": "LSE European Institute, LEQS Paper 123 (2017), 'Why Grexit cannot save Greece' (compiled exit-cost estimates: IMF -13%, NBG -22%, BNP -20%, Citi -17% of GDP)",
+   "url": "https://www.lse.ac.uk/european-institute/Assets/Documents/LEQS-Discussion-Papers/LEQSPaper123.pdf",
+   "type": "peer_reviewed_wp",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S100",
+   "name": "Eurostat, EU-SILC: ilc_li02 (at-risk-of-poverty rate), ilc_di01 (income deciles, PPS), ilc_di03/di11 (mean income, poverty gap ilc_li11), ilc_mdsd11 (severe material and social deprivation), ilc_lvho07b (housing cost overburden by quintile), ilc_mded01 (housing cost share)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_di01/default/table",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S101",
+   "name": "DIW Weekly Report 7/2025 (Grabka, SOEP-based): real income distribution in Germany 1995-2021; DIW Weekly Report 21/2018 (bottom-decile income decline)",
+   "url": "https://doi.org/10.18723/diw_dwr:2025-7-1",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S102",
+   "name": "OECD Income Distribution Database (DSD_WISE_IDD@DF_IDD, via SDMX API): median income, P50/P10 ratios, poverty rates FR/DE/US 2023",
+   "url": "https://data-explorer.oecd.org/",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S103",
+   "name": "Gruber & Wise (eds.), Social Security Programs and Retirement around the World: The Relationship to Youth Employment, NBER / University of Chicago Press, 2010 (introduction: Gruber, Milligan, Wise; NBER WP 14647)",
+   "url": "https://www.nber.org/system/files/chapters/c8250/c8250.pdf",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S104",
+   "name": "Ben Salem, Blanchet, Bozio, Roger, 'Labor Force Participation by the Elderly and Employment of the Young: The Case of France', ch. 4 of Gruber-Wise 2010",
+   "url": "https://www.nber.org/system/files/chapters/c8254/c8254.pdf",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S105",
+   "name": "INSEE, '30 ans de vie economique et sociale' (2014), youth unemployment series; OFCE, 'Quinze ans de politique de l'emploi' (Revue de l'OFCE, 1990), preretraite scale and under-25 unemployment arc",
+   "url": "https://www.insee.fr/fr/statistiques/fichier/1374370/histo14_f_d5_travail.pdf",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S106",
+   "name": "Rabate & Rochut, 'Employment and substitution effects of raising the statutory retirement age in France', Journal of Pension Economics and Finance (2020); CNAV data, presented at COR",
+   "url": "https://doi.org/10.1017/s1474747218000392",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S107",
+   "name": "CAE Note n.32 (May 2016), Cahuc, Hairault, Prost, 'The Employment of Seniors: A Choice to Clarify and Personalize' (explicit Gruber-Wise citation); OECD Infra-Annual Labour Statistics via FRED (LREM55TT*/LRUN24TT*, 2024)",
+   "url": "https://cae-eco.fr/static/pdf/cae-note032-env3.pdf",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S108",
+   "name": "Boeri, Garibaldi, Moen, 'A clash of generations? Increase in Retirement Age and Labor Demand for Youth' (CEPR DP 11422, 2016); Carta, D'Amuri, von Wachter, 'Workforce Aging, Pension Reforms, and Firm Outcomes' (NBER WP 28407); Martins, Novo, Portugal (IZA DP 4187)",
+   "url": "https://www.nber.org/papers/w28407",
+   "type": "peer_reviewed_wp",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S109",
+   "name": "Vogel & Hickel, 'Is green growth happening? An empirical analysis of achieved versus Paris-compliant CO2-GDP decoupling in high-income countries', Lancet Planetary Health (2023); Hickel & Kallis, 'Is Green Growth Possible?', New Political Economy (2020)",
+   "url": "https://doi.org/10.1016/s2542-5196(23)00174-2",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S110",
+   "name": "UNEP Emissions Gap Report 2024 (required global reduction rates for 1.5C and 2C); Global Carbon Project consumption-based CO2 series (via Our World in Data); World Bank GDP constant-2015-USD series",
+   "url": "https://www.unep.org/resources/emissions-gap-report-2024",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S111",
+   "name": "Haut Conseil pour le Climat, rapports annuels 2022 and 2025 (required vs achieved French reduction rates); CITEPA Secten 2025; ecologie.gouv.fr SNBC-3 tracking page",
+   "url": "https://www.hautconseilclimat.fr/wp-content/uploads/2025/09/Chapitre-2_HCC_RA_2025.pdf",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S112",
+   "name": "York, 'Asymmetric effects of economic growth and decline on CO2 emissions', Nature Climate Change (2012); Liu et al., Nature Geoscience (2022, 2020 COVID emissions); Keysser & Lenzen, '1.5C degrowth scenarios suggest the need for new mitigation pathways', Nature Communications (2021); D'Alessandro, Cieplinski, Distefano, Dittmer, 'Feasible alternatives to green growth' (EUROGREEN model), Nature Sustainability (2020); Mourre et al., EC Discussion Paper 098 (2019, budget semi-elasticities)",
+   "url": "https://doi.org/10.1038/s41467-021-22884-9",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S113",
+   "name": "Tresor-Eco n.378 (Jan 2026), 'Que finance l'epargne financiere des menages francais?' (look-through of household wealth; insurers 9.8% of negotiable state debt; EUR 752bn of government bonds held indirectly by households)",
+   "url": "https://www.tresor.economie.gouv.fr/Articles/65d8041b-b2bf-4b9c-87f6-d5f7078f9a0a/files/474a7aa1-b9cd-48e1-a3e0-950bb970836f",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S114",
+   "name": "Senat, rapport d'information r24-902 (Sept 2025), 'La structure de detention de la dette de l'Etat' (holder breakdown, Banque de France PROTIDE); France Assureurs, 'Les placements de l'assurance en 2024'; ACPR Analyses et Syntheses n.157 and n.173; INSEE Focus n.354 (assurance-vie detention by age)",
+   "url": "https://www.senat.fr/rap/r24-902/r24-9021.pdf",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S115",
+   "name": "INSEE Premiere n.1687 (Blanpain 2018) and n.2085 (2020-2024 update): life expectancy gap by living standard, richest vs poorest 5% of men; RKI Journal of Health Monitoring (Lampert, Hoebel, Kroll 2019): German gap by income band (NOT comparable to INSEE's 5%-tail design)",
+   "url": "https://www.insee.fr/fr/statistiques/8679561",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -1638,8 +1883,8 @@
    "geography": "France vs Germany",
    "sources": [],
    "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG [Q25]: Eurostat AROPE + income-quintile series 2000-2024, WSI/DIW wage-decile data. Author's explicit instruction: FOLLOW THE DATA. If confirmed, the argument reframes to: France already wins at the bottom - on borrowed money; the US shows growth without floors fails the poor; France shows floors without growth expire; the target is the Nordic quadrant (both)."
+   "status": "refuted",
+   "notes": "REFUTED as stated, run 15 (Q25 load-bearing half resolved): on Eurostat SILC 2024 the poverty rates are a statistical tie (FR 15.9 vs DE 15.5) and Germany's P10 is 8% ABOVE France's - see F097 for the full resolution (France led until ~2016; Germany caught up; housing nets the floors back to parity; the OECD's SOEP-based reading still favors France - survey-dependent). The German-bottom-stagnation half of this fact was CONFIRMED and lives as F098. Kept per protocol so no future run re-adds the dead version."
   },
   {
    "id": "F057",
@@ -1969,14 +2214,24 @@
   },
   {
    "id": "F076",
-   "statement": "The mean-vs-median caveat on the US comparison: US GDP per capita is a mean pulled up by a top-heavy income distribution; the France-US gap in MEDIAN equivalized disposable household income (PPP) is smaller than the GDP-per-capita gap, and part of US gross income buys healthcare and college that France provides publicly. The gap does not disappear at the median, but it shrinks; the exact median-to-median figure must be pinned (LIS or OECD income distribution database) before the essay quotes one.",
-   "values": {},
-   "unit": "comparison caveat",
+   "statement": "The mean-vs-median caveat, pinned: on the OECD Income Distribution Database (2023, converted at the OECD's household-consumption PPPs), median equivalised disposable income is $38,752 (France) vs $49,885 (US) - France at 77.7% of the US median, a 22.3% gap; the same dataset's MEAN gap is 28.1%. LIS (2022, int-$ 2021 prices) gives a 25.6% median gap. The median gap runs 5-6 points below the mean gap in every year of both series. The honest prose rendering: 'a third behind at the average, roughly a quarter median to median'.",
+   "values": {
+    "fr_median_2023_usd_ppp": 38752,
+    "us_median_2023_usd": 49885,
+    "median_gap_pct_oecd_2023": 22.3,
+    "mean_gap_pct_same_dataset": 28.1,
+    "median_gap_pct_lis_2022": 25.6
+   },
+   "unit": "USD PPP / percent",
    "geography": "France vs US",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG [Q34]: pin median equivalized disposable income PPP France vs US (LIS/OECD IDD), same year. Grounds the new objection IV.16. The answer does not depend on the exact number: the diagnosis's decomposition (F007) measures production, not distribution; the hours and pension comparisons run against Germany/EU [F031][F018]; and the fiscal arithmetic is internal [F024][F025]."
+   "sources": [
+    "S087",
+    "S088"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14 [Q34 resolved]. Honesty in both directions: (a) cash disposable income omits in-kind transfers (worth >30% of French disposable income per OECD WP 130 [S091]; 51% of France's broadened inequality reduction per INSEE Analyses 118 [S090]) and omits US out-of-pocket health costs (~$9,860/yr premiums+cost-sharing for an insured family of four, KFF 2024 [S089]) - so the median comparison understates France; (b) even the OECD measure that ADDS in-kind services back (How's Life adjusted disposable income, 2023: $48,534 vs $64,233) leaves the US mean ~24% ahead - the caveats shave the gap, they do not erase it. VINTAGE WARNING: the median gap was 31-32% in 2019-2021; the narrowing to ~22-26% is recent and partly an artifact of expiring US pandemic transfers and the ICP-2021 PPP re-benchmarking. Never write 'the gap collapses at the median'. The BdF 33% (constant 2015 PPPs) and the current-PPP ~26% GDP gap are different vintages of the same yardstick [F006 notes].",
+   "chartable": true
   },
   {
    "id": "F077",
@@ -2143,6 +2398,367 @@
    "confidence": "high",
    "status": "verified",
    "notes": "Verified run 13. This SHARPENS C25 rather than weakening it: the electoral constraint binds exactly when the median voter's proxies hold the parliamentary balance - which demography makes more likely every cycle [F070][F038]."
+  },
+  {
+   "id": "F085",
+   "statement": "The Greek forced adjustment did not pick its victims by tax tables. The DESIGNED measures were broadly progressive on paper: holding 2009 deciles fixed, the poorest 10% lost 34% of income by 2013 against a 36% average (public-wage cuts drove the progressivity; VAT hikes were the regressive exception). The collapse around the measures created a new poor: re-ranked, the income of whoever occupied the bottom decile in 2013 was 69% below its 2009 counterpart (twice the average loss); ~65% of the population changed decile 2009-2013; at-risk-of-poverty ANCHORED at 2008 rose from 18.0% (2010) to 44.3% (2013) and 48.0% (2014-2015). Austerity's first-order effects account for roughly half of the anchored-poverty rise in 2010-11 and a third in 2013; the rest arrived through mass unemployment.",
+   "values": {
+    "fixed_decile_bottom_loss_pct_2009_2013": 34,
+    "average_loss_pct_2009_2013": 36,
+    "reranked_bottom_decile_loss_pct": 69,
+    "anchored_poverty_2010_pct": 18.0,
+    "anchored_poverty_2013_pct": 44.3,
+    "anchored_poverty_2014_15_pct": 48.0
+   },
+   "unit": "percent",
+   "geography": "Greece",
+   "sources": [
+    "S081",
+    "S082",
+    "S085"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 14 [Q20 resolved]. CORRECTS the essay's earlier line 'the poorest quarter pays fastest' - wrong as written: the mechanism was mass unemployment plus a safety net with no minimum-income floor for the new poor, NOT regressive tax-benefit design. Never blur designed-progressivity with outcome-regressivity in prose. The 13.2->27.4% anchored series in S085 uses a different anchor; do not mix the two series - the essay quotes Eurostat ilc_li22b (18->48)."
+  },
+  {
+   "id": "F086",
+   "statement": "The Greek adjustment's generational incidence: youth (15-24) unemployment 59.2% annual in 2013 (monthly peak 61.4% mid-2013), above 50% for four consecutive years (2012-2015). Relative poverty for 65+ FELL from 21.3% (2010) to 13.7% (2015) while for 18-24 it rose from 22.3% (2009) to 34.1% (2013); anchored poverty rose +32.4pp for ages 18-29 vs +20.4pp for 65+ (2009-2013); the elderly's share of the bottom quintile halved (18% to 10%). About 427,000 residents aged 15-64 left Greece over 2008-2013/14, ~223,000 of them aged 25-39, disproportionately educated (Bank of Greece). Pensions in payment were cut on 10-12 occasions, cumulatively ~14% (smallest pensions) to 40-50% (largest), progressive by design: pensioners were relatively, not absolutely, protected (their anchored poverty still reached ~47% by 2014).",
+   "values": {
+    "youth_unemployment_2013_annual_pct": 59.2,
+    "elderly_relative_poverty_2010_pct": 21.3,
+    "elderly_relative_poverty_2015_pct": 13.7,
+    "young_adult_relative_poverty_2013_pct": 34.1,
+    "emigrants_15_64_2008_2014": 427000,
+    "pension_cut_rounds": "10-12"
+   },
+   "unit": "mixed",
+   "geography": "Greece",
+   "sources": [
+    "S082",
+    "S083",
+    "S086"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 14 [Q20 resolved]. The load-bearing symmetry for C14/C25: the forced adjustment reproduced the insider/outsider machine - the settled kept their relative place, the young and the newly unemployed absorbed the collapse. 'Sixty percent youth unemployment' in prose = 59.2 annual / 61.4 monthly peak, fair rounding."
+  },
+  {
+   "id": "F087",
+   "statement": "What a forced consolidation cuts first: Greek general government investment fell from ~EUR 14bn (2009) to under EUR 5bn (2011) and stayed there through the third program, against a first-program plan of only ~0.2pp of GDP - peer-reviewed work calls public investment the 'flagship adjustment variable' because it is politically the easiest line to cut. The IMF's own ex-post evaluation of the 2010 SBA concedes on the record: growth projections were far too optimistic, an upfront debt restructuring 'would have been better for Greece' but was unacceptable to euro partners, and the lesson is 'the importance of spreading the burden of adjustment across different strata of society' (the 2016 background paper glosses: the burden 'was not sufficiently spread').",
+   "values": {
+    "gg_investment_2009_bn_eur": 14,
+    "gg_investment_2011_bn_eur": 5
+   },
+   "unit": "EUR bn",
+   "geography": "Greece",
+   "sources": [
+    "S086",
+    "S084"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14 [Q20 resolved]. 'Fell by two thirds in two years' is the honest prose rendering (14 -> <5)."
+  },
+  {
+   "id": "F088",
+   "statement": "Euro exit is not legally impossible: essentially all French negotiable government debt is issued under French law (foreign-law international bonds of the French general government are ~zero on BIS data), so parliament could redenominate by lex monetae. The euro-CACs mandatory on all euro-area issues since 2013 (~83% of the OAT stock by end-Sept 2025 on AFT bond-by-bond data) do not block a statutory currency change on the dominant legal-economic view (De Santis/ECB via CEPR; Codogno & Galli), though litigation would be certain.",
+   "values": {
+    "oat_stock_with_cacs_pct": 83,
+    "foreign_law_sovereign_debt": "~0"
+   },
+   "unit": "percent of stock",
+   "geography": "France",
+   "sources": [
+    "S092",
+    "S093"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Recorded deliberately so the essay never overclaims legal impossibility: the answer to the euro-exit objection must rest on economics, not law."
+  },
+  {
+   "id": "F089",
+   "statement": "The costed economics of a franc return: redenominating French-law debt into a depreciating franc is a default under S&P's and Moody's published definitions (both said so publicly in Feb 2017 about the FN plan) and a Restructuring credit event under ISDA's 2014 CDS definitions. The FN's own experts assumed a new-franc depreciation 'on the order of 20%'; Institut Montaigne's costing (liberal-leaning, flagged) put the median scenario at -2.3% GDP in year one (range -0.6 to -3.2), ~-9% long run, ~500,000 jobs destroyed; OFCE's equilibrium estimate of the franc's needed real depreciation is ~11%, and OFCE and CEPII both concluded the competitiveness gain would net to about zero (southern members would exit and depreciate alongside) while the dominant effect is a balance-sheet banking crisis. Compiled Grexit estimates (IMF, NBG, Citigroup, BNP) ran -13% to -22% of GDP for the exiting debtor.",
+   "values": {
+    "assumed_depreciation_pct": 20,
+    "montaigne_gdp_year1_pct": -2.3,
+    "montaigne_gdp_longrun_pct": -9,
+    "montaigne_jobs_destroyed": 500000,
+    "ofce_misalignment_pct": -11
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S094",
+    "S095",
+    "S093",
+    "S099"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Direction uncontested across sources of three different leanings (Montaigne liberal, OFCE Keynesian-left, CEPII public); magnitudes are scenario estimates, confidence medium on any single number, high on the sign and order of magnitude. Grexit numbers are for Greece, a smaller and already-broken economy: use only as the family of estimates, never as a French forecast."
+  },
+  {
+   "id": "F090",
+   "statement": "Greece 2015, the dress rehearsal inside the euro: EUR 47.6bn of deposits (27.5% of the deposit base) left Greek banks between December 2014 and 28 June 2015 on the mere possibility of exit; capital controls were imposed by legislative act on 28 June 2015; banks stayed closed for three weeks (reopened 20 July); ATM withdrawals were capped at EUR 60 per day per card; controls were fully lifted only in September 2019.",
+   "values": {
+    "deposit_flight_bn_eur": 47.6,
+    "deposit_flight_share_pct": 27.5,
+    "bank_closure_weeks": 3,
+    "atm_cap_eur_per_day": 60
+   },
+   "unit": "mixed",
+   "geography": "Greece",
+   "sources": [
+    "S096"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14. The strongest single exhibit for the euro-exit objection: this is what the approach to the door cost a country that stayed inside."
+  },
+  {
+   "id": "F091",
+   "statement": "What printing francs cannot buy: France's net energy import bill was EUR 116.3bn in 2022 (record year; oil and biofuels 58.6, natural gas 46.7 - essentially dollar-priced fossil imports), ~EUR 71bn in 2023, ~EUR 56-58bn in 2024 (provisional, SDES). France runs a structural current-account deficit, and the Banque de France's TARGET2 position is a net liability oscillating roughly between -EUR 110bn and -EUR 240bn through 2024-25, which on exit would fall due in euros.",
+   "values": {
+    "energy_bill_2022_bn_eur": 116.3,
+    "energy_bill_2023_bn_eur": 71,
+    "energy_bill_2024_bn_eur": "56-58"
+   },
+   "unit": "EUR bn",
+   "geography": "France",
+   "sources": [
+    "S097",
+    "S093"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "TARGET2 single-month figures are volatile; verify on the ECB statistics page before quoting any one month. The essay quotes only the 2022 energy bill."
+  },
+  {
+   "id": "F092",
+   "statement": "The political record of euro exit: both French parties that carried the proposal dropped it. The RN declared exit 'no longer a priority' (Jan 2019) and formally abandoned the franc in its April 2019 European manifesto; reporting at the time attributed the reversal to the proposal terrifying retirees, the wealth-holding cohort. LFI replaced its 2017 'plan B' with 'disobedience' in the 2021 edition of L'Avenir en commun and signed 'ni quitter l'Europe ni quitter l'euro' into the 2022 NUPES accord; Melenchon cited the external deficit ('I don't see how we would manage, given our external trade deficit', Jan 2022, translated). Opinion: euro-area support for the euro hit a record 83% (Eurobarometer 103, spring 2025); France is the euro area's lowest-support member; Cluster17 (Sept 2025): 59% of French prefer the euro, 23% a national currency.",
+   "values": {
+    "rn_abandonment": "2019",
+    "lfi_abandonment": "2021-2022",
+    "ea_euro_support_pct_2025": 83,
+    "fr_prefer_euro_pct": 59,
+    "fr_prefer_franc_pct": 23
+   },
+   "unit": "record",
+   "geography": "France / euro area",
+   "sources": [
+    "S098"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "High confidence on the party record (multiple press-of-record accounts, platform texts); medium on the single-wave Cluster17 split; the retiree attribution for the RN reversal is the press's interpretation and must stay attributed in prose. Melenchon's stated reason is the thesis's own argument from its opponent's mouth - see F078 for why retirees' balance sheets decide this. Exact French Eurobarometer percentage still unpinned [Q35]."
+  },
+  {
+   "id": "F093",
+   "statement": "The lump-of-labor refutation, canonical: the NBER twelve-country study (Gruber-Wise 2010) found 'no evidence that increasing the labor force participation of older persons reduces the job opportunities of young persons. Indeed, the evidence suggests that greater labor force participation of older persons is associated with greater youth employment and with reduced youth unemployment.' Pooled panel estimates (country+year fixed effects): +1pp employment of the 55-64 is associated with +0.54 to +0.91pp YOUTH employment; every statistically significant estimate on youth unemployment is negative. Germany's 1972 natural experiment: senior employment -7pp in four years, youth employment FELL 2pp, youth unemployment ROSE 1.7pp.",
+   "values": {
+    "youth_employment_per_pp_senior_employment": "+0.54 to +0.91",
+    "germany_1972_senior_employment_pp": -7,
+    "germany_1972_youth_unemployment_pp": 1.7
+   },
+   "unit": "percentage points",
+   "geography": "12 OECD countries",
+   "sources": [
+    "S103"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Read directly from the published introduction (Gruber, Milligan, Wise). Method: within-country natural experiments + cross-country + panel regressions, all same sign. The term 'lump of labour' fallacy dates to D.F. Schloss, The Economic Review, 1891."
+  },
+  {
+   "id": "F094",
+   "statement": "France ran the lump-of-labor experiment at full scale and billed it as job liberation: PM Pierre Mauroy (Lille, 27 Sept 1981): the oldest should 'release jobs so that everyone can have a job'; the 1977 GRD agreement preamble promised 'the release of jobs allowing many unemployed to find jobs'; contrats de solidarite triggered ~200,000 early departures in 1982-83 alone; retirement moved to 60 in 1983. Employment of French 55-64s fell ~21pp between 1971 and 1993 (60-64 employment: >55% in 1975 to 16.5% in 1995). Youth unemployment over the same arc: 6% (end-1973) to 14% (end-1980) to 25% (end-1984); the under-25 rate has never returned below 15% since 1982. When senior employment recovered (1993-2005, and again 2013-2023: 55-64 rate ~47% to ~58%), youth employment rose and youth unemployment fell (25% peak 2013 to ~17% 2023).",
+   "values": {
+    "senior_employment_fall_1971_1993_pp": -21,
+    "youth_unemployment_1973_pct": 6,
+    "youth_unemployment_1984_pct": 25,
+    "youth_unemployment_floor_since_1982_pct": 15,
+    "employment_60_64_1975_pct": 55,
+    "employment_60_64_1995_pct": 16.5
+   },
+   "unit": "percent / percentage points",
+   "geography": "France",
+   "sources": [
+    "S104",
+    "S105",
+    "S103"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Mauroy and ministry quotes cited in the Gruber-Wise volume (from Gaullier 1982 and Droit social, April 1983). The France chapter (Ben Salem-Blanchet-Bozio-Roger, LFS 1968-2005): higher senior participation correlates with HIGHER youth employment, controlling for cycle; authors' honest caveat recorded (incentives were endogenous to rising unemployment; single-country causal identification is hard - the cross-country evidence in F093 carries the causal weight). Correlation-vs-causation discipline: the 1971-93 arc is an illustration, not an estimate.",
+   "chartable": true
+  },
+  {
+   "id": "F095",
+   "statement": "The senior-employment / youth-unemployment cross-section runs against the lump of labor everywhere (2024, OECD): Japan 79.2% senior (55-64) employment / 4.0% youth (15-24) unemployment; Iceland 80.9/9.1; Germany 75.0/6.7; Switzerland 75.1/8.2 - versus France 60.4/18.7; Italy 59.0/20.3; Spain 61.1/26.5; Greece 57.3/22.4; Belgium 59.4/17.3.",
+   "values": {
+    "japan": "79.2 / 4.0",
+    "germany": "75.0 / 6.7",
+    "france": "60.4 / 18.7",
+    "italy": "59.0 / 20.3",
+    "spain": "61.1 / 26.5"
+   },
+   "unit": "percent",
+   "geography": "OECD",
+   "sources": [
+    "S107"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "OECD Infra-Annual Labour Statistics via FRED, annual 2024. Caveats: Sweden breaks the pattern (78.1/24.2 - largely a measurement artifact: full-time students seeking side jobs count as unemployed; never use Sweden here without the caveat). OECD dataset gives France 60.4/Germany 75.0 vs the Eurostat-based F011 (61.7/75.3) - different datasets, keep each internally consistent. Cross-section is illustrative; causal weight sits on F093/F094. CAE Note 32 (2016) is the citable French institutional rejection of job-freeing reasoning.",
+   "chartable": true
+  },
+  {
+   "id": "F096",
+   "statement": "The honest counterevidence on raising retirement ages, recorded: (a) France's 2010 reform (60 to 62; Rabate-Rochut 2020, CNAV data): at age 60, employment +21pp but unemployment +13-14pp, disability +5.9pp, sickness +1.4pp - about one fifth of the pension savings leaked to other benefit schemes; the substitution hits the SENIORS themselves, not the young. (b) Firm-level displacement evidence is split: Boeri-Garibaldi-Moen (CEPR 2016) estimate Italy's 2011 Fornero reform cost ~36,000 youth hires in affected firms mid-recession; Carta-D'Amuri-von Wachter (NBER WP 28407), same reform, cleaner instrument: +10% older workers RAISED young employment 1.8% within firms, value added up proportionally. No French study attributes any rise in youth unemployment to the 2010 reform.",
+   "values": {
+    "rabate_rochut_unemployment_at_60_pp": "+13-14",
+    "fiscal_leakage_share": "~1/5",
+    "boeri_youth_hires_lost": 36000,
+    "carta_young_employment_effect_pct": "+1.8"
+   },
+   "unit": "mixed",
+   "geography": "France / Italy",
+   "sources": [
+    "S106",
+    "S108"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Design instruction, not rebuttal: the age lever works but leaks ~a fifth without senior-employability policy (health at work, retraining, hiring incentives 55+); the essay must pair the lever with that policy rather than claim frictionless transition. The firm-level split does not overturn the aggregate result (F093)."
+  },
+  {
+   "id": "F097",
+   "statement": "The Germany floor check, resolved (follows the data, corrects F056): on Eurostat SILC 2024 (income year 2023, PPS per equivalised person), Germany's floor is nominally ABOVE France's: P10 cutoff DE 13,066 vs FR 12,076 (+8%); P5 DE 10,555 vs FR 9,575 (+10%); at-risk-of-poverty rates a statistical tie (FR 15.9% vs DE 15.5%; severe material and social deprivation 6.6 vs 6.2). France led every year 2008-2016 (P10 2014: FR 10,611 vs DE 9,402, a 13% French lead); Germany crossed over by 2018-19, before its 2020 survey break. France keeps three narrower edges: housing (bottom-quintile housing-cost overburden FR 25.2% vs DE 33.3%; poor households' housing share 38.6% vs 43.8% - netting housing out brings the two floors back to parity, France marginally ahead); poverty depth (median poverty gap 18.8% vs 20.4%); and the OECD IDD's SOEP-based alternative reading (poverty at 50% line, 2023: FR 8.7% vs DE 11.3%) - the FR-DE poverty RANKING depends on which German survey one believes.",
+   "values": {
+    "p10_pps_2024_fr": 12076,
+    "p10_pps_2024_de": 13066,
+    "p10_pps_2014_fr": 10611,
+    "p10_pps_2014_de": 9402,
+    "arop_2024_fr_pct": 15.9,
+    "arop_2024_de_pct": 15.5,
+    "housing_overburden_q1_fr_pct": 25.2,
+    "housing_overburden_q1_de_pct": 33.3
+   },
+   "unit": "PPS / percent",
+   "geography": "France vs Germany",
+   "sources": [
+    "S100",
+    "S102"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Q25's load-bearing half, resolved run 15. The claim 'France beats Germany at the floor today' is DEAD as a gross-income claim; the honest version: France's floor led by 13% as late as 2014, Germany caught up in the late 2010s while France stood still, and only France's cheaper housing keeps parity. Crossover predates the German survey break (not an artifact). Life-expectancy-by-income gaps are NOT comparable across the two countries (INSEE's 13-year gap uses 5% tails; the German RKI 8.6-year figure uses broad income bands - never print them side by side) [S115].",
+   "chartable": true
+  },
+  {
+   "id": "F098",
+   "statement": "Germany's bottom decile stagnated through the Hartz era and was repaired by the minimum wage, not by growth alone: real net household income of the bottom decile in 2021 stood AT ITS 1995 LEVEL while the top decile gained 58% and the average 35% (DIW/SOEP 2025); real gross hourly wages in the bottom wage decile fell more than 25% between 1995 and 2005, converging back only after 2013, driven by the 2015 statutory minimum wage and its increases.",
+   "values": {
+    "bottom_decile_real_income_2021_vs_1995_pct": 0,
+    "top_decile_gain_pct": 58,
+    "average_gain_pct": 35,
+    "bottom_wage_decile_fall_1995_2005_pct": -25
+   },
+   "unit": "percent",
+   "geography": "Germany",
+   "sources": [
+    "S101"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Two-edged and the thesis must keep both edges: (a) kills 'Germany shows growth alone lifts the bottom' - the Hartz-era bottom was squeezed, and the repair instrument was redistributive (minimum wage); (b) also kills complacency about the French floor - a Germany that squeezed its bottom for 20 years still caught up with a France that stood still on borrowed money (F097). Supports C19's two-curves frame: the floor needs growth AND design."
+  },
+  {
+   "id": "F099",
+   "statement": "The US floor is below the French floor even though the US median is far above: OECD IDD 2023 (consumption PPPs), median equivalised disposable income US $49,885 vs FR $38,752 (US +29%); derived P10 (median divided by the published P50/P10 ratio): US ~$18,270 vs FR ~$20,180 - the poorest tenth of Americans are roughly 10% POORER than the poorest tenth of the French. Germany's derived P10 ~$20,500.",
+   "values": {
+    "us_median_2023": 49885,
+    "fr_median_2023": 38752,
+    "us_p10_derived": 18270,
+    "fr_p10_derived": 20180
+   },
+   "unit": "USD PPP",
+   "geography": "US vs France",
+   "sources": [
+    "S102"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "notes": "The P10 levels are a DERIVATION (published median / published P50-P10 ratio, both high-confidence), not a published statistic - print the qualitative form ('the poorest tenth of Americans are poorer than the poorest tenth of the French'), not the dollar figures. Direction consistent with the LIS-based literature and with F054 (mortality gradient). Pairs with F076 (median gap ~a quarter) as the complete mean/median/floor picture of the US comparison."
+  },
+  {
+   "id": "F100",
+   "statement": "Decoupling speed, the honest numbers [Q31 resolved]: France's consumption-based CO2 fell 25.3% over 2005-2023 (-1.61%/yr) while real GDP grew 21.8% (+1.10%/yr) - absolute decoupling at ~-2.7%/yr intensity; in Vogel-Hickel's own 2013-19 window France achieved -1.5%/yr, almost exactly their 11-country average (1.6%/yr). Required rates: UNEP Emissions Gap 2024 says global GHG must fall 7.5%/yr for 1.5C and 4%/yr for 2C; Vogel-Hickel 2023: high-income countries' decoupling must accelerate ~10x by 2025 for 1.5C fair-shares; Hickel-Kallis 2020: without BECCS, global emissions must fall 6.8%/yr (1.5C) / 4%/yr (2C). France's own SNBC-3 requires ~-5%/yr to 2030; achieved: -6.8% in 2023 (one Paris-pace year), -1.8 to -3.0% in 2024 (vintage-dependent), ~-2% provisional 2025; the HCC says the 2024 pace must be multiplied by 2.3.",
+   "values": {
+    "fr_achieved_decoupling_2005_2023_pct_yr": -1.61,
+    "fr_gdp_growth_2005_2023_pct_yr": 1.1,
+    "unep_required_15C_pct_yr": -7.5,
+    "unep_required_2C_pct_yr": -4.0,
+    "snbc3_required_pct_yr": -5.0,
+    "achieved_2023_pct": -6.8,
+    "achieved_2024_pct": "-1.8 to -3.0"
+   },
+   "unit": "percent per year",
+   "geography": "France / global",
+   "sources": [
+    "S109",
+    "S110",
+    "S111"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "THE CONCESSION IS MANDATORY: France's observed record confirms the 'too slow' objection (one-fifth of the required 1.5C pace), it does not refute it. Never print the 2005-2023 record as an answer to the speed argument. GCP consumption series is CO2-only, excl. LULUCF and int'l bunkers; the all-GHG footprint (SDES) fell -1.7%/yr from 2010. The essay's answer must be comparative (F101): degrowth closes the gap even more slowly and burns the balance sheet.",
+   "chartable": true
+  },
+  {
+   "id": "F101",
+   "statement": "What contraction buys in emissions vs costs in debt: emissions respond asymmetrically to GDP (York 2012, >150 countries 1960-2008: +0.73% per 1% growth, only -0.43% per 1% decline - infrastructure keeps burning). The 2020 natural experiment: France GDP -7.4%, footprint -10.3%, full rebound in 2021 - the largest demand contraction in postwar history delivered exactly one year of the required 1.5C pace and did not persist. Fiscal side: with France's budget semi-elasticity of 0.63 (EU's highest) and debt ~113% of GDP, each year of -1% GDP adds ~+1.7pp of debt ratio (denominator + automatic deficit, before interest feedback). Degrowth's own literature concedes both points: Keysser-Lenzen's 1.5C degrowth scenarios still require renewables to expand 11-27-fold by 2050 (~3x the historical pace even in their most degrowth-heavy case); the France-calibrated EUROGREEN degrowth scenario turns GDP growth negative from 2035 and breaches the 3% deficit ceiling after 2040 'despite a wealth tax', because the denominator shrinks.",
+   "values": {
+    "york_growth_elasticity": 0.73,
+    "york_decline_elasticity": 0.43,
+    "france_2020_gdp_pct": -7.4,
+    "france_2020_footprint_pct": -10.3,
+    "debt_ratio_pp_per_year_of_minus1pct_gdp": 1.7,
+    "keysser_lenzen_renewables_expansion": "11-27x"
+   },
+   "unit": "mixed",
+   "geography": "France / global",
+   "sources": [
+    "S112"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "The +1.7pp/yr is a COMPUTATION from verified parameters (semi-elasticity 0.63, Mourre et al. 2019; debt ratio F002), not a published figure - print as 'roughly two points of debt ratio per year of mild contraction' or state the derivation. York's elasticities are global averages. EUROGREEN (D'Alessandro et al. 2020, Nature Sustainability) is the degrowth camp's own France model; its deficit finding is in the published paper."
+  },
+  {
+   "id": "F102",
+   "statement": "The domestic savings-to-state circuit, verified and shrinking: French insurers hold 9.8% of negotiable state debt (~EUR 260-275bn, Q1 2025) - down from 39.6% in 2000; life and mixed insurers' placements are ~21% sovereign bonds (54.5% of those French); through all intermediaries, households indirectly hold EUR 752bn of government bonds - 11% of their financial wealth (Tresor-Eco n.378: of every EUR 10 of household financial wealth, EUR 1 ends up in government bonds, mostly French). Age link: households 60+ are 48.7% of assurance-vie holders (median holder age 59; detention keeps rising past 60, uniquely among savings products); the last full survey of balances (CSA 2014) put 44% of the money with the 65+ alone. Counterweight: the circuit is SHRINKING - insurers' holdings fell EUR 75bn over 2019-2025 while non-residents' rose ~EUR 500bn; non-residents took EUR 112bn of the EUR 128bn of net issuance in 2025.",
+   "values": {
+    "insurer_share_of_state_debt_pct_2025": 9.8,
+    "insurer_share_2000_pct": 39.6,
+    "households_indirect_govt_bonds_bn_eur": 752,
+    "av_holders_60plus_pct": 48.7,
+    "balances_65plus_pct_2014": 44,
+    "nonresident_share_of_net_issuance_2025": "112/128"
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S113",
+    "S114"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "F078 loop-completion candidate, resolved run 15: the STRONG loop ('pensioners are the main holders of the funds that buy the state's bonds') is NOT printable - 48.7% of holders and a dated 44%-of-balances figure support 'disproportionately held by the old', not 'mainly'. The printable strengthening is the EUR 752bn indirect holding (high confidence, finance ministry's own look-through). The marginal buyer of French debt is now foreign - which is why F028 (54.6% non-resident) does the essay's work, and the circuit framing must stay 'shrinking domestic circuit', never 'closed loop'."
   }
  ],
  "comparables": [
@@ -2575,10 +3191,13 @@
   },
   {
    "id": "C14",
-   "claim": "CONSEQUENCE - The imposed adjustment is regressive: when consolidation is forced by markets or a program, it is fast, front-loaded, and falls on what can be cut by decree - transfers to the vulnerable, public investment, public wages - while the protected statuses that caused the drift resist longest. The young and the poor pay first (Greek precedent). Choosing the adjustment early, with composition control [F040], is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
-   "status": "hypothesis",
+   "claim": "CONSEQUENCE - The imposed adjustment runs the insider/outsider machine at creditor speed: the designed measures may even be progressive on paper (Greece's were, F085), but investment is cut first because it is politically easiest (the 'flagship adjustment variable', F087), the collapse creates a new poor faster than the safety net can catch them (anchored poverty 18->48% in four years, bottom-decile position -69%, F085), and the burden concentrates on the young and the newly unemployed while organized insiders and pensioners keep their relative place (F086). Choosing the adjustment early, with composition control (Sweden, F040), is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
+   "status": "supported",
    "supporting_facts": [
     "F040",
+    "F085",
+    "F086",
+    "F087",
     "F025",
     "F026"
    ],
@@ -2586,8 +3205,13 @@
    "counterarguments": [
     {
      "argument": "Chosen adjustments can be just as regressive; composition depends on who governs, not on timing.",
-     "status": "open",
-     "note": "Partially true - the answer is that timing determines the OPTION SET: an early adjustment can protect schools and hospitals (Sweden did, F040); a forced one cannot. Verify the Greek adjustment's distributional record [Q20]."
+     "status": "answered",
+     "note": "Timing determines the OPTION SET: Sweden's chosen adjustment protected schools and hospitals (-0.1/-0.2pp of GDP) while cutting transfers and subsidies [F040]; Greece's forced one cut investment by two thirds in two years and let anchored poverty go from 18% to 48% [F085][F087] - and even Greece's progressive-on-paper tax-benefit design could not protect the bottom once mass unemployment did the distributing. The IMF's own ex-post evaluation concedes the burden was not sufficiently spread [F087]."
+    },
+    {
+     "argument": "The Greek record shows pensioners were relatively protected even under creditors - so the essay cannot claim the forced version finally disciplines the transfer machine.",
+     "status": "answered",
+     "note": "Correct, and the thesis uses it: the forced adjustment does NOT break the gerontocratic machine [C25]; it runs the same machine faster against the young (elderly relative poverty FELL from 21.3% to 13.7% while young-adult poverty rose by half, F086). This is why 'the crisis will fix it' is not an answer and why the program must be written before the window opens."
     }
    ]
   },
@@ -2824,6 +3448,31 @@
      "note": "The serious version. Answer to develop [Q31]: (a) speed of decoupling is a POLICY variable (France's nuclear proves electricity can decarbonize 90%+); (b) degrowth does not resolve the budget constraint either - it redistributes a shrinking base while the debt stays nominal; (c) the political economy of voluntary decline has no democratic existence proof. Engage the numbers, not the punchline."
     }
    ]
+  },
+  {
+   "id": "C26",
+   "claim": "The lump-of-labor objection to the retirement-age lever is refuted by France's own history and the cross-country record: pushing the old out of work never created jobs for the young (1971-93 experiment, Gruber-Wise 12-country study, 2024 cross-section); the honest caveat is transitional leakage (~1/5 of fiscal gains) into unemployment/disability among seniors themselves, which is a design instruction (senior-employability policy), not a rebuttal.",
+   "supporting_facts": [
+    "F093",
+    "F094",
+    "F095"
+   ],
+   "contradicting_facts": [
+    "F096"
+   ],
+   "counterarguments": [
+    {
+     "argument": "Firm-level studies (Boeri et al. 2016 on Italy's Fornero reform) find short-run youth-hiring displacement within firms during recessions.",
+     "status": "answered",
+     "answer": "The firm-level evidence is split (Carta-D'Amuri-von Wachter, same reform, cleaner instrument, find the OPPOSITE: +10% older workers raised young employment 1.8%); no French study finds displacement from the 2010 reform; and the aggregate 12-country result is unambiguous. Recorded in F096."
+    },
+    {
+     "argument": "The 2010 French reform pushed part of each cohort into unemployment and disability at 60-62.",
+     "status": "answered",
+     "answer": "Conceded and absorbed as design: ~1/5 fiscal leakage without senior-employability policy; the program pairs the age lever with one (III.1). The substitution hits seniors, not the young - it does not rescue the lump-of-labor claim."
+    }
+   ],
+   "status": "supported"
   }
  ],
  "open_questions": [
@@ -2951,9 +3600,9 @@
   {
    "id": "Q20",
    "question": "Distributional record of forced adjustments (for C14): who actually paid in Greece 2010-2015 (and Portugal, Ireland)? Income-decile incidence of program cuts, youth unemployment and emigration effects, health outcomes. Needed to ground 'imposed = regressive' beyond assertion.",
-   "status": "open",
+   "status": "resolved",
    "priority": "high",
-   "note": " PRIORITY RAISED run 12: the essay's 'The choice' section states the regressive-incidence claim ('the poorest quarter pays fastest, the way they paid in Athens') - C14 is still a hypothesis; pin the Greek incidence data (youth unemployment >50%, emigration, distributional studies of the memoranda) or soften the sentence."
+   "note": "RESOLVED run 14. Peer-reviewed record (Matsaganis-Leventi 2014; Leventi-Matsaganis OECD 2016; Avram et al. EUROMOD): the DESIGNED Greek measures were broadly progressive; the collapse created a new poor (re-ranked bottom decile -69%; anchored poverty 18->48%); incidence fell on the young and newly unemployed; pensioners were relatively protected (elderly relative poverty fell by a third; pensions cut 10-12 times progressively). Facts F085-F087; C14 refined to 'supported'; the essay's 'poorest quarter pays fastest' line was corrected (it was wrong as written)."
   },
   {
    "id": "Q21",
@@ -2982,8 +3631,8 @@
   },
   {
    "id": "Q25",
-   "question": "Build the two-curves dashboard (C19): (a) bottom-quartile command over essentials - equivalized disposable income of Q1 in PPP, NET of housing and out-of-pocket health costs, 2000-2024, for France/Germany/US/Sweden/Denmark/Netherlands + poverty after transfers + life expectancy by income; (b) the 75% curve - median income plus technology consumer-surplus estimates (F062?). This dashboard settles Scenario A vs B (is France past the redistribution optimum, or is the floor fine and its financing broken?) and decides how the Germany example is used (F056?). Author instruction: follow the data wherever it lands.",
-   "status": "open",
+   "question": "Build the two-curves dashboard (C19): (a) bottom-quartile command over essentials - equivalized disposable income of Q1 in PPP, NET of housing and out-of-pocket health costs, 2000-2024, for France/Germany/US/Sweden/Denmark/Netherlands + poverty after transfers + life expectancy by income; (b) the 75% curve - median income plus technology consumer-surplus estimates (F062?). This dashboard settles Scenario A vs B (is France past the redistribution optimum, or is the floor fine and its financing broken?) and decides how the Germany example is used (F056?). Author instruction: follow the data wherever it lands. [RESOLVED run 15 for the load-bearing half: the Germany floor check landed AGAINST the France-wins hypothesis - see F097/F098; the US floor comparison pinned in F099. Residual (consumer-surplus half of the 75% curve) tracked via F062, low priority.]",
+   "status": "resolved",
    "priority": "high"
   },
   {
@@ -3019,8 +3668,8 @@
   },
   {
    "id": "Q31",
-   "question": "Steelman degrowth properly (C24): read the best versions (Parrique, Hickel, Keyßer-Lenzen scenarios) and answer their strongest argument - decoupling too slow for carbon budgets - with numbers (required decoupling rates vs observed French rates; what nuclear-powered electrification changes; what degrowth does and does not do to a 115%-debt balance sheet). The collapsible in the article must answer the SERIOUS version, not the punchline.",
-   "status": "open",
+   "question": "Steelman degrowth properly (C24): read the best versions (Parrique, Hickel, Keyßer-Lenzen scenarios) and answer their strongest argument - decoupling too slow for carbon budgets - with numbers (required decoupling rates vs observed French rates; what nuclear-powered electrification changes; what degrowth does and does not do to a 115%-debt balance sheet). The collapsible in the article must answer the SERIOUS version, not the punchline. [RESOLVED run 15: F100 (achieved vs required rates - the concession is mandatory) + F101 (contraction arithmetic: York asymmetry, 2020 experiment, Keysser-Lenzen renewables, EUROGREEN deficit breach). The collapsible now answers the steelmanned version.]",
+   "status": "resolved",
    "priority": "medium"
   },
   {
@@ -3039,8 +3688,15 @@
   {
    "id": "Q34",
    "question": "Pin the median-vs-median income comparison (F076/IV.16): median equivalized disposable household income, PPP, France vs US vs Germany, same year and dataset (LIS preferred, OECD IDD acceptable). Also check post-tax-and-transfer income including in-kind (health, education) if a credible series exists (e.g. Blanchet-Chancel-Gethin DINA for Europe vs US).",
+   "status": "resolved",
+   "priority": "medium",
+   "note": "RESOLVED run 14. OECD IDD 2023: median gap 22.3% vs mean gap 28.1% (same dataset, same PPPs); LIS 2022: 25.6%. Essay says 'roughly a quarter median to median'; F076 verified with vintage warning (31-32% in 2019-21) and both-directions caveats (in-kind transfers, US out-of-pocket health)."
+  },
+  {
+   "id": "Q35",
+   "question": "Pin France's exact country-level euro-support percentage in Standard Eurobarometer 103/104 (spring/autumn 2025, France factsheet annex). France is reported as the euro area's lowest-support member (F092); the exact number is missing. The essay currently quotes no euro-support number, so this blocks nothing.",
    "status": "open",
-   "priority": "medium"
+   "priority": "low"
   }
  ]
 }
