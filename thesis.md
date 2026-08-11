@@ -1,6 +1,6 @@
 # The Thesis (working spine)
 
-Status: **v1.1 — diagnosis settled; solution thesis drafted at spine level; `article.md` FROZEN.** Run 1 wrote essay prose before the solution half of the thesis existed — a protocol violation the author flagged. The draft is kept as a tone prototype only. No essay prose gets touched until Part II below stabilizes.
+Status: **v1.2 — diagnosis settled; solution thesis modeled and revised; `article.md` still FROZEN.** Run 3 built the growth-accounting model (`model.py`), which cut the headline target to honest size (C13 v2), causally grounded the ownership lever (C12 supported), corrected the demographic claim (C5), and opened the missing pillars (demography, housing) as explicit gaps. No essay prose gets touched until Part II stabilizes — it is close.
 
 Time horizon: **none imposed.** The author explicitly accepts a 20-30 year program. Feasibility is scored, never used as a filter; slow levers (education, capital accumulation) are first-class citizens precisely because the horizon allows them to compound.
 
@@ -20,18 +20,36 @@ France pays for today's comfort — the rich world's shortest working lives, ret
 
 The question this part answers: not "how does France avoid the wall" but **how does France become the growth powerhouse of Europe — the country that, by 2045-2050, has overtaken Germany in income per head and set the continent's pace.** The countdown (C7) supplies the *when-it-starts*; this part supplies the *what* and the *how much*.
 
-## The target, stated so it can be missed
+## The target, stated so it can be missed (v2 — model-disciplined)
 
 By 2045-2050 [C13]:
 
-- Potential growth sustained at **2.3-2.6%/year** for two decades, against a euro-area trend of ~1-1.2% — a relative compounding of ~+1.2pp/year.
-- **GDP per capita (PPP) above Germany's** — reversing today's ~10-point deficit — and highest among large EU economies.
-- Debt ratio below 90% of GDP and falling; double-A rating recovered.
-- R&D ≥ 3.5% of GDP; employment rate ≥ 75%; a national capital fund holding 50-100% of GDP.
+- Per-capita growth **roughly doubled**: from a ~0.8%/yr baseline to **1.3-1.6%/yr (central)**, 1.4-1.8%/yr (high) sustained across three decades — the fastest large economy in Europe throughout.
+- **GDP per capita (PPP) overtakes Germany around 2040-2045** (central; sensitive to assumptions — see model), standing ~5-9% above by 2050.
+- Debt ratio below 90% of GDP and falling; double-A recovered; R&D ≥ 3.5% of GDP; employment rate ≥ 75%; a national capital fund at 50-100% of GDP.
 
 The precedent that this is possible inside the euro: Germany itself, 2005-2019 — "sick man of Europe" to dominant economy in fifteen years, with no currency of its own to devalue. Relative decades happen; France has simply been on the losing side of the last two.
 
-**Status honesty:** C13 is a *scenario with stated assumptions*, not a forecast, until the growth-accounting model is built without double-counting [Q12]. The current stack — labor +0.3-0.4pp (10-15 years), capital deepening +0.2-0.3pp, innovation/TFP +0.3-0.5pp, education +0.3-0.5pp arriving after year 10 — is plausible but unmodeled. This is the single most attackable point of the whole thesis and the top research priority.
+**What the model killed (run 3, kept as a trophy of the method):** the original target of "2.3-2.6% GDP growth sustained for two decades" did not survive its own growth accounting. Once double-counting was forbidden — pensions have no GDP effect separate from the labor lever; labor gains net of composition; R&D and education capped jointly; level levers expiring on explicit windows — the honest central scenario is ~1.5-1.75% aggregate GDP at peak, ~2% only in the high scenario. The powerhouse claim survives in *relative* terms (nobody in big-Europe does better; Germany is overtaken) but not as an absolute miracle. The thesis is stronger for having cut its own headline number before a critic did.
+
+## The model (v1) — `model.py`, reproducible
+
+GDP per capita growth = productivity-per-hour growth + hours-per-capita growth. Levers enter as level effects phased over explicit windows. Parameters cite `facts.json`; assumptions are tagged A1-A10 in the script for future runs to attack.
+
+| Scenario | 2027-2035 | 2036-2045 | 2046-2055 | Overtakes Germany | FR/DE per capita, 2050 |
+|---|---|---|---|---|---|
+| Low (levers at 50%) | 1.0%/yr | 1.2%/yr | 1.0%/yr | not by 2055 | 0.97 |
+| **Central** | **1.3%/yr** | **1.6%/yr** | **1.3%/yr** | **2042** | **1.05** |
+| High (full + AI bonus) | 1.4%/yr | 1.8%/yr | 1.4%/yr | 2040 | 1.09 |
+
+Key calibrations: labor +5% level over 15y [F030][F031]; reallocation/simplification +2.5% level (one distortion cluster alone costs 3.4% of GDP [F039]); capital deepening +3% level over 20y [F016][F023]; R&D→TFP +4.5% level via the 0.13/0.17 OECD elasticities with a 50% absorption haircut [F037]; education +0.25pp/yr from 2039 (Hanushek-Woessmann halved [F034]); transition drag -0.25pp/yr during the consolidation years; France baseline 0.8%/yr per capita including the aging drag [F038]; Germany baseline 0.8%/yr; starting gap -10%.
+
+**Two structural findings the essay must own:**
+
+1. **Growth peaks in decade 2, then sags.** The big early levers (work, simplification) are *level* levers — they exhaust. Only innovation, education, and the demographic pillars sustain decade 3. The program is not a plateau; it is a relay race, and the baton passes around 2040 from "work more" to "know more."
+2. **The demographic window is real and closing** [F038]: fertility at 1.45 (central assumption) means the labor lever's ceiling erodes after 2045 and the active population shrinks from 2040. Family policy and skilled immigration are not social policy in this thesis; they are growth policy — and they are currently missing [Q16].
+
+Sensitivity honesty: the 2042 overtake assumes Germany at 0.8%/yr and a -10% starting gap. Germany at 1.0% and -13% pushes it toward 2050+. Pin both [Q18][Q02] and publish the grid.
 
 ## The five levers, quantified
 
@@ -67,9 +85,11 @@ This lever is the program's honesty test: any French growth plan that does not t
 
 ### Lever 5 — Ownership: the mindset is downstream of the balance sheet [C12]
 
-The program's deepest bet, stated falsifiably: **beliefs follow ownership, not lectures.** France's anti-capitalism is real (62% negative [F021]) but distributional — executives accept the system at 58%, workers reject it at 69% [F021]. The mechanism that moves a nation's economic beliefs is giving every citizen a visible, personal, growing stake in the economy's success: the auto-enrollment fund of Lever 2 puts a quarterly statement in every worker's pocket that makes "growth" mean *my money*. Complements: economic education in schools (part of the education package), employee shareholding expansion, and naming the trade publicly (the narrative half of the original T-B).
+The program's deepest bet, now causally grounded: **beliefs follow ownership, not lectures.** France's anti-capitalism is real (62% negative [F021]) but distributional — executives accept the system at 58%, workers reject it at 69% [F021]. And the mechanism is no longer speculative: randomly assigning people stock investments shifts their economic values durably toward markets, via familiarity and reduced distrust (field experiment, England [F035]); exogenously granting property titles moves squatters' beliefs 20% toward market values (Buenos Aires [F036]). Two methods, two asset classes, one direction. The auto-enrollment fund of Lever 2 puts a quarterly statement in every worker's pocket that makes "growth" mean *my money*. Remaining honest caveat: both studies are individual-scale; the national, decades-long extrapolation is an assumption stated openly.
 
-Open and decisive: the causal evidence that ownership changes attitudes at national scale is not yet gathered [Q15]. If it is weak, C12 downgrades to a complement and the program needs a different engine for political durability — this would be a major thesis revision.
+**The bootstrap, resolved (the chicken-and-egg was the real objection).** The fund that creates owners seems to require the reform that owners' beliefs currently block. Answer: sequencing by political capital, in three stages. *Stage 1 (pre-crisis, administratively boring):* build on what the French already accept — France has Europe's largest employee-shareholding base and the PER retirement plan is growing fast; default enrollment, employer matches, and opt-out design need decrees, not revolutions [to verify: employee-shareholding numbers]. *Stage 2 (the crisis window [C7]):* the big pieces pass the way Sweden's did after 1991 — with the plan pre-written (Sweden's Lindbeck Commission is the model: 113 proposals ready when the money ran out [X01, verify]). *Stage 3 (the fund defends itself):* within a decade, tens of millions of visible accounts convert diffuse future winners into identifiable current winners — reversing the status-quo bias that kills reforms (Fernandez-Rodrik 1991, to source). The deep design principle: **the program is sequenced by political capital, not by economic logic — start with what builds constituencies, end with what spends them.**
+
+**The wrapper: sovereignty, not enrichment.** Fifty years of selling reform as "what Brussels/markets/ratings demand" produced a nation that experiences its own survival as humiliation. But the same France that rejects "liberalization" built the nuclear fleet, the TGV, Airbus and Ariane — collective effort framed as national project. The program should be presented as what it factually is: a thirty-year plan for French power — energy-compute sovereignty (Lever 3), full employment of experience (Lever 1), a nation of owners (Levers 2/5), the school reconquest (education) — *dirigiste in form, liberal in content*. The mindset is not only an obstacle; it contains its own lever: the French trust the state [Algan-Cahuc distrust literature, to source]. Let the state pivot from insurer-of-the-present to investor-in-the-future, and the French model's own political grammar carries the reform. Guardrails recorded (the wrapper must not eat the content): arms-length fund governance [Q19 — France's own FRR was raided; document it], sunset clauses, published evaluations.
 
 ## Financing coherence (no magic money)
 
@@ -81,12 +101,21 @@ Sources over 15 years: pension-machine recovery (up to ~EUR 115bn/yr envelope, r
 - **Decade 2 (+10 → +20y): the harvest begins.** EPR2 units come online (2038+) [F032]; reformed-school cohorts enter work [F034]; the capital fund passes ~30-40% of GDP and domestic equity deepens; R&D at 3%+ starts paying TFP; debt below 100% and falling; rating recovered.
 - **Decade 3 (+20 → +30y): compounding dominance.** All levers mature simultaneously; France's relative gain vs the euro area compounds past +25-30%; overtake point vs Germany per capita [C13]; the capitalization fund reaches 50-100% of GDP and partially pre-funds pensions, closing the loop that started the crisis.
 
+## Known gaps (deliberate, queued — not hidden)
+
+- **Demography as policy** [Q16]: family policy and skilled immigration are absent from the five levers, yet the model shows decade 3 sags without them [F038]. This is the program's next pillar to build or explicitly reject.
+- **Housing and mobility** [Q17]: housing costs constrain labor mobility, family formation, and disposable income; no lever addresses them yet.
+- **The EU layer**: capital-markets union, single-market deepening — deliberately out of scope (France-first thesis) but the essay must say why.
+- **The left's counter-program, steelmanned**: "keep the hours, tax wealth instead" deserves a full engagement (wealth-tax yields, Zucman debate) rather than a strawman — future run.
+- **Gerontocracy** (recorded as counterargument on C11): by 2035 the median voter is near 55; the program's losers may hold the majority. Partial answers exist (grandfathering, ownership as compensating asset, crisis dynamics) but this deserves its own section — it is the darkest objection to the whole thesis.
+
 ## What would falsify the solution thesis
 
-- The growth-accounting model [Q12] shows the levers double-count and the honest stack yields <1.8% potential → C13 dies; the thesis retreats from "powerhouse" to "escape the wall."
-- Ownership-attitude evidence [Q15] comes back weak → C12 downgrades; program durability rests on crisis dynamics alone — much weaker.
+- ~~The growth-accounting model shows the honest stack yields far less than claimed~~ → **it did** (run 3): C13 was cut from 2.3-2.6% to ~1.5-2.0% aggregate and rewritten. The remaining falsifier: if pinning the comparison parameters [Q18] pushes the overtake past 2055 even in the high scenario, the "powerhouse" frame dies and the thesis retreats to "escape the wall."
+- ~~Ownership-attitude evidence comes back weak~~ → it came back strong at the mechanism level [F035][F036]; the remaining falsifier is scale: if macro-historical cases (right-to-buy, Sweden PPM) show individual effects wash out nationally, C12 downgrades.
 - EPR2 slips the way Flamanville did (years, not months) → Lever 3's window closes; the AI-energy niche gets taken by US/Gulf compute.
 - A neutral decomposition shows the pension envelope [F018] is smaller than it looks after netting taxes on pensions [Q07] → the financing coherence breaks and the program must shrink.
+- Fertility stays on the low branch (1.2) of INSEE's projections [F038] → the labor lever's ceiling shrinks materially after 2045; the program needs the Q16 pillar to compensate or the target recedes.
 
 ---
 
@@ -110,15 +139,15 @@ The load-bearing arithmetic is the debt-vs-growth contrast [F027]: France's debt
 | C2 | Not a revenue problem: a spending-composition and efficiency problem (pensions = 2/3 of the gap with peers) | supported | Needs net social expenditure check [Q07] |
 | C3 | France is in the middle-technology trap; innovation regime change required | supported | The CIR puzzle unexplained [Q05] |
 | C4 | The mindset caps reform scale and makes reforms reversible (softened, falsifiable form) | hypothesis | Descriptive half verified [F021]; causal half still open — attitudes may be symptom, not constraint [F020] |
-| C5 | Turnaround is plausible: France's latent assets are real and rare | hypothesis | "Latent assets that stay latent are not assets" — needs activation mechanism |
+| C5 | Turnaround is plausible: France's latent assets are real and rare — but the demographic one is expiring [F038] | hypothesis | "Latent assets that stay latent are not assets" — needs activation mechanism; demographic claim corrected run 3 |
 | C6 | Low labor input is policy-induced, hence reversible — not pure cultural preference | hypothesis | Germany's wedge is HIGHER than France's [F015] — claim restated around effective incentives at the margins of working life (retirement rules, entry age, marginal wedges near the SMIC), not the headline wedge |
 | C7 | Debt-financed growth has hit its arithmetic limit; a forced adjustment is coming — chosen or imposed | supported | "Crying wolf" objection managed via reframed hook (markers, not a naked date); Japan objection answered [F028]; rates eased in 2025 [F029] — keep honest |
 | C8 | SOLUTION Work: +3-7% GDP from German/Nordic labor quantity; retirement age = biggest lever | supported | Political reversibility (2023 reform suspended) — answered only via C12 |
 | C9 | SOLUTION Capital: redirect the EUR 6.6tn savings pool via auto-enrollment capitalization + production-tax normalization | supported | Sequencing: state must not lose its captive debt buyer before stabilization; scheme design [Q13] |
 | C10 | SOLUTION Frontier: energy-intensive intelligence (nuclear + AI + R&D to 3.5%) | hypothesis | EPR2 delivery risk (+40% pre-construction [F032]); "hosting is low-margin" objection open [Q14] |
 | C11 | SOLUTION State: the pension machine (4pp GDP vs Germany) is the war chest that funds everything else | supported | "Pension cuts are recessionary" open; political holdability rests on C12 + C7 |
-| C12 | SOLUTION Mindset: beliefs follow ownership — universal capital ownership is the engine of political durability | hypothesis | Causal evidence at national scale not yet gathered [Q15] — decisive for the whole program |
-| C13 | TARGET: potential growth 2.3-2.6% for two decades → overtake Germany per capita by 2045-2050 | hypothesis | Double-counting risk — needs the growth-accounting model [Q12]; scenario, never forecast, until then |
+| C12 | SOLUTION Mindset: beliefs follow ownership — universal capital ownership is the engine of political durability | supported | Causal mechanism established [F035][F036]; national-scale extrapolation stated as assumption; bootstrap resolved via sequencing |
+| C13 | TARGET (v2): per-capita growth doubled (1.3-1.6% central), overtake Germany ~2040-2045, fastest large economy in Europe | supported | Overtake date sensitive to Germany baseline and starting gap [Q18]; decade-3 sag without the Q16 pillar |
 
 ## Counterarguments the thesis must beat (master list)
 

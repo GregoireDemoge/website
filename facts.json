@@ -199,6 +199,41 @@
       "url": "https://tech-insider.org/fr/france-109-milliards-data-centers-ia-campus-bruyeres-2026/",
       "type": "press_for_current_events",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S027",
+      "name": "Margalit & Shayo (2021), 'How Markets Shape Values and Political Preferences: A Field Experiment', American Journal of Political Science 65(2), 473-492",
+      "url": "https://doi.org/10.1111/ajps.12517",
+      "type": "peer_reviewed",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S028",
+      "name": "Di Tella, Galiani & Schargrodsky (2007), 'The Formation of Beliefs: Evidence from the Allocation of Land Titles to Squatters', Quarterly Journal of Economics 122(1), 209-241",
+      "url": "https://www.hbs.edu/ris/Publication%20Files/The%20Formation%20of%20Beliefs_dd77b271-cb29-448e-9d4c-79f34363e971.pdf",
+      "type": "peer_reviewed",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S029",
+      "name": "Guellec & van Pottelsberghe (2001), 'R&D and Productivity Growth', OECD Economic Studies - panel of 16 OECD countries 1980-98",
+      "url": "https://doi.org/10.1787/eco_studies-v2001-art12-en",
+      "type": "peer_reviewed",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S030",
+      "name": "INSEE - Projections de population 2026 pour la France (horizon 2070), incl. active-population projections",
+      "url": "https://www.insee.fr/fr/statistiques/9004289?sommaire=8991068",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S031",
+      "name": "Garicano, Lelarge & Van Reenen (2016), 'Firm Size Distortions and the Productivity Distribution: Evidence from France', American Economic Review 106(11), 3439-79",
+      "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20130232",
+      "type": "peer_reviewed",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -600,6 +635,62 @@
       "confidence": "medium",
       "status": "unverified",
       "notes": "BACKLOG: source the OECD/Hanushek-Woessmann paper properly and check how contested the elasticity is (it is debated; record the range, not just the headline). Essential to the 30-year program: education is the slowest lever and therefore must start first."
+    },
+    {
+      "id": "F035",
+      "statement": "Causal evidence that market participation changes values: in a field experiment (2,700 adults, England), randomly assigned stock investment (GBP 50, 6 weeks) shifted socio-economic values rightward by 9-12% of the Labour-Conservative gap - on merit, personal responsibility, redistribution - with effects persisting a year later, driven by familiarity with and reduced distrust of markets.",
+      "values": { "shift_pct_of_partisan_gap": "9-12", "persistence": "1 year+" },
+      "unit": "experimental effect size",
+      "geography": "England (field experiment)",
+      "sources": ["S027"],
+      "confidence": "high",
+      "status": "verified",
+      "notes": "Margalit & Shayo, AJPS 2021. The core causal anchor for C12. Honest limits: individual-level, GBP 50 stakes, 6-week exposure; national-scale, own-money, decade-long effects are an extrapolation - but the DIRECTION and MECHANISM (familiarity, distrust reduction) are exactly what C12 claims."
+    },
+    {
+      "id": "F036",
+      "statement": "Second causal anchor: squatters in Buenos Aires who received land titles through an exogenous allocation developed markedly more pro-market beliefs (individualism, materialism, merit) - a 'market beliefs' index 20% higher than untitled neighbors living otherwise identical lives, converging to the general population's beliefs.",
+      "values": { "market_beliefs_index_gap_pct": 20 },
+      "unit": "natural-experiment effect size",
+      "geography": "Argentina (natural experiment)",
+      "sources": ["S028"],
+      "confidence": "high",
+      "status": "verified",
+      "notes": "Di Tella, Galiani & Schargrodsky, QJE 2007. Property ownership, not just financial assets - complements F035: two different asset classes, two methods, same direction. Beliefs follow ownership."
+    },
+    {
+      "id": "F037",
+      "statement": "Long-run elasticity of multifactor productivity to R&D (OECD panel, 16 countries, 1980-98): +1% business R&D -> +0.13% MFP; +1% public R&D -> +0.17%; +1% foreign R&D -> ~+0.45%. Effects are larger in countries more intensive in business R&D.",
+      "values": { "berd_elasticity": 0.13, "public_rnd_elasticity": 0.17, "foreign_rnd_elasticity": 0.45 },
+      "unit": "elasticity",
+      "geography": "OECD panel",
+      "sources": ["S029"],
+      "confidence": "medium",
+      "status": "verified",
+      "notes": "The model's TFP calibration [model.py, A6]. Caveats: 2001 study, averages across countries/time; France's low business-R&D intensity means the marginal effect could be below average initially. The foreign-R&D elasticity is a reminder that ABSORPTION (diffusion) matters as much as domestic spending - supports adding a diffusion component to Lever 3."
+    },
+    {
+      "id": "F038",
+      "statement": "France's demographic advantage is expiring: fertility fell to 1.56 (2025) and INSEE's central 2026 projection assumes 1.45 from 2028. Population peaks at 69.8M in 2037 then declines to 65.9M by 2070 (central); the ACTIVE population peaks around 2040 then falls; the 20-64 share drops from 55.3% (2026) to 54.0% (2050) and 51.7% (2070); the old-age dependency ratio rises from 40 (2026) to 62 (2070). Central migration assumption: +150k/year.",
+      "values": { "tfr_2025": 1.56, "tfr_central_2028": 1.45, "pop_peak_year": 2037, "pop_2070_mn": 65.9, "share_20_64_2026_pct": 55.3, "share_20_64_2050_pct": 54.0, "dependency_2026": 40, "dependency_2070": 62 },
+      "unit": "mixed",
+      "geography": "France",
+      "sources": ["S030"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "CORRECTS C5: 'France has better demographics than Germany/Italy' is true of today's STOCK, not tomorrow's FLOW - the fertility collapse (2.0 in 2010 -> 1.45 assumed) erodes the advantage from the 2040s. Consequences: (a) the labor lever's ceiling shrinks after 2045; (b) family policy and skilled immigration become GROWTH policy, currently absent from the program [Q16]; (c) aging adds a slow fiscal shock on top of the debt (C7)."
+    },
+    {
+      "id": "F039",
+      "statement": "A single cluster of French size-contingent regulations (labor laws binding at 50 employees) acts as a 2.3% implicit tax on labor and costs ~3.4% of GDP in welfare under observed French wage rigidity (1.3% if wages were fully flexible). Main losers: workers; main winners: small firms staying small.",
+      "values": { "implicit_labor_tax_pct": 2.3, "welfare_cost_pct_gdp_rigid": 3.4, "welfare_cost_pct_gdp_flexible": 1.3 },
+      "unit": "% of GDP",
+      "geography": "France",
+      "sources": ["S031"],
+      "confidence": "high",
+      "status": "verified",
+      "notes": "Garicano-Lelarge-Van Reenen, AER 2016 (data 1995-2007; thresholds partially softened since - check post-2019 PACTE reforms before quoting as current). Anchors the reallocation lever (L2 in model.py): if ONE distortion cluster costs 3.4%, a broad simplification agenda claiming +2.5% of GDP level is conservative in spirit, though the essay must not sum distortion studies naively."
     }
   ],
   "comparables": [
@@ -738,12 +829,13 @@
     },
     {
       "id": "C5",
-      "claim": "A French growth turnaround is plausible because France holds latent assets most peers lack: cheap low-carbon nuclear power, better demographics than Germany or Italy, a deep pool of household savings, world-class engineering talent, and demonstrated FDI attractiveness.",
+      "claim": "A French growth turnaround is plausible because France holds latent assets most peers lack: cheap low-carbon nuclear power, a still-favorable (but expiring) demographic position, a deep pool of household savings, world-class engineering talent, and demonstrated FDI attractiveness.",
       "status": "hypothesis",
       "supporting_facts": ["F017", "F019", "F023"],
-      "contradicting_facts": [],
+      "contradicting_facts": ["F038"],
       "counterarguments": [
-        { "argument": "Assets that stay latent are not assets; France has had them for decades without growth.", "status": "open", "note": "The essay must explain the activation mechanism, not just list endowments." }
+        { "argument": "Assets that stay latent are not assets; France has had them for decades without growth.", "status": "open", "note": "The essay must explain the activation mechanism, not just list endowments." },
+        { "argument": "The demographic asset is expiring: fertility 1.56 -> 1.45 assumed, active population declining after 2040 (F038).", "status": "answered", "note": "CONCEDED and integrated (run 3): the claim is corrected from 'better demographics' to 'a closing demographic window'. This strengthens urgency and adds family policy / skilled immigration to the program's open gaps [Q16]." }
       ]
     },
     {
@@ -811,28 +903,31 @@
       "contradicting_facts": [],
       "counterarguments": [
         { "argument": "Pension cuts are recessionary: retirees consume locally.", "status": "open", "note": "Answer via composition and phasing: the program shifts spending from transfers to investment gradually; and the labor lever (C8) generates +EUR 38bn of revenue that reduces the required cut. Model properly in [Q12]." },
-        { "argument": "This is the exact reform France just proved it cannot hold (2023 reform suspended 2025).", "status": "open", "note": "The honest answer is C12 plus crisis dynamics (C7): the program exists for the moment the countdown forces the choice. Sweden passed its NDC pension reform AFTER its 1991 crisis, with cross-party consensus." }
+        { "argument": "This is the exact reform France just proved it cannot hold (2023 reform suspended 2025).", "status": "open", "note": "The honest answer is C12 plus crisis dynamics (C7): the program exists for the moment the countdown forces the choice. Sweden passed its NDC pension reform AFTER its 1991 crisis, with cross-party consensus." },
+        { "argument": "Gerontocracy: by 2035 the French median voter will be near or past 55 (F038 aging); a program financed by the pension machine is democratically impossible - the losers hold the majority.", "status": "open", "note": "The darkest objection to the entire program, added run 3. Partial answers to develop: (a) grandfathering current retirees while reforming flows splits the losing coalition; (b) universal ownership (C12) gives retirees-to-be a compensating asset; (c) retirees' own children carry the debt - the intergenerational frame must be made personal; (d) crisis dynamics override median-voter statics (Sweden). Needs real thought, possibly its own essay section." }
       ]
     },
     {
       "id": "C12",
       "claim": "SOLUTION - Mindset: beliefs follow ownership, not lectures. The mechanism that flips French anti-capitalism (F021) is not rhetoric but universal capital ownership: auto-enrollment makes every French worker a shareholder with a visible account; the Odoxa data already shows acceptance of capitalism tracks having a stake (executives 58% positive vs workers 31%). The mindset is downstream of the capital reversal (C9) - which is why the program can work in the country that today rejects it.",
-      "status": "hypothesis",
-      "supporting_facts": ["F021", "F023"],
+      "status": "supported",
+      "supporting_facts": ["F021", "F023", "F035", "F036"],
       "contradicting_facts": [],
       "counterarguments": [
-        { "argument": "No causal evidence that ownership changes economic attitudes at national scale.", "status": "open", "note": "Find the literature: UK Thatcher-era privatization/right-to-buy studies, Sweden post-1990s attitudes, 401(k) effects on US attitudes, employee-shareholding studies. If the evidence is weak, C12 downgrades to 'plausible complement', not mechanism [new research task]." }
+        { "argument": "No causal evidence that ownership changes economic attitudes at national scale.", "status": "answered", "note": "ANSWERED at the mechanism level (run 3): two causal studies, two methods, two asset classes - Margalit-Shayo 2021 (randomized stock investment -> durable rightward shift in economic values, via reduced distrust of markets) [F035] and Di Tella et al. 2007 (exogenous land titles -> market-beliefs index +20%) [F036]. Remaining honest caveat: both are individual-scale; the national-scale, decades-long extrapolation is an assumption the essay must state, not hide. Macro-historical cases (UK right-to-buy, Sweden PPM) remain worth adding as corroboration." },
+        { "argument": "Chicken-and-egg: the fund that creates owners requires the reform that owners' beliefs currently block.", "status": "answered", "note": "Resolved via sequencing (thesis Part II, bootstrap section): stage 1 builds on APPROVED existing bases (employee shareholding, PER auto-enrollment defaults - administratively boring, politically invisible); stage 2 uses the crisis window (C7) for the big pieces, Sweden-style; stage 3 the fund itself becomes the protecting constituency. Theoretical anchor: Fernandez-Rodrik (1991) status-quo bias - the fund converts diffuse future winners into identifiable current winners [source to add]." }
       ]
     },
     {
       "id": "C13",
-      "claim": "TARGET - The powerhouse scenario: stacking the levers plausibly takes French potential growth from ~1.1% to ~2.3-2.6%/year sustained for two decades (labor +0.3-0.4pp for 10-15y; capital deepening +0.2-0.3pp; innovation/TFP +0.3-0.5pp; education +0.3-0.5pp arriving after year 10). Against a euro-area trend of ~1-1.2%, France compounds ~+1.2pp/year relative: by 2045-2050 it overtakes Germany in GDP per capita and becomes the largest growth pole in Europe. That is the 'declassement' reversed - the deculottee, quantified.",
-      "status": "hypothesis",
-      "supporting_facts": ["F030", "F031", "F009", "F016", "F023", "F032", "F033", "F034"],
+      "claim": "TARGET (v2, model-disciplined) - The powerhouse scenario: the program roughly DOUBLES France's per-capita growth pace - from a ~0.8%/yr baseline to ~1.3-1.6%/yr (central) or ~1.4-1.8%/yr (high, with the AI/energy bonus) across 2027-2055, per the growth-accounting model (model.py). Against a German per-capita baseline of ~0.8%/yr and a starting gap of ~10%, France overtakes Germany in GDP per capita around 2040-2045 and stands ~5-9% above it by 2050 - the fastest-growing large economy in Europe for two decades. Aggregate GDP growth peaks around 1.7-2.0% (central-high), NOT the 2.3-2.6% originally hypothesized: that figure was the high scenario dressed as central, and the model cut it down.",
+      "status": "supported",
+      "supporting_facts": ["F030", "F031", "F009", "F016", "F023", "F032", "F033", "F034", "F037", "F038", "F039"],
       "contradicting_facts": [],
       "counterarguments": [
-        { "argument": "Adding lever effects double-counts (the same GDP gain claimed by labor and fiscal channels); level effects are being dressed as permanent growth effects.", "status": "open", "note": "The central technical risk of the whole thesis. Requires an explicit growth-accounting model with sourced elasticities and no double-counting [Q12]. Until then C13 stays hypothesis and the essay presents it as a scenario with stated assumptions, never as a forecast." },
-        { "argument": "Every country claims it will out-grow its neighbors; general-equilibrium effects (wages, exchange-rate-like adjustments within the euro) erode relative gains.", "status": "open", "note": "Fair - though within a currency union, a Germany-style decade of outperformance (2005-2019) shows large persistent relative gains are possible. Use Germany itself as the existence proof." }
+        { "argument": "Adding lever effects double-counts; level effects are dressed as permanent growth effects.", "status": "answered", "note": "ANSWERED structurally (run 3): model.py enforces the rules - pensions have no separate GDP effect (their effect IS the labor lever), labor gains are net of composition, R&D and education are jointly capped, level levers expire on explicit windows. Result: growth PEAKS in decade 2 and falls back in decade 3 as level levers exhaust - an honest structural finding the essay must own: only innovation, education, and the missing demographic pillars (Q16) sustain the third decade." },
+        { "argument": "The overtake date is an artifact of assumptions about Germany (0.8%/yr) and the starting gap (-10%).", "status": "open", "note": "True - sensitivity: with Germany at 1.0%/yr and a -13% starting gap, central overtake slips toward 2050+. Pin both parameters via EC Ageing Report and one PPP dataset [Q02][Q18] and publish the sensitivity, not just the central date." },
+        { "argument": "Every country claims it will out-grow its neighbors; general-equilibrium effects erode relative gains.", "status": "open", "note": "Partial answer: the levers are absolute supply-side levers (hours, TFP, capital), not beggar-thy-neighbor wage compression; Germany 2005-2019 proves persistent relative gains inside the euro are possible. The essay should also not confuse ranking with welfare - the deculottee is the motivational frame, not the welfare criterion." }
       ]
     }
   ],
@@ -908,8 +1003,9 @@
     {
       "id": "Q12",
       "question": "Build the growth-accounting model behind C13 with sourced elasticities and NO double-counting: (a) labor levers as level effects phased over 10-15y (F030/F031); (b) capital deepening from the savings reversal and production-tax cut; (c) R&D-to-TFP elasticity (source: Guellec/OECD, Bloom-Jones-Van Reenen); (d) education arriving with a 10+ year lag (F034); (e) fiscal drag from the C11 consolidation netted OUT. Output: one assumptions table the essay can print and a reader can attack.",
-      "status": "open",
-      "priority": "high"
+      "status": "partially_resolved",
+      "priority": "high",
+      "resolution": "2026-08-11 (run 3): model.py v1 built and run; C13 rewritten to its outputs (central per-capita 1.3-1.6%/yr, overtake ~2042, aggregate GDP ~1.7-2.0% peak - NOT 2.3-2.6%). Remaining: pin Germany baseline and starting gap [Q18], firm up baseline French potential (A1-A2) against Banque de France/EC estimates, publish full sensitivity table, stress the R&D elasticity (2001 vintage) against newer estimates."
     },
     {
       "id": "Q13",
@@ -926,6 +1022,31 @@
     {
       "id": "Q15",
       "question": "Evidence for the ownership-changes-beliefs mechanism (C12): UK right-to-buy and privatization-era attitude studies, 401(k)/equity-exposure effects on US policy preferences, employee shareholding literature, Sweden pre/post-1990s reform attitudes. If weak, C12 downgrades and the program needs a different mindset mechanism.",
+      "status": "resolved",
+      "priority": "high",
+      "resolution": "2026-08-11 (run 3): mechanism causally established twice - Margalit-Shayo AJPS 2021 [F035] and Di Tella-Galiani-Schargrodsky QJE 2007 [F036]. C12 upgraded to supported, with the scale-extrapolation caveat recorded. Macro-historical corroboration (right-to-buy, Sweden PPM) remains a nice-to-have."
+    },
+    {
+      "id": "Q16",
+      "question": "The missing demographic pillar: given the fertility collapse (F038), what do family policy and skilled immigration contribute as GROWTH levers on a 30-year horizon? Evidence on pro-natal policy effectiveness (weak per most literature - check), on selective immigration systems (Canada/Australia points systems), and on France's current skilled-migration performance (passeport talent take-up). Without this pillar, decade 3 of the program sags (model.py shows it).",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q17",
+      "question": "The missing housing/mobility pillar: French housing costs and zoning constrain labor mobility, family size, and disposable income. What does housing-supply reform contribute to the program? (UK/California YIMBY literature; French ZAN constraints; construction as the bottleneck for both natality and labor reallocation.)",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q18",
+      "question": "Pin the model's comparison parameters: Germany and euro-area per-capita potential growth to 2055 (EC Ageing Report 2024), and the France-Germany starting gap on ONE PPP dataset (ties into Q02). The overtake year in C13 is sensitive to both; publish the sensitivity grid.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q19",
+      "question": "Fund governance design: how does the national capitalization fund stay arms-length from politics (no Livret-A-style directed lending, no bailout raids)? Comparables: Sweden AP funds' governance, Norway GPFG rules, Australia's APRA supervision, France's own FRR history (created 1999, raided/redirected - a cautionary domestic precedent to document). Also: fiduciary duty vs 'fund French firms' tension - how much home bias is defensible?",
       "status": "open",
       "priority": "high"
     }

@@ -24,6 +24,7 @@ The thesis must be a **vision**, not a list of politically safe tweaks. The auth
 | `thesis.md` | The argumentative spine: the central thesis, its claims, their evidence, the counterarguments | Logic lives here. If `thesis.md` is incoherent, fixing it takes priority over everything else. |
 | `article.md` | The copy itself — the essay the reader will see | Prose lives here. It is the narrative rendering of `thesis.md`, never a source of new claims. **Gate rule (added run 2 after a violation): essay prose may only be written or extended for parts whose spine is marked settled/stable in `thesis.md`. Spine first, prose second — always.** |
 | `journal.md` | The logbook | Append one entry per run. Newest entry on top. |
+| `model.py` | The growth-accounting model behind the target claim (C13) | Pure Python, no dependencies; `python3 model.py` regenerates the scenario table in `thesis.md`. Change parameters only with a sourced fact or an explicit assumption tag, and update the table in `thesis.md` in the same run. |
 
 Everything in the repo is in English.
 

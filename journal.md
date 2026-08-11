@@ -4,6 +4,35 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 3 — 2026-08-11 — The deep session: the model cut the target down, and the thesis is stronger for it
+
+**Author directive.** Think as deeply as possible. Delivered: the growth-accounting model was actually built and run, the ownership mechanism was causally grounded, the demographic claim was corrected against INSEE projections, and three structural insights were added to the spine. This entry records what changed and why.
+
+**1. The model (`model.py`, new file) — and the honest downgrade of C13.**
+Built the Q12 growth-accounting model: per-capita growth = productivity/hour + hours/capita; levers as level effects on explicit windows; double-counting forbidden by construction (pensions have no GDP effect separate from labor; labor net of composition; R&D+education jointly capped; level levers expire). Results (central): per-capita growth 1.3-1.6%/yr vs 0.8 baseline, Germany overtaken ~2042, FR/DE per capita 1.05 in 2050; aggregate GDP peaks ~1.5-1.75%, ~2.0% only in the high scenario. **The original "2.3-2.6% sustained" was the high scenario dressed as central — C13 rewritten (v2) to the model's numbers.** Structural finding: growth peaks in decade 2 and sags in decade 3 as level levers exhaust — only innovation, education, and demographic pillars carry the third decade. The relay-race framing enters the thesis.
+
+**2. C12 (ownership → beliefs): hypothesis → supported.**
+Two causal anchors found and verified: Margalit-Shayo (AJPS 2021) — randomized stock investment shifts economic values durably rightward, 9-12% of the partisan gap, via reduced distrust [F035]; Di Tella-Galiani-Schargrodsky (QJE 2007) — exogenous land titles move squatters' market-beliefs index +20% [F036]. Scale extrapolation stays a stated assumption. The chicken-and-egg objection was also resolved in the spine: sequencing by political capital (pre-crisis seeds via employee shareholding/PER defaults → crisis window for the big pieces, Lindbeck-style → the fund becomes its own constituency; Fernandez-Rodrik as theoretical anchor, to source).
+
+**3. C5 corrected: the demographic asset is expiring.**
+INSEE 2026 projections [F038]: fertility 1.56 → 1.45 assumed from 2028; active population declines from 2040; dependency 40 → 62 by 2070. "France has better demographics than Germany" is true of the stock, not the flow. Consequences integrated: urgency up, labor-lever ceiling eroding after 2045, and TWO new program gaps opened honestly — family policy/skilled immigration [Q16] and housing/mobility [Q17] — plus the model-parameter task [Q18] and fund governance [Q19, incl. France's own raided FRR as cautionary precedent].
+
+**4. New verified anchors.** GLVR (AER 2016): the 50-employee regulation cluster alone costs 3.4% of GDP in welfare [F039] — the reallocation lever is conservative. Guellec-van Pottelsberghe elasticities (0.13 business / 0.17 public R&D → MFP) [F037] now calibrate the TFP lever.
+
+**5. The wrapper insight (into the spine).** The program is dirigiste in form, liberal in content: sell it as a thirty-year plan for French power (energy-compute sovereignty, full employment of experience, a nation of owners, the school reconquest), not as "liberalization". The mindset contains its own lever — statist trust — if the state pivots from insurer-of-the-present to investor-in-the-future. Guardrails recorded so the wrapper doesn't eat the content.
+
+**6. Darkest objection added (C11): gerontocracy.** By 2035 the median voter nears 55; the program's losers may be the majority. Partial answers recorded (grandfathering, ownership as compensating asset, crisis dynamics); needs its own treatment.
+
+**Next run should attack, in order:**
+
+1. [Q18] Pin Germany/EA baselines (EC Ageing Report) and the starting gap [Q02] — the overtake date depends on them; publish the sensitivity grid.
+2. [Q16] Build or reject the demography pillar (family policy effectiveness, points-based immigration evidence).
+3. Verify the Sweden X01 numbers and the Lindbeck Commission story; source Fernandez-Rodrik 1991 and Algan-Cahuc; verify F034 (Hanushek-Woessmann) and the employee-shareholding base.
+4. [Q19] Fund governance: document the FRR raid; AP7/GPFG/superannuation governance comparison.
+5. Then: declare Part II stable or not; if stable, unfreeze `article.md` and rewrite the essay end-to-end against the full spine.
+
+---
+
 ## Run 2 — 2026-08-11 — Course correction + the solution thesis, quantified
 
 **Author input (two directives).** (1) No time constraint: a 20-30 year program is acceptable — slow levers become first-class. (2) Process critique, accepted: run 1 wrote the essay before the solution half of the thesis existed. Consequences drawn: `article.md` is FROZEN as a tone prototype; a gate rule was added to `AGENTS.md` (prose only for spine sections marked stable); this run worked exclusively on the spine. The ambition was also raised explicitly: not "avoid the wall" but "become Europe's growth powerhouse" — outgrow everyone, durably.
