@@ -532,6 +532,69 @@
    "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states",
    "type": "primary_statistical_agency",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S072",
+   "name": "DREES, 'Les retraites et les retraites' ed. 2025, fiche 09 (niveau de vie, ERFS 2022) + COR, 'Le dossier en bref', seance pleniere du 5 fevrier 2026 (niveau de vie, patrimoine, epargne des retraites)",
+   "url": "https://www.cor-retraites.fr/sites/default/files/2026-02/Dossier%20en%20bref_05.02.2026.pdf",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S073",
+   "name": "OECD, Pensions at a Glance 2025 (Nov 2025): income of 65+ (Table 7.1), old-age poverty (7.2), net replacement rates (4.4), public pension spending (8.2)",
+   "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en.html",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S074",
+   "name": "INSEE, enquete Histoire de vie et Patrimoine 2024 (Insee Focus n.371 & n.354) + Insee Premiere n.2090 (logement 2024) + Arrondel & Masson, Revue francaise d'economie 2018/2 (wealth-by-age series)",
+   "url": "https://www.insee.fr/fr/statistiques/8672665",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S075",
+   "name": "CAE, Note n.69 'Repenser l'heritage' (Dherbecourt, Fack, Landais, Stantcheva, Dec 2021) + France Strategie, Note d'analyse n.51 'Peut-on eviter une societe d'heritiers?' (Dherbecourt, Jan 2017)",
+   "url": "https://cae-eco.fr/static/pdf/cae-note069s.pdf",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S076",
+   "name": "CPO (Conseil des prelevements obligatoires), 'Conforter l'egalite des citoyens devant l'imposition des revenus' (14 Oct 2024, annex 7.3.1 on the pension abattement incl. 1977 travaux and Boulin quote) + impots.gouv.fr/BOFiP parameters + PLF 2026 art. 6 outcome (AN vote 13 Nov 2025; loi n.2026-103 du 19 fevrier 2026; economie.gouv.fr)",
+   "url": "https://www.vie-publique.fr/files/rapports/fichiers_joints/295784_PARTICULIERS_1_%C3%80_5.pdf",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S077",
+   "name": "Code de la securite sociale art. L161-25 (statutory pension indexation) + interministerial revalorization instructions (28 Nov 2023: +5.3%; 13 Dec 2024: +2.2%; 15 Dec 2025: +0.9%) + BOFiP BOI-IR-BASE-40 (bareme) + PEA/assurance-vie/Livret A ceiling texts (LF 2014 art. 70; loi 98-1267; decret 24 Dec 2012)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031086713",
+   "type": "primary_legal",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S078",
+   "name": "LFSS 2018 (loi 2017-1836: CSG +1.7pp) + loi MUES n.2018-1213 du 24 decembre 2018 art. 3 (6.6% band restored for pensions under ~EUR 2,000/month) + service-public.gouv.fr CSG rates on pensions",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037851899",
+   "type": "primary_legal",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S079",
+   "name": "Assemblee nationale, adoption of the censure motion, 4 Dec 2024 (331 votes, PLFSS 2025 rejected) + vie-publique.fr + RN 'ligne rouge' statements on pension indexation (Dec 2024)",
+   "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/adoption-d-une-motion-de-censure-le-plfss-2025-est-rejete-en-lecture-cmp-art.-49.3-et-le-premier-ministre-a-presente-la-demission-du-gouvernement-art.-50",
+   "type": "primary_legal",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S080",
+   "name": "The 2014-2020 pension-squeeze record: loi du 20 janvier 2014 (revalorization shifted to October); LFSS 2018 (2018 skipped); LFSS 2019/2020 (+0.3% caps); LF 2014 art. 5 (fiscalization of the 10% family pension bonus, CNAV circulaire 2022-26)",
+   "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028493476/",
+   "type": "primary_legal",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -1914,6 +1977,172 @@
    "confidence": "medium",
    "status": "unverified",
    "notes": "BACKLOG [Q34]: pin median equivalized disposable income PPP France vs US (LIS/OECD IDD), same year. Grounds the new objection IV.16. The answer does not depend on the exact number: the diagnosis's decomposition (F007) measures production, not distribution; the hours and pension comparisons run against Germany/EU [F031][F018]; and the fiscal arithmetic is internal [F024][F025]."
+  },
+  {
+   "id": "F077",
+   "statement": "French retirees' standard of living, measured: in cash terms they match the whole population (2022: median 100%, EUR 2,030/month; mean 97%); counting imputed rents (they mostly own homes outright) they live ABOVE it - +5 to +6.5% on COR's mean measure (106.5% per COR Feb 2026), +9.5% on DREES's median measure (2019). Retiree poverty: 10.0% vs 14.4% whole population (2022); on the OECD definition, French 65+ poverty (6.1%) is less than half the OECD average (14.8%). OECD comparison: French 65+ income = 94.3% of population income (2022 incomes, 11th of 37; ~99.8% and top-3 on the 2020-income vintage - the 2022 dip is the inflation year). Net pension replacement rate 70.0% vs OECD 63.2%; public pension spending 4th in the OECD (after Greece, Italy, Austria). COR projects the ratio falling to ~90% by 2070 under current law.",
+   "values": {
+    "cash_median_ratio_2022_pct": 100,
+    "cash_mean_ratio_2022_pct": 97,
+    "with_imputed_rents_mean_pct": "105-106.5",
+    "retiree_poverty_2022_pct": 10.0,
+    "population_poverty_2022_pct": 14.4,
+    "oecd_65plus_income_ratio_pct": 94.3,
+    "net_replacement_rate_pct": 70.0,
+    "oecd_avg_replacement_pct": 63.2
+   },
+   "unit": "ratios / %",
+   "geography": "France vs OECD",
+   "sources": [
+    "S072",
+    "S046",
+    "S073"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 13. PRECISION DISCIPLINE: 'retirees live better than workers' is true only WITH imputed rents; in cash terms it is parity (and mean 3% below in the 2022 inflation year). The essay says 'as well as, and counting their mortgage-free homes, better'. Also record the perception gap (COR Feb 2026): 49% of French believe retirees live WORSE than the population; 20% better."
+  },
+  {
+   "id": "F078",
+   "statement": "The old hold the capital, and the transfer overshoots consumption: households aged 50-79 hold 61% of French gross household wealth while being 50% of households (INSEE HVP 2024); retired households' mean NET wealth is EUR 310,000 vs 240,000 for working households (+29%, COR/HVP 2021). The 60+ share of wealth rose from 36% to 45.5% over 2004-2014 alone (Arrondel-Masson); in 1986 the median net wealth of the 70+ was one-third that of the 50-59, today it is comparable, while the under-40s' median halved relative to the 50-59 (France Strategie). Homeownership: 17% of under-30 households vs 71-76% at 70+, generally mortgage-free from 65. And retirees keep saving: net saving rate ~8% at 65+, and 65+ households contributed about two-thirds of the 2023-24 rise in the national saving rate (COR).",
+   "values": {
+    "wealth_share_50_79_pct": 61,
+    "retiree_net_wealth_eur": 310000,
+    "working_net_wealth_eur": 240000,
+    "sixty_plus_wealth_share_2004_pct": 36,
+    "sixty_plus_wealth_share_2014_pct": 45.5,
+    "saving_rate_65plus_pct": 8
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S074",
+    "S072"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 13. The saving-rate fact is the sharpest: a pay-as-you-go transfer exists to fund old-age consumption; when its recipients save 8% of income as a group, the transfer exceeds need at the margin by construction. Caveats: survey wealth data truncates the very top and excludes institutionalized households; the 61% figure is gross wealth."
+  },
+  {
+   "id": "F079",
+   "statement": "Inheritance arrives too late to capitalize the young: the average French heir is ~50 years old (vs ~30 in 1900), heading to 58 by 2050 (France Strategie/CAE). Inherited wealth has risen from ~35% of total wealth in the early 1970s to ~60% today (CAE 2021). Concentration: half of French people inherit less than EUR 70,000 over a lifetime; fewer than 10% inherit more than 500,000; the top 1% of heirs receives on average over EUR 4.2mn net of duties (~180x the median for the top 0.1%, vs ~10x for the equivalent labor-income ratio).",
+   "values": {
+    "average_heir_age": 50,
+    "heir_age_2050_projection": 58,
+    "inherited_share_1970s_pct": 35,
+    "inherited_share_today_pct": 60,
+    "median_lifetime_inheritance_eur": 70000,
+    "top1pct_heirs_avg_eur_mn": 4.2
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S075"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 13 (CAE note 69; France Strategie NA 51). ~40% of transmitted wealth escapes fiscal succession data (assurance-vie, dismemberment, Dutreil) - these are reconstructed lifetime-flow estimates. Wealth flows old-to-almost-old: with heirs at 50+, bequests recycle wealth within the older half of the distribution."
+  },
+  {
+   "id": "F080",
+   "statement": "The 10% pension abattement (art. 158-5-a CGI): retirees deduct 10% of pensions from taxable income, mirroring the wage earners' 10% deduction for professional expenses - expenses pensions do not carry. Created by amendment in the 1978 budget (Papon, rapporteur general) AGAINST the government: budget minister Robert Boulin objected in session (18 Oct 1977) that retirees' costs 'are not professional expenses'; parliament passed it and made it permanent. Cost: EUR 4.5-4.8bn/yr (PLF 2024/2026 vintages), 14.8mn beneficiary households, ~30% of the benefit to the top income decile; caps: EUR 4,399 per retired HOUSEHOLD vs EUR 14,426 per WORKING PERSON (2024 incomes). The CPO recommended abolition (Oct 2024). PLF 2026 tested the impasse: the government proposed replacing it with a flat EUR 2,000 per pensioner (yield ~1.2bn); the Assemblee nationale deleted the reform on 13 Nov 2025 by 213 votes to 17; the adopted budget (loi 2026-103, 19 Feb 2026) keeps the abattement intact, indexed.",
+   "values": {
+    "annual_cost_eur_bn": "4.5-4.8",
+    "beneficiary_households_mn": 14.8,
+    "cap_retiree_household_2024_eur": 4399,
+    "cap_worker_person_2024_eur": 14426,
+    "share_to_top_decile_pct": 30,
+    "an_vote_2025": "213-17"
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S076"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": false,
+   "notes": "Verified run 13 (CPO note Oct 2024 incl. the 1977 travaux; LF 2026 outcome). The 1977 origin story is the fingerprint in its purest form: the executive said the deduction had no rationale; the elected chamber created it anyway, and defended it 213-17 forty-eight years later. Honest caveat: the original 1977 rationale (smoothing the income drop at retirement before withholding-at-source) existed but the CPO judges it void since 2019 withholding."
+  },
+  {
+   "id": "F081",
+   "statement": "The indexation asymmetry is a DEFAULT-RULE asymmetry: pensions rise with inflation automatically by statute (art. L161-25 CSS; the coefficient cannot go below 1, so no nominal cuts; freezing requires an affirmative vote deputies must own), while the income-tax bareme is indexed only if each year's budget affirmatively votes it. Recent record: +5.3% (Jan 2024), +2.2% (Jan 2025), +0.9% (Jan 2026). Both attempted squeezes died: Barnier's 6-month indexation delay fell with his government (Dec 2024); Bayrou's 'annee blanche' (July 2025) was stripped from the budget twice and the LFSS 2026 passed without it. December 2024 demonstrated both defaults in one stroke: the censure killed the budget, so pensions got the full +2.2% automatically while income-tax brackets stayed frozen until the LF 2025 passed in mid-February. Meanwhile the ceilings of workers' wealth-building vehicles sit unindexed for decades: PEA EUR 150,000 since 2014, assurance-vie abattements EUR 152,500 / 4,600-9,200 since 1998, Livret A EUR 22,950 since 2013.",
+   "values": {
+    "revalorization_2024_pct": 5.3,
+    "revalorization_2025_pct": 2.2,
+    "revalorization_2026_pct": 0.9,
+    "pea_ceiling_frozen_since": 2014,
+    "av_abattement_frozen_since": 1998,
+    "livret_a_frozen_since": 2013
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S077"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": false,
+   "notes": "Verified run 13. HONESTY: (1) the bareme IS normally indexed each year (exception: the 2012-2013 freeze, which hit everyone); the asymmetry is who bears the burden of inaction; (2) the frozen savings ceilings are age-neutral instruments (holdings skew old) - weak evidence of pro-retiree INTENT on their own; the strong contrast is statutory pension indexation vs everything else discretionary. The essay leans on the default-rule contrast and December 2024, not on the PEA/AV freezes."
+  },
+  {
+   "id": "F082",
+   "statement": "The CSG asymmetry and the 2018-2019 natural experiment: CSG runs at 9.2% on wages vs 8.3% maximum on pensions (with reduced bands 6.6%/3.8%/0% - only ~29% of retirees pay the top rate). The 2018 CSG hike (+1.7pp) was over-compensated for workers by abolishing their sickness and unemployment contributions, while retirees bore it raw - the one recent attempt to shift net burden onto pensions. Within twelve months (loi MUES, 24 Dec 2018, after the gilets jaunes), the hike was repealed for pensions under ~EUR 2,000/month: 3.8 million households, roughly 70% of retirees restored.",
+   "values": {
+    "csg_wages_pct": 9.2,
+    "csg_pensions_max_pct": 8.3,
+    "hike_2018_pp": 1.7,
+    "reversal_households_mn": 3.8,
+    "share_of_retirees_restored_pct": 70
+   },
+   "unit": "%",
+   "geography": "France",
+   "sources": [
+    "S078"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": false,
+   "notes": "Verified run 13. Caveat: the reversal's proximate trigger was a street movement, not an election; and the top ~29% of pensions kept the hike. Still: burden shifted onto workers sticks; burden shifted onto retirees lasted a year."
+  },
+  {
+   "id": "F083",
+   "statement": "On 4 December 2024, the Assemblee nationale censured the Barnier government (331 votes; first successful censure since October 1962) over the PLFSS 2025 - whose pension under-indexation was the pivot group's declared 'absolute red line' (RN). The fallen budget meant the statutory default applied: all pensions were revalorized the full +2.2% on 1 January 2025. Partly, a French government fell over trying to under-index pensions, and the pensions won.",
+   "values": {
+    "censure_votes": 331,
+    "date": "2024-12-04"
+   },
+   "unit": "event",
+   "geography": "France",
+   "sources": [
+    "S079",
+    "S077"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 13. Caveat kept sharp: the censure motion was the left's and carried broader grievances; pension indexation was the RN's explicit condition, not the sole cause. 'Partly over pension indexation' is the honest phrasing; 'over pension indexation' alone overstates."
+  },
+  {
+   "id": "F084",
+   "statement": "The counterevidence, recorded: majority governments DID squeeze pensions repeatedly - the 2014 law shifted revalorization by six months; 2018 skipped a year entirely; 2019 and 2020 capped revalorization at +0.3% against ~1.8% inflation; the 2014 budget fiscalized the 10% family pension bonus (EUR 1.2bn/yr) and it stayed fiscalized. The refined claim the full record supports: touching retirees is survivable for a government with a majority and fatal without one. Since the assembly hung in 2022, every attempt has died: the indexation delay brought down a government (Dec 2024), the 'annee blanche' was stripped twice (2025), the abattement reform lost 213-17 (Nov 2025).",
+   "values": {
+    "squeezes_2014_2020": 4,
+    "caps_2019_2020_pct": 0.3
+   },
+   "unit": "record",
+   "geography": "France",
+   "sources": [
+    "S080",
+    "S076",
+    "S077",
+    "S079"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 13. This SHARPENS C25 rather than weakening it: the electoral constraint binds exactly when the median voter's proxies hold the parliamentary balance - which demography makes more likely every cycle [F070][F038]."
   }
  ],
  "comparables": [
@@ -2509,21 +2738,29 @@
   },
   {
    "id": "C25",
-   "claim": "THE DEMOCRATIC IMPASSE (core diagnosis, elevated from objection at author's direction) - The transfer machine is electorally self-locking: its net beneficiaries are the majority of actual voters at the elections that make governments (voters 55+ cast ~53-56% of ballots at the 2022 legislatives, ~half at the 2024 ones - F070, verified), and that majority grows every year (F038). Therefore normal democratic politics cannot durably correct the machine - the 2023-2025 pension reform cycle is the mechanism observed live (F026). France also lacks the institutional counterweight Germany has: a constitution that gives the not-yet-born justiciable standing (Art. 20a, BVerfG 2021 'intertemporal guarantees of freedom') and a constitutional debt brake (F071). Three exits, all used by the program: crisis windows (the countdown suspends median-voter statics, as Sweden 1991); winners-first design (grandfather the stock, reform the flows, give older voters a compensating asset via the fund); and institutional redesign (write the future into French fundamental law - a fiscal sustainability rule and the automatic pension link placed at constitutional or organic-law level).",
+   "claim": "THE DEMOCRATIC IMPASSE (core diagnosis, elevated from objection at author's direction) - The transfer machine is electorally self-locking: its net beneficiaries are the majority of actual voters at the elections that make governments (voters 55+ cast ~53-56% of ballots at the 2022 legislatives, ~half at the 2024 ones - F070, verified), and that majority grows every year (F038). Therefore normal democratic politics cannot durably correct the machine - the 2023-2025 pension reform cycle is the mechanism observed live (F026). France also lacks the institutional counterweight Germany has: a constitution that gives the not-yet-born justiciable standing (Art. 20a, BVerfG 2021 'intertemporal guarantees of freedom') and a constitutional debt brake (F071). Three exits, all used by the program: crisis windows (the countdown suspends median-voter statics, as Sweden 1991); winners-first design (grandfather the stock, reform the flows, give older voters a compensating asset via the fund); and institutional redesign (write the future into French fundamental law - a fiscal sustainability rule and the automatic pension link placed at constitutional or organic-law level). REFINED (run 13, author direction): the impasse is not only a veto on repair - it steers legislation. Fingerprints on the code: the 10% pension abattement created against the government's own objection in 1977 and defended 213-17 in 2025 (F080); statutory pension indexation vs discretionary bareme indexation, demonstrated jointly in Dec 2024 (F081, F083); the 2018 CSG hike on pensions half-repealed within a year while the workers' offset stuck (F082). Counterevidence absorbed (F084): majority governments squeezed pensions four times in 2014-2020 - the precise law is 'survivable with a majority, fatal without one', and demography makes hung, pensioner-pivotal parliaments likelier every cycle.",
    "status": "supported",
    "supporting_facts": [
+    "F026",
+    "F038",
+    "F040",
     "F070",
     "F071",
-    "F038",
-    "F026",
-    "F040"
+    "F077",
+    "F078",
+    "F079",
+    "F080",
+    "F081",
+    "F082",
+    "F083",
+    "F084"
    ],
    "contradicting_facts": [],
    "counterarguments": [
     {
      "argument": "Old voters are not a monolith; grandparents vote for grandchildren's interests too (evidence from referendums on education spending is mixed).",
-     "status": "open",
-     "note": "Fair - the impasse claim is about REVEALED outcomes (every attempt to touch pensions has died politically for 30 years, 1995/2010/2019/2023-25), not about imputed selfishness. Keep the tone at 'incentives', never 'boomer-blaming' - the essay's own normative anchor (C19) forbids generational contempt, and older voters are also the fund's largest near-term beneficiaries."
+     "status": "answered",
+     "note": "Fair - the impasse claim is about REVEALED outcomes (every attempt to touch pensions has died politically for 30 years, 1995/2010/2019/2023-25), not about imputed selfishness. Keep the tone at 'incentives', never 'boomer-blaming' - the essay's own normative anchor (C19) forbids generational contempt, and older voters are also the fund's largest near-term beneficiaries. ANSWERED run 13 by revealed preference: whatever grandparents feel, the legislative record (F080-F084) shows what the electorate lets pass - the machine's outputs, not voters' souls, carry the claim."
     },
     {
      "argument": "Constitutionalizing fiscal rules is anti-democratic - it entrenches one policy view against future majorities.",

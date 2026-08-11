@@ -4,6 +4,25 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 13 — 2026-08-11 — The overshoot and the fingerprints (author input)
+
+**Author input.** (1) Retirees living better than workers is itself the anomaly, not merely its financing: parity might be defensible, but they also hold the capital, and bequests land on the already-comfortable 45-50+. (2) Dig into "policy serves its principal voter": pension indexation vs the unindexed vehicles of the working; the 10% deduction for professional expenses retirees do not have; source all of it.
+
+**Research (two parallel tracks, primary sources: COR, DREES, INSEE HVP, OECD PaG 2025, CAE, France Strategie, CPO, Legifrance, AN records).** Key findings, with the precision discipline applied:
+
+- **Living standard**: cash parity with the population (median 100%, mean 97%, 2022); +5 to +9 points above it counting imputed rents (COR Feb 2026: 106.5%, "very close to workers"); poverty a third lower, less than half the OECD average. The essay now says exactly that — the author's "better" holds through the homes owned outright, and the overstatement trap was avoided.
+- **The capital**: households 50-79 hold 61% of wealth (HVP 2024); retired households +29% net worth vs working ones; retirees still SAVE ~8% of income (the transfer exceeds consumption need at the margin by construction — the sharpest single fact of the run); average heir is ~50, heading to 58; inherited share of wealth 35%→60% since 1970.
+- **The abattement story is better than remembered**: created in 1977 by parliamentary amendment AGAINST the government — budget minister Boulin objected on the record that pensions carry no professional costs; parliament voted it anyway. Cost EUR 4.5-4.8bn/yr, ~30% to the top decile; CPO recommended abolition (2024). The 2026 episode corrected the author's memory in the argument's favor: the government proposed the EUR 2,000 forfait FOR RETIREES (the workers' deduction was never touched), and the ASSEMBLY killed the reform 213-17.
+- **December 2024, the double demonstration**: pension indexation was the pivot group's declared red line; the censure (first since 1962) killed the budget; pensions rose the full +2.2% BY DEFAULT (L161-25 makes indexation the legal default) while workers' tax brackets sat frozen until February. The asymmetry is a default-rule asymmetry — stronger than any single number.
+- **CSG 2018-2019**: the hike was offset for workers via contribution cuts, borne raw by retirees, then half-repealed for retirees within twelve months.
+- **Counterevidence found and absorbed [F084]**: majority governments squeezed pensions four times over 2014-2020 (2014 delay, 2018 skip, 2019-20 +0.3% caps, 2013 fiscalization of the family bonus). The refined law — *survivable with a majority, fatal without one* — SHARPENS C25: the constraint binds exactly when the median voter's proxies hold the balance, which demography makes likelier every cycle.
+
+**What changed.** `facts.json`: +8 facts (F077-F084, all verified, honest caveats in notes) + 9 source entries; C25 refined (the impasse steers legislation, beyond vetoing repair; the not-a-monolith counterargument answered by revealed preference). `thesis.md`: I.4 gains the overshoot block (with the C19 guardrail stated: indict the design, never the people); I.13 gains the fingerprints block with the counterevidence; II.6 the heir-at-fifty line; claim tree updated. `article.md` (~+570 words): "The trade nobody named" now goes past the "magnificent" concession into the overshoot (wealth stock, the banked pensions, the heir at fifty, "something its politics has never named"); "The impasse" gains the fingerprints paragraph and the honest-complication paragraph; the 25-year-old's ledger gains her inheritance date. Audit: clean (one "pivotal" caught and removed), no sentence over 32 words, ~6,950 words.
+
+**Next run should attack, in order:** unchanged queue from run 12 — [Q20] Athens incidence first, [Q34] median gap, the last `?` facts (F048, F056, F059, F062), [Q31] degrowth numbers, then the fresh-eyes prose-only pass. New candidate: the F078 saving-loop (pensions → retiree savings → life insurance → OATs → the deficit that pays pensions) could complete the loop in "What France believes" — verify the holding chain (insurers' OAT share by holder age is NOT yet a fact) before writing a word of it.
+
+---
+
 ## Run 12 — 2026-08-11 — The verification sweep lands: 70 of 76 facts verified, the impasse pinned, the opening rebuilt on 2025 data
 
 **Author directive.** Iterate on everything: copy and style (Julian, Boron Letters, but/therefore, the Scott Adams rules), facts and counterarguments, the thesis itself; take the bird's-eye view.
