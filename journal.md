@@ -4,6 +4,18 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 11 — 2026-08-11 — Sentence-length purge (author catch)
+
+**Author catch.** Quoted a 34-word sentence from the degrowth collapsible ("The 3,300 billion stays nominal while... forced consolidations") - "elle est longue, elle est longue, elle est longue". Correct: it stacked four consequences and a moral into one breath, against the writing standard's first rules (short sentences, one thought per sentence).
+
+**What was done.** Extended the audit script with a sentence-length detector: 33 sentences over 32 words found across the essay (average was fine at 15.7; the tail was the problem). All 33 rewritten into their beats via exact-match replacements (zero failed matches). The flagged sentence now reads: "The 3,300 billion stays nominal while the economy beneath it shrinks. The ratio explodes. The forced adjustment arrives early. And the poorest quarter absorbs it, as the poorest quarter always does in forced consolidations." Post-pass: average sentence length 13.3 words; longest remaining sentence 32 (plus one splitter artifact across a quotation boundary); full tell audit still clean (0 em-dashes, 0 scaffolds, 0 stock words).
+
+**Standard updated.** `AGENTS.md` anti-tell checklist gains rationed rule 11: no sentence above ~32 words without a defensible reason, never two in a row, and every survivor justified in the journal. The audit script's length report is now part of the pre-commit pass.
+
+**Next run:** unchanged from run 10 - sync thesis.md with C25; [Q32] pin the voter computation; the verification sweep (F027/Q09 first); then a cold-read prose pass.
+
+---
+
 ## Run 10 — 2026-08-11 — The impasse becomes the peak; orphan facts attached to their function (author feedback)
 
 **Author feedback on v0.3.** (1) A missing argument: the majority of French VOTERS are 55+ (verify the numbers) - so if overpaying pensions is the problem, democratic power can never correct it; an impasse. Germany, by contrast, constitutionally protects people who are not yet voters; France has nothing like it. (2) Too many facts listed for listing's sake - focus on the strongest argument, mention the rest after; the debt-holders and anti-capitalism passages "drown the fish" (where are they going?). (3) Read Julian Shapiro's writing handbook for structure.

@@ -84,6 +84,7 @@ Compiled from Wikipedia's "Signs of AI writing", Bloomberry's structural-fingerp
 8. Rule of three. At most one earned tricolon per ~1,000 words; if an item can be dropped without losing information, drop it.
 9. Intensifiers (significantly, effectively, increasingly, deeply, truly): only with a number or fact directly behind them.
 10. Bold mid-sentence, exclamation marks: almost never.
+11. Sentence length (hard rule, added run 11 after an author catch): no sentence above ~32 words without a reason you can defend; never two long ones in a row; when a sentence stacks more than two consequences, break it into its beats. The audit script reports every sentence over 32 words; each survivor must be justified in the journal.
 
 **Positive habits (what human prose has and slop lacks):**
 
