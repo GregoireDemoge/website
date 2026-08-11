@@ -644,6 +644,20 @@
    "url": "https://www.migrationpolicy.org/sites/default/files/publications/TCM-Emigration-Greece-FINALWEB.pdf",
    "type": "institutional_report",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S088",
+   "name": "INSEE, Insee Premiere n. 2005 (2024), 'Les ecarts d'esperance de vie entre cadres et ouvriers : 5 ans chez les hommes, 3 ans chez les femmes' (mortality tables by social category, 2020-2022)",
+   "url": "https://www.insee.fr/fr/statistiques/8220688",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S089",
+   "name": "INSEE, Insee Premiere n. 2085, 'De 2012-2016 a 2020-2024, l'ecart d'esperance de vie entre les personnes modestes et aisees s'est accru' (life expectancy by standard-of-living vingtile, 2020-2024)",
+   "url": "https://www.insee.fr/fr/statistiques/8679561",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -2233,7 +2247,7 @@
    "confidence": "high",
    "status": "verified",
    "chartable": false,
-   "notes": "Added run 14, resolves Q20 and upgrades C14 to supported. Precision discipline: the two anchored-poverty numbers use different anchor years and vintages (M-L 2014 anchor 2009, 37% in 2012; OECD WP 1312 anchor 2010, 27.4% in 2014) - never mix them in one sentence. The nuance to keep: austerity per se was mildly progressive early (public pay and pension cuts hit higher incomes); what crushed the bottom was the recession the program deepened, the regressive later measures (VAT hikes, the emergency property tax - the most regressive single item), and the labor-market collapse. The finding that completes the essay's spine: even in the imposed version, the elderly lost least - the forced adjustment reproduced the intergenerational bias [C25], it did not correct it. The young paid twice: first the machine, then its collapse."
+   "notes": "Added run 14, resolves Q20 and upgrades C14 to supported. Precision discipline: the two anchored-poverty numbers use different anchor years and vintages (M-L 2014 anchor 2009, 37% in 2012; OECD WP 1312 anchor 2010, 27.4% in 2014) - never mix them in one sentence. The nuance to keep: austerity per se was mildly progressive early (public pay and pension cuts hit higher incomes); what crushed the bottom was the recession the program deepened, the regressive later measures (VAT hikes, the emergency property tax - the most regressive single item), and the labor-market collapse. The finding that completes the essay's spine: even in the imposed version, the elderly lost least - the forced adjustment reproduced the intergenerational bias [C25], it did not correct it. The young paid twice: first the machine, then its collapse. Greek pension-cut specifics for the essay's honest-complication line: the 13th and 14th monthly pensions were replaced by small lump sums then abolished; solidarity contributions of 3-40% were levied on main and supplementary pensions; further cuts under the 2013-14 Spending Review [S081, Table 1]. 'Relatively protected' means protected in RANK, not in level - and the elderly's access to healthcare deteriorated (M-L note the relative income improvement may have been offset by health-access barriers)."
   },
   {
    "id": "F086",
@@ -2252,6 +2266,28 @@
    "status": "verified",
    "chartable": false,
    "notes": "Added run 14. Answers the most common French objection to the Work lever ('seniors working longer steal jobs from the young') - the boxed-economy premise is false: workers are also consumers and payers, so employment creates demand for employment. Corroborated since by Boheim-Nice (2019, OECD countries) and East Asia studies. The Mauroy quote is the concrete anchor: France believed the theory, ran it for a decade, and got rising youth unemployment plus the pension hole [F018]. Use in essay: the Work lever must answer this objection in place."
+  },
+  {
+   "id": "F087",
+   "statement": "The French mortality gradient (the penibilite objection's evidence base): in 2020-2022 mortality conditions, a 35-year-old male cadre lives on average 5.3 years longer than a 35-year-old ouvrier (48.9 vs 43.6 remaining years); the female gap is 3.4 years. Ouvriers face more than TWICE the cadre's risk of dying between 35 and 65 - i.e., of dying before or just after retirement. By income: over 2020-2024, male life expectancy at birth is 85.0 years among the top 5% of living standards vs 72.0 among the bottom 5% - a 13-year gap, which WIDENED from 12.7 since 2012-2016. Trend note: the cadre-ouvrier male gap has narrowed since the 1990s (-1.7 years).",
+   "values": {
+    "male_cadre_ouvrier_gap_at35_years": 5.3,
+    "female_gap_at35_years": 3.4,
+    "ouvrier_over_cadre_mortality_risk_35_65": 2.0,
+    "male_top5_bottom5_income_le_gap_years": 13.0,
+    "male_le_top5_years": 85.0,
+    "male_le_bottom5_years": 72.0
+   },
+   "unit": "years of life expectancy",
+   "geography": "France",
+   "sources": [
+    "S088",
+    "S089"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Added run 14 to steelman the strongest left objection to the Work lever: a uniform retirement age asks those who die earliest to fund the pensions of those who live longest. The program's answer (IV.18): the points system prices careers, not birthdays - long-career early entry exits earlier, arduous-work accounts are explicit, and the life-expectancy link moves the AVERAGE age. The counterpunch: the CURRENT flat system already contains the injustice (the ouvrier who starts at 18 and dies at 77 subsidizes the cadre who starts at 24 and dies at 84); a points system can price it, the status quo cannot."
   }
  ],
  "comparables": [
@@ -2512,6 +2548,11 @@
      "argument": "Cutting the deficit by 5pp of GDP would itself crush growth (multiplier logic cuts both ways).",
      "status": "open",
      "note": "This is actually the deepest version of the user's intuition: stabilizing debt/GDP costs several years of measured growth, which is exactly why no government does it voluntarily - and why the thesis must center on raising g, not just cutting. Connects C7 to C1/C6."
+    },
+    {
+     "argument": "The repudiation exit: rather than adjust, France could restructure/default on its creditors and protect spending.",
+     "status": "answered",
+     "note": "Answered run 14 (thesis IV.19) from verified facts: (a) the domestic half of the debt IS French household savings - euro-fund life insurance (EUR 1,571bn) whose insurers hold ~10% of OATs [F023]: a haircut is a wealth levy on French savers first; (b) France still runs a 5%+ primary-inclusive deficit [F003] and must raise ~EUR 6bn/week [F029] - a defaulter loses market access while still needing new money, so spending falls to revenue overnight: the imposed adjustment at maximum speed; (c) inside the euro the precedent is Greece 2015, not Argentina: the ECB backstop and banking system make unilateral repudiation a forced exit-or-program event [F028]."
     }
    ]
   },
@@ -2541,6 +2582,11 @@
      "argument": "The lump-of-labor objection: if seniors stay in their jobs, the young cannot enter - raising the retirement age raises youth unemployment.",
      "status": "answered",
      "note": "Answered run 14 [F086]: the 12-country evidence finds the opposite sign - paying the old to leave raises youth unemployment; France's own 1981-83 experiment (Mauroy's 'release jobs' speech, retirement at 60) coincided with falling youth employment and rising youth unemployment. Workers are also consumers and payers; the economy is not a fixed box of jobs."
+    },
+    {
+     "argument": "The penibilite objection: manual workers die years earlier; raising the retirement age uniformly makes them fund the pensions of the long-lived.",
+     "status": "answered",
+     "note": "Answered run 14 [F087] (thesis IV.18): concede the gradient fully (5.3 years cadre-ouvrier at 35; 13 years top-5% vs bottom-5% by income; ouvriers 2x mortality risk 35-65). The answer is design, not denial: points price careers, not birthdays (early entry = early exit; arduous-work accounts; the life-expectancy link moves the average). Counterpunch: the current flat system already embodies the injustice and cannot price it; a points system can."
     }
    ]
   },
