@@ -4,6 +4,27 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 5 — 2026-08-11 — The normative anchor: two curves, a boundary map, and state bets with a kill switch (author input)
+
+**Author input (after a Q&A round).** How to answer "growth is useless if the poorest live badly"? Decisions taken with the author: (1) follow the data even if the Germany example inverts; (2) TWO success criteria — the bottom quartile's living standard AND the 75%'s quality of life (including tech-driven surplus GDP misses); (3) "reste a vivre" must be measured net of housing/health costs; (4) Scenario A vs B (past-the-optimum vs floor-fine-financing-broken) decided by the numbers; (5) natural monopolies and health stay public/universal, French inefficiencies said honestly (incl. the statut's quasi-immunity from dismissal), UK rail as the privatization anti-example; (6) the essay's intro carries the author's first-person position (premises of the left, growth as the floor's only durable funding); (7) the moral line "no one dies for lack of money" is a value fought for, not an absolute constraint — seek the health-efficiency frontier, explore smart 1-2 euro frictions with guardrails. Plus: the How Asia Works lesson — dirigisme works with export discipline and culling; the state's edge is the 10-30 year horizon; its failure mode is refusing to kill losers.
+
+**What changed:**
+
+- `thesis.md` Part 0 gained **0.1 The two curves** (the program's official objective function [C19]: bottom-quartile command over essentials, net of housing and health costs + the 75%'s quality of life incl. consumer surplus) and **0.2 The author's position** (first-person disclosure spec for the essay's intro: most-redistributive-available program for the left reader, most-credible-growth program for the right reader, both comfortable stories broken).
+- New section **III.13 The boundary map**: what stays public/universal and why (networks, health — with US health [F055?] and UK rail [F057?] as the two anti-examples), the honest counterpart (statut rigidity [F061?], within-public management reform, health-efficiency frontier [F058?], smart frictions with distributional guardrails [F059?]), and **state bets with a kill switch** [C21]: the Studwell mechanism (export discipline, culling) [F060 verified], France's own split record (nuclear/TGV/Airbus vs Plan Calcul/Minitel), every program bet born with a published kill criterion.
+- Design principles 6 and 7 added; objection IV.6 expanded to full form (concede the US evidence [F054?], face the symmetric evidence, follow the data on Germany [F056?], aim for the Nordic quadrant).
+- `facts.json`: +9 facts (F054-F062, honestly unverified: US income-mortality gradient, US vs France health spending, the Germany check, UK rail, health frontier, RAND HIE + priced-placebo, statut dismissal rarity, GDP-B consumer surplus; F060 Studwell verified as book thesis), +3 claims (C19 normative anchor, C20 boundary map, C21 kill-switch dirigisme), +4 questions (Q25 two-curves dashboard - HIGH, Q26 health frontier, Q27 state-capacity reform, Q28 kill-criteria design).
+- `article.md` draft notes: intro must carry the author-position paragraph; conclusion returns to the two curves.
+
+**Next run should attack, in order:**
+
+1. [Q25] Build the two-curves dashboard (bottom-quartile net-of-essentials income across FR/DE/US/Nordics 2000-2024) — it settles Scenario A vs B and the Germany example's fate.
+2. [Q24] Continue the verification sweep (F051, F050, F047, F043, F052 first), now including F054-F056 (the US gradient and the Germany check are load-bearing for Part 0).
+3. [Q26][Q27][Q28] Evidence bases for the boundary map and the kill-criteria template.
+4. Then: declare the spine stable → unfreeze `article.md` → write the essay end-to-end against thesis v2.
+
+---
+
 ## Run 4 — 2026-08-11 — The complete thesis, A to Z (author directive)
 
 **Author directive.** The thesis document was "too light" — a spine with pointers, not a thesis. Ordered: write the COMPLETE thesis (diagnosis, consequences of the diagnosis, solutions, everything else) as if no further runs existed. NOT the article prose — the full argumentative content. Delivered: `thesis.md` fully rewritten (v2, ~6,200 words, six parts).

@@ -108,6 +108,8 @@ The prediction stands. The forced hour is coming. The only open question — the
 
 ## Draft notes (for future runs)
 
+- REQUIREMENT added run 5: the essay's introduction must carry the author-position paragraph in first person (premises of the left; the floor as a conquest to defend; growth as its only durable funding — see thesis.md 0.2), and the conclusion must return to the two-curves criterion (thesis.md 0.1). The essay's rewrite happens against thesis v2 including Parts 0.1/0.2, III.13 and the expanded objection IV.6.
+
 - Word count: ~2,600. Target range for final: to be settled (author signaled substantial but blog-native; likely 4,000-8,000 rather than 25,000+ — confirm with author).
 - All `?`-flagged facts MUST be verified before any section is considered stable: F006 (gap reconciliation, [Q02]), F011, F012, F014, F016, F017, F019, F020, F022, F023, F027 ([Q09]).
 - The 2023-pension-reform suspension is currently sourced only via F026's rating-agency notes; it deserves its own fact entry with a primary source.

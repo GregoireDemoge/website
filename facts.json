@@ -248,6 +248,13 @@
       "url": "https://economy-finance.ec.europa.eu/publications/2024-ageing-report-economic-and-budgetary-projections-eu-member-states-2022-2070_en",
       "type": "institutional_report",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S034",
+      "name": "Studwell, Joe (2013) - How Asia Works: Success and Failure in the World's Most Dynamic Region",
+      "url": "https://en.wikipedia.org/wiki/How_Asia_Works",
+      "type": "book",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -862,6 +869,105 @@
       "confidence": "medium",
       "status": "unverified",
       "notes": "BACKLOG: compute from OECD Compendium data (S005). Fairness anchor for the diagnosis: the thesis indicts the SYSTEM, not the workers - rhetorically and analytically essential, and it sharpens the puzzle: world-class hourly output, mediocre national outcome."
+    },
+    {
+      "id": "F054",
+      "statement": "The US is the cautionary tale for growth without a floor: life expectancy gaps by income are extreme (~10-15 years between top and bottom 1% of incomes, Chetty et al. 2016 JAMA) and widened over time; bottom-quartile life expectancy stagnated in recent decades despite frontier GDP growth.",
+      "values": { "life_expectancy_gap_top1_bottom1_years": "10-15" },
+      "unit": "years",
+      "geography": "United States",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: Chetty et al. (2016), 'The Association Between Income and Life Expectancy in the United States', JAMA. Core evidence for C19's honest concession: US-style growth demonstrably fails its bottom quartile on the metric that matters most."
+    },
+    {
+      "id": "F055",
+      "statement": "The US spends ~17% of GDP on health - roughly 5-6 points more than France (~11.5-12%) - for LOWER life expectancy and worse coverage. The health comparison is the strongest single case that market organization is not automatically superior, and that France's universal system is an asset to defend, not a cost to apologize for.",
+      "values": { "us_health_pct_gdp": 17, "france_health_pct_gdp": 11.7 },
+      "unit": "% of GDP",
+      "geography": "US vs France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: OECD Health Statistics. Verify shares and add life-expectancy comparison (France ~83y vs US ~78.4y is in F006-adjacent search data). For C20 and the natural-monopoly/universalism boundary map."
+    },
+    {
+      "id": "F056",
+      "statement": "The Germany check likely cuts against the naive version of the argument: France's poverty rate after transfers (~14%) is LOWER than Germany's at-risk-of-poverty rate (~16-21% depending on measure); German bottom-decile real wages stagnated or fell from the mid-1990s to ~2015 (Hartz-era wage restraint, mini-jobs), with partial catch-up only after the 2015 minimum wage. Germany's growth did NOT straightforwardly lift its bottom quartile faster than redistributive France.",
+      "values": { "france_poverty_after_transfers_approx_pct": 14, "germany_arope_approx_pct": "16-21" },
+      "unit": "%",
+      "geography": "France vs Germany",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG [Q25]: Eurostat AROPE + income-quintile series 2000-2024, WSI/DIW wage-decile data. Author's explicit instruction: FOLLOW THE DATA. If confirmed, the argument reframes to: France already wins at the bottom - on borrowed money; the US shows growth without floors fails the poor; France shows floors without growth expire; the target is the Nordic quadrant (both)."
+    },
+    {
+      "id": "F057",
+      "statement": "UK rail privatization (1993-) is the cautionary tale for privatizing network monopolies: fragmentation, safety crises, Railtrack's collapse back into public hands (Network Rail, 2002), public subsidy HIGHER in real terms than under British Rail, and progressive renationalization of operators since 2018. Competition via duplicated or fragmented networks destroyed value rather than creating it.",
+      "values": {},
+      "unit": "case study",
+      "geography": "United Kingdom",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: UK NAO/Transport Committee reports, academic assessments. For C20: the boundary map's anti-example on the privatization side, mirroring the US health anti-example."
+    },
+    {
+      "id": "F058",
+      "statement": "The health-efficiency frontier: several systems deliver French-level or better outcomes for materially less spending - e.g. Israel, Singapore, South Korea, Spain, Italy (roughly 7-9.5% of GDP vs France ~11.5-12%) - via primary-care gatekeeping, digitalization, price regulation, and different hospital/ambulatory mixes. Efficiency gains within universality are demonstrably possible; privatization is not the only (or the observed) route.",
+      "values": { "frontier_examples_pct_gdp": "7-9.5", "france_pct_gdp": 11.7 },
+      "unit": "% of GDP",
+      "geography": "cross-country",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: OECD Health Statistics, Commonwealth Fund rankings. For C20: the constructive half - the program's health line is 'universality kept, frontier sought', not cuts."
+    },
+    {
+      "id": "F059",
+      "statement": "Evidence on small user frictions in healthcare: the RAND Health Insurance Experiment found modest cost-sharing reduced utilization with no adverse effect on AVERAGE health - but it cut appropriate and inappropriate care alike, with harm concentrated on the poorest and sickest; separately, behavioral studies (e.g. Waber et al. 2008) find priced treatments are perceived as more effective than free ones. Small copays (the author's 1-2 euro intuition) have real behavioral effects and real distributional risks - design matters (caps, exemptions).",
+      "values": {},
+      "unit": "experimental findings",
+      "geography": "US (RAND), lab studies",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: RAND HIE canonical papers (Newhouse et al.), Waber et al. JAMA 2008; also France's own franchises medicales (2008-) as domestic evidence. Supports smart-friction design within a free-at-point-of-need system, with the distributional caveat stated."
+    },
+    {
+      "id": "F060",
+      "statement": "The How Asia Works thesis (Studwell 2013): Japan, Korea, Taiwan (and later China) developed through a dirigiste sequence - radical land reform, then EXPORT-DISCIPLINED industrial policy (state support strictly conditional on success in world markets, with systematic culling of losers), then financial repression steering household savings into industry. The mechanism is not state betting per se but the DISCIPLINE: subsidies died when firms failed abroad. Import-substitution dirigisme without export discipline (Latin America, Southeast Asia) failed with the same tools.",
+      "values": {},
+      "unit": "book thesis",
+      "geography": "East Asia",
+      "sources": ["S034"],
+      "confidence": "high",
+      "status": "verified",
+      "notes": "Verified as an accurate account of the book's argument (widely reviewed). Relevance to the program: France's dirigiste FORM is legitimate for long-horizon capital (energy, compute, rail) where private horizons are too short - but France's failure mode is refusing to cull (supporting incumbents forever). Hence the program rule: every state bet carries a kill criterion (C21). France's own record fits Studwell's split: nuclear/TGV/Airbus had verifiable engineering targets and export markets; Plan Calcul, Minitel, Bull had neither."
+    },
+    {
+      "id": "F061",
+      "statement": "French public employment is quasi-irreversible in practice: dismissal for professional insufficiency is vanishingly rare (on the order of a hundred cases per year across ~5.7 million agents), performance management is weak, and mobility rules trap both the state and its employees. This rigidity - not headcount alone - is a core driver of public-service inefficiency and of the hiring caution that understaffs priority services.",
+      "values": { "public_agents_mn": 5.7 },
+      "unit": "institutional fact",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: DGAFP annual reports, Cour des comptes on HR management in the fonction publique; compare with Nordic public-employment contracts (largely standard labor law). Author's point recorded: 'on ne peut pas virer les fonctionnaires incompetents' - the program's state-reform lever must address statut reform honestly, framed as the precondition for BETTER services, not fewer."
+    },
+    {
+      "id": "F062",
+      "statement": "GDP understates modern quality-of-life gains: free digital goods carry large consumer surplus invisible in national accounts (Brynjolfsson et al.'s GDP-B experiments value free services like search, maps, messaging at hundreds of euros per user-year). Technology diffusion - historically driven by growth - raises the quality of life of ALL quartiles through channels income statistics miss.",
+      "values": {},
+      "unit": "measurement research",
+      "geography": "cross-country",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: Brynjolfsson, Collis et al. GDP-B papers (AER Insights 2019+). Supports the author's second success criterion: the 75%'s quality of life includes technology-driven surplus, which is a GROWTH product - an argument for growth that does not run through redistribution at all."
     }
   ],
   "comparables": [
@@ -1153,6 +1259,38 @@
       "counterarguments": [
         { "argument": "Adding sovereign-core spending makes the fiscal arithmetic harder, not easier.", "status": "answered", "note": "Sized honestly in the financing table: the sovereign-core uplift (justice, security) is single-digit billions - two orders of magnitude below the pension envelope [F018]. It buys legitimacy for the rebalancing at trivial cost." }
       ]
+    },
+    {
+      "id": "C19",
+      "claim": "NORMATIVE ANCHOR (author's position, stated openly) - The program optimizes TWO curves jointly: (1) the living standard of the bottom quartile, measured as cost-of-living-adjusted command over essentials (disposable income net of housing and health costs, plus access and life expectancy); (2) the quality of life of the other 75%, including technology-driven consumer surplus that income statistics miss. Growth is the instrument, not the goal; the floor is a conquest to defend; and the two are one fight, because if the model collapses, the first quartile pays most (C14). US-style growth without a floor demonstrably fails the poor (F054?); French-style floor without growth expires (Part II); the target quadrant is both - and the benchmark is the world's best performers on each dimension, not any single country model.",
+      "status": "supported",
+      "supporting_facts": ["F054", "F055", "F056", "F062", "F018"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Naming the bottom quartile as co-equal target invites permanent redistribution pressure that eats the growth half.", "status": "open", "note": "The design answer: the floor is defined in ABSOLUTE command-over-essentials terms (not relative inequality metrics), so it is compatible with the top pulling away; and its financing must come from growth and composition, never from deficit - that discipline IS the thesis. To be argued in the essay." },
+        { "argument": "The Germany example the author first proposed may show the opposite (F056?).", "status": "answered", "note": "Author's explicit instruction: follow the data. If F056 verifies, the argument reframes: France already wins at the bottom - on borrowed money; the fight is to make the floor permanent. The dashboard [Q25] decides." }
+      ]
+    },
+    {
+      "id": "C20",
+      "claim": "BOUNDARY MAP - The program is not a privatization program. Where competition requires duplicating a network (rail, electricity grids, water), a single regulated operator beats fragmented markets (UK rail as anti-example, F057?); where universal insurance beats market insurance (health: the US spends 17% of GDP for worse outcomes, F055?), universality stays. The honest counterpart: French public-service inefficiency is real and structural - above all the quasi-impossibility of managing out incompetence under the statut (F061?) - and the remedy is management and governance reform WITHIN public/universal frames (health-efficiency frontier, F058?; smart frictions with distributional guardrails, F059?), not ownership transfer.",
+      "status": "hypothesis",
+      "supporting_facts": ["F055", "F057", "F058", "F059", "F061"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "'Reform the public operator from within' has been promised for 40 years and never delivered; ownership change is the only credible commitment device.", "status": "open", "note": "Partial answer: counter-examples of within-public turnarounds exist (Nordic health digitalization, German municipal utilities, France's own CNAM operational record); and the anti-example (UK rail) shows ownership change without structure change fails too. The binding variable is governance + HR rules (F061), not the shareholder. Needs case evidence [Q27]." }
+      ]
+    },
+    {
+      "id": "C21",
+      "claim": "STATE BETS WITH A KILL SWITCH (the How Asia Works lesson) - Dirigisme is legitimate exactly where private capital's horizon is too short (energy, compute infrastructure, rail, foundational research): the state can hold 10-30 year plans (F032, F060). But the East Asian record says the mechanism that separates developmental success from waste is EXPORT/MARKET DISCIPLINE: support strictly conditional on verifiable external success, and losers culled (F060). France's own history obeys the same law - nuclear/TGV/Airbus had verifiable engineering targets and export tests; Plan Calcul and Minitel had neither. Program rule: every state bet carries, at birth, a published kill criterion and an independent evaluator; refusing to cull is the French failure mode, and the wrapper (III.12) exists to prevent it.",
+      "status": "supported",
+      "supporting_facts": ["F060", "F032", "F033"],
+      "contradicting_facts": ["F052"],
+      "counterarguments": [
+        { "argument": "The state cannot pick winners; markets average better, especially with mediocre state competence.", "status": "answered", "note": "Conceded as the default - which is why the claim restricts state bets to horizon-failure domains AND requires external discipline. The choice is not state vs market; it is disciplined bets vs both undisciplined bets and absent bets. F052 (Flamanville) sits in contradicting_facts as the standing reminder of execution risk." },
+        { "argument": "China's renewables/AI push shows scale dirigisme working without export discipline in the classic sense.", "status": "open", "note": "Partially - Chinese industrial policy still runs brutal internal culling (EV firm die-offs) and world-market price tests. Whether the mechanism transfers to a 68M-person democracy is open; use as inspiration for ambition, not as governance template." }
+      ]
     }
   ],
   "open_questions": [
@@ -1303,6 +1441,30 @@
       "question": "Verification sweep of the run-4 diagnosis facts: F042 (housing costs/construction), F043 (permit composition), F044 (family policy history), F045 (talent export), F046 (anti-system vote), F047 (PISA equity, teacher pay), F048 (university funding), F049 (CEPEJ justice), F050 (ISF/Zucman yields), F051 (pensions = 2x education), F052 (Flamanville/EDF), F053 (productivity level). None may carry the essay while unverified.",
       "status": "open",
       "priority": "high"
+    },
+    {
+      "id": "Q25",
+      "question": "Build the two-curves dashboard (C19): (a) bottom-quartile command over essentials - equivalized disposable income of Q1 in PPP, NET of housing and out-of-pocket health costs, 2000-2024, for France/Germany/US/Sweden/Denmark/Netherlands + poverty after transfers + life expectancy by income; (b) the 75% curve - median income plus technology consumer-surplus estimates (F062?). This dashboard settles Scenario A vs B (is France past the redistribution optimum, or is the floor fine and its financing broken?) and decides how the Germany example is used (F056?). Author instruction: follow the data wherever it lands.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q26",
+      "question": "Health-efficiency frontier study (C20): which universal systems deliver >= French outcomes at materially lower spend (Israel, Singapore, Korea, Spain, Italy - F058?), and through what design features? Domestic evidence on smart frictions: France's franchises medicales (2008-), RAND HIE distributional caveats (F059?). Output: the program's health line - universality kept, frontier sought, frictions designed with caps/exemptions.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q27",
+      "question": "State-capacity reform evidence (C20/F061?): how do Nordic countries manage public employment (standard labor contracts, dismissal possible) while keeping service quality and independence? France's statut: actual dismissal statistics, past reform attempts, unions' red lines. Case studies of within-public turnarounds vs ownership transfers (UK rail F057? as anti-example; Nordic health digitalization; German municipal utilities). Output: the management-reform component of Lever State.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q28",
+      "question": "Developmental-state discipline design (C21): document the export-discipline mechanism (Studwell F060) with Korea/Taiwan specifics; China's internal culling in EV/solar; France's own split record (nuclear/TGV/Airbus vs Plan Calcul/Minitel/Bull - what exactly distinguished them?); design the kill-criteria template for the program's bets (EPR2, AI/compute, R&D increment): who evaluates, on what metric, with what sunset.",
+      "status": "open",
+      "priority": "medium"
     }
   ]
 }
