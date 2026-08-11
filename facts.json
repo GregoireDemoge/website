@@ -1,0 +1,557 @@
+{
+  "_meta": {
+    "description": "Evidence base for the thesis on restoring French growth. Single source of truth: the essay may not contain a number absent from this file.",
+    "id_conventions": "S = source, F = fact, X = comparable, C = claim, Q = open question",
+    "statuses": {
+      "facts": ["unverified", "verified", "challenged", "refuted"],
+      "claims": ["hypothesis", "supported", "challenged", "dropped"],
+      "comparables": ["candidate", "validated", "rejected"]
+    },
+    "confidence_levels": ["high", "medium", "low"],
+    "rules": [
+      "Every fact needs a source with URL and access date before status can be 'verified'.",
+      "PPP for all cross-country income/productivity comparisons, never nominal exchange rates.",
+      "When two reputable sources disagree, record both and set status to 'challenged'.",
+      "Never delete a refuted fact; keep it with its refutation so no future run re-adds it.",
+      "Set chartable: true on facts carrying data series worth charting in the future HTML rendering."
+    ],
+    "last_updated": "2026-08-11"
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "name": "INSEE, Public finances - main aggregates of general government (national accounts 2024/2025)",
+      "url": "https://www.insee.fr/en/statistiques/8574782?sommaire=8574870",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S002",
+      "name": "OECD, Government at a Glance 2025 - General government expenditures",
+      "url": "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en/full-report/general-government-expenditures_395dfea8.html",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S003",
+      "name": "Banque de France, Bulletin 259 art. 4 - In which areas does France spend more than euro area peer economies?",
+      "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/which-areas-does-france-spend-more-euro-area-peer-economies",
+      "type": "central_bank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S004",
+      "name": "Banque de France - Revisiting the European performance gap vis-a-vis the United States",
+      "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states",
+      "type": "central_bank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S005",
+      "name": "OECD Compendium of Productivity Indicators 2025 - Cross-country comparisons of labour productivity levels",
+      "url": "https://www.oecd.org/en/publications/oecd-compendium-of-productivity-indicators-2025_b024d9e1-en/full-report/cross-country-comparisons-of-labour-productivity-levels_b2fdb493.html",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S006",
+      "name": "Eurostat, Statistics Explained - R&D expenditure",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=R%26D_expenditure",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S007",
+      "name": "Draghi report - The future of European competitiveness (September 2024)",
+      "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en",
+      "type": "institutional_report",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S008",
+      "name": "INSEE Premiere 2093 - Government expenditure by function in 2024",
+      "url": "https://www.insee.fr/en/statistiques/8739485",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S009",
+      "name": "World Bank, World Development Indicators - GDP per capita PPP (via secondary aggregation, needs primary re-check)",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "statement": "French general government expenditure was 57.0% of GDP in 2024 and 58.2% in 2025, among the highest in the OECD (OECD average: 42.6% in 2023). Only Finland is comparable (57.5% in 2024).",
+      "values": { "france_2024": 57.0, "france_2025": 58.2, "oecd_avg_2023": 42.6, "finland_2024": 57.5 },
+      "unit": "% of GDP",
+      "geography": "France vs OECD",
+      "sources": ["S001", "S002"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "INSEE and OECD figures differ by ~0.2pp (57.0 vs 57.2 for 2024) due to vintage; immaterial. Time series in S001 goes back to 2018."
+    },
+    {
+      "id": "F002",
+      "statement": "French public debt (Maastricht definition) was 112.6% of GDP in 2024 and 115.6% in 2025, up from 98.2% in 2019.",
+      "values": { "2019": 98.2, "2024": 112.6, "2025": 115.6 },
+      "unit": "% of GDP",
+      "geography": "France",
+      "sources": ["S001"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true
+    },
+    {
+      "id": "F003",
+      "statement": "The French government deficit was 5.8% of GDP in 2024 and 5.2% in 2025; the deficit has not been below 2.3% at any point since 2018 despite record-high revenue.",
+      "values": { "2024": 5.8, "2025": 5.2, "receipts_2025_pct_gdp": 53.0 },
+      "unit": "% of GDP",
+      "geography": "France",
+      "sources": ["S001"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true
+    },
+    {
+      "id": "F004",
+      "statement": "French compulsory levies (taxes and social contributions) were 42.8% of GDP in 2024 and 43.6% in 2025, among the highest in the EU.",
+      "values": { "2024": 42.8, "2025": 43.6 },
+      "unit": "% of GDP",
+      "geography": "France",
+      "sources": ["S001"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "INSEE 'prelevements obligatoires' definition. Eurostat's tax-to-GDP ratio uses a different definition and yields a higher figure (~45-46%); do not mix the two series. EU ranking still needs a dedicated Eurostat check."
+    },
+    {
+      "id": "F005",
+      "statement": "France spent 7.5 percentage points of GDP more than the euro area average in 2023 (57.0% vs 49.5%). Two-thirds of the gap is social protection (+5.0pp of GDP); the rest is economic affairs, housing and education. The gap has widened from 5.5pp in 2001.",
+      "values": { "gap_vs_euro_area_2023_pp": 7.5, "social_protection_share_of_gap_pp": 5.0, "gap_2001_pp": 5.5 },
+      "unit": "percentage points of GDP",
+      "geography": "France vs euro area",
+      "sources": ["S003"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true
+    },
+    {
+      "id": "F006",
+      "statement": "France's GDP-per-capita gap with the United States widened from 24% in 2000 to 33% in 2023 (Banque de France, PPP-based). Germany's gap widened from 16% to 23%, Italy's from 18% to 36% over the same period.",
+      "values": { "france_gap_2000_pct": 24, "france_gap_2023_pct": 33, "germany_gap_2023_pct": 23, "italy_gap_2023_pct": 36 },
+      "unit": "% below US GDP per capita",
+      "geography": "France, Germany, Italy vs US",
+      "sources": ["S004"],
+      "confidence": "medium",
+      "status": "challenged",
+      "chartable": true,
+      "notes": "CHALLENGE: World Bank WDI current-PPP data for 2024 implies a smaller gap (~26%, i.e. France at ~74% of US level; $63.4k vs $86.0k). The BdF figure likely uses constant-PPP vintages. A future run must reconcile the two on one dataset (OECD or WDI) before the essay quotes a single number. The direction (widening) is not in dispute."
+    },
+    {
+      "id": "F007",
+      "statement": "Decomposition of France's GDP-per-capita gap with the US: the largest part remains fewer hours worked per capita, but the hourly-productivity gap now accounts for more than one-third of the total (2023), versus a slightly negative contribution in 2000. France's productivity advantage has vanished and reversed.",
+      "values": { "productivity_share_of_gap_2023": ">1/3", "productivity_contribution_2000": "slightly negative" },
+      "unit": "decomposition",
+      "geography": "France vs US",
+      "sources": ["S004"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Pivotal diagnostic fact: the gap is BOTH a labor-input problem and, increasingly, a productivity problem. Fixing only one does not close it."
+    },
+    {
+      "id": "F008",
+      "statement": "Average annual hours worked per worker in France were below 1,500 in 2023, among the lowest in the OECD (with Germany, Denmark, Norway, Austria, Sweden, Netherlands, Iceland, Luxembourg, Finland). Countries like the US are near 1,800.",
+      "values": { "france_2023": "<1500", "us_approx": 1800 },
+      "unit": "hours per worker per year",
+      "geography": "OECD",
+      "sources": ["S005"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Hours per WORKER understate the French labor-input gap: employment rate and career length (late entry, early exit) matter as much. See F011/F012 backlog. Note Germany works even fewer hours per worker than France yet is richer per capita - the comparison cuts both ways and the essay must handle it honestly."
+    },
+    {
+      "id": "F009",
+      "statement": "French R&D intensity has been flat for a decade: 2.22% of GDP in 2014, 2.18% in 2024 (provisional). Germany: 3.13% (2024). United States: 3.45% (2023). South Korea: 4.96% (2023). EU average: 2.26% (2023).",
+      "values": { "france_2014": 2.22, "france_2024": 2.18, "germany_2024": 3.13, "us_2023": 3.45, "korea_2023": 4.96, "eu_2023": 2.26 },
+      "unit": "% of GDP (GERD)",
+      "geography": "France vs peers",
+      "sources": ["S006"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "The gap is concentrated in BUSINESS R&D: EU business sector 1.49% of GDP vs US 2.70%, Korea 3.93% (2023). This despite France's Credit Impot Recherche being one of the most generous R&D tax credits in the OECD - a puzzle worth digging (backlog)."
+    },
+    {
+      "id": "F010",
+      "statement": "Draghi report: EU companies spent about half as much on R&I as a share of GDP as US companies (~EUR 270bn gap in 2021). The EU's top-3 corporate R&I spenders have remained automotive for two decades, while the US top-3 shifted from auto/pharma to software and digital. Draghi calls this the 'middle technology trap'.",
+      "values": { "eu_us_ri_gap_2021_eur_bn": 270 },
+      "unit": "EUR billion",
+      "geography": "EU vs US",
+      "sources": ["S007"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "id": "F011",
+      "statement": "France's employment rate for workers aged 55-64 is far below northern European peers (roughly 58-60% vs ~74% Germany, ~77% Sweden).",
+      "values": { "france_approx": 59, "germany_approx": 74, "sweden_approx": 77 },
+      "unit": "% of age group employed",
+      "geography": "France vs Germany, Sweden",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with Eurostat/OECD latest year. Central to the hours-per-capita story."
+    },
+    {
+      "id": "F012",
+      "statement": "Hours worked per CAPITA (not per worker) in France are among the lowest in the OECD, roughly 600-650 hours/year vs ~800 in the US, because of lower employment rates at both ends of working life plus shorter hours.",
+      "values": { "france_approx": 630, "us_approx": 800 },
+      "unit": "hours per capita per year",
+      "geography": "France vs US",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: compute from OECD data (total hours / population). This is the correct labor-input metric for the decomposition in F007."
+    },
+    {
+      "id": "F013",
+      "statement": "France's potential growth is estimated at roughly 1.0-1.2% per year (Banque de France, European Commission estimates), versus ~2% in the early 2000s.",
+      "values": { "current_approx": 1.1 },
+      "unit": "% per year",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify with Banque de France projections and EC AMECO."
+    },
+    {
+      "id": "F014",
+      "statement": "French hourly labor productivity fell roughly 3-5% below its pre-2019 trend after COVID - a 'productivity puzzle' partly attributed to the apprenticeship boom (composition effect) and labor hoarding, partly unexplained.",
+      "values": { "gap_vs_pre2019_trend_pct": "-3 to -5" },
+      "unit": "% vs trend",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: INSEE and Banque de France have published analyses; CAE note as well. Matters because it determines whether the productivity slide is structural or transitory (Q1)."
+    },
+    {
+      "id": "F015",
+      "statement": "France's tax wedge on labor (income tax + employer and employee social contributions as % of total labor cost, single average worker) is around 47%, among the top 3 in the OECD (OECD average ~34.8%).",
+      "values": { "france_approx": 47, "oecd_avg_approx": 34.8 },
+      "unit": "% of labor cost",
+      "geography": "France vs OECD",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with OECD Taxing Wages latest edition. Core evidence for the claim that low hours are policy-induced, not just preference (C6)."
+    },
+    {
+      "id": "F016",
+      "statement": "French production taxes (taxes on production regardless of profit) are several times the German level as a share of GDP (~3.5% vs ~0.7% pre-2021; partially cut since).",
+      "values": { "france_pre2021_approx": 3.5, "germany_approx": 0.7 },
+      "unit": "% of GDP",
+      "geography": "France vs Germany",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify with Eurostat national tax lists and check post-2021 CVAE cuts (partially reversed/postponed). Key for industrial competitiveness argument."
+    },
+    {
+      "id": "F017",
+      "statement": "Nuclear power provides roughly 65-70% of French electricity, giving France among the lowest-carbon and historically cheapest baseload electricity of any large economy - a structural asset for reindustrialization and AI-era energy demand.",
+      "values": { "nuclear_share_approx": 67 },
+      "unit": "% of electricity generation",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with RTE annual report; check current industrial electricity prices vs Germany post-2022."
+    },
+    {
+      "id": "F018",
+      "statement": "French public pension spending is around 13.5-14% of GDP, versus an OECD average around 9%; pensions are the single largest driver of the public spending gap with peers.",
+      "values": { "france_approx": 13.8, "oecd_avg_approx": 9 },
+      "unit": "% of GDP",
+      "geography": "France vs OECD",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with OECD Pensions at a Glance and COR reports. Consistent with F005 (social protection = 2/3 of spending gap) and INSEE Premiere 2093 (pensions drove 2024 spending increase, S008)."
+    },
+    {
+      "id": "F019",
+      "statement": "France has ranked #1 in Europe for foreign direct investment projects for several consecutive years (EY European Attractiveness Survey), ahead of the UK and Germany.",
+      "values": {},
+      "unit": "ranking",
+      "geography": "Europe",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify latest EY barometer; note caveat that project COUNT is not project VALUE or jobs. Counter-evidence against pure declinism (C5)."
+    },
+    {
+      "id": "F020",
+      "statement": "French unemployment fell from ~10.5% in 2015 to ~7.5% by 2024-2025 - evidence that labor-market reforms (2017 ordinances, unemployment insurance reform, apprenticeship expansion) moved a needle long thought unmovable in France.",
+      "values": { "2015_approx": 10.5, "2024_approx": 7.5 },
+      "unit": "% of labor force",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify INSEE series; note 2025 direction. Important challenge to the 'nothing works in France' prior - reforms happened and worked (Q6)."
+    },
+    {
+      "id": "F021",
+      "statement": "In cross-country surveys, the French public expresses among the lowest support in the developed world for the free-market system (e.g. GlobeScan 2005: ~36% of French agreed 'the free market is the best system', vs ~59% Germany, ~71% US; later Pew surveys show a similar pattern).",
+      "values": { "france_2005_approx": 36, "germany_2005_approx": 59, "us_2005_approx": 71 },
+      "unit": "% agreement",
+      "geography": "France vs peers",
+      "sources": [],
+      "confidence": "low",
+      "status": "unverified",
+      "notes": "BACKLOG: find primary survey data, and RECENT data (2005 is stale). Core evidence for the mindset claim (C4) - must be rock-solid or the claim gets dropped."
+    },
+    {
+      "id": "F022",
+      "statement": "France's PISA 2022 mathematics score dropped sharply (about -21 points vs 2018, one of the largest declines among rich countries), placing France near the OECD average and far below top performers - a leading indicator of future productivity.",
+      "values": { "decline_vs_2018_points": -21 },
+      "unit": "PISA points",
+      "geography": "France vs OECD",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with OECD PISA 2022 country note; COVID affected all countries, compare relative decline."
+    },
+    {
+      "id": "F023",
+      "statement": "French households hold one of the highest saving rates in Europe (~17-18% of disposable income), but savings flow disproportionately to low-risk assets (livrets, euro-fund life insurance) rather than equity - capital exists but does not fund risk.",
+      "values": { "saving_rate_approx": 17.5 },
+      "unit": "% of gross disposable income",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify with INSEE/Banque de France financial accounts; get equity share of household financial assets vs US/Sweden."
+    }
+  ],
+  "comparables": [
+    {
+      "id": "X01",
+      "country": "Sweden",
+      "episode": "Post-1991 crisis reforms: public spending cut from ~70% to ~50% of GDP over 15 years, notional defined-contribution pension reform, school choice, deregulation - while keeping universal welfare.",
+      "why_relevant": "Existence proof that a high-tax, high-trust European welfare state can cut spending by ~20pp of GDP, restore growth, and keep its social model. Closest ideological starting point to France.",
+      "comparability": "partial",
+      "caveats": "9-10M people vs 68M; much higher social trust; krona depreciation did part of the work; corporatist wage bargaining eased adjustment; reform was forced by an acute crisis, not chosen.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X02",
+      "country": "Germany",
+      "episode": "Hartz reforms 2003-2005 ('sick man of Europe' to full employment).",
+      "why_relevant": "Large euro-area country, similar size, that halved unemployment via labor-market reform without leaving its social model.",
+      "comparability": "partial",
+      "caveats": "Gains rode on wage restraint plus an undervalued real exchange rate inside the euro - a trick France cannot replicate against Germany itself. Export-manufacturing model now visibly stressed (post-2019 stagnation). Rise of in-work poverty and mini-jobs is a real cost to weigh.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X03",
+      "country": "Denmark",
+      "episode": "Flexicurity model: easy firing + generous, conditional unemployment support + intensive activation.",
+      "why_relevant": "Shows job SECURITY can be replaced by employment security without mass precarity - directly answers the main French objection to labor flexibility.",
+      "comparability": "partial",
+      "caveats": "6M people, very high trust, strong municipal capacity for activation programs. Cost of activation policies is high.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X04",
+      "country": "Switzerland",
+      "episode": "Standing model: ~33% of GDP public spending, apprenticeships, decentralization, high wages.",
+      "why_relevant": "Rich, European, French-speaking in part - and runs a state roughly 24pp of GDP smaller than France's. Useful bound on 'how small can a successful European state be'.",
+      "comparability": "weak-to-partial",
+      "caveats": "9M people, no EU membership, financial-center and pharma rents, direct democracy as trust mechanism, cantonal competition hard to replicate in centralized France.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X05",
+      "country": "South Korea",
+      "episode": "R&D-intensity leadership (nearly 5% of GDP) and industrial upgrading.",
+      "why_relevant": "Benchmark for what a deliberate national innovation effort looks like; useful contrast to France's flat 2.2%.",
+      "comparability": "weak",
+      "caveats": "Different development stage during ramp-up, chaebol structure, work-hours culture France explicitly rejects, demographic cliff worse than France's.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X06",
+      "country": "Poland",
+      "episode": "Fastest sustained convergence in the EU since 2004.",
+      "why_relevant": "Proof that high growth is possible inside the EU regulatory frame.",
+      "comparability": "weak",
+      "caveats": "Catch-up growth from a low base is a different regime than frontier growth; France's problem is frontier growth. Use only as an existence proof for EU-compatible dynamism, never as a policy template.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X07",
+      "country": "United States",
+      "episode": "Standing frontier benchmark.",
+      "why_relevant": "Defines the frontier for productivity and innovation; the Draghi diagnosis is anchored on the US gap.",
+      "comparability": "partial",
+      "caveats": "Not a model to import wholesale: healthcare costs, inequality, weaker safety net are part of the package that produces the hours gap. Use as a measuring stick, and be honest that part of the US lead is hours the French have chosen not to work.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X08",
+      "country": "United Kingdom",
+      "episode": "Post-2008 productivity stagnation despite flexible labor markets.",
+      "why_relevant": "Control group: proves labor-market flexibility ALONE does not deliver productivity growth. Guards the thesis against one-lever solutions.",
+      "comparability": "partial",
+      "caveats": "Brexit shock is a confounder after 2016.",
+      "status": "candidate",
+      "facts": []
+    },
+    {
+      "id": "X09",
+      "country": "Ireland",
+      "episode": "Headline GDP per capita among the highest in the world.",
+      "why_relevant": "Frequently cited as a low-tax success story.",
+      "comparability": "rejected",
+      "caveats": "GDP inflated by multinational profit-shifting and IP relocation; modified GNI (GNI*) is roughly 40% below GDP. Irish domestic living standards are far below headline GDP rank. Pre-loaded as REJECTED to set the comparability bar. May be cited only as an example of measurement distortion.",
+      "status": "rejected",
+      "facts": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "France's income gap with the US is a labor-input gap (hours per capita) AND, increasingly, a productivity gap. Since 2000 France lost its hourly-productivity advantage; any credible growth plan must raise both hours worked per capita and output per hour - one lever alone cannot close the gap.",
+      "status": "supported",
+      "supporting_facts": ["F006", "F007", "F008", "F012"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Fewer hours reflect a legitimate preference for leisure; GDP understates French welfare.", "status": "open", "note": "Must be answered with the policy-induced-vs-preference evidence (F015, retirement rules) and the fiscal-sustainability angle: the leisure choice is currently debt-financed (F002, F003)." },
+        { "argument": "Germany works even fewer hours per worker and is richer - so hours are not the problem.", "status": "open", "note": "Answer via hours per CAPITA and employment rates (F011, F012): Germany employs far more of its population, especially seniors." }
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "France does not have a revenue problem; it has a spending-composition and efficiency problem. At world-record tax and spending levels it still runs 5%+ deficits, and the spending gap with peers is two-thirds social protection - mostly pensions - not public services.",
+      "status": "supported",
+      "supporting_facts": ["F001", "F002", "F003", "F004", "F005", "F018"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "High French spending partly replaces private spending other countries make (pensions, healthcare, education), so gross comparisons overstate the difference in state 'weight'.", "status": "open", "note": "Partly true - must be handled with net social expenditure data (OECD SOCX) before the essay leans on raw 57%." }
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "France is caught in the European 'middle technology trap': R&D intensity flat for 25 years, business R&D far below the US/Korea, industrial R&D stuck in mature sectors. Without an innovation regime change, productivity growth will not return.",
+      "status": "supported",
+      "supporting_facts": ["F009", "F010"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "France has a generous R&D tax credit (CIR) and vibrant startup scene (French Tech, Mistral); the inputs are there.", "status": "open", "note": "The CIR puzzle (generous credit, flat intensity) needs to be dug: composition, scale-up financing, exit-to-US patterns." }
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "The binding constraint on French growth is not knowledge of what to do but the national relationship to markets, risk, work and wealth: the public rejects the system that produces growth. A credible thesis must treat the mindset as the reform object, not as fixed background.",
+      "status": "hypothesis",
+      "supporting_facts": ["F021"],
+      "contradicting_facts": ["F019", "F020"],
+      "counterarguments": [
+        { "argument": "Mindset explanations are unfalsifiable just-so stories; France reformed repeatedly when leadership tried (2017-2023), and attitudes follow institutions rather than cause them.", "status": "open", "note": "F020 is genuine counter-evidence. The claim needs recent survey data and reform-history analysis, or it gets reframed/dropped. This is the author's prior - challenge it hardest." }
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "A French growth turnaround is plausible because France holds latent assets most peers lack: cheap low-carbon nuclear power, better demographics than Germany or Italy, a deep pool of household savings, world-class engineering talent, and demonstrated FDI attractiveness.",
+      "status": "hypothesis",
+      "supporting_facts": ["F017", "F019", "F023"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Assets that stay latent are not assets; France has had them for decades without growth.", "status": "open", "note": "The essay must explain the activation mechanism, not just list endowments." }
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "France's low labor input is substantially policy-induced (tax wedge, retirement rules, late labor-market entry), not purely a cultural preference for leisure - which means it is reversible by policy.",
+      "status": "hypothesis",
+      "supporting_facts": ["F011", "F015"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Attempts to raise hours (pension reform 2023) met massive resistance - revealed preference is against more work.", "status": "open", "note": "Distinguish preference over own hours from preference over the policy regime; also check natural experiments (overtime detaxation 2007-2012, auto-entrepreneur regime)." }
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q01",
+      "question": "Is the post-2019 French productivity slump mostly composition (apprenticeship boom, labor hoarding) or structural? Determines how alarmed the essay should be about F014.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q02",
+      "question": "Reconcile the France-US GDP per capita gap: BdF says 33% (2023), World Bank current-PPP implies ~26% (2024). Pick one dataset (OECD or WDI), one vintage, and stick to it everywhere (see F006).",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q03",
+      "question": "Quantify the decomposition for France specifically: if France matched (a) German employment rates by age band and (b) US hours per worker, how much of the income gap closes in each scenario? Needs a small computation from OECD data - this table could anchor the whole essay.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q04",
+      "question": "What does RECENT survey evidence (post-2020 Pew, World Values Survey wave 7, Eurobarometer) actually say about French attitudes to markets, risk, wealth and work? C4 lives or dies on this.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q05",
+      "question": "Why is French business R&D flat despite the CIR, one of the OECD's most generous R&D tax credits? Composition of firms? Scale-up financing gap? Brain drain of researchers? Key to C3's policy implications.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q06",
+      "question": "What did the 2017-2023 French reforms actually deliver (labor ordinances, capital taxation flat tax, unemployment insurance, apprenticeships, pension age)? Honest accounting cuts both ways: challenges both 'nothing is possible in France' and 'France already reformed enough'.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q07",
+      "question": "Net social expenditure (OECD SOCX): after taxes on benefits and mandatory private spending, how much of the France-vs-peers spending gap survives? Needed to defend C2 against its main counterargument.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q08",
+      "question": "Energy: what are current industrial electricity prices France vs Germany vs US, and how much reindustrialization/AI-datacenter advantage does the nuclear fleet actually confer (F017)? Include EDF debt and new-build (EPR2) cost risk as counterweight.",
+      "status": "open",
+      "priority": "medium"
+    }
+  ]
+}
