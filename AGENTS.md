@@ -65,6 +65,34 @@ The essay follows these rules (distilled from the author's brief):
 
 The essay is not a paper. No hedging boilerplate, no "it is important to note," no throat-clearing. But it must never purchase punchiness with imprecision: if a sharp sentence overstates the evidence, sharpen the evidence or soften the sentence.
 
+### The anti-tell checklist (added run 7 — author directive: the essay must not read as AI-written)
+
+Compiled from Wikipedia's "Signs of AI writing", Bloomberry's structural-fingerprint research, and WriteHuman's 2026 corpus data. Run this as an explicit audit pass before committing any prose to `article.md`, and note the audit in the journal.
+
+**Banned outright:**
+
+1. Em-dashes. Restructure instead: commas, periods, parentheses, an occasional colon.
+2. Antithesis scaffolds: "it's not X, it's Y", "not just X but Y", "no longer X", "less about X than about Y". Say the true thing directly. (One plain "X, not Y" per ~1,500 words is tolerable; the punchline pattern is not.)
+3. Stock vocabulary: delve, tapestry, landscape/realm (abstract), intricate, pivotal, crucial, key (adjective), robust, seamless, leverage, harness, unlock, navigate, showcase, underscore, highlight (verb), testament, meticulous, boasts, vibrant, foster, garner, multifaceted, comprehensive, notably, moreover, furthermore, sentence-initial "Additionally", ensuring/ensures as padding, and the sentence shape "X plays a crucial/vital role in shaping Y".
+4. Hedge openers and closers: "In today's...", "In an era of...", "It's important to note", "it's worth noting", "Ultimately", "In conclusion", "Overall". Delete or replace with a specific claim.
+5. Resolution closers: paragraphs or sections that end by summarizing themselves. End on the strongest specific instead. Not every section needs a moral.
+6. Rhetorical-question transitions ("So what does this mean?"). A question is allowed only if the next sentence answers it with content.
+7. Canned both-sidesing: "While X has its merits, Y...". Commit: X works for A; Y works for B.
+
+**Rationed (audit every instance):**
+
+8. Rule of three. At most one earned tricolon per ~1,000 words; if an item can be dropped without losing information, drop it.
+9. Intensifiers (significantly, effectively, increasingly, deeply, truly): only with a number or fact directly behind them.
+10. Bold mid-sentence, exclamation marks: almost never.
+
+**Positive habits (what human prose has and slop lacks):**
+
+11. Specifics everywhere: names, dates, numbers, institutions ("INSEE's 2024 accounts", never "official data shows").
+12. Varied rhythm: four-word sentences next to thirty-word ones; paragraphs of visibly different lengths; an occasional parenthetical aside.
+13. Committed positions; hedge only with specific, informative hedges ("the size is disputed between 26% and 33%; the direction is not").
+14. First person where the author's position does work (per `thesis.md` 0.2); concrete images over abstractions; an admitted hesitation or a change of mind reads human because it is.
+15. Let a section end mid-thought if the next one picks it up.
+
 ## Per-run protocol
 
 Each run does the following, in order:

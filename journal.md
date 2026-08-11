@@ -4,6 +4,24 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 7 — 2026-08-11 — The anti-tell standard, and the essay begins (author directive)
+
+**Author directive.** Start writing the article, but first research every "tell" that makes readers detect AI writing (the "it's not X, it's Y" pattern, em-dashes, etc.) and write in a way that shows none of them, while writing exceptionally well.
+
+**Research done.** Compiled from Wikipedia's "Signs of AI writing", Bloomberry's structural-fingerprint research (82% of AI posts carry 2+ of: hedge openers, tricolon lists, em-dash connectors, resolution closers), and WriteHuman's 2026 corpus (80k humanizations: the top tells are now STRUCTURAL - hedging verbs like "ensuring", intensifiers without numbers, the "X plays a crucial role in shaping Y" sentence shape - more than vocabulary). Distilled into a permanent **anti-tell checklist in `AGENTS.md`** (7 banned patterns, 3 rationed, 5 positive habits), binding on all future runs, with a required audit pass before any `article.md` commit.
+
+**Essay unfrozen and begun (`article.md` v0.2).** Drafted (~1,800 words): the opening (the 170/95 arithmetic as the whole essay), "Where I stand" (the author-position paragraph per thesis 0.2, first person, with the US health/mortality evidence), "The wall" (interest trajectory, foreign holders, weekly issuance, the downgrades - plus the honesty paragraph: no market panic, rates eased 2025, the trap is volume not rates, a program is "a default with better manners"), "The road here" (the two gaps, the dead comeback, 673 vs 776 hours, the missing 2.8M careers, the R&D freeze, "it is a liquidation"), and "The usual suspects" (the three acquittals plus the explicit acquittal of the French themselves). Remaining eight sections mapped at the bottom of the file against thesis v2.
+
+**Anti-tell audit of this draft (scripted + manual):** 0 em-dashes; 0 "not just / isn't just / not only"; 0 stock-vocabulary hits; 0 hedge openers/closers; 1 question (bridge into the next section, answered immediately - allowed under rule 6). Manual judgment calls, recorded: two "X, not Y" constructions in 1,779 words ("because of those convictions, not despite them"; "not whether France adjusts... who holds the pen") - at the edge of the ration, both earned, the second is the essay's central line; two asymmetric triadic rhythms ("no crash, no single bad year, just twenty-five years of almost"; the "French / French / French" anaphora in the Europe acquittal) - deliberate rhetoric, kept. Next runs should hold this density or lower.
+
+**Next run should attack, in order:**
+
+1. Continue the essay per the section map (next: "The trade nobody named", then "What France believes", "Price is not worth") - each with a logged anti-tell audit.
+2. In parallel or before: clear the `?` facts the drafted sections lean on (F027/Q09 the opening arithmetic; F006/Q02; F011; F022; F053; F019; F020; F045) - the prose is written, the numbers must now be bulletproof.
+3. [Q25] The two-curves dashboard remains the top research priority for the "Price is not worth" and program sections.
+
+---
+
 ## Run 6 — 2026-08-11 — Price is not worth: the philosophical spine under the two curves; the degrowth collapsible (author input)
 
 **Author input.** Two additions: (1) the "no infinite growth on a finite planet" punchline deserves a real, collapsible-format answer in the article (accordion a la Notion) - degrowing economies spiral; challenging the growth model is a global coordinated project, not a unilateral French one; France's electricity is already low-carbon; and the debt must be rolled (needs growth) or paid (needs surpluses France doesn't produce) - degrowth forecloses both. (2) The author's normative position (0.2) read "a bit weak - one wants to dodge it"; it needed real grounding. Two arguments supplied by the author, to be steelmanned: money is not the measure of contribution (no capitalist merit theory; the entrepreneur is a partial exception; doctors vs executives; capitalism prices innovation-at-scale and marks down the essential - water, traditional engineers); and the economy needs BOTH growth engines and execution workers - the latter cannot be left behind.
