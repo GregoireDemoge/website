@@ -4,6 +4,33 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 4 — 2026-08-11 — The complete thesis, A to Z (author directive)
+
+**Author directive.** The thesis document was "too light" — a spine with pointers, not a thesis. Ordered: write the COMPLETE thesis (diagnosis, consequences of the diagnosis, solutions, everything else) as if no further runs existed. NOT the article prose — the full argumentative content. Delivered: `thesis.md` fully rewritten (v2, ~6,200 words, six parts).
+
+**What the complete thesis now contains:**
+
+- **Part 0 — The claim**, including the three-sentence version and what the thesis is NOT (not declinism, not austerity, not an American import, not feasible-today by design).
+- **Part I — Diagnosis (13 sections)**: the widening gap; the two-gaps decomposition; the fiscal machine; the transfer machine (pensions = 2x education [F051?]); the debt dynamics; the stalled productivity engine (innovation starvation + misallocation + measured slide); capital misallocation (the savings-to-deficit loop); human capital leaking at BOTH ends (PISA bottom, AI-elite top [F045?]); the underused nuclear jewel; the expiring demographic advantage; state capacity (giant insurer, understaffed sovereign core [F049?][C18]); the beliefs layer and the reform ratchet; and the innocent suspects.
+- **Part II — Consequences (7 sections, new)**: the three endings of the countdown (market strike / program / slow grind); why the imposed adjustment is regressive and early choice is the progressive option [C14]; the slow grind as relative demotion (mid-table Europe by 2050 with a top-3 welfare state); the political decline loop [C15]; the geopolitical bill (interest > defense by 2030); the generational ledger of a French 25-year-old; why muddling through is chosen every year.
+- **Part III — Program (12 sections)**: design principles; seven levers — Work, Capital, Frontier, Schools (new as explicit lever), State, People (demography pillar BUILT [C16]: fertility-intentions gap, points-based immigration, diaspora return), Land (housing pillar BUILT [C17]) — plus the ownership operating system [C12]; financing coherence; the model with sensitivities; sequencing in four phases ordered by political capital (incl. Phase 0: everything pre-crisis by decree + the French Lindbeck commission); governance/anti-capture.
+- **Part IV — 14 objections steelmanned**, each with its current best answer, including the new ones: gerontocracy, the wealth-tax alternative with numbers [F050?], degrowth/climate, AI-obsoletes-labor, zero-sum overtake.
+- **Part V — Falsification and countdown markers.** **Part VI — Claim tree (C1-C18) + verification debt list.**
+
+**Facts added (F042-F053, all honestly flagged unverified, sources named):** housing costs/construction, immigration composition vs Canada, family-policy history and the fertility-intentions gap, elite talent export, anti-system vote, PISA equity + teacher pay, university funding, CEPEJ justice capacity, ISF/Zucman yields, pensions = 2x education, Flamanville/EDF risk anchor, productivity LEVEL fairness fact. New claims C14-C18. New questions Q20-Q24 (incl. the verification sweep).
+
+**Discipline note.** The thesis is now argumentatively complete but carries ~25 unverified facts. Rule stands: none may carry the essay unverified. The verification sweep [Q24] is the next runs' primary work, along with the existing high-priority questions.
+
+**Next run should attack, in order:**
+
+1. [Q24] Verification sweep of F042-F053 (start with the most load-bearing: F051 pensions-vs-education ratio, F050 wealth-tax yields, F047 PISA equity, F043 permit composition, F052 Flamanville).
+2. [Q02][Q18] Pin the France-US and France-Germany gaps on one dataset; extract Ageing Report per-capita paths.
+3. [Q20] Greek adjustment incidence (grounds C14); [Q21][Q22][Q23] the new pillars' evidence bases.
+4. Remaining sources: Fernandez-Rodrik, Algan-Cahuc, Hanushek-Woessmann primary, employee-shareholding base, FRR history.
+5. When the sweep is done and Part III's pillars survive it: declare the spine stable → unfreeze `article.md` → write the essay end-to-end.
+
+---
+
 ## Run 3 — 2026-08-11 — The deep session: the model cut the target down, and the thesis is stronger for it
 
 **Author directive.** Think as deeply as possible. Delivered: the growth-accounting model was actually built and run, the ownership mechanism was causally grounded, the demographic claim was corrected against INSEE projections, and three structural insights were added to the spine. This entry records what changed and why.

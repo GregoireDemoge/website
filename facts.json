@@ -729,6 +729,139 @@
       "status": "verified",
       "chartable": false,
       "notes": "Calibrates the model's comparison baseline (A3) - now run with a Germany sensitivity row. The French finding must be handled honestly by C11: on paper, current-law pension spending declines long-run; the catch is that the decline works through politically fragile indexation erosion (the same politics that suspended the 2023 reform), and the report's own low-TFP scenario shows the baseline is optimistic. Exact per-capita paths by country still to extract from the statistical annex [Q18]."
+    },
+    {
+      "id": "F042",
+      "statement": "Housing is French households' largest expense (roughly a quarter or more of consumption); real house prices roughly doubled since 2000 while new construction has fallen to its lowest levels in decades (~270-300k units/year vs ~500k in the mid-2000s); the ZAN (zero net artificialization) rule adds a binding land constraint.",
+      "values": { "housing_share_consumption_approx_pct": 26, "construction_recent_units_k": 280, "construction_mid2000s_units_k": 490 },
+      "unit": "mixed",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with INSEE (comptes du logement), SDES construction statistics. Anchors the housing pillar (C17): scarcity taxes mobility, family formation, and disposable income."
+    },
+    {
+      "id": "F043",
+      "statement": "France's immigration is weakly employment-oriented: work permits are a small minority of first residence permits (~15%, behind students and family), whereas Canada's points system makes the economic class ~60% of admissions. France has no large-scale skills-based channel.",
+      "values": { "france_work_share_first_permits_approx_pct": 15, "canada_economic_class_share_pct": 60 },
+      "unit": "% of admissions",
+      "geography": "France vs Canada",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify with DGEF/ministere de l'Interieur first-permits data and IRCC annual report; OECD International Migration Outlook for cross-country framing. Anchors the demography pillar (C16)."
+    },
+    {
+      "id": "F044",
+      "statement": "France's fertility was Europe's highest (~2.0 in 2010) while it ran the OECD's most generous family-policy complex (~3.5-4% of GDP incl. childcare, quotient familial, allocations). The post-2014 retrenchment (lower quotient cap, means-tested allocations 2015, reformed parental leave) preceded the slide toward 1.56/1.45 [F038]. Causality is debated; the fertility-INTENTIONS gap (desired ~2.3 children vs realized ~1.6) is the policy target.",
+      "values": { "tfr_2010": 2.0, "family_policy_spend_approx_pct_gdp": 3.7, "desired_fertility_approx": 2.3 },
+      "unit": "mixed",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify with OECD Family Database, INED surveys on desired fertility, HCFEA reports. The honest framing: pro-natal policy cannot force births, but France is the one country with quasi-experimental evidence that family policy SUPPORTED near-replacement fertility - and it dismantled parts of it just before the slide."
+    },
+    {
+      "id": "F045",
+      "statement": "France is one of the world's largest EXPORTERS of elite technical talent: a top-5 origin country for top-tier AI researchers, most of whom work in US labs; rising expatriation of engineers, doctors and finance professionals toward the US, Switzerland, and the Gulf.",
+      "values": {},
+      "unit": "qualitative + rankings",
+      "geography": "France",
+      "sources": [],
+      "confidence": "low",
+      "status": "unverified",
+      "notes": "BACKLOG: MacroPolo Global AI Talent Tracker, CAE note on expatriation, Order of Physicians data. The diagnosis's human-capital leak: France pays for elite training and the US collects the returns. Complements F022 (bottom of the distribution) - the leak is at BOTH ends."
+    },
+    {
+      "id": "F046",
+      "statement": "The anti-system vote has structurally risen with stagnation: the combined RN + radical-left blocs went from marginal (1980s) to roughly half of first-round votes in the 2022 presidential and 2024 legislative elections, with RN becoming the largest single party by popular vote in 2024. Governments have lost stable majorities since 2022.",
+      "values": {},
+      "unit": "vote shares",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify exact shares with ministere de l'Interieur results. For C15 (the political decline loop). Keep descriptive - the thesis does not need a partisan reading, only the instability-reversibility mechanism (F026: reforms suspended under no-confidence pressure)."
+    },
+    {
+      "id": "F047",
+      "statement": "France is among the OECD countries where social origin most strongly determines student outcomes (PISA equity rankings); teacher starting salaries are below the OECD average and far below Germany's at mid-career; the math decline [F022] is concentrated among weaker students.",
+      "values": {},
+      "unit": "rankings",
+      "geography": "France vs OECD",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: OECD PISA 2022 France country note; Education at a Glance teacher-salary tables. Anchors the education lever: the French school produces BOTH too few excellent students and the OECD's strongest reproduction of social class - an equity argument FOR reform, usable against the inequality objection."
+    },
+    {
+      "id": "F048",
+      "statement": "French universities are funded at roughly EUR 11-12k per student per year - a fraction of US research universities and below northern-European levels; France places only a handful of universities in global top-100 rankings despite its elite-math tradition (most Fields medals per capita among large countries).",
+      "values": { "spend_per_student_keur_approx": 11.5 },
+      "unit": "EUR/student/year",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: OECD Education at a Glance, ARWU/THE rankings, Fields medal counts. The paradox to exploit: world-class inputs (prepas, ENS math), underfunded and rigidly governed universities."
+    },
+    {
+      "id": "F049",
+      "statement": "Core sovereign functions are understaffed while transfers dominate: France has roughly 11 professional judges per 100k inhabitants vs a European median around 18-22 (CEPEJ); civil justice delays run in years; prisons exceed 120% occupancy. The state is overweight in transfers, underweight in state capacity.",
+      "values": { "judges_per_100k_france_approx": 11, "european_median_approx": 20, "prison_occupancy_pct_approx": 120 },
+      "unit": "per 100k / %",
+      "geography": "France vs Europe",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: CEPEJ evaluation reports. Reframes the size-of-state debate: the French state is not uniformly big - it is a giant insurer with an understaffed sovereign core. Supports the program's 'rebalance, not shrink indiscriminately' line."
+    },
+    {
+      "id": "F050",
+      "statement": "The wealth-tax alternative, steelmanned with numbers: the pre-2017 ISF yielded ~EUR 4-5bn/year at its peak; proponents of a Zucman-style 2% minimum tax on the largest fortunes estimate ~EUR 15-25bn/year for France (behavioral erosion disputed). Even the optimistic end covers roughly a fifth of the program's annual financing needs (~EUR 100-130bn across debt stabilization, production-tax cut, and investment) and none of the labor-supply gap.",
+      "values": { "isf_peak_yield_eur_bn": 5, "zucman_estimate_range_eur_bn": "15-25" },
+      "unit": "EUR billion/year",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: DGFiP ISF series, Zucman 2024 note and its critiques (Conseil des prelevements obligatoires). The point is NOT that wealth taxation is impossible - it is that its arithmetic cannot substitute for the program; at best it is a complement whose incidence and exit effects must be argued separately."
+    },
+    {
+      "id": "F051",
+      "statement": "France spends roughly twice as much on public pensions as on its entire education system: pensions EUR 388bn / 13.9% of GDP [F018] vs total education spending ~6.7-6.8% of GDP (~EUR 190-200bn, all levels, public+private). Pensions also exceed education + defense + justice + police combined.",
+      "values": { "pensions_pct_gdp": 13.9, "education_pct_gdp_approx": 6.8 },
+      "unit": "% of GDP",
+      "geography": "France",
+      "sources": ["S017"],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: verify education total with INSEE/DEPP Compte de l'education; the pensions side is verified [F018]. If confirmed, this is the single most powerful sentence of the consequences section: the ratio IS the intergenerational trade, in one line."
+    },
+    {
+      "id": "F052",
+      "statement": "Nuclear delivery risk, quantified by precedent: Flamanville 3 (EPR) was budgeted at EUR 3.3bn (2004) and delivered ~12 years late at ~EUR 13.2bn construction cost (2015 euros) - ~EUR 19bn including financing per the Cour des comptes; EDF carries net debt around EUR 50-55bn while facing the EUR 83bn EPR2 program [F032] plus grid investment.",
+      "values": { "flamanville_initial_eur_bn": 3.3, "flamanville_final_construction_eur_bn": 13.2, "flamanville_full_cost_eur_bn": 19, "edf_net_debt_approx_eur_bn": 54 },
+      "unit": "EUR billion",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: Cour des comptes Flamanville report (2020), EDF annual accounts. The risk budget for Lever 3: the thesis bets on nuclear WITH this precedent on the table, arguing series effects + design freeze + state risk-sharing [F032] make EPR2 different - a claim to defend, not assume."
+    },
+    {
+      "id": "F053",
+      "statement": "French hourly productivity LEVEL remains among the highest in the world (broadly comparable to Germany, within ~10-15% of the US depending on dataset and PPP vintage). The French problem is the GROWTH of productivity (stalled) and the QUANTITY of labor (lowest hours per capita) - not workers' hourly performance.",
+      "values": {},
+      "unit": "level comparison",
+      "geography": "France vs US, Germany",
+      "sources": ["S005"],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: compute from OECD Compendium data (S005). Fairness anchor for the diagnosis: the thesis indicts the SYSTEM, not the workers - rhetorically and analytically essential, and it sharpens the puzzle: world-class hourly output, mediocre national outcome."
     }
   ],
   "comparables": [
@@ -969,6 +1102,57 @@
         { "argument": "The overtake date is an artifact of assumptions about Germany (0.8%/yr) and the starting gap (-10%).", "status": "answered", "note": "ANSWERED by publishing the sensitivity (run 3, model.py): at Germany 1.1%/yr (Ageing Report optimistic baseline, F041), central France does NOT overtake by 2055 (FR/DE = 0.98 in 2050). The claim is therefore stated conditionally: the robust part is 'double the pace, fastest large economy in Europe, close most of the gap'; the overtake headline requires German TFP not to recover. Starting gap still to pin [Q02][Q18]." },
         { "argument": "Every country claims it will out-grow its neighbors; general-equilibrium effects erode relative gains.", "status": "open", "note": "Partial answer: the levers are absolute supply-side levers (hours, TFP, capital), not beggar-thy-neighbor wage compression; Germany 2005-2019 proves persistent relative gains inside the euro are possible. The essay should also not confuse ranking with welfare - the deculottee is the motivational frame, not the welfare criterion." }
       ]
+    },
+    {
+      "id": "C14",
+      "claim": "CONSEQUENCE - The imposed adjustment is regressive: when consolidation is forced by markets or a program, it is fast, front-loaded, and falls on what can be cut by decree - transfers to the vulnerable, public investment, public wages - while the protected statuses that caused the drift resist longest. The young and the poor pay first (Greek precedent). Choosing the adjustment early, with composition control [F040], is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
+      "status": "hypothesis",
+      "supporting_facts": ["F040", "F025", "F026"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Chosen adjustments can be just as regressive; composition depends on who governs, not on timing.", "status": "open", "note": "Partially true - the answer is that timing determines the OPTION SET: an early adjustment can protect schools and hospitals (Sweden did, F040); a forced one cannot. Verify the Greek adjustment's distributional record [Q20]." }
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "CONSEQUENCE - The political decline loop: stagnation shrinks the pie, distribution fights intensify, anti-system votes rise, majorities fragment, reforms reverse [F026], growth falls further. France is visibly inside the loop (F046?). Implication for design: the program's first phase must create visible winners fast (ownership accounts, wage gains from labor-tax cuts) - not ask for sacrifice first - or the loop wins.",
+      "status": "hypothesis",
+      "supporting_facts": ["F026", "F021"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Causality runs the other way: political fragmentation causes stagnation, and no economic program fixes politics.", "status": "open", "note": "The loop is bidirectional by construction - that is what makes it a loop. The claim is only that the economic entry point exists (visible winners early); it does not claim economics alone suffices." }
+      ]
+    },
+    {
+      "id": "C16",
+      "claim": "SOLUTION - People (the demography pillar): on a 30-year horizon, demography is growth policy. Three instruments: (a) restore and modernize family policy aimed at the fertility-INTENTIONS gap (desired ~2.3 vs realized ~1.6 children) - childcare guarantee, housing for families, restored universality; (b) open a large points-based skilled-immigration channel (Canada-style) targeted at the program's bottlenecks (construction, care, engineering); (c) diaspora return incentives for the exported elite (F045?). Without this pillar, the model's decade 3 sags [model.py].",
+      "status": "hypothesis",
+      "supporting_facts": ["F038", "F044", "F043"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Pro-natal policy has weak causal evidence everywhere; you cannot buy births.", "status": "open", "note": "Concede the general point, then argue the French specificity: France ran near-replacement fertility WITH the OECD's most generous family complex and slid after retrenching it [F044] - the target is enabling desired births, not exhorting undesired ones. Verify the intentions-gap data [Q21]." },
+        { "argument": "Large-scale immigration is politically explosive in France; proposing it torpedoes the whole program.", "status": "open", "note": "The honest answer: SELECTIVE economic immigration polls very differently from the current composition [F043]; a points system is a control-increasing reform, not an opening - frame it as such or lose it. Needs evidence [Q22]." }
+      ]
+    },
+    {
+      "id": "C17",
+      "claim": "SOLUTION - Land (the housing pillar): housing scarcity is a hidden tax on everything the program needs - labor mobility (workers cannot move to jobs), family formation (the intentions gap correlates with housing costs), and disposable income (largest household expense). Supply-side reform - zoning liberalization around transit, ZAN recalibration, faster permitting, build-to-rent institutional investment (a natural asset for the capitalization fund) - is a growth lever and the cheapest one fiscally.",
+      "status": "hypothesis",
+      "supporting_facts": ["F042"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Construction is constrained by NIMBY local politics, not national law; a thesis-level lever does not exist.", "status": "open", "note": "Answer to develop: fiscal architecture is national (local taxes currently punish construction); align municipal incentives (construction-linked revenue) as several countries did. Quantify the GDP effect [Q23]." }
+      ]
+    },
+    {
+      "id": "C18",
+      "claim": "DIAGNOSIS - The French state is not uniformly big: it is a giant insurer with an understaffed sovereign core. Transfers dominate (2/3 of the gap with peers [F005]); justice, security, and defense readiness are under-resourced (F049?); interest will soon dwarf them all [F024][F025]. The program is therefore a REBALANCING - transfers down, sovereign core and investment up - not an across-the-board shrink. This also disarms the 'you want to destroy public services' objection: services are what the current machine is quietly crushing.",
+      "status": "supported",
+      "supporting_facts": ["F005", "F018", "F024", "F025"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Adding sovereign-core spending makes the fiscal arithmetic harder, not easier.", "status": "answered", "note": "Sized honestly in the financing table: the sovereign-core uplift (justice, security) is single-digit billions - two orders of magnitude below the pension envelope [F018]. It buys legitimacy for the rebalancing at trivial cost." }
+      ]
     }
   ],
   "open_questions": [
@@ -1087,6 +1271,36 @@
     {
       "id": "Q19",
       "question": "Fund governance design: how does the national capitalization fund stay arms-length from politics (no Livret-A-style directed lending, no bailout raids)? Comparables: Sweden AP funds' governance, Norway GPFG rules, Australia's APRA supervision, France's own FRR history (created 1999, raided/redirected - a cautionary domestic precedent to document). Also: fiduciary duty vs 'fund French firms' tension - how much home bias is defensible?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q20",
+      "question": "Distributional record of forced adjustments (for C14): who actually paid in Greece 2010-2015 (and Portugal, Ireland)? Income-decile incidence of program cuts, youth unemployment and emigration effects, health outcomes. Needed to ground 'imposed = regressive' beyond assertion.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q21",
+      "question": "The fertility-intentions gap (for C16): INED/Eurobarometer data on desired vs realized fertility in France; evidence on which constraints bind (housing, childcare, income insecurity, age at first child); effectiveness estimates of specific instruments (childcare supply vs cash transfers vs tax treatment).",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q22",
+      "question": "Points-based skilled immigration (for C16): evidence on selection systems' fiscal and productivity effects (Canada, Australia); French public opinion on SELECTIVE economic migration vs current composition; realistic scale (how many per year moves the growth needle without breaking politics?).",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q23",
+      "question": "Housing-supply reform GDP effects (for C17): Hsieh-Moretti-style misallocation estimates adapted to France; construction elasticities; municipal fiscal-incentive reforms that worked (e.g. construction-linked grants); interaction with the capitalization fund as build-to-rent investor.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q24",
+      "question": "Verification sweep of the run-4 diagnosis facts: F042 (housing costs/construction), F043 (permit composition), F044 (family policy history), F045 (talent export), F046 (anti-system vote), F047 (PISA equity, teacher pay), F048 (university funding), F049 (CEPEJ justice), F050 (ISF/Zucman yields), F051 (pensions = 2x education), F052 (Flamanville/EDF), F053 (productivity level). None may carry the essay while unverified.",
       "status": "open",
       "priority": "high"
     }
