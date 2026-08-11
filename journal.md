@@ -4,6 +4,63 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 11 — 2026-08-11 — Sentence-length purge (author catch)
+
+**Author catch.** Quoted a 34-word sentence from the degrowth collapsible ("The 3,300 billion stays nominal while... forced consolidations") - "elle est longue, elle est longue, elle est longue". Correct: it stacked four consequences and a moral into one breath, against the writing standard's first rules (short sentences, one thought per sentence).
+
+**What was done.** Extended the audit script with a sentence-length detector: 33 sentences over 32 words found across the essay (average was fine at 15.7; the tail was the problem). All 33 rewritten into their beats via exact-match replacements (zero failed matches). The flagged sentence now reads: "The 3,300 billion stays nominal while the economy beneath it shrinks. The ratio explodes. The forced adjustment arrives early. And the poorest quarter absorbs it, as the poorest quarter always does in forced consolidations." Post-pass: average sentence length 13.3 words; longest remaining sentence 32 (plus one splitter artifact across a quotation boundary); full tell audit still clean (0 em-dashes, 0 scaffolds, 0 stock words).
+
+**Standard updated.** `AGENTS.md` anti-tell checklist gains rationed rule 11: no sentence above ~32 words without a defensible reason, never two in a row, and every survivor justified in the journal. The audit script's length report is now part of the pre-commit pass.
+
+**Next run:** unchanged from run 10 - sync thesis.md with C25; [Q32] pin the voter computation; the verification sweep (F027/Q09 first); then a cold-read prose pass.
+
+---
+
+## Run 10 — 2026-08-11 — The impasse becomes the peak; orphan facts attached to their function (author feedback)
+
+**Author feedback on v0.3.** (1) A missing argument: the majority of French VOTERS are 55+ (verify the numbers) - so if overpaying pensions is the problem, democratic power can never correct it; an impasse. Germany, by contrast, constitutionally protects people who are not yet voters; France has nothing like it. (2) Too many facts listed for listing's sake - focus on the strongest argument, mention the rest after; the debt-holders and anti-capitalism passages "drown the fish" (where are they going?). (3) Read Julian Shapiro's writing handbook for structure.
+
+**Research done.** INSEE participation data verified (S035): systematic abstention 24% under-35 vs ~9% for 50-69; presidential R1 turnout 67% (18-29) vs 77% (65+); legislative R2 turnout 28% (under-30) vs 59% (65+) - the gradient is enormous exactly where pension law is made. The '55+ = majority of actual legislative voters' headline is recorded as a computation to pin [F070?, Q32]. The German constitutional file is verified at the source (S036, BVerfG 24 March 2021): Art. 20a justiciable, fundamental rights as 'intertemporal guarantees of freedom', duty toward those who 'do not yet carry any fundamental rights', law struck down for offloading burdens onto the future; French equivalent environment-only [F071]. Julian's framework extracted (objective -> supporting/resulting points; no orphan facts; signpost in three sentences; trifecta of intrigue; dopamine cadence) and written into `AGENTS.md` as six structure rules.
+
+**Essay surgery (v0.4).**
+
+- **New section "The impasse"**, placed as the essay's PEAK between the trade and the beliefs: four failed reform attempts across three political families -> stop blaming courage, look at the wiring -> the INSEE turnout gradients -> the conclusion ("The people who would pay for the repair are a shrinking electoral minority. The people the machine pays are the electorate.") -> the Karlsruhe contrast (the unborn have standing in Germany, not in France) -> the three exits, announced as the program's skeleton (crisis window / winners-first / constitutional rewiring). The intro's promise now tees it up ("the hands that could pull the brakes belong to the passengers the speed is serving").
+- **Orphan facts attached**: "What France believes" now opens by naming its function (why reforms die in the street, and whether beliefs can move - on which the program depends); the anti-capitalism polls and the savings loop are compressed and chained; the two ownership experiments are explicitly "the hinge of this essay".
+- **Consequences propagated**: the objections' gerontocracy paragraph rewritten to point back to the impasse; "The state, rebalanced" now carries the third exit (fiscal rule + pension link at constitutional/organic level, F071).
+- `facts.json`: +2 facts (F070?, F071 verified), +1 claim (C25 the democratic impasse - elevated from objection to core diagnosis), +2 questions (Q32 pin the voter computation, Q33 complete the constitutional file). Thesis claim-tree sync pending next run (C25 to be added to thesis.md Part I and the table).
+
+**Anti-tell audit (v0.4, scripted):** 0 em-dashes, 0 scaffolds, 0 stock words, 0 hedge phrases, 0 Paris; question count stable (each answered in place).
+
+**Next run should attack, in order:**
+
+1. Sync `thesis.md` with C25 (add the impasse to Part I diagnosis and the claim tree; adjust IV.10).
+2. [Q32] Pin the voter-age computation with an explicit table; [Q33] the constitutional file.
+3. The verification sweep (unchanged, urgent): F027/Q09 first.
+4. Cold-read prose pass on the whole of v0.4.
+
+---
+
+## Run 9 — 2026-08-11 — The essay, complete: consequence-chained, side quests cut (author feedback)
+
+**Author feedback on v0.2.** The opening grabs (keep). "The road here" ran long with uninteresting stretches. Build the narrative on therefore/but chaining: every statement carries its consequence, then the consequence's consequence, then the turn. Too many side quests (the 673-hours passage didn't say where it was going). Use Boron Letters-style rhetorical questions to build tension. Cut the "nurse is worth" teaser line. And: write the WHOLE article.
+
+**What was done (`article.md` v0.3, ~5,650 words, end to end).**
+
+- **Structure rebuilt on consequence chains.** The key repair: the hours statistics now land on their consequence ("a career is a payer. French pensions run on repartition... Every missing career is a missing payer in a machine that is now short five points of GDP a year. The hours gap is not a lifestyle detail. It is the deficit, seen from upstream."). Same treatment throughout: each section ends by opening the next (money -> the trade -> the beliefs -> the loop -> ownership as the engine -> the hand -> the program -> the window -> the pen).
+- **Sections drafted this run:** The trade nobody named (pensions arithmetic: three ways to pay, France chose the credit card; the two anesthetics; the 25-year-old's ledger). What France believes (the reform cycle, the 62%, the honest reading of the belief, the savings loop run slowly, and the two ownership experiments as the pivot). What growth is for (two curves as the yardstick; Baumol; the double burial: pay is not merit / billionaires are not proof of theft). The hand France holds (nuclear-AI moment, savings, talent, the expiring demographic card). The program (seven moves, each feeding the next, with the model's honest numbers: doubling not tripling, overtake conditional on Germany, relay-race warning). The objections (four real collapsibles: degrowth full four-step, Japan, ECB, wealth tax; gerontocracy deliberately on the main page as the strongest). How it actually happens (Lindbeck; phase zero by decree; the window; winners first, by account number). The choice (two mornings; close on the pen).
+- **Cuts per author:** the nurse-teaser line; the road-here fat. Boron-style questions used as tension devices, each answered immediately by the next sentence.
+
+**Anti-tell audit (scripted + manual):** 0 em-dashes; 0 not-just/no-longer scaffolds; 0 hedge openers/closers (one regex false positive: "83 billion euros in today's money" is a specific use, kept); 1 stock-word hit ("leverage" as noun) replaced with "scale"; 0 Paris metonymies. Judgment calls logged: 11 questions in 5,650 words (~1 per 500), all immediately answered, per the author's explicit Boron Letters directive; 5 plain "X, not Y" contrasts (~1 per 1,100 words, ration says ~1/1,500) - each is a precise technical contrast ("a stock, not a flow"; "bites flows, not stocks"), none is the punchline scaffold; next runs should not add more.
+
+**Next run should attack, in order:**
+
+1. The verification sweep is now URGENT: the complete essay leans on ~20 `?`-flagged facts. Priority order: F027/Q09 (the opening arithmetic), F069 (the 1980 anchor), F051 (pensions = 2x education), F011, F049, F050, F054/F055, F063, F064/F065, F042-F045, F052, F058, F061, F066, F022, F020, F019, F017, F053, F034, F068.
+2. [Q25] The two-curves dashboard (the "What growth is for" section will need its numbers).
+3. A cold-read prose pass a run later (fresh eyes rule): rhythm, cuts, the question density.
+4. Then reader-facing citation conversion and the HTML/charts phase.
+
+---
+
 ## Run 8 — 2026-08-11 — Two author edits: the 1980 high-water mark, and no more "Paris" (author input)
 
 **Author input.** (1) Add early in the article that French GDP per capita was once comparable to, even above, the American level (author dated it "50s or 80s"). (2) Stop using "Paris" as a metonymy for decision-makers: in the French imagination "Paris" also means the disconnected executive class; name the government plainly.
