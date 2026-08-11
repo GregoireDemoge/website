@@ -4,6 +4,27 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 6 — 2026-08-11 — Price is not worth: the philosophical spine under the two curves; the degrowth collapsible (author input)
+
+**Author input.** Two additions: (1) the "no infinite growth on a finite planet" punchline deserves a real, collapsible-format answer in the article (accordion a la Notion) - degrowing economies spiral; challenging the growth model is a global coordinated project, not a unilateral French one; France's electricity is already low-carbon; and the debt must be rolled (needs growth) or paid (needs surpluses France doesn't produce) - degrowth forecloses both. (2) The author's normative position (0.2) read "a bit weak - one wants to dodge it"; it needed real grounding. Two arguments supplied by the author, to be steelmanned: money is not the measure of contribution (no capitalist merit theory; the entrepreneur is a partial exception; doctors vs executives; capitalism prices innovation-at-scale and marks down the essential - water, traditional engineers); and the economy needs BOTH growth engines and execution workers - the latter cannot be left behind.
+
+**What was built - the steelman found its canonical anchors:**
+
+- **New thesis section 0.3 "Price is not worth"** [C22][C23]: the diamond-water paradox (price = marginal scarcity, not total value) grounds the author's doctor-vs-executive point [F066?]; Nordhaus 2004 quantifies the entrepreneur exception exactly as the author intuited it - innovators capture ~2.2% of the surplus they create, ~98% flows to society [F063?]; the two-workforces argument gets Kremer's O-ring theory (one failing link destroys the chain's value) + the pandemic essential-workers evidence [F067?] + Baumol's cost disease [F068?], which is the deepest left-compatible pro-growth argument: the services the left most values (care, teaching) become relatively MORE expensive as the frontier advances - the floor is funded by growth or not at all. Both edges kept sharp: no moral verdict on the poor (against the right's merit story) AND no confiscation fallacy (against the left's theft story), with the rent-vs-surplus carve-out recorded so C22 never reads as blanket apologetics [Q29].
+- **Objection IV.12 rewritten in full four-step form** [C24]: concede the kernel (throughput can't grow forever; the serious debate is decoupling speed vs carbon budgets [Q31]); decoupling is observed in 30+ countries including consumption-based [F065?]; France is where the objection has least purchase (~40-60 gCO2/kWh grid [F064?]); unilateral degrowth = the imposed adjustment with ideology (nominal debt over shrinking GDP, C7/C14); and the author's debt arithmetic verbatim - roll it (needs g>r) or pay it (needs surpluses): degrowth forecloses both arms.
+- **Collapsible format spec** recorded in `article.md`: punchline objections render as accordions (degrowth, Japan, ECB backstop, wealth tax); narrative must read cleanly with all closed; nothing load-bearing lives only inside one.
+- `facts.json`: +6 facts (F063-F068, honestly unverified with canonical sources named), +3 claims (C22 price-is-not-worth, C23 complements-not-competitors, C24 clean growth), +3 questions (Q29-Q31, incl. the explicit instruction to answer STEELMANNED degrowth - Parrique/Hickel on decoupling speed - with numbers, not the punchline).
+
+**Next run should attack, in order:**
+
+1. [Q25] The two-curves dashboard (unchanged top priority - it settles Scenario A/B and the Germany example).
+2. [Q29][Q30] Verify the new evidence bases (Nordhaus, doctor pay, grid carbon intensity, decoupling list) - cheap, high-value verifications.
+3. [Q31] The steelmanned degrowth answer with numbers (required vs observed decoupling rates for France).
+4. [Q24] Continue the run-4 sweep.
+5. Then: declare the spine stable -> unfreeze `article.md` -> write the essay end-to-end against thesis v2 (now incl. 0.3 and the collapsible spec).
+
+---
+
 ## Run 5 — 2026-08-11 — The normative anchor: two curves, a boundary map, and state bets with a kill switch (author input)
 
 **Author input (after a Q&A round).** How to answer "growth is useless if the poorest live badly"? Decisions taken with the author: (1) follow the data even if the Germany example inverts; (2) TWO success criteria — the bottom quartile's living standard AND the 75%'s quality of life (including tech-driven surplus GDP misses); (3) "reste a vivre" must be measured net of housing/health costs; (4) Scenario A vs B (past-the-optimum vs floor-fine-financing-broken) decided by the numbers; (5) natural monopolies and health stay public/universal, French inefficiencies said honestly (incl. the statut's quasi-immunity from dismissal), UK rail as the privatization anti-example; (6) the essay's intro carries the author's first-person position (premises of the left, growth as the floor's only durable funding); (7) the moral line "no one dies for lack of money" is a value fought for, not an absolute constraint — seek the health-efficiency frontier, explore smart 1-2 euro frictions with guardrails. Plus: the How Asia Works lesson — dirigisme works with export discipline and culling; the state's edge is the 10-30 year horizon; its failure mode is refusing to kill losers.

@@ -968,6 +968,74 @@
       "confidence": "medium",
       "status": "unverified",
       "notes": "BACKLOG: Brynjolfsson, Collis et al. GDP-B papers (AER Insights 2019+). Supports the author's second success criterion: the 75%'s quality of life includes technology-driven surplus, which is a GROWTH product - an argument for growth that does not run through redistribution at all."
+    },
+    {
+      "id": "F063",
+      "statement": "Innovators capture only ~2.2% of the social surplus their innovations create; ~98% flows to consumers and society (Nordhaus 2004, 'Schumpeterian Profits in the American Economy', US data 1948-2001). Billionaire entrepreneurial wealth is, on this evidence, a small fee on value overwhelmingly given away.",
+      "values": { "innovator_capture_pct": 2.2 },
+      "unit": "% of social surplus",
+      "geography": "United States",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: Nordhaus (2004), NBER WP 10433. Quantifies the author's intuition that a billionaire entrepreneur 'impacted lives at the scale of billions' - and reframes top entrepreneurial wealth as a residual of consumer surplus creation, not extraction. Core support for C22."
+    },
+    {
+      "id": "F064",
+      "statement": "French electricity is among the cleanest of any large economy: ~40-60 gCO2/kWh carbon intensity vs ~350-400 for Germany and ~230-250 for the EU average - the French power sector decarbonized decades ago via nuclear. At the margin, French growth is among the lowest-carbon growth available anywhere.",
+      "values": { "france_gco2_kwh": "40-60", "germany_gco2_kwh": "350-400", "eu_avg_gco2_kwh": "230-250" },
+      "unit": "gCO2/kWh",
+      "geography": "France vs Germany, EU",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: RTE, electricityMap/Ember yearly averages. Load-bearing for the degrowth answer (IV.12): the 'finite world' objection has the least purchase on the large economy with the cleanest marginal growth."
+    },
+    {
+      "id": "F065",
+      "statement": "Absolute decoupling is an observed fact, not a hope: 30+ countries - including France, Germany, the UK and the US - have grown GDP while cutting CO2 emissions in absolute terms, INCLUDING consumption-based (imported) emissions, since the mid-2000s.",
+      "values": { "decoupled_countries_approx": "30+" },
+      "unit": "country count",
+      "geography": "cross-country",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: Our World in Data (Ritchie), Global Carbon Project consumption-based series. Kills the strong form of 'growth = emissions' empirically; the honest residual debate is about SPEED of decoupling vs carbon budgets, which is where the steelmanned degrowth case lives [Q31]."
+    },
+    {
+      "id": "F066",
+      "statement": "Illustration of administered vs market pricing of social value: a French GP or hospital doctor - whose work saves lives - earns well above the average wage but below senior private-sector executives, finance, and tech professionals, largely because medical tariffs are administered (CNAM) while tech/finance pay rides market scale-leverage. Price reflects scarcity, leverage and bargaining structure - not social contribution.",
+      "values": {},
+      "unit": "illustration",
+      "geography": "France",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: DREES physician income data, INSEE cadres pay distributions. Handle carefully: French self-employed specialists can earn very well; the clean version of the point is the PRICING MECHANISM contrast (administered vs market-scaled), not victimhood. For C22."
+    },
+    {
+      "id": "F067",
+      "statement": "The 'essential workers' revelation: pandemic-era official lists of workers required to keep society running (care aides, nurses, logistics, food retail, sanitation) were dominated by BELOW-median-wage occupations - direct evidence that the economy's load-bearing jobs and its best-paid jobs are largely different sets.",
+      "values": {},
+      "unit": "occupational analysis",
+      "geography": "France, cross-country",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: DARES/INSEE analyses of 'deuxieme ligne' workers (2020-21), comparable US/UK studies. For C23: the execution workforce is infrastructure, and the price system does not rank it accordingly."
+    },
+    {
+      "id": "F068",
+      "statement": "Two canonical results ground the complementarity argument: Kremer's O-ring theory (1993, QJE) - production is chains of complementary tasks where one failing link destroys the value of all others, so 'low-skill' links carry system-critical value; and Baumol's cost disease (1966-2012) - as frontier productivity rises, the relative cost of labor-intensive essential services (care, teaching) rises mechanically, meaning the FLOOR'S AFFORDABILITY IS FUNDED BY FRONTIER GROWTH, or not at all.",
+      "values": {},
+      "unit": "economic theory (canonical)",
+      "geography": "theory",
+      "sources": [],
+      "confidence": "high",
+      "status": "unverified",
+      "notes": "BACKLOG: fetch Kremer (1993) and Baumol (2012, 'The Cost Disease') for the registry. Baumol is the deepest pro-growth argument available to a person of the left: the services the left most values are precisely the ones whose funding requires the growth the left distrusts. For C23."
     }
   ],
   "comparables": [
@@ -1291,6 +1359,36 @@
         { "argument": "The state cannot pick winners; markets average better, especially with mediocre state competence.", "status": "answered", "note": "Conceded as the default - which is why the claim restricts state bets to horizon-failure domains AND requires external discipline. The choice is not state vs market; it is disciplined bets vs both undisciplined bets and absent bets. F052 (Flamanville) sits in contradicting_facts as the standing reminder of execution risk." },
         { "argument": "China's renewables/AI push shows scale dirigisme working without export discipline in the classic sense.", "status": "open", "note": "Partially - Chinese industrial policy still runs brutal internal culling (EV firm die-offs) and world-market price tests. Whether the mechanism transfers to a 68M-person democracy is open; use as inspiration for ambition, not as governance template." }
       ]
+    },
+    {
+      "id": "C22",
+      "claim": "PRICE IS NOT WORTH - Market income measures marginal scarcity and scale leverage, not social contribution: water is priceless and nearly free (the diamond-water paradox, resolved by marginal utility); a life-saving doctor under administered tariffs earns less than a market-leveraged executive (F066?); and innovators capture ~2% of the surplus they create (F063?). Two consequences run in OPPOSITE political directions, and the thesis needs both: (a) market outcomes carry no moral verdict - the poor are not 'worth less', so the floor is justified inside market logic, not against it; (b) top entrepreneurial wealth is mostly a receipt for surplus given away, so confiscating the receipt does not recover the surplus - it discourages its creation. Prices are for allocation; they are not a theory of desert.",
+      "status": "hypothesis",
+      "supporting_facts": ["F063", "F066", "F062"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Much high income is rent (finance, monopoly, regulatory capture), not innovation surplus - the Nordhaus 2% does not describe a hedge fund.", "status": "open", "note": "Concede and integrate: the claim distinguishes surplus-creating wealth from rent; the program's competition/simplification agenda and the kill-switch rule (C21) are anti-rent instruments. The essay must not let C22 read as a blanket defense of all high incomes." }
+      ]
+    },
+    {
+      "id": "C23",
+      "claim": "COMPLEMENTS, NOT COMPETITORS - The economy needs two workforces: growth engines (those who improve the productive system) and execution workers (those who run it daily). They are complements in an O-ring production chain (F068?): one failing link destroys the value of the rest, and pandemic-era 'essential worker' lists were dominated by below-median-wage jobs (F067?). Baumol's cost disease closes the loop (F068?): the essential services the floor depends on become RELATIVELY more expensive as the frontier advances - so the floor is affordable only in a growing economy. Protecting the bottom quartile is not charity taxed on growth; it is maintenance of the productive chain, funded by growth.",
+      "status": "hypothesis",
+      "supporting_facts": ["F067", "F068", "F054"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Automation/AI will substitute execution work, breaking the complementarity and the argument.", "status": "open", "note": "Partially - historically automation shifted which execution tasks exist rather than eliminating the class (care, maintenance, logistics resist). If AI does break it, the ownership lever (C12) becomes MORE central: capital income must then reach everyone. The thesis should state this branch dependence." }
+      ]
+    },
+    {
+      "id": "C24",
+      "claim": "CLEAN GROWTH POSITION (the degrowth answer) - France is the large economy where 'infinite growth on a finite planet' has the least purchase: its electricity is already near-decarbonized (F064?), absolute decoupling of GDP from CO2 - including consumption-based - is an observed fact in 30+ countries (F065?), and the climate transition is a capital-hungry program only a growing economy funds (F032). Unilateral French degrowth would not save the planet (coordination problem) but would guarantee the imposed adjustment (C7, C14): a shrinking GDP raises debt/GDP mechanically, collapses the tax base of the welfare state degrowthers want, and the bottom quartile pays first. The kernel to concede: material throughput cannot grow forever and the honest debate is decoupling SPEED vs carbon budgets [Q31] - but that is an argument about the world's 22nd century, not about France's 2030 balance sheet.",
+      "status": "hypothesis",
+      "supporting_facts": ["F064", "F065", "F032", "F017", "F002"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Steelmanned degrowth (Parrique, Hickel): observed decoupling is too slow for 1.5-2C budgets, so rich-country throughput must shrink regardless of what it does to debt ratios.", "status": "open", "note": "The serious version. Answer to develop [Q31]: (a) speed of decoupling is a POLICY variable (France's nuclear proves electricity can decarbonize 90%+); (b) degrowth does not resolve the budget constraint either - it redistributes a shrinking base while the debt stays nominal; (c) the political economy of voluntary decline has no democratic existence proof. Engage the numbers, not the punchline." }
+      ]
     }
   ],
   "open_questions": [
@@ -1463,6 +1561,24 @@
     {
       "id": "Q28",
       "question": "Developmental-state discipline design (C21): document the export-discipline mechanism (Studwell F060) with Korea/Taiwan specifics; China's internal culling in EV/solar; France's own split record (nuclear/TGV/Airbus vs Plan Calcul/Minitel/Bull - what exactly distinguished them?); design the kill-criteria template for the program's bets (EPR2, AI/compute, R&D increment): who evaluates, on what metric, with what sunset.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q29",
+      "question": "Verify the price-is-not-worth evidence base (C22): Nordhaus 2004 (F063), French physician vs executive pay via DREES/INSEE (F066), and find the cleanest rent-vs-surplus decomposition of top incomes (finance rents literature) so C22 does not read as blanket apologetics.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q30",
+      "question": "Verify the clean-growth evidence base (C24): French grid carbon intensity time series (RTE/Ember, F064), absolute-decoupling country list incl. consumption-based emissions (Global Carbon Project/OWID, F065), and France's consumption-based footprint trend specifically.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q31",
+      "question": "Steelman degrowth properly (C24): read the best versions (Parrique, Hickel, Keyßer-Lenzen scenarios) and answer their strongest argument - decoupling too slow for carbon budgets - with numbers (required decoupling rates vs observed French rates; what nuclear-powered electrification changes; what degrowth does and does not do to a 115%-debt balance sheet). The collapsible in the article must answer the SERIOUS version, not the punchline.",
       "status": "open",
       "priority": "medium"
     }

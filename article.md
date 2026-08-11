@@ -108,7 +108,8 @@ The prediction stands. The forced hour is coming. The only open question — the
 
 ## Draft notes (for future runs)
 
-- REQUIREMENT added run 5: the essay's introduction must carry the author-position paragraph in first person (premises of the left; the floor as a conquest to defend; growth as its only durable funding — see thesis.md 0.2), and the conclusion must return to the two-curves criterion (thesis.md 0.1). The essay's rewrite happens against thesis v2 including Parts 0.1/0.2, III.13 and the expanded objection IV.6.
+- REQUIREMENT added run 5: the essay's introduction must carry the author-position paragraph in first person (premises of the left; the floor as a conquest to defend; growth as its only durable funding — see thesis.md 0.2), and the conclusion must return to the two-curves criterion (thesis.md 0.1). The essay's rewrite happens against thesis v2 including Parts 0.1/0.2, 0.3, III.13 and the expanded objections IV.6/IV.12.
+- FORMAT REQUIREMENT added run 6 (author): punchline objections get **collapsible blocks** (Notion-style accordions; `<details>/<summary>` in the HTML rendering, blockquote-with-heading fallback in plain markdown). The reader sees the punchline as the summary line — e.g. "But you can't have infinite growth on a finite planet ▸" — and opens it for the full four-step answer (thesis.md IV.12). Candidates for collapsibles: the degrowth punchline, the Japan objection, the ECB-backstop objection, the wealth-tax alternative. The main narrative must read cleanly with all collapsibles closed; nothing load-bearing may live ONLY inside one.
 
 - Word count: ~2,600. Target range for final: to be settled (author signaled substantial but blog-native; likely 4,000-8,000 rather than 25,000+ — confirm with author).
 - All `?`-flagged facts MUST be verified before any section is considered stable: F006 (gap reconciliation, [Q02]), F011, F012, F014, F016, F017, F019, F020, F022, F023, F027 ([Q09]).
