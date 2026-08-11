@@ -108,6 +108,48 @@
       "url": "https://www.france24.com/en/france/20250913-france-credit-score-downgraded-lowest-on-record-amid-political-crisis-lecornu-macron-budget",
       "type": "press_for_current_events",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S014",
+      "name": "Banque de France - Emission et detention de titres francais, 2025-Q4",
+      "url": "https://www.banque-france.fr/fr/statistiques/credit/emission-et-detention-de-titres-francais-2025-q4",
+      "type": "central_bank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S015",
+      "name": "Agence France Tresor - Bulletin mensuel octobre 2025 (financing program 2025/2026)",
+      "url": "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/425_Bulletin%20mensuel%20octobre%202025.pdf",
+      "type": "government_primary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S016",
+      "name": "OECD Taxing Wages 2025 (2024 data), incl. France country note",
+      "url": "https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en.html",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S017",
+      "name": "Cour des comptes - Financial situation and outlook for the pension system (February 2025)",
+      "url": "https://www.ccomptes.fr/sites/default/files/2025-05/20250220-summary-Financial-situation-and-outlook-for-the-pension-system.pdf",
+      "type": "institutional_report",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S018",
+      "name": "Zitelmann (2023), 'Attitudes towards capitalism in 34 countries', Economic Affairs (peer-reviewed; author is an identified pro-market advocate - leaning noted per protocol)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/ecaf.12591",
+      "type": "peer_reviewed",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S019",
+      "name": "Odoxa barometer for Abeille Assurances/Challenges/BFM (December 2021) - image of capitalism in France",
+      "url": "https://www.bfmtv.com/economie/economie-social/france/le-capitalisme-a-toujours-une-mauvaise-image-en-france_AN-202112020015.html",
+      "type": "survey_via_press",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -274,15 +316,15 @@
     },
     {
       "id": "F015",
-      "statement": "France's tax wedge on labor (income tax + employer and employee social contributions as % of total labor cost, single average worker) is around 47%, among the top 3 in the OECD (OECD average ~34.8%).",
-      "values": { "france_approx": 47, "oecd_avg_approx": 34.8 },
-      "unit": "% of labor cost",
+      "statement": "France's tax wedge on labor (single average worker, 2024) is 47.2% of labor cost - 3rd highest in the OECD after Belgium (52.6%) and Germany (47.9%), vs an OECD average of 34.9%. It has FALLEN from 50.4% in 2000. Net average tax rate on the worker: 28.1% vs OECD 25.0%.",
+      "values": { "france_2024": 47.2, "belgium_2024": 52.6, "germany_2024": 47.9, "oecd_avg_2024": 34.9, "france_2000": 50.4 },
+      "unit": "% of total labor cost",
       "geography": "France vs OECD",
-      "sources": [],
-      "confidence": "medium",
-      "status": "unverified",
+      "sources": ["S016"],
+      "confidence": "high",
+      "status": "verified",
       "chartable": true,
-      "notes": "BACKLOG: verify with OECD Taxing Wages latest edition. Core evidence for the claim that low hours are policy-induced, not just preference (C6)."
+      "notes": "CRITICAL NUANCE for C6: Germany's wedge is HIGHER than France's, yet Germany employs far more of its population. The naive 'taxes kill work' story fails against Germany; the French problem is the wedge COMBINED WITH retirement rules, late entry, and benefit design. The essay must use this honestly. Also: marginal wedges around the SMIC (contribution-relief phase-outs) can exceed 70-80% - a separate backlog fact worth adding."
     },
     {
       "id": "F016",
@@ -309,15 +351,15 @@
     },
     {
       "id": "F018",
-      "statement": "French public pension spending is around 13.5-14% of GDP, versus an OECD average around 9%; pensions are the single largest driver of the public spending gap with peers.",
-      "values": { "france_approx": 13.8, "oecd_avg_approx": 9 },
-      "unit": "% of GDP",
-      "geography": "France vs OECD",
-      "sources": [],
-      "confidence": "medium",
-      "status": "unverified",
+      "statement": "France spends almost 14% of GDP on public pensions (EUR 388.4bn) - four points of GDP more than Germany (Cour des comptes, Feb 2025). French retirees' standard of living roughly equals that of working people, with a LOWER poverty rate; in Germany and the OECD average, retirees live slightly below workers.",
+      "values": { "france_pct_gdp": 13.9, "france_eur_bn": 388.4, "gap_vs_germany_pp_gdp": 4 },
+      "unit": "% of GDP / EUR billion",
+      "geography": "France vs Germany, OECD",
+      "sources": ["S017"],
+      "confidence": "high",
+      "status": "verified",
       "chartable": true,
-      "notes": "BACKLOG: verify with OECD Pensions at a Glance and COR reports. Consistent with F005 (social protection = 2/3 of spending gap) and INSEE Premiere 2093 (pensions drove 2024 spending increase, S008)."
+      "notes": "Primary institutional source (Cour des comptes). Consistent with F005 (social protection = 2/3 of spending gap) and S008 (pensions drove the 2024 spending increase). The 'retirees live as well as workers' point is the sharpest single illustration of the intergenerational trade."
     },
     {
       "id": "F019",
@@ -344,14 +386,15 @@
     },
     {
       "id": "F021",
-      "statement": "In cross-country surveys, the French public expresses among the lowest support in the developed world for the free-market system (e.g. GlobeScan 2005: ~36% of French agreed 'the free market is the best system', vs ~59% Germany, ~71% US; later Pew surveys show a similar pattern).",
-      "values": { "france_2005_approx": 36, "germany_2005_approx": 59, "us_2005_approx": 71 },
-      "unit": "% agreement",
-      "geography": "France vs peers",
-      "sources": [],
-      "confidence": "low",
-      "status": "unverified",
-      "notes": "BACKLOG: find primary survey data, and RECENT data (2005 is stale). Core evidence for the mindset claim (C4) - must be rock-solid or the claim gets dropped."
+      "statement": "The French public's hostility to capitalism is real, recent and stable: 62% of French respondents held a negative opinion of capitalism in Dec 2021 (64% in 2019, Odoxa). In a 34-country peer-reviewed survey (Zitelmann 2023), France sits firmly in the anti-capitalist group; 'capitalism leads to growing inequality' ranks as the #1 criticism in France. Pro-capitalist attitudes dominate in only 6-7 of 34 countries surveyed (led by Poland, the US, Czechia, Japan, South Korea - and Sweden when the word 'capitalism' is avoided).",
+      "values": { "france_negative_2021_pct": 62, "france_negative_2019_pct": 64, "procapitalist_countries_of_34": "6-7" },
+      "unit": "% / survey rankings",
+      "geography": "France vs 34 countries",
+      "sources": ["S018", "S019"],
+      "confidence": "medium",
+      "status": "verified",
+      "chartable": false,
+      "notes": "Upgraded from the stale 2005 GlobeScan datum. Caveats kept honest: Zitelmann is an identified pro-market advocate (published peer-reviewed; methodology described); Odoxa is a single-country commercial barometer. Interesting detail for the essay: Sweden reads pro-market when 'capitalism' is described rather than named - the WORD carries weight. Also from Odoxa: French executives (58%) and the affluent (47% negative) accept capitalism far more than workers (69% negative) - the divide is distributional, not uniform."
     },
     {
       "id": "F022",
@@ -423,6 +466,30 @@
       "status": "unverified",
       "chartable": true,
       "notes": "BACKLOG [Q09]: the components (deficit, growth) are verified via S001/INSEE but the euro-level computation and the multi-year series must be built properly from INSEE euro aggregates (debt delta vs nominal GDP delta, 2000-2025). Beware: this ratio is NOT a causal multiplier - GDP growth is not produced solely by the deficit. It is an accounting contrast, powerful for the hook, but the essay must not oversell it as causality. The causal version needs a fiscal-impulse counterfactual."
+    },
+    {
+      "id": "F028",
+      "statement": "Non-residents held 54.6% of French general-government long-term debt securities at end-2025, up from 52.8% at end-2024. Outstanding general-government debt securities: ~EUR 3,039bn (of which EUR 2,717bn for the State).",
+      "values": { "nonresident_share_2025_pct": 54.6, "nonresident_share_2024_pct": 52.8, "outstanding_gg_eur_bn": 3039 },
+      "unit": "% / EUR billion",
+      "geography": "France",
+      "sources": ["S014"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Settles the Japan counterargument to C7: Japan's debt is held domestically and issued in a currency Japan prints; over half of French debt is held abroad in a currency France does not control. Holders: euro-area, UK, US institutions (pension funds, central banks, insurers)."
+    },
+    {
+      "id": "F029",
+      "statement": "France's gross medium/long-term debt issuance (net of buybacks) was EUR 300bn in 2025 and is programmed at EUR 310bn for 2026 - roughly EUR 6bn to raise every week. Amortizations alone rise to EUR 175.8bn in 2026. Counterpoint kept honest: the weighted average rate on MLT issuance FELL to 2.78% in 2025 from 3.06% in 2024 as the ECB eased.",
+      "values": { "mlt_issuance_2025_eur_bn": 300, "mlt_issuance_2026_eur_bn": 310, "amortizations_2026_eur_bn": 175.8, "avg_mlt_rate_2025_pct": 2.78, "avg_mlt_rate_2024_pct": 3.06 },
+      "unit": "EUR billion / %",
+      "geography": "France",
+      "sources": ["S015"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Two-sided fact by design. The refinancing wall is real (interest compounds as old low-coupon debt rolls into 2.5-3.5% paper), but 2025 issuance conditions EASED - the essay must not imply an ongoing rate spiral. The squeeze is stock-driven (volume), not only rate-driven."
     }
   ],
   "comparables": [
@@ -556,7 +623,7 @@
       "supporting_facts": ["F021"],
       "contradicting_facts": ["F019", "F020"],
       "counterarguments": [
-        { "argument": "Mindset explanations are unfalsifiable just-so stories; France reformed repeatedly when leadership tried (2017-2023), and attitudes follow institutions rather than cause them.", "status": "open", "note": "F020 is genuine counter-evidence. The claim needs recent survey data and reform-history analysis, or it gets reframed/dropped. This is the author's prior - challenge it hardest." }
+        { "argument": "Mindset explanations are unfalsifiable just-so stories; France reformed repeatedly when leadership tried (2017-2023), and attitudes follow institutions rather than cause them.", "status": "open", "note": "The DESCRIPTIVE half is now solid: recent data confirms French anti-capitalism is real, stable, and distributional (F021 upgraded, 2021-2023 data). The CAUSAL half (attitudes as binding constraint rather than symptom) remains open - F020 shows reforms passed anyway. Current best formulation: mindset does not block reforms outright, it caps their scale and makes every one reversible (2023 pension reform suspended in 2025 under political pressure, see F026 notes). Thesis v1 uses this softened form." }
       ]
     },
     {
@@ -576,19 +643,20 @@
       "supporting_facts": ["F011", "F015"],
       "contradicting_facts": [],
       "counterarguments": [
-        { "argument": "Attempts to raise hours (pension reform 2023) met massive resistance - revealed preference is against more work.", "status": "open", "note": "Distinguish preference over own hours from preference over the policy regime; also check natural experiments (overtime detaxation 2007-2012, auto-entrepreneur regime)." }
+        { "argument": "Attempts to raise hours (pension reform 2023) met massive resistance - revealed preference is against more work.", "status": "open", "note": "Distinguish preference over own hours from preference over the policy regime; also check natural experiments (overtime detaxation 2007-2012, auto-entrepreneur regime)." },
+        { "argument": "Germany's tax wedge is HIGHER than France's (47.9% vs 47.2%, F015) yet Germany employs far more of its population - so the wedge cannot be the main driver.", "status": "open", "note": "Serious. The honest version of C6: the average wedge alone explains little; the French labor-input gap is driven by the COMBINATION of retirement rules (effective exit age), late entry, marginal wedges near the SMIC (70%+ with phase-outs - backlog fact), and benefit design. C6 must be restated around effective incentives at the margins of working life, not the headline wedge." }
       ]
     },
     {
       "id": "C7",
       "claim": "France's current growth is debt-financed and the arithmetic has turned: each euro of new debt buys less than a euro of nominal GDP, interest costs are the fastest-growing budget item, and on unchanged policy debt spirals past 130% of GDP. A forced adjustment is therefore coming; the only open question is whether France chooses it (reforms that raise growth) or has it imposed (market-driven austerity, an EU/IMF-style program, or in the tail case restructuring). This is the essay's hook: a countdown, not a mood.",
-      "status": "hypothesis",
-      "supporting_facts": ["F002", "F003", "F024", "F025", "F026", "F027"],
+      "status": "supported",
+      "supporting_facts": ["F002", "F003", "F024", "F025", "F026", "F027", "F028", "F029"],
       "contradicting_facts": [],
       "counterarguments": [
         { "argument": "The ECB backstop (TPI, OMT) makes a French default essentially impossible; spreads near 80bp show markets agree.", "status": "open", "note": "Partially answered in advance: TPI is conditional on fiscal compliance - the backstop protects countries doing the adjustment, it does not remove the adjustment. Greece 2010-2015 is the precedent for what 'imposed' looks like inside the euro. Needs a careful paragraph, not a wave of the hand." },
-        { "argument": "Japan carries 250% debt/GDP without crisis, so 115% is far from any cliff.", "status": "open", "note": "Answer: Japan borrows in its own currency from its own citizens; roughly half of French debt is held by non-residents and France cannot print euros. VERIFY the non-resident share (backlog fact needed)." },
-        { "argument": "Predicting a default date is astrology; economists have cried wolf on French debt for 30 years.", "status": "open", "note": "The strongest objection. The essay must either (a) derive a conditional window from explicit debt dynamics (r, g, primary balance, refinancing wall) and own the assumptions, or (b) reframe from 'default in X years' to 'forced adjustment, with the choice window closing'. Deciding between (a) and (b) is a key open task [Q10]." },
+        { "argument": "Japan carries 250% debt/GDP without crisis, so 115% is far from any cliff.", "status": "answered", "note": "ANSWERED with F028: 54.6% of French general-government debt is held by non-residents (end-2025, Banque de France) in a currency France does not print. Japan's debt is domestic and yen-denominated. The comparison fails on both counts." },
+        { "argument": "Predicting a default date is astrology; economists have cried wolf on French debt for 30 years.", "status": "open", "note": "The strongest objection, sharpened by F029: 2025 issuance rates EASED (2.78% vs 3.06%). What changed vs the last 30 years must be argued on stock dynamics (interest fastest-growing budget line, refinancing wall of EUR 175bn+/year amortizations, lost double-A, 54.6% foreign holders) not on a rate panic. Thesis v1 uses the reframed hook: forced adjustment with a closing choice window, plus an explicit falsifiable marker list instead of a naked date [Q10 partially resolved]." },
         { "argument": "Cutting the deficit by 5pp of GDP would itself crush growth (multiplier logic cuts both ways).", "status": "open", "note": "This is actually the deepest version of the user's intuition: stabilizing debt/GDP costs several years of measured growth, which is exactly why no government does it voluntarily - and why the thesis must center on raising g, not just cutting. Connects C7 to C1/C6." }
       ]
     }
@@ -615,8 +683,9 @@
     {
       "id": "Q04",
       "question": "What does RECENT survey evidence (post-2020 Pew, World Values Survey wave 7, Eurobarometer) actually say about French attitudes to markets, risk, wealth and work? C4 lives or dies on this.",
-      "status": "open",
-      "priority": "high"
+      "status": "partially_resolved",
+      "priority": "medium",
+      "resolution": "2026-08-11: Zitelmann 2023 (peer-reviewed, 34 countries) + Odoxa 2021 confirm the descriptive claim (F021 verified). Still wanted: World Values Survey wave 7 items on risk/competition for triangulation with a neutral source, and any post-2023 trend data."
     },
     {
       "id": "Q05",
@@ -657,8 +726,9 @@
     {
       "id": "Q11",
       "question": "Who holds French debt (non-resident share, banks, insurers, ECB portfolio) and what is the maturity/refinancing profile? Determines how fast a market strike would bite and is needed for both the Japan counterargument and the countdown arithmetic.",
-      "status": "open",
-      "priority": "high"
+      "status": "resolved",
+      "priority": "high",
+      "resolution": "2026-08-11: F028 (54.6% non-resident, end-2025, Banque de France) and F029 (EUR 300-310bn/year gross MLT issuance, EUR 175.8bn amortizations 2026, avg rate 2.78% in 2025 - eased vs 2024). Remaining nice-to-have: ECB/Eurosystem holding share and average residual maturity (~8.5 years per AFT, unrecorded)."
     }
   ]
 }

@@ -1,8 +1,16 @@
 # The Thesis (working spine)
 
-Status: **exploratory** — the central thesis is deliberately not settled yet. It must emerge from the evidence, not precede it. This file is the argumentative spine of the essay: if it is wrong here, no prose can save it in `article.md`.
+Status: **v1 settled — under challenge.** A first central thesis has been chosen and a first full draft written (`article.md`). Future runs challenge it: every claim below remains falsifiable, and the journal records what survives.
 
 All `[Fxxx]`, `[Cx]`, `[Qxx]` tags refer to `facts.json`.
+
+## The central thesis (v1)
+
+**France runs the developed world's largest transfer from the future to the present — and the machine that hid its cost has broken.**
+
+France pays for today's comfort — the rich world's shortest working lives, retirees who live as well as workers [F018], the highest social spending on earth [F001][F005] — with tomorrow's resources: borrowed money [F002][F003], unworked hours [F008][F012], and an innovation engine idling at 2.2% of GDP for twenty-five years [F009]. Two anesthetics hid the cost of this trade: cheap credit and a productivity edge that let the French say "we work less, but better." Both are gone. Interest is now the fastest-growing item in the budget [F024][F025], and the productivity edge has reversed [F007]. So the trade will be renegotiated. That part is arithmetic, not opinion [C7]. The only open variable is who holds the pen: France, through a deliberate program that raises both hours worked and output per hour while reforming the welfare state to save it — or its creditors, who now hold more than half the debt [F028], through an imposed adjustment that will be faster, dumber and crueler than anything a French government would design. The deepest obstacle is not technical. The reforms are known and the assets are real — nuclear power [F017], a savings pool [F023], engineers, demographics better than Germany's or Italy's. The obstacle is that the French have spent fifty years learning to despise the system that pays for their model [F021] — so the national story about work, risk and wealth is the first reform, not the last [C4].
+
+**Retired candidates** (kept for the record; all three were merged rather than killed): T-A "the chosen decline nobody chose" became the narrative frame; T-B "the mindset is the bottleneck" survives in softened, falsifiable form inside C4 (mindset caps reform scale and makes reforms reversible — it does not make them impossible, see F020); T-C "assets without an operating system" became the constructive program (sections 6-7 of the essay).
 
 ## The question
 
@@ -16,14 +24,6 @@ The load-bearing arithmetic is the debt-vs-growth contrast [F027]: France's debt
 
 **Honesty constraint on the hook.** "Default in X years" must be earned, not asserted. Either the window is derived from explicit debt dynamics — refinancing wall, r−g, primary balance, who holds the debt [Q10][Q11] — with assumptions the reader can check, or the framing retreats to "forced adjustment, with the choice window closing." An outright default is the tail case for an ECB-backstopped sovereign; the modal bad scenario is a Greek-style imposed program. The hook must survive the "economists have cried wolf on French debt for 30 years" objection or be reframed. Note also that F027 is an accounting contrast, not a causal multiplier — the essay must not oversell it.
 
-## Candidate central theses (to be narrowed, then killed down to one)
-
-- **T-A. The chosen decline that nobody chose.** France converted its wealth into leisure and security, one reasonable-sounding decision at a time — earlier exits, shorter hours, safer savings, protected incumbents — and never voted on the sum. The essay names the sum: a country that works among the fewest hours per capita in the rich world [F012], funds the difference with debt [F002][F003], and has now lost the productivity edge that used to pay for it [F007]. Growth returns when France reverses the trade explicitly: more people working, more capital at risk, more disruption tolerated — with the welfare state reformed to survive, not abolished.
-- **T-B. The mindset is the bottleneck.** The policies that restore growth are known and boring; what is missing is a public that wants them [C4][F021]. The essay's core move: treat national beliefs about markets, risk, wealth and work as the reform object itself, and study how countries actually flipped them (Sweden post-1991 [X01], Denmark [X03]).
-- **T-C. Assets without an operating system.** France holds a hand most countries would kill for — nuclear power, demographics, savings, engineers, FDI appeal [C5] — and wastes it on an operating system (tax wedge, pension design, spending mix, risk-averse capital allocation) tuned for protection instead of production. Growth is an activation problem, not an endowment problem.
-
-Current lean: T-A as the narrative frame, with T-B as its deepest "why" and T-C supplying the constructive program. They may merge. A future run should try hard to break each one before merging anything.
-
 ## Claim tree (mirror of `facts.json` claims)
 
 | ID | Claim | Status | Weakest point right now |
@@ -31,10 +31,10 @@ Current lean: T-A as the narrative frame, with T-B as its deepest "why" and T-C 
 | C1 | The gap is hours per capita AND, increasingly, productivity; one lever cannot close it | supported | "Leisure is a legitimate preference" counterargument still open |
 | C2 | Not a revenue problem: a spending-composition and efficiency problem (pensions = 2/3 of the gap with peers) | supported | Needs net social expenditure check [Q07] |
 | C3 | France is in the middle-technology trap; innovation regime change required | supported | The CIR puzzle unexplained [Q05] |
-| C4 | The binding constraint is the national mindset toward markets, risk, work, wealth | hypothesis | Evidence is stale (2005 survey); real counter-evidence exists [F019][F020]; needs [Q04] |
+| C4 | The mindset caps reform scale and makes reforms reversible (softened, falsifiable form) | hypothesis | Descriptive half verified [F021]; causal half still open — attitudes may be symptom, not constraint [F020] |
 | C5 | Turnaround is plausible: France's latent assets are real and rare | hypothesis | "Latent assets that stay latent are not assets" — needs activation mechanism |
-| C6 | Low labor input is policy-induced, hence reversible — not pure cultural preference | hypothesis | Needs tax-wedge and natural-experiment evidence [F015][Q06] |
-| C7 | Debt-financed growth has hit its arithmetic limit; a forced adjustment is coming — chosen or imposed | hypothesis | The countdown window not yet derived [Q10]; "crying wolf" objection open |
+| C6 | Low labor input is policy-induced, hence reversible — not pure cultural preference | hypothesis | Germany's wedge is HIGHER than France's [F015] — claim restated around effective incentives at the margins of working life (retirement rules, entry age, marginal wedges near the SMIC), not the headline wedge |
+| C7 | Debt-financed growth has hit its arithmetic limit; a forced adjustment is coming — chosen or imposed | supported | "Crying wolf" objection managed via reframed hook (markers, not a naked date); Japan objection answered [F028]; rates eased in 2025 [F029] — keep honest |
 
 ## Counterarguments the thesis must beat (master list)
 
@@ -45,7 +45,7 @@ Current lean: T-A as the narrative frame, with T-B as its deepest "why" and T-C 
 5. **The austerity objection.** Cutting spending into a slow economy kills growth. — Answer via composition (WHAT is cut/reformed matters more than how much) and the Swedish sequencing [X01].
 6. **The inequality objection.** The US model buys growth with inequality France rightly refuses. — Answer: the relevant models are Sweden, Denmark, Netherlands, Switzerland [X01][X03][X04], not the US; the US is the measuring stick, not the destination [X07].
 7. **The ECB-backstop objection.** France cannot default; the ECB will always stand behind it, and 80bp spreads [F026] prove markets agree. — Answer: TPI is conditional on fiscal compliance — the backstop protects countries doing the adjustment, it does not remove it. Greece shows what "imposed" looks like inside the euro.
-8. **The Japan objection.** Japan lives with 250% debt/GDP; 115% is nowhere near a cliff. — Answer: Japan borrows in its own currency from its own savers; France cannot print euros and roughly half its debt is held abroad [Q11 — verify share].
+8. **The Japan objection.** Japan lives with 250% debt/GDP; 115% is nowhere near a cliff. — ANSWERED: Japan borrows in its own currency from its own savers; France cannot print euros and 54.6% of its debt is held abroad [F028].
 9. **The crying-wolf objection.** French debt doom has been predicted for 30 years and never arrived. — The hardest one for the hook [C7]. Answer must show what changed: r−g flipping, the refinancing wall, interest as the fastest-growing budget line [F024][F025], the lost double-A [F026]. If the window cannot be derived honestly [Q10], reframe the hook.
 
 ## What would falsify the thesis (kept honest)
@@ -56,13 +56,13 @@ Current lean: T-A as the narrative frame, with T-B as its deepest "why" and T-C 
 - Recent survey data showing French attitudes converged with Germany's [Q04] → would kill C4 as framed.
 - Net-social-expenditure analysis showing the spending gap vs peers mostly disappears [Q07] → would force C2 to retreat to pure efficiency/deficit grounds.
 
-## Structure of the eventual essay (feeds `article.md`)
+## Structure of the essay (as drafted in `article.md` v0.1)
 
-1. Hook: the countdown [C7] — the prediction, the arithmetic of debt buying less growth than it costs [F027], and why nobody will volunteer for the fix.
-2. Diagnosis: the two gaps (hours, productivity) and the one that is growing [C1] — the Y problems behind the countdown.
-3. Why the usual explanations fail (taxes too low? austerity? Europe's fault?) [C2, Draghi objection].
-4. The deeper layer: what France believes about work, risk, wealth [C4 — if it survives].
-5. The hand France holds [C5].
-6. The program: a vision unconstrained by today's political feasibility, scored on impact and honesty about costs [C6 + program claims to be developed].
-7. How mindsets actually flip: Sweden 1991, Denmark, France 2017-2023 as partial proof [X01][X03][Q06].
-8. Close: the explicit choice.
+0. The prediction (hook) [C7] — reframed honestly: a forced renegotiation with public markers, not a naked default date. The debt-buys-less-growth arithmetic [F027] carries the opening.
+1. How France got poorer without noticing — the two gaps [C1][F006][F007].
+2. The usual suspects are innocent — not under-taxation, not austerity, not only Europe, not the French themselves [C2][F001-F005][F019][F020].
+3. The trade nobody named — pensions as the heart of the transfer machine [F018][F005]; the two anesthetics (cheap credit, productivity edge) now gone.
+4. What France believes — C4 in its softened form: the mindset caps the dose and voids the warranty (2023 pension reform suspended 2025); the savings-to-deficit loop [F021][F023].
+5. The hand France holds [C5] — nuclear, savings, talent, FDI.
+6. The program: five reversals — work (hours per capita), risk (savings to equity, Swedish-style capitalization layer), frontier (R&D + nuclear-powered AI strategy), state (composition not austerity, Danish flexicurity), story (name the trade; ownership as mindset lever) [C6][X01][X03].
+7. Why anything would change — Sweden's crisis-forced precedent, France's own 2015-2023 proof, the countdown markers; close on the pen.
