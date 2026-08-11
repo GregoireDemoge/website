@@ -94,6 +94,15 @@ Compiled from Wikipedia's "Signs of AI writing", Bloomberry's structural-fingerp
 15. Let a section end mid-thought if the next one picks it up.
 16. Name actors plainly (author directive, run 8): say "the government", "the finance ministry", "parliament", never "Paris" as a metonymy for French decision-makers. In the French imagination "Paris" also means the disconnected executive class, which is not the intended referent.
 
+### Structure rules (added run 10, from Julian Shapiro's Writing Handbook, at the author's direction)
+
+1. **One objective carries the piece.** The essay's spine is its strongest argument chain; everything else is a supporting point (demoted to a clause, a collapsible, or cut) or a resulting point (an implication of the spine being true). Before adding any passage, name which of the three it is. If it is none, delete it.
+2. **No orphan facts.** A fact that is merely interesting drowns the argument (the author's phrase: "noyer le poisson"). Every fact appears at the moment it does work, attached to the consequence it produces.
+3. **Signpost within three sentences.** A reader three sentences into any section must know where it is going or what question it answers. If the destination is a surprise, the QUESTION must still be explicit.
+4. **The trifecta of intrigue**: a captivating intro that buys goodwill; at least one deliberate peak section where the most surprising material is concentrated; an ending that justifies the read. Build the peak consciously; do not spread the best material thin.
+5. **Dopamine cadence**: no long stretches without an insight or surprise. When a stretch sags, cut it or inject novelty; length is never the goal.
+6. **Consequence chaining** (author directive, run 9): narrative advances by therefore/but, never by "and then". Each point carries its consequence, then the consequence's consequence, then the turn.
+
 ## Per-run protocol
 
 Each run does the following, in order:

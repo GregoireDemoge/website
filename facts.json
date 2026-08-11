@@ -255,6 +255,20 @@
       "url": "https://en.wikipedia.org/wiki/How_Asia_Works",
       "type": "book",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S035",
+      "name": "INSEE Premiere 1928 & 1929 (2022) - Electoral participation by age at the 2022 presidential and legislative elections",
+      "url": "https://www.insee.fr/fr/statistiques/6658145",
+      "type": "primary_statistical_agency",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S036",
+      "name": "Bundesverfassungsgericht, Order of 24 March 2021 (1 BvR 2656/18 - Klimabeschluss), official English version; Verfassungsblog analysis",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/EN/2021/03/rs20210324_1bvr265618en.html",
+      "type": "primary_legal",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -1039,6 +1053,29 @@
       "notes": "BACKLOG: verify with Maddison Project Database (PPP series) and World Bank current-USD series for the ~1980 nominal crossover. PRECISION MATTERS: in PPP terms France never exceeded the US; the 'comparable, even superior' memory is true only at market exchange rates (~1980) and for output per hour (~2000). The essay states both honestly ('in the dollars of the day'). Author dated it '50s or 80s': the 1950s were the LOW point (catch-up start), the late 1970s/1980 the peak - the fact entry records this so future runs don't mis-correct it."
     },
     {
+      "id": "F070",
+      "statement": "The French electorate skews old, and turnout skews it further (INSEE, 2022 elections): systematic abstention is 24% among under-35 registered voters vs ~9% for the 50-69; at the presidential first round, 67% of 18-29s voted vs 77% of 65+; at the legislative second round, 28% of under-30s voted vs 59% of 65+. Combining population structure with these turnout gradients, voters aged 55+ are approaching half of actual voters at presidential elections and constitute a MAJORITY of actual voters at legislative elections (the ones that make governments and pension law) - a share that rises mechanically every year as cohorts age [F038].",
+      "values": { "abstention_under35_pct": 24, "abstention_50_69_pct": 9, "presidential_r1_18_29_pct": 67, "presidential_r1_65plus_pct": 77, "legislative_r2_under30_pct": 28, "legislative_r2_65plus_pct": 59 },
+      "unit": "% turnout / share of voters",
+      "geography": "France",
+      "sources": ["S035"],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "The turnout gradients are VERIFIED (INSEE primary). The headline synthesis ('55+ = majority of actual legislative voters') is a computation from population pyramid x turnout that must be done explicitly and checked against exit-poll age breakdowns (IFOP/Ipsos day-of surveys) [Q32]. Load-bearing for C25 - state the verified gradients and the computed share with its status until pinned."
+    },
+    {
+      "id": "F071",
+      "statement": "Germany's constitution gives the not-yet-born justiciable standing; France's does not on fiscal matters. The Bundesverfassungsgericht (24 March 2021) held Art. 20a of the Basic Law to be 'a justiciable legal provision', ruled that fundamental rights operate as 'intertemporal guarantees of freedom' protecting against burdens 'unilaterally offloaded onto the future', recognized an objective duty to protect future generations who 'do not yet carry any fundamental rights', and struck down parts of the federal climate law on that basis. Germany's constitutional debt brake (Art. 109/115 GG) applies the same intergenerational logic to borrowing itself. France's closest equivalent - the 2004 environmental charter, as read by the Conseil constitutionnel in 2023 - covers only environmental harms, with no fiscal counterpart.",
+      "values": {},
+      "unit": "constitutional law",
+      "geography": "Germany vs France",
+      "sources": ["S036"],
+      "confidence": "high",
+      "status": "verified",
+      "notes": "The BVerfG holdings are verified against the court's official English text. Two flags: the debt-brake intergenerational framing and the exact scope of the French 2023 CC decision still need their own citations [Q33]. For C25: this is the institutional half of the impasse - the German political system is constitutionally FORCED to represent the unborn; the French system represents only those who vote, who are the machine's beneficiaries (F070?)."
+    },
+    {
       "id": "F068",
       "statement": "Two canonical results ground the complementarity argument: Kremer's O-ring theory (1993, QJE) - production is chains of complementary tasks where one failing link destroys the value of all others, so 'low-skill' links carry system-critical value; and Baumol's cost disease (1966-2012) - as frontier productivity rises, the relative cost of labor-intensive essential services (care, teaching) rises mechanically, meaning the FLOOR'S AFFORDABILITY IS FUNDED BY FRONTIER GROWTH, or not at all.",
       "values": {},
@@ -1373,6 +1410,17 @@
       ]
     },
     {
+      "id": "C25",
+      "claim": "THE DEMOCRATIC IMPASSE (core diagnosis, elevated from objection at author's direction) - The transfer machine is electorally self-locking: its net beneficiaries are the majority of actual voters at the elections that make governments (voters 55+ at legislatives, F070?), and that majority grows every year (F038). Therefore normal democratic politics cannot durably correct the machine - the 2023-2025 pension reform cycle is the mechanism observed live (F026). France also lacks the institutional counterweight Germany has: a constitution that gives the not-yet-born justiciable standing (Art. 20a, BVerfG 2021 'intertemporal guarantees of freedom') and a constitutional debt brake (F071). Three exits, all used by the program: crisis windows (the countdown suspends median-voter statics, as Sweden 1991); winners-first design (grandfather the stock, reform the flows, give older voters a compensating asset via the fund); and institutional redesign (write the future into French fundamental law - a fiscal sustainability rule and the automatic pension link placed at constitutional or organic-law level).",
+      "status": "supported",
+      "supporting_facts": ["F070", "F071", "F038", "F026", "F040"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Old voters are not a monolith; grandparents vote for grandchildren's interests too (evidence from referendums on education spending is mixed).", "status": "open", "note": "Fair - the impasse claim is about REVEALED outcomes (every attempt to touch pensions has died politically for 30 years, 1995/2010/2019/2023-25), not about imputed selfishness. Keep the tone at 'incentives', never 'boomer-blaming' - the essay's own normative anchor (C19) forbids generational contempt, and older voters are also the fund's largest near-term beneficiaries." },
+        { "argument": "Constitutionalizing fiscal rules is anti-democratic - it entrenches one policy view against future majorities.", "status": "open", "note": "The German answer: protecting future citizens' freedom IS democracy extended in time (BVerfG's 'intertemporal freedom'); a debt rule does not entrench a policy, it entrenches the existence of choices for the next generation. Needs a careful paragraph; note France accepts the same logic for the environment already (2023 CC)." }
+      ]
+    },
+    {
       "id": "C22",
       "claim": "PRICE IS NOT WORTH - Market income measures marginal scarcity and scale leverage, not social contribution: water is priceless and nearly free (the diamond-water paradox, resolved by marginal utility); a life-saving doctor under administered tariffs earns less than a market-leveraged executive (F066?); and innovators capture ~2% of the surplus they create (F063?). Two consequences run in OPPOSITE political directions, and the thesis needs both: (a) market outcomes carry no moral verdict - the poor are not 'worth less', so the floor is justified inside market logic, not against it; (b) top entrepreneurial wealth is mostly a receipt for surplus given away, so confiscating the receipt does not recover the surplus - it discourages its creation. Prices are for allocation; they are not a theory of desert.",
       "status": "hypothesis",
@@ -1591,6 +1639,18 @@
     {
       "id": "Q31",
       "question": "Steelman degrowth properly (C24): read the best versions (Parrique, Hickel, Keyßer-Lenzen scenarios) and answer their strongest argument - decoupling too slow for carbon budgets - with numbers (required decoupling rates vs observed French rates; what nuclear-powered electrification changes; what degrowth does and does not do to a 115%-debt balance sheet). The collapsible in the article must answer the SERIOUS version, not the punchline.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q32",
+      "question": "Pin the voter-age computation (F070/C25): electorate age pyramid x INSEE turnout gradients -> share of actual voters aged 55+ at the 2022 presidential and legislative elections; cross-check against IFOP/Ipsos day-of age breakdowns; project the share to 2035 using INSEE demographics (F038). The impasse section quotes the verified gradients now and the computed share with a flag.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q33",
+      "question": "Complete the constitutional file (F071/C25): the German debt brake's intergenerational rationale (Art. 109/115 GG, travaux and BVerfG references); the exact scope of the French Conseil constitutionnel 2023 decision on future generations (environment-only?); comparative survey of fiscal rules with constitutional rank (Switzerland's debt brake, Sweden's framework laws); and what a French 'future generations' clause could legally look like (constitutional vs organic law).",
       "status": "open",
       "priority": "medium"
     }
