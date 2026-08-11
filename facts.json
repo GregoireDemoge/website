@@ -595,6 +595,55 @@
    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028493476/",
    "type": "primary_legal",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S081",
+   "name": "Matsaganis, M. & Leventi, C. (2014), 'Poverty and Inequality during the Great Recession in Greece', Political Studies Review 12(2), 209-223",
+   "url": "https://doi.org/10.1111/1478-9302.12050",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S082",
+   "name": "Leventi, C. & Matsaganis, M. (2016), 'Estimating the distributional impact of the Greek crisis (2009-2014)', OECD Economics Department Working Paper No. 1312",
+   "url": "https://doi.org/10.1787/5jlv2jl6c9f3-en",
+   "type": "primary_institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S083",
+   "name": "Gruber, J., Milligan, K. & Wise, D.A. (2010), 'Social Security Programs and Retirement around the World: The Relationship to Youth Employment', University of Chicago Press (introduction: NBER WP 14647); France chapter by Ben Salem, Blanchet, Bozio & Roger",
+   "url": "https://www.nber.org/papers/w14647",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S084",
+   "name": "OECD Income Distribution Database (DSD_WISE_IDD@DF_IDD), median and mean equivalized disposable household income + PPP for private consumption, pulled via the OECD SDMX API",
+   "url": "https://data-explorer.oecd.org/ (dataflow OECD.WISE.INE:DSD_WISE_IDD@DF_IDD)",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S085",
+   "name": "Destatis (German Federal Statistical Office), 'EU - Social issues and living conditions' key-indicator table, reporting Eurostat EU-SILC 2025 at-risk-of-poverty rates",
+   "url": "https://www.destatis.de/Europa/EN/Topic/Key-indicators/SocialIssuesLivingConditions.html",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S086",
+   "name": "DIW Weekly Report 7/2025, 'Income Distribution: Signs of a Trend Reversal in the Poverty Risk' (German wage-decile and poverty-risk series)",
+   "url": "https://doi.org/10.18723/diw_dwr:2025-7-1",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S087",
+   "name": "Migration Policy Institute (2016), 'The Changing Face of Emigration: Harnessing the Potential of the New Greek Diaspora' (youth unemployment figures cited from Eurostat LFS table teilm011); Bank of Greece 2016 brain-drain report (427,000 emigrants 2008-2016, via Kathimerini/DW); ELIAMEP Policy Brief 148 (Vella, 2021): ~500,000 left 2010-2015, ~7% of the active population",
+   "url": "https://www.migrationpolicy.org/sites/default/files/publications/TCM-Emigration-Greece-FINALWEB.pdf",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -1629,17 +1678,24 @@
   },
   {
    "id": "F056",
-   "statement": "The Germany check likely cuts against the naive version of the argument: France's poverty rate after transfers (~14%) is LOWER than Germany's at-risk-of-poverty rate (~16-21% depending on measure); German bottom-decile real wages stagnated or fell from the mid-1990s to ~2015 (Hartz-era wage restraint, mini-jobs), with partial catch-up only after the 2015 minimum wage. Germany's growth did NOT straightforwardly lift its bottom quartile faster than redistributive France.",
+   "statement": "The Germany floor check, resolved - and it cuts both ways. Today the two floors sit at PARITY on the standard relative measure: at-risk-of-poverty rate 16.3% France vs 16.1% Germany (EU-SILC 2025; EU-27 average 16.3%). Germany's median income is ~11% above France's (OECD IDD 2023), so equal relative rates imply a slightly higher absolute German floor. History: German bottom-decile real wages stagnated from the mid-1990s to ~2013 (Hartz-era restraint, mini-jobs); the trend reversed after 2013 with the 2015 minimum wage and union wage compression (DIW). France's clear remaining edge at the bottom is OLD-AGE poverty specifically [F077].",
    "values": {
-    "france_poverty_after_transfers_approx_pct": 14,
-    "germany_arope_approx_pct": "16-21"
+    "arop_france_silc2025_pct": 16.3,
+    "arop_germany_silc2025_pct": 16.1,
+    "arop_eu27_silc2025_pct": 16.3,
+    "median_de_over_fr_2023": 1.11
    },
-   "unit": "%",
+   "unit": "% at risk of poverty (60% national median, after transfers)",
    "geography": "France vs Germany",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG [Q25]: Eurostat AROPE + income-quintile series 2000-2024, WSI/DIW wage-decile data. Author's explicit instruction: FOLLOW THE DATA. If confirmed, the argument reframes to: France already wins at the bottom - on borrowed money; the US shows growth without floors fails the poor; France shows floors without growth expire; the target is the Nordic quadrant (both)."
+   "sources": [
+    "S085",
+    "S086",
+    "S084"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14, per the author's follow-the-data instruction. Both naive stories die: 'Germany shows growth alone lifts the floor' is false for 1995-2013 (bottom-decile stagnation); 'France beats Germany at the floor today' is also false (parity at 16.3 vs 16.1, and Germany's higher median implies a higher absolute threshold). The sharp use for the thesis: France spends ~8 points of GDP more than Germany [F001][F005] and ends with the same overall poverty rate as Germany and as the EU average - the extra spending visibly buys the position of the old [F077][F078], not a better floor for the poor in general. Caveat: relative AROP compares against NATIONAL medians; French absolute floor is still well above the EU average's in level terms.",
+   "chartable": true
   },
   {
    "id": "F057",
@@ -1969,14 +2025,23 @@
   },
   {
    "id": "F076",
-   "statement": "The mean-vs-median caveat on the US comparison: US GDP per capita is a mean pulled up by a top-heavy income distribution; the France-US gap in MEDIAN equivalized disposable household income (PPP) is smaller than the GDP-per-capita gap, and part of US gross income buys healthcare and college that France provides publicly. The gap does not disappear at the median, but it shrinks; the exact median-to-median figure must be pinned (LIS or OECD income distribution database) before the essay quotes one.",
-   "values": {},
-   "unit": "comparison caveat",
+   "statement": "The mean-vs-median caveat, now pinned on one dataset: on the OECD Income Distribution Database, same year (2023), same PPP (private consumption), median equivalized disposable household income is USD 38,750 in France vs USD 49,885 in the US - the median French person is ~22% behind the median American. On the same dataset the MEAN gap is 28% (FR 44,715 vs US 62,186). So the gap shrinks at the median (28->22) but does not disappear. Germany's median is USD 43,050, ~11% above France's.",
+   "values": {
+    "median_fr_usd_ppp_2023": 38750,
+    "median_us_usd_ppp_2023": 49885,
+    "median_de_usd_ppp_2023": 43050,
+    "median_gap_fr_us_pct": 22.3,
+    "mean_gap_fr_us_pct_same_dataset": 28.1
+   },
+   "unit": "USD PPP (private consumption), equivalized disposable income, 2023",
    "geography": "France vs US",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG [Q34]: pin median equivalized disposable income PPP France vs US (LIS/OECD IDD), same year. Grounds the new objection IV.16. The answer does not depend on the exact number: the diagnosis's decomposition (F007) measures production, not distribution; the hours and pension comparisons run against Germany/EU [F031][F018]; and the fiscal arithmetic is internal [F024][F025]."
+   "sources": [
+    "S084"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14 from the OECD SDMX API (FRA median 27,880 EUR / PPP 0.7194; USA 49,885 USD; DEU 30,237 EUR / PPP 0.7024). Caveats to keep attached: (a) disposable income excludes in-kind services (health, education) that France provides publicly and Americans largely buy out of disposable income - the true consumption gap at the median is smaller than 22%; (b) US 2023 point uses the updated Census methodology. The answer structure of IV.16 stands: the gap shrinks, the direction and the production decomposition [F007] do not change, and the fiscal arithmetic is internal.",
+   "chartable": true
   },
   {
    "id": "F077",
@@ -2143,6 +2208,50 @@
    "confidence": "high",
    "status": "verified",
    "notes": "Verified run 13. This SHARPENS C25 rather than weakening it: the electoral constraint binds exactly when the median voter's proxies hold the parliamentary balance - which demography makes more likely every cycle [F070][F038]."
+  },
+  {
+   "id": "F085",
+   "statement": "Who paid in Greece's imposed adjustment (2010-2014), from the EUROMOD-based incidence literature: poverty anchored at the pre-crisis (2009) threshold reached 37% of the population by 2012 (extreme poverty 9.8%); on the OECD's 2010-anchored line, 13.2% -> 27.4% by 2014. Allowing re-ranking, the income of the poorest decile in 2012 was 56.5% below the poorest decile of 2009 - twice the average loss of 28.4%. The minimum wage was cut by decree in February 2012: -22% generally, -32% for workers under 25, at the creditors' insistence. Unemployment rose 7.7% (2008) to 24.3% (2012); youth unemployment peaked at ~57-59% (2013); only 19% of the jobless received unemployment benefit (2012). The old were RELATIVELY protected: the elderly improved their relative income position and relative poverty fell among them, while poverty shifted 'from older segments of the population [to] younger and better educated' (LSE Hellenic Observatory synthesis). Emigration: ~427,000-500,000 left, mostly young and educated (~7% of the active population, 2010-2015).",
+   "values": {
+    "anchored_poverty_2009line_2012_pct": 37.0,
+    "anchored_poverty_oecd_2010line_2014_pct": 27.4,
+    "bottom_decile_reranked_income_loss_2009_12_pct": -56.5,
+    "average_income_loss_2009_12_pct": -28.4,
+    "min_wage_cut_general_pct": -22,
+    "min_wage_cut_under25_pct": -32,
+    "youth_unemployment_peak_2013_pct": 58,
+    "jobless_on_benefit_2012_pct": 19,
+    "emigration_2008_2016": 427000
+   },
+   "unit": "mixed (incidence record)",
+   "geography": "Greece",
+   "sources": [
+    "S081",
+    "S082",
+    "S087"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": false,
+   "notes": "Added run 14, resolves Q20 and upgrades C14 to supported. Precision discipline: the two anchored-poverty numbers use different anchor years and vintages (M-L 2014 anchor 2009, 37% in 2012; OECD WP 1312 anchor 2010, 27.4% in 2014) - never mix them in one sentence. The nuance to keep: austerity per se was mildly progressive early (public pay and pension cuts hit higher incomes); what crushed the bottom was the recession the program deepened, the regressive later measures (VAT hikes, the emergency property tax - the most regressive single item), and the labor-market collapse. The finding that completes the essay's spine: even in the imposed version, the elderly lost least - the forced adjustment reproduced the intergenerational bias [C25], it did not correct it. The young paid twice: first the machine, then its collapse."
+  },
+  {
+   "id": "F086",
+   "statement": "The lump-of-labor evidence: the 12-country NBER volume (Gruber-Milligan-Wise 2010, France chapter by Ben Salem, Blanchet, Bozio, Roger) finds NO evidence that employing older workers reduces youth employment; if anything the opposite - 'paying for old persons to leave the labor force reduces the employment rate and increases the unemployment rate of youth'. France ran the experiment at national scale and stated the goal out loud: PM Pierre Mauroy, Lille, September 1981 - retire at 55 to 'release jobs so that everyone can have a job' (contrat de solidarite); retirement age lowered to 60 in 1983. Through the reform period, youth employment FELL and youth unemployment ROSE; after 1983, when old-age employment diverged between France and the UK, youth employment diverged the same way in each country (falling with it in France, rising with it in the UK after 1993).",
+   "values": {
+    "countries_in_panel": 12,
+    "mauroy_quote_year": 1981,
+    "retirement_age_lowered_to_60": 1983
+   },
+   "unit": "econometric finding + natural experiment",
+   "geography": "12 OECD countries incl. France",
+   "sources": [
+    "S083"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": false,
+   "notes": "Added run 14. Answers the most common French objection to the Work lever ('seniors working longer steal jobs from the young') - the boxed-economy premise is false: workers are also consumers and payers, so employment creates demand for employment. Corroborated since by Boheim-Nice (2019, OECD countries) and East Asia studies. The Mauroy quote is the concrete anchor: France believed the theory, ran it for a decade, and got rising youth unemployment plus the pension hole [F018]. Use in essay: the Work lever must answer this objection in place."
   }
  ],
  "comparables": [
@@ -2427,6 +2536,11 @@
      "argument": "France tried (2023 reform) and the reform was suspended - the lever is politically unavailable.",
      "status": "open",
      "note": "True and central; this is why the solution thesis makes the mindset mechanism (C12) load-bearing rather than decorative."
+    },
+    {
+     "argument": "The lump-of-labor objection: if seniors stay in their jobs, the young cannot enter - raising the retirement age raises youth unemployment.",
+     "status": "answered",
+     "note": "Answered run 14 [F086]: the 12-country evidence finds the opposite sign - paying the old to leave raises youth unemployment; France's own 1981-83 experiment (Mauroy's 'release jobs' speech, retirement at 60) coincided with falling youth employment and rising youth unemployment. Workers are also consumers and payers; the economy is not a fixed box of jobs."
     }
    ]
   },
@@ -2575,9 +2689,10 @@
   },
   {
    "id": "C14",
-   "claim": "CONSEQUENCE - The imposed adjustment is regressive: when consolidation is forced by markets or a program, it is fast, front-loaded, and falls on what can be cut by decree - transfers to the vulnerable, public investment, public wages - while the protected statuses that caused the drift resist longest. The young and the poor pay first (Greek precedent). Choosing the adjustment early, with composition control [F040], is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
-   "status": "hypothesis",
+   "claim": "CONSEQUENCE - The imposed adjustment is regressive AND gerontocratic: when consolidation is forced by markets or a program, it is fast, front-loaded, and falls on what can be cut by decree - the minimum wage, transfers to the out-groups, public investment - while organized insiders resist longest. In Greece the re-ranked bottom decile lost 56.5% (twice the average), the under-25 minimum wage was cut 32% by decree, and the ELDERLY improved their relative position [F085]: the forced version reproduced the machine's intergenerational bias instead of correcting it. Choosing the adjustment early, with composition control [F040], is therefore the PROGRESSIVE option.",
+   "status": "supported",
    "supporting_facts": [
+    "F085",
     "F040",
     "F025",
     "F026"
@@ -2586,8 +2701,8 @@
    "counterarguments": [
     {
      "argument": "Chosen adjustments can be just as regressive; composition depends on who governs, not on timing.",
-     "status": "open",
-     "note": "Partially true - the answer is that timing determines the OPTION SET: an early adjustment can protect schools and hospitals (Sweden did, F040); a forced one cannot. Verify the Greek adjustment's distributional record [Q20]."
+     "status": "answered",
+     "note": "Answered run 14 with the Greek record [F085]: timing determines the option set - Sweden's chosen adjustment protected schools and hospitals (-0.1/-0.2pp) and cut transfers/subsidies [F040]; Greece's forced one cut the under-25 minimum wage by a third by decree and let anchored poverty double-plus. Honest nuance kept: the early Greek austerity measures per se were mildly progressive; the catastrophe came through the recession, the regressive later measures (VAT, property levy), and the labor-market collapse - which is precisely what distinguishes a chosen composition from a forced one."
     }
    ]
   },
@@ -2951,9 +3066,9 @@
   {
    "id": "Q20",
    "question": "Distributional record of forced adjustments (for C14): who actually paid in Greece 2010-2015 (and Portugal, Ireland)? Income-decile incidence of program cuts, youth unemployment and emigration effects, health outcomes. Needed to ground 'imposed = regressive' beyond assertion.",
-   "status": "open",
+   "status": "resolved",
    "priority": "high",
-   "note": " PRIORITY RAISED run 12: the essay's 'The choice' section states the regressive-incidence claim ('the poorest quarter pays fastest, the way they paid in Athens') - C14 is still a hypothesis; pin the Greek incidence data (youth unemployment >50%, emigration, distributional studies of the memoranda) or soften the sentence."
+   "note": "Resolved run 14 [F085]: Matsaganis-Leventi 2014 + OECD WP 1312. Findings: anchored poverty 37% by 2012 (2009 line) / 27.4% by 2014 (2010 line); re-ranked bottom decile -56.5% vs -28.4% average; under-25 minimum wage cut 32% by decree; youth unemployment peak ~58%; elderly relatively protected; ~427-500k emigrated. C14 upgraded to supported; the essay's Athens line rewritten to the verified, sharper version (the forced adjustment reproduces the gerontocratic bias)."
   },
   {
    "id": "Q21",
@@ -2984,7 +3099,8 @@
    "id": "Q25",
    "question": "Build the two-curves dashboard (C19): (a) bottom-quartile command over essentials - equivalized disposable income of Q1 in PPP, NET of housing and out-of-pocket health costs, 2000-2024, for France/Germany/US/Sweden/Denmark/Netherlands + poverty after transfers + life expectancy by income; (b) the 75% curve - median income plus technology consumer-surplus estimates (F062?). This dashboard settles Scenario A vs B (is France past the redistribution optimum, or is the floor fine and its financing broken?) and decides how the Germany example is used (F056?). Author instruction: follow the data wherever it lands.",
    "status": "open",
-   "priority": "high"
+   "priority": "high",
+   "note": " PARTIAL (run 14): the Germany leg is settled [F056 verified]: floor parity today (AROP 16.3 vs 16.1), German bottom-decile stagnation 1995-2013 then reversal, German median 11% above France's. The full bottom-quartile net-of-essentials dashboard remains open."
   },
   {
    "id": "Q26",
@@ -3039,8 +3155,9 @@
   {
    "id": "Q34",
    "question": "Pin the median-vs-median income comparison (F076/IV.16): median equivalized disposable household income, PPP, France vs US vs Germany, same year and dataset (LIS preferred, OECD IDD acceptable). Also check post-tax-and-transfer income including in-kind (health, education) if a credible series exists (e.g. Blanchet-Chancel-Gethin DINA for Europe vs US).",
-   "status": "open",
-   "priority": "medium"
+   "status": "resolved",
+   "priority": "medium",
+   "note": "Resolved run 14 [F076]: OECD IDD, same dataset/year/PPP (2023): median FR $38,750 vs US $49,885 (-22%); mean gap on the same dataset 28%. The gap shrinks at the median but does not disappear; in-kind caveat recorded. The essay's concession paragraph now carries the numbers."
   }
  ]
 }
