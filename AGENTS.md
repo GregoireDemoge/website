@@ -92,6 +92,7 @@ Compiled from Wikipedia's "Signs of AI writing", Bloomberry's structural-fingerp
 13. Committed positions; hedge only with specific, informative hedges ("the size is disputed between 26% and 33%; the direction is not").
 14. First person where the author's position does work (per `thesis.md` 0.2); concrete images over abstractions; an admitted hesitation or a change of mind reads human because it is.
 15. Let a section end mid-thought if the next one picks it up.
+16. Name actors plainly (author directive, run 8): say "the government", "the finance ministry", "parliament", never "Paris" as a metonymy for French decision-makers. In the French imagination "Paris" also means the disconnected executive class, which is not the intended referent.
 
 ## Per-run protocol
 

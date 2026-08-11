@@ -4,6 +4,21 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 8 — 2026-08-11 — Two author edits: the 1980 high-water mark, and no more "Paris" (author input)
+
+**Author input.** (1) Add early in the article that French GDP per capita was once comparable to, even above, the American level (author dated it "50s or 80s"). (2) Stop using "Paris" as a metonymy for decision-makers: in the French imagination "Paris" also means the disconnected executive class; name the government plainly.
+
+**What changed.**
+
+- New fact [F069?] pins the memory precisely so the essay can use it without overclaiming: the 1950s were the LOW point (~50% of the US level, catch-up start); the peak was ~1975-1980 at ~80-85% in PPP terms; the "matched or exceeded" memory is true at market exchange rates around 1980 and for output per hour as late as 2000 [F007]. Backlog: Maddison Project + World Bank current-USD series.
+- "The road here" now opens on the high-water mark: *les trente glorieuses*, the near-parity of 1980 "in the dollars of the day", four fifths in purchasing terms, and the line "the country is not arrogant about its rank out of fantasy. It remembers." The 2000-vs-today gap paragraph follows unchanged.
+- Three "Paris" metonymies replaced with "anyone in government" / "people in the government and around it" / "The French government". Checklist rule 16 added to `AGENTS.md` so future runs hold it.
+- Anti-tell audit re-run on the modified prose: clean (0 banned patterns; the new paragraph adds no triads, no scaffolds).
+
+**Next run:** unchanged priorities from run 7 - continue the essay per the section map ("The trade nobody named" next), clear the `?` facts the drafted prose leans on (add F069 to that list), [Q25] dashboard.
+
+---
+
 ## Run 7 — 2026-08-11 — The anti-tell standard, and the essay begins (author directive)
 
 **Author directive.** Start writing the article, but first research every "tell" that makes readers detect AI writing (the "it's not X, it's Y" pattern, em-dashes, etc.) and write in a way that shows none of them, while writing exceptionally well.

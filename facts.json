@@ -1027,6 +1027,18 @@
       "notes": "BACKLOG: DARES/INSEE analyses of 'deuxieme ligne' workers (2020-21), comparable US/UK studies. For C23: the execution workforce is infrastructure, and the price system does not rank it accordingly."
     },
     {
+      "id": "F069",
+      "statement": "The historical high-water mark: French GDP per capita converged on the American level through the trente glorieuses (from ~50% of the US level in 1950, after war destruction) and peaked around 1975-1980 at roughly 80-85% in purchasing-power terms - the closest it ever came. Measured in current dollars at the exchange rates of the day, France briefly MATCHED or exceeded the US figure around 1980 (strong franc, weak dollar). French output per HOUR surpassed the American level as late as ~2000 (see F007).",
+      "values": { "france_pct_of_us_1950_ppp": 50, "france_pct_of_us_peak_ppp": "80-85", "peak_years": "1975-1980" },
+      "unit": "% of US GDP per capita",
+      "geography": "France vs US",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG: verify with Maddison Project Database (PPP series) and World Bank current-USD series for the ~1980 nominal crossover. PRECISION MATTERS: in PPP terms France never exceeded the US; the 'comparable, even superior' memory is true only at market exchange rates (~1980) and for output per hour (~2000). The essay states both honestly ('in the dollars of the day'). Author dated it '50s or 80s': the 1950s were the LOW point (catch-up start), the late 1970s/1980 the peak - the fact entry records this so future runs don't mis-correct it."
+    },
+    {
       "id": "F068",
       "statement": "Two canonical results ground the complementarity argument: Kremer's O-ring theory (1993, QJE) - production is chains of complementary tasks where one failing link destroys the value of all others, so 'low-skill' links carry system-critical value; and Baumol's cost disease (1966-2012) - as frontier productivity rises, the relative cost of labor-intensive essential services (care, teaching) rises mechanically, meaning the FLOOR'S AFFORDABILITY IS FUNDED BY FRONTIER GROWTH, or not at all.",
       "values": {},
