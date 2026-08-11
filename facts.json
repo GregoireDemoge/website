@@ -80,6 +80,34 @@
       "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD",
       "type": "primary_statistical_agency",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S010",
+      "name": "Ministere du Budget - Plafonds de depenses du PLF 2027 (spending ceilings, July 2026)",
+      "url": "https://www.budget.gouv.fr/documentation/file-download/33381",
+      "type": "government_primary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S011",
+      "name": "Jaravel/Ragot/Tavernier/Valla report to Bercy on unchanged-policy fiscal trajectory (July 2026) - via Public Senat and MarketScreener coverage; PRIMARY REPORT STILL TO FETCH",
+      "url": "https://www.publicsenat.fr/actualites/economie/la-france-devra-realiser-126-milliards-deuros-deffort-budgetaire-dici-la-fin-du-prochain-quinquennat-pour-stopper-la-progression-de-la-dette",
+      "type": "institutional_report_via_secondary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S012",
+      "name": "Reuters - S&P downgrades France to A+ (17 October 2025); POLITICO coverage of same",
+      "url": "https://www.reuters.com/world/europe/sp-cuts-frances-rating-aa-1-heightened-risks-budgetary-consolidation-2025-10-17/",
+      "type": "press_for_current_events",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S013",
+      "name": "France24 - Fitch downgrades France AA- to A+ (12 September 2025); EDHEC analysis of downgrades and regulatory treatment",
+      "url": "https://www.france24.com/en/france/20250913-france-credit-score-downgraded-lowest-on-record-amid-political-crisis-lecornu-macron-budget",
+      "type": "press_for_current_events",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -347,6 +375,54 @@
       "confidence": "medium",
       "status": "unverified",
       "notes": "BACKLOG: verify with INSEE/Banque de France financial accounts; get equity share of household financial assets vs US/Sweden."
+    },
+    {
+      "id": "F024",
+      "statement": "French state debt-interest charge is projected at EUR 64.8bn in 2026 and EUR 74.2bn in 2027 (+EUR 12.3bn of constrained spending in the 2027 ceilings, alongside +EUR 6.4bn for defense) - interest is the fastest-growing budget item.",
+      "values": { "interest_2026_eur_bn": 64.8, "interest_2027_eur_bn": 74.2 },
+      "unit": "EUR billion (state scope)",
+      "geography": "France",
+      "sources": ["S010"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "State scope only. General-government scope is larger (~EUR 78bn in 2026, ~2.6% of GDP per HCFP). Do not mix scopes in one series - see F025 note."
+    },
+    {
+      "id": "F025",
+      "statement": "Unchanged-policy trajectory (Jaravel/Ragot/Tavernier/Valla report to the Finance Ministry, July 2026): deficit widens to 5.9% of GDP in 2027 and ~6.8-7% by 2030; debt peaks at 130.5% of GDP; general-government interest reaches ~EUR 124bn by 2030 (+EUR 46bn vs 2026), growing ~5x faster than the economy. Stabilizing debt requires ~EUR 126bn of cumulative adjustment by 2032 (~EUR 25bn/year).",
+      "values": { "deficit_2027_pct": 5.9, "deficit_2030_pct": 6.8, "debt_peak_pct_gdp": 130.5, "interest_2030_eur_bn": 124, "adjustment_needed_by_2032_eur_bn": 126 },
+      "unit": "mixed",
+      "geography": "France",
+      "sources": ["S011"],
+      "confidence": "medium",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Verified against two independent press accounts of the report; a future run should fetch the primary 37-page report and re-check the figures. The 2021-2030 interest comparison (EUR 40bn to 124bn) mixes state and general-government scopes - use with care."
+    },
+    {
+      "id": "F026",
+      "statement": "France lost its double-A rating in autumn 2025: Fitch cut AA- to A+ (12 Sep 2025, lowest French rating on record), S&P cut AA- to A+ in an unscheduled move (17 Oct 2025), Moody's kept Aa3 but went negative outlook (24 Oct 2025). The 10-year OAT-Bund spread settled around 80-83bp by March 2026, versus a 20-40bp historical norm; the 10-year OAT yield traded near Italy's.",
+      "values": { "fitch": "A+ (2025-09-12)", "sp": "A+ (2025-10-17)", "moodys": "Aa3 negative (2025-10-24)", "oat_bund_spread_bp_2026Q1": "80-83", "historical_norm_bp": "20-40" },
+      "unit": "ratings / basis points",
+      "geography": "France",
+      "sources": ["S012", "S013"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Ratings: high confidence (multiple primary press). Spread level: medium - re-verify against market data or Banque de France; note S&P cited the suspension of the 2023 pension reform as a driver. Also note the EDHEC point: markets barely reacted to the downgrades themselves - the risk was already priced."
+    },
+    {
+      "id": "F027",
+      "statement": "France's debt now grows faster than the GDP it buys. Sketch for 2024: deficit 5.8% of GDP (~EUR 170bn borrowed) against nominal GDP growth of 3.3% (~EUR 95bn) - roughly 0.55 euro of nominal GDP added per euro of new debt, and much less in real terms (real growth ~1.1%).",
+      "values": { "deficit_2024_pct_gdp": 5.8, "nominal_gdp_growth_2024_pct": 3.3, "implied_nominal_gdp_per_euro_borrowed": 0.55 },
+      "unit": "ratio",
+      "geography": "France",
+      "sources": ["S001"],
+      "confidence": "medium",
+      "status": "unverified",
+      "chartable": true,
+      "notes": "BACKLOG [Q09]: the components (deficit, growth) are verified via S001/INSEE but the euro-level computation and the multi-year series must be built properly from INSEE euro aggregates (debt delta vs nominal GDP delta, 2000-2025). Beware: this ratio is NOT a causal multiplier - GDP growth is not produced solely by the deficit. It is an accounting contrast, powerful for the hook, but the essay must not oversell it as causality. The causal version needs a fiscal-impulse counterfactual."
     }
   ],
   "comparables": [
@@ -502,6 +578,19 @@
       "counterarguments": [
         { "argument": "Attempts to raise hours (pension reform 2023) met massive resistance - revealed preference is against more work.", "status": "open", "note": "Distinguish preference over own hours from preference over the policy regime; also check natural experiments (overtime detaxation 2007-2012, auto-entrepreneur regime)." }
       ]
+    },
+    {
+      "id": "C7",
+      "claim": "France's current growth is debt-financed and the arithmetic has turned: each euro of new debt buys less than a euro of nominal GDP, interest costs are the fastest-growing budget item, and on unchanged policy debt spirals past 130% of GDP. A forced adjustment is therefore coming; the only open question is whether France chooses it (reforms that raise growth) or has it imposed (market-driven austerity, an EU/IMF-style program, or in the tail case restructuring). This is the essay's hook: a countdown, not a mood.",
+      "status": "hypothesis",
+      "supporting_facts": ["F002", "F003", "F024", "F025", "F026", "F027"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "The ECB backstop (TPI, OMT) makes a French default essentially impossible; spreads near 80bp show markets agree.", "status": "open", "note": "Partially answered in advance: TPI is conditional on fiscal compliance - the backstop protects countries doing the adjustment, it does not remove the adjustment. Greece 2010-2015 is the precedent for what 'imposed' looks like inside the euro. Needs a careful paragraph, not a wave of the hand." },
+        { "argument": "Japan carries 250% debt/GDP without crisis, so 115% is far from any cliff.", "status": "open", "note": "Answer: Japan borrows in its own currency from its own citizens; roughly half of French debt is held by non-residents and France cannot print euros. VERIFY the non-resident share (backlog fact needed)." },
+        { "argument": "Predicting a default date is astrology; economists have cried wolf on French debt for 30 years.", "status": "open", "note": "The strongest objection. The essay must either (a) derive a conditional window from explicit debt dynamics (r, g, primary balance, refinancing wall) and own the assumptions, or (b) reframe from 'default in X years' to 'forced adjustment, with the choice window closing'. Deciding between (a) and (b) is a key open task [Q10]." },
+        { "argument": "Cutting the deficit by 5pp of GDP would itself crush growth (multiplier logic cuts both ways).", "status": "open", "note": "This is actually the deepest version of the user's intuition: stabilizing debt/GDP costs several years of measured growth, which is exactly why no government does it voluntarily - and why the thesis must center on raising g, not just cutting. Connects C7 to C1/C6." }
+      ]
     }
   ],
   "open_questions": [
@@ -552,6 +641,24 @@
       "question": "Energy: what are current industrial electricity prices France vs Germany vs US, and how much reindustrialization/AI-datacenter advantage does the nuclear fleet actually confer (F017)? Include EDF debt and new-build (EPR2) cost risk as counterweight.",
       "status": "open",
       "priority": "medium"
+    },
+    {
+      "id": "Q09",
+      "question": "Build the debt-vs-growth contrast series properly (F027): annual debt increase in euros vs annual nominal GDP increase in euros, France 2000-2025, from INSEE aggregates. Then the honest causal version: given fiscal multiplier estimates, how much of measured French growth since 2019 is fiscal impulse? What would growth have been at a stabilized debt ratio?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q10",
+      "question": "The hook decision for C7: can a conditional 'forced adjustment by year X' window be derived credibly from debt dynamics (interest rate on new issuance, refinancing wall by year, r-g, primary balance path, non-resident holding share, TPI conditionality)? Or does intellectual honesty force the softer 'the choice window is closing' framing? Also collect the base rates: how often have advanced economies at 115%+ debt with 5%+ deficits and no monetary sovereignty escaped without a program or restructuring?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q11",
+      "question": "Who holds French debt (non-resident share, banks, insurers, ECB portfolio) and what is the maturity/refinancing profile? Determines how fast a market strike would bite and is needed for both the Japan counterargument and the countdown arithmetic.",
+      "status": "open",
+      "priority": "high"
     }
   ]
 }

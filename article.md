@@ -10,12 +10,18 @@ What belongs here now: title candidates and voice tests, so the tone is ready wh
 - France Is Not Poor Yet
 - How France Chose 1% Growth
 - The French Trade (and how to reverse it)
+- When France Runs Out of Road (countdown hook [C7])
+- France Will Be Forced to Choose (countdown hook [C7])
 
 ## Opening-line candidates (voice tests — Adams rule 5: the first sentence must grab)
 
 - "France ran the world's most generous experiment: what happens when a rich country stops trying to get richer. The results are in."
 - "Every year, the average American produces a third more than the average Frenchman. Twenty-five years ago, they were nearly even. Nobody in France voted for this."
 - "France has the highest taxes in the developed world, the best engineers in Europe, the cheapest clean energy of any large economy — and 1% growth. That combination should be impossible."
+- Countdown variants [C7] — usable only if Q10 lands on a defensible window:
+  - "France will hit a wall. I can't tell you the day, but I can show you the road, the speed, and why nobody is touching the brakes."
+  - "Last year, France borrowed 170 billion euros and its economy grew by 95. Read that again. That is the whole story of this essay."
+  - "Here is a prediction: within [X] years, France will be forced to do what no French government dares to propose. The only question is who gives the order — Paris, or its creditors."
 
 ## Rules for this file (from AGENTS.md)
 

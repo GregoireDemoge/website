@@ -4,6 +4,25 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 0.1 — 2026-08-11 — The countdown hook (author input)
+
+**Author direction.** The essay should hook the reader with a prediction: France heads toward a debt default in X years, because the economy has Y problems, and for Z reasons neither the public nor the government will do what avoiding it requires. Author's supporting intuition: debt only means anything contrasted with the GDP it buys — France's debt grows faster than its GDP, so returning to a stable debt ratio would consume all current growth, maybe more. Growth is being bought on credit.
+
+**What was added.**
+
+- New claim **C7** (debt-financed growth has hit its arithmetic limit; forced adjustment is coming, chosen or imposed) with four counterarguments attached, including the hardest one: "economists have cried wolf on French debt for 30 years."
+- Verified facts: interest charge EUR 64.8bn (2026) → 74.2bn (2027), fastest-growing budget item [F024, primary: PLF 2027 ceilings]; unchanged-policy trajectory to ~7% deficit, 130.5% debt, EUR 124bn interest by 2030, EUR 126bn adjustment needed to stabilize [F025, Jaravel/Ragot/Tavernier/Valla report — primary still to fetch]; loss of the double-A (Fitch and S&P cuts to A+, autumn 2025) and OAT-Bund spread settled ~80bp vs 20-40 historical [F026].
+- The author's intuition encoded as [F027]: 2024 sketch — ~EUR 170bn borrowed, ~EUR 95bn of nominal GDP added, 0.55 euro of GDP per euro of debt. Flagged `unverified` until the euro-level series is built from INSEE aggregates [Q09], and explicitly annotated: this is an accounting contrast, NOT a causal multiplier — the essay must not oversell it.
+- New open questions: [Q09] build the debt-vs-growth series and the fiscal-impulse counterfactual; [Q10] can a forced-adjustment window ("year X") be derived honestly from debt dynamics, or must the hook retreat to "the choice window is closing"; [Q11] who holds French debt and what is the refinancing profile (needed for both the Japan counterargument and the countdown arithmetic).
+- `thesis.md`: hook section added with an explicit honesty constraint — the prediction must be derived (refinancing wall, r−g, primary balance, holders) or reframed; outright default is the tail case, a Greek-style imposed program is the modal bad scenario. Master counterargument list extended with the ECB-backstop, Japan, and crying-wolf objections.
+- `article.md`: countdown title and opening-line candidates added, gated on Q10 landing.
+
+**Discipline note for future runs.** C7 is the author's requested hook, but it stays a `hypothesis` until Q09/Q10/Q11 are worked. If the arithmetic does not support a defensible window, say so in the journal and propose the reframed hook — do not soften the standard to keep the punchline.
+
+**Next-run priorities updated:** [Q10]/[Q11] join the top of the attack list alongside [Q02] and [Q03]; fetch the primary Jaravel report to upgrade F025.
+
+---
+
 ## Run 0 — 2026-08-11 — Bootstrap
 
 **What was done.** Created the project scaffolding: `AGENTS.md` (operating manual), `facts.json` (evidence base, 23 facts / 9 sources / 9 comparables / 6 claims / 8 open questions), `thesis.md` (spine with three candidate theses), `article.md` (title and voice tests only, prose deliberately deferred), this journal.
