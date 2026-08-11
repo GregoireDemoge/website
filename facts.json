@@ -322,6 +322,216 @@
    "url": "https://www.insee.fr/fr/statistiques/6322895",
    "type": "primary_statistical_agency",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S042",
+   "name": "INSEE national accounts, May 2026 vintage: Informations Rapides n.78 (27 Mar 2026, public deficit/debt), Insee Premiere n.2105 & 2106 (29 May 2026, annual GDP and government accounts)",
+   "url": "https://www.insee.fr/fr/statistiques/8997691",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S043",
+   "name": "Maddison Project Database 2023 (Bolt & van Zanden, via Our World in Data) + World Bank WDI GDP per capita series (current US$, constant/current PPP; vintage 13 Jul 2026)",
+   "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S044",
+   "name": "Banque de France, Eco Notepad Post No. 455 'Quelle croissance potentielle en France apres la periode Covid?' (Devulder, upd. 8 Jul 2026) + Bulletin n.251/1 (Mar 2024, productivity losses) + INSEE blog productivity posts (2024, 2026)",
+   "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/quelle-croissance-potentielle-en-france-apres-la-periode-covid",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S045",
+   "name": "Eurostat, employment rate 55-64 (lfsi_emp_a, extracted 11 Aug 2026) + DARES 'Les seniors sur le marche du travail en 2024'",
+   "url": "https://ec.europa.eu/eurostat/databrowser/product/page/lfsi_emp_a",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S046",
+   "name": "COR, Rapport annuel 2025 (12 Jun 2025: pensions EUR 407bn / 13.9% GDP in 2024) + DEPP Note d'Information 25.52 (Sep 2025: DIE 2024) + Eurostat COFOG gov_10a_exp (2024)",
+   "url": "https://www.cor-retraites.fr/sites/default/files/2025-06/RA_2025_def_publi.pdf",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S047",
+   "name": "OECD PISA 2022 Results, France country note (Dec 2023) + DEPP Note d'Information 23.48 (Dec 2023) + OECD Education at a Glance 2025, France country note (Sep 2025)",
+   "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/france_8008535b-en.html",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S048",
+   "name": "CEPEJ 2024 evaluation report (2022 data), France country profile + Ministere de la Justice, statistique mensuelle des personnes ecrouees (Mar & Jul 2026)",
+   "url": "https://rm.coe.int/france/1680b1df66",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S049",
+   "name": "INSEE France portrait social 2025 / Insee Premiere n.2056 (housing share of consumption) + OECD Analytical House Prices (extracted 11 Aug 2026) + SDES Sitadel, construction de logements, resultats a fin decembre 2025",
+   "url": "https://www.insee.fr/fr/statistiques/8612568?sommaire=8612596",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S050",
+   "name": "INSEE, Informations rapides n.192 (7 Aug 2026, unemployment Q2 2026) + Eurostat une_rt_a",
+   "url": "https://www.insee.fr/fr/statistiques/9032359",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S051",
+   "name": "OECD Productivity Database, GDP per hour worked, current PPPs (sdmx.oecd.org, extracted 11 Aug 2026)",
+   "url": "https://data.oecd.org/lprdty/gdp-per-hour-worked.htm",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S052",
+   "name": "Assemblee nationale QE n.15255 (ISF yields, 2019) + CAE Focus n.118 (Bach, Bozio et al., Jul 2025, behavioral elasticities) + Zucman 2024-25 minimum-tax proposal and budget-debate scoring",
+   "url": "https://www.cae-eco.fr/static/pdf/Focus_118_emigration_fiscale_250725_v2.pdf",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S053",
+   "name": "RTE, Bilan electrique 2025 - principaux resultats (25 Feb 2026)",
+   "url": "https://assets.rte-france.com/prod/public/2026-02/Bilan-electrique-2025-principaux-resultats.pdf",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S054",
+   "name": "Ember, Yearly Electricity Data, 2026 release (grid carbon intensity by country)",
+   "url": "https://ember-energy.org/data/yearly-electricity-data/",
+   "type": "identified_think_tank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S055",
+   "name": "Le Quere et al. (2019), 'Drivers of declining CO2 emissions in 18 developed economies', Nature Climate Change 9 + Our World in Data / Global Carbon Project decoupling series",
+   "url": "https://www.nature.com/articles/s41558-019-0419-7",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S056",
+   "name": "Cour des comptes, 'La filiere EPR' (9 Jul 2020) and follow-up (14 Jan 2025) + EDF 2025 annual results (20 Feb 2026)",
+   "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S057",
+   "name": "UK Office of Rail and Road, rail industry finance statistics + Full Fact rail-subsidy analysis (ORR data) + Passenger Railway Services (Public Ownership) Act 2024 / Railways Bill 2025",
+   "url": "https://dataportal.orr.gov.uk/media/ptafpcco/uk-rail-industry-finance-2425.pdf",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S058",
+   "name": "DGAFP figures on dismissals for professional insufficiency (2022, State civil service; released in the April 2024 reform debate) + DGAFP Chiffres cles 2025 + INSEE Premiere n.2052 (public employment)",
+   "url": "https://www.fonction-publique.gouv.fr/",
+   "type": "institutional_report",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S059",
+   "name": "OECD Health at a Glance 2025 (Nov 2025; spending 2024, life expectancy 2023) + WHO Global Health Expenditure Database (Singapore)",
+   "url": "https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en.html",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S060",
+   "name": "OECD (2010) 'The High Cost of Low Educational Performance' (Hanushek & Woessmann) + Hanushek & Woessmann 2012 CESifo + Komatsu & Rappleye (2017) critique, Comparative Education",
+   "url": "https://www.nber.org/papers/w16515",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S061",
+   "name": "EY European Attractiveness Survey 2026 (21 May 2026)",
+   "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/campaigns/foreign-direct-investment-surveys/documents/ey-gl-ey-european-attractiveness-survey-06-2026.pdf",
+   "type": "identified_think_tank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S062",
+   "name": "MacroPolo, Global AI Talent Tracker 2.0 (2023, NeurIPS 2022 sample; tracker frozen) + DG Tresor, Tresor-Economics reading of the tracker",
+   "url": "https://macropolo.org/digital-projects/the-global-ai-talent-tracker/",
+   "type": "identified_think_tank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S063",
+   "name": "Chetty et al. (2016), 'The Association Between Income and Life Expectancy in the United States, 2001-2014', JAMA 315(16)",
+   "url": "https://doi.org/10.1001/jama.2016.4226",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S064",
+   "name": "Nordhaus (2004), 'Schumpeterian Profits in the American Economy: Theory and Measurement', NBER WP 10433",
+   "url": "https://www.nber.org/papers/w10433",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S065",
+   "name": "DREES, Etudes et Resultats n.1322 (Dec 2024, physician incomes) + INSEE France portrait social 2025, 'Les hauts salaires dans le secteur prive'",
+   "url": "https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S066",
+   "name": "DARES-CEET, Document d'etudes n.205 (May 2021), 'Les metiers de la deuxieme ligne'",
+   "url": "https://shs.hal.science/halshs-03228778/file/Doc_205_Les_metiers_de_la_deuxieme_ligne_Dares-CEET.pdf",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S067",
+   "name": "Kremer (1993), 'The O-Ring Theory of Economic Development', QJE 108(3) + Baumol & Bowen (1966) + Baumol (2012), 'The Cost Disease', Yale UP",
+   "url": "https://doi.org/10.2307/2118400",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S068",
+   "name": "Ministere de l'Interieur/DGEF, first residence permits 2024 + IRCC, 2025 Annual Report to Parliament on Immigration (Canada)",
+   "url": "https://www.immigration.interieur.gouv.fr/Info-ressources/Etudes-et-statistiques/Chiffres-cles-sejour-visas-eloignements-asile-acces-a-la-nationalite",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S069",
+   "name": "Conseil constitutionnel, 2022 presidential first-round results + Ministere de l'Interieur election archives (2022, 2024 European)",
+   "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html",
+   "type": "primary_legal",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S070",
+   "name": "INSEE, Bilan demographique 2025 (Insee Premiere n.2087, 13 Jan 2026) + Eurostat fertility statistics + Senat rapport l21-399 / vie-publique.fr (2013-2015 family-policy changes) + IGAS 2021 review of family-policy spending",
+   "url": "https://www.insee.fr/fr/statistiques/8719824",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S071",
+   "name": "Banque de France, Eco Notepad Post No. 391, 'Revisiting the European performance gap vis-a-vis the United States' (Bunel, Clymo, Garnier, Zago; upd. 28 Feb 2025; AMECO constant 2015 PPP)",
+   "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/revisiting-european-performance-gap-vis-vis-united-states",
+   "type": "primary_statistical_agency",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -351,7 +561,9 @@
    "values": {
     "2019": 98.2,
     "2024": 112.6,
-    "2025": 115.6
+    "2025": 115.6,
+    "debt_end_2024_eur_bn": 3306.1,
+    "debt_end_2025_eur_bn": 3460.5
    },
    "unit": "% of GDP",
    "geography": "France",
@@ -360,7 +572,8 @@
    ],
    "confidence": "high",
    "status": "verified",
-   "chartable": true
+   "chartable": true,
+   "notes": " Euro levels added run 12 from INSEE May-2026 vintage: EUR 3,306bn end-2024, EUR 3,460bn end-2025 [S042]."
   },
   {
    "id": "F003",
@@ -415,22 +628,25 @@
   },
   {
    "id": "F006",
-   "statement": "France's GDP-per-capita gap with the United States widened from 24% in 2000 to 33% in 2023 (Banque de France, PPP-based). Germany's gap widened from 16% to 23%, Italy's from 18% to 36% over the same period.",
+   "statement": "France's GDP-per-capita gap with the US, reconciled on single datasets. World Bank WDI constant-2021-PPP series (change over time): France was 83.4% of the US level in 2000, 72.4% in 2024, 71.7% in 2025 - the gap widened from 16.6% to ~28% (about 11 points). Germany: 90.8% -> 82.8% (2024); Italy: 91.5% -> 70.4%. Banque de France (Eco Notepad 391, AMECO constant-2015-PPP): gaps 24%->33% France, 16->23 Germany, 18->36 Italy (2000->2023). The two vintages disagree on LEVELS (ICP benchmark revisions) but agree on the ~10-11-point widening and the ranking.",
    "values": {
-    "france_gap_2000_pct": 24,
-    "france_gap_2023_pct": 33,
-    "germany_gap_2023_pct": 23,
-    "italy_gap_2023_pct": 36
+    "france_pct_of_us_2000_wdi_constant_ppp": 83.4,
+    "france_pct_of_us_2024_wdi_constant_ppp": 72.4,
+    "france_gap_2000_bdf_pct": 24,
+    "france_gap_2023_bdf_pct": 33,
+    "germany_pct_of_us_2024": 82.8,
+    "italy_pct_of_us_2024": 70.4
    },
    "unit": "% below US GDP per capita",
    "geography": "France, Germany, Italy vs US",
    "sources": [
-    "S004"
+    "S071",
+    "S043"
    ],
-   "confidence": "medium",
-   "status": "challenged",
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "CHALLENGE: World Bank WDI current-PPP data for 2024 implies a smaller gap (~26%, i.e. France at ~74% of US level; $63.4k vs $86.0k). The BdF figure likely uses constant-PPP vintages. A future run must reconcile the two on one dataset (OECD or WDI) before the essay quotes a single number. The direction (widening) is not in dispute."
+   "notes": "Q02 RESOLVED (run 12): the BdF-vs-WDI dispute is a PPP-vintage artifact (2011/2017/2021 ICP rounds moved France's measured 2000 position). RULES: never pair a BdF 2000 figure with a current-PPP level; the essay quotes the BdF series (one dataset, both years) with attribution, and the current-PPP level today (~27-28% below the US) as the level check. On current PPPs the gap has NOT widened since 2000 - the widening claim rests on constant-PPP series (both of them agree)."
   },
   {
    "id": "F007",
@@ -503,19 +719,22 @@
   },
   {
    "id": "F011",
-   "statement": "France's employment rate for workers aged 55-64 is far below northern European peers (roughly 58-60% vs ~74% Germany, ~77% Sweden).",
+   "statement": "Employment rate of the 55-64 (Eurostat, 2025): France 61.7%, Germany 75.3%, Sweden 78.3%, EU-27 66.4%. France gained 3.3 points in two years (2023: 58.4%) - the 2023 pension reform working through - but remains ~14 points below Germany. Per DARES, the entire remaining gap sits in the 60-64 bracket (10.7 points below the EU average in 2024); the French 55-59 employment rate is above the EU average.",
    "values": {
-    "france_approx": 59,
-    "germany_approx": 74,
-    "sweden_approx": 77
+    "france_2025": 61.7,
+    "germany_2025": 75.3,
+    "sweden_2025": 78.3,
+    "eu27_2025": 66.4
    },
    "unit": "% of age group employed",
    "geography": "France vs Germany, Sweden",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S045"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify with Eurostat/OECD latest year. Central to the hours-per-capita story."
+   "notes": "Verified run 12 (Eurostat lfsi_emp_a). The 60-64 concentration sharpens the retirement-age lever: the gap is exactly where the effective exit age binds."
   },
   {
    "id": "F012",
@@ -534,29 +753,36 @@
   },
   {
    "id": "F013",
-   "statement": "France's potential growth is estimated at roughly 1.0-1.2% per year (Banque de France, European Commission estimates), versus ~2% in the early 2000s.",
+   "statement": "France's potential growth is estimated at 0.9-1.2%/yr over 2026-2028 (Banque de France, OECD, IMF, European Commission all in that band), versus ~2%/yr before 2008. Banque de France estimates a durable -0.7% level scar on potential GDP vs the pre-Covid path.",
    "values": {
-    "current_approx": 1.1
+    "current_range": "0.9-1.2",
+    "pre_2008_approx": 2.0
    },
    "unit": "% per year",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify with Banque de France projections and EC AMECO."
+   "sources": [
+    "S044"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12 (BdF Eco Notepad 455, Jul 2026; AMECO; OECD EO; IMF WEO)."
   },
   {
    "id": "F014",
-   "statement": "French hourly labor productivity fell roughly 3-5% below its pre-2019 trend after COVID - a 'productivity puzzle' partly attributed to the apprenticeship boom (composition effect) and labor hoarding, partly unexplained.",
+   "statement": "The French productivity puzzle, measured: market-sector productivity PER HEAD fell 8.5% below its 2010-2019 trend by mid-2023 (euro-area average: -2.4%); identified causes: apprenticeship boom 1.2pp, workforce composition 1.4pp, labor hoarding 1.7pp (temporary), lockdown scars 0.4pp - about 4.9pp explained. HOURLY productivity stood 4.9 points below trend in 2025 and only -0.8pt vs its 2019 level; Banque de France keeps a durable -2.7% loss in market-sector potential productivity.",
    "values": {
-    "gap_vs_pre2019_trend_pct": "-3 to -5"
+    "per_head_gap_vs_trend_mid2023_pct": -8.5,
+    "hourly_gap_vs_trend_2025_pct": -4.9,
+    "durable_potential_loss_pct": -2.7
    },
    "unit": "% vs trend",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: INSEE and Banque de France have published analyses; CAE note as well. Matters because it determines whether the productivity slide is structural or transitory (Q1)."
+   "sources": [
+    "S044"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Q01 LARGELY RESOLVED (run 12): about half the trend gap is composition (apprentices, hiring at the margin) and hoarding - i.e. partly the flip side of the employment gains; the durable structural loss is ~2.7%. Label the measure (per-head vs hourly) whenever quoted."
   },
   {
    "id": "F015",
@@ -602,17 +828,21 @@
   },
   {
    "id": "F017",
-   "statement": "Nuclear power provides roughly 65-70% of French electricity, giving France among the lowest-carbon and historically cheapest baseload electricity of any large economy - a structural asset for reindustrialization and AI-era energy demand.",
+   "statement": "Nuclear provided 67.1% of French mainland electricity generation in 2024 (361.7 of 539.0 TWh) and 68.1% in 2025 (373.0 of 547.5 TWh); nuclear + renewables reached a record 95.2% low-carbon generation in 2025, and France exported a record ~92 TWh.",
    "values": {
-    "nuclear_share_approx": 67
+    "nuclear_share_2024_pct": 67.1,
+    "nuclear_share_2025_pct": 68.1,
+    "low_carbon_share_2025_pct": 95.2
    },
    "unit": "% of electricity generation",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S053"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify with RTE annual report; check current industrial electricity prices vs Germany post-2022."
+   "notes": "Verified run 12 (RTE Bilan electrique 2025). Industrial electricity price comparison vs Germany still to add if the essay needs it [Q14]."
   },
   {
    "id": "F018",
@@ -620,7 +850,8 @@
    "values": {
     "france_pct_gdp": 13.9,
     "france_eur_bn": 388.4,
-    "gap_vs_germany_pp_gdp": 4
+    "gap_vs_germany_pp_gdp": 4,
+    "pensions_2024_eur_bn": 407
    },
    "unit": "% of GDP / EUR billion",
    "geography": "France vs Germany, OECD",
@@ -630,33 +861,45 @@
    "confidence": "high",
    "status": "verified",
    "chartable": true,
-   "notes": "Primary institutional source (Cour des comptes). Consistent with F005 (social protection = 2/3 of spending gap) and S008 (pensions drove the 2024 spending increase). The 'retirees live as well as workers' point is the sharpest single illustration of the intergenerational trade."
+   "notes": "Primary institutional source (Cour des comptes). Consistent with F005 (social protection = 2/3 of spending gap) and S008 (pensions drove the 2024 spending increase). The 'retirees live as well as workers' point is the sharpest single illustration of the intergenerational trade. UPDATE run 12: COR annual report (Jun 2025) puts 2024 pensions at EUR 407bn / 13.9% of GDP - use the 2024 figure with F051's same-year education comparison; the 4-points-vs-Germany structural gap is unchanged."
   },
   {
    "id": "F019",
-   "statement": "France has ranked #1 in Europe for foreign direct investment projects for several consecutive years (EY European Attractiveness Survey), ahead of the UK and Germany.",
-   "values": {},
+   "statement": "France ranked #1 in Europe for foreign direct investment projects for the 7th consecutive year (EY European Attractiveness Survey 2026): 852 projects in 2025 vs UK 730, Germany 548. Caveat quantified: France attracts ~33-35 jobs per project vs 49 (Germany) and 61 (UK); it ranked only 3rd in FDI job creation in 2024.",
+   "values": {
+    "france_projects_2025": 852,
+    "uk_projects_2025": 730,
+    "germany_projects_2025": 548,
+    "consecutive_years_first": 7,
+    "jobs_per_project_fr": 33
+   },
    "unit": "ranking",
    "geography": "Europe",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify latest EY barometer; note caveat that project COUNT is not project VALUE or jobs. Counter-evidence against pure declinism (C5)."
+   "sources": [
+    "S061"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Use with the jobs-per-project caveat: the ranking measures project count, not scale."
   },
   {
    "id": "F020",
-   "statement": "French unemployment fell from ~10.5% in 2015 to ~7.5% by 2024-2025 - evidence that labor-market reforms (2017 ordinances, unemployment insurance reform, apprenticeship expansion) moved a needle long thought unmovable in France.",
+   "statement": "French unemployment fell from ~10.4% (2015 annual average) to 7.4% (2024 annual average) - a three-point fall over the reform decade (2017 ordinances, apprenticeship expansion, unemployment-insurance reform), to lows unseen since the early 1980s. THE TREND THEN REVERSED: 7.7% average in 2025, 8.3% in Q2 2026 (highest since Q3 2020), as growth stalled and parts of the reforms were suspended or unwound.",
    "values": {
-    "2015_approx": 10.5,
-    "2024_approx": 7.5
+    "2015": 10.4,
+    "2024": 7.4,
+    "2025": 7.7,
+    "2026_q2": 8.3
    },
    "unit": "% of labor force",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S050"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify INSEE series; note 2025 direction. Important challenge to the 'nothing works in France' prior - reforms happened and worked (Q6)."
+   "notes": "Verified run 12 (INSEE IR 192, Aug 2026). Two-sided by design: the fall proves reforms move the needle; the 2025-26 rise must appear wherever the fall is quoted - it also ILLUSTRATES the ratchet (C4): reforms un-passed, results un-earned. Do not attribute the rise solely to reversal (the cycle turned too)."
   },
   {
    "id": "F021",
@@ -679,17 +922,24 @@
   },
   {
    "id": "F022",
-   "statement": "France's PISA 2022 mathematics score dropped sharply (about -21 points vs 2018, one of the largest declines among rich countries), placing France near the OECD average and far below top performers - a leading indicator of future productivity.",
+   "statement": "France's PISA 2022 mathematics score fell 21 points vs 2018 (495 -> 474), the sharpest drop in the French series - but the OECD average fell ~15 points in the same COVID-marked cycle and at least seven OECD countries fell more (Iceland -36, Norway -33, Poland -27, Netherlands -26, Germany -25). France now sits AT the OECD average (474 vs 472). Over 2012-2022 the share of French students below proficiency Level 2 rose from 22.4% to 29%.",
    "values": {
-    "decline_vs_2018_points": -21
+    "france_math_2018": 495,
+    "france_math_2022": 474,
+    "decline_points": -21,
+    "oecd_avg_decline": -15,
+    "below_level2_2012_pct": 22.4,
+    "below_level2_2022_pct": 29
    },
    "unit": "PISA points",
    "geography": "France vs OECD",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S047"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify with OECD PISA 2022 country note; COVID affected all countries, compare relative decline."
+   "notes": "Verified run 12. CORRECTION recorded: 'one of the largest declines among rich countries' was wrong - the correct sharp formulation is 'unprecedented for France; France is now exactly average'. ALSO REFUTED (OECD + DEPP concur): the decline was NOT concentrated among weaker students - high and low achievers fell similarly 2018-2022, and over 2012-2022 the 90th percentile fell more. The essay must not claim bottom-concentration; the below-Level-2 share rise is the defensible bottom-end fact."
   },
   {
    "id": "F023",
@@ -775,21 +1025,26 @@
   },
   {
    "id": "F027",
-   "statement": "France's debt now grows faster than the GDP it buys. Sketch for 2024: deficit 5.8% of GDP (~EUR 170bn borrowed) against nominal GDP growth of 3.3% (~EUR 95bn) - roughly 0.55 euro of nominal GDP added per euro of new debt, and much less in real terms (real growth ~1.1%).",
+   "statement": "France's debt grows much faster than its economy (INSEE, May 2026 vintage). 2025: general-government deficit EUR 152.5bn (5.1% of GDP) against nominal GDP growth of EUR 55.8bn - 2.7 euros borrowed per euro of new economy. 2024: EUR 169.1bn against EUR 101.4bn (1.7 per euro). 2023 was inflation-flattered: EUR 151.9bn against EUR 179.8bn. Maastricht debt: EUR 3,103bn (end-2023), 3,306bn (end-2024, +203), 3,460bn (end-2025, +154). Nominal GDP 2025: EUR 2,991bn.",
    "values": {
-    "deficit_2024_pct_gdp": 5.8,
-    "nominal_gdp_growth_2024_pct": 3.3,
-    "implied_nominal_gdp_per_euro_borrowed": 0.55
+    "deficit_2025_eur_bn": 152.5,
+    "gdp_delta_2025_eur_bn": 55.8,
+    "ratio_2025": 2.73,
+    "deficit_2024_eur_bn": 169.1,
+    "gdp_delta_2024_eur_bn": 101.4,
+    "ratio_2024": 1.67,
+    "debt_end_2025_eur_bn": 3460.5,
+    "gdp_2025_eur_bn": 2991.1
    },
    "unit": "ratio",
    "geography": "France",
    "sources": [
-    "S001"
+    "S042"
    ],
-   "confidence": "medium",
-   "status": "unverified",
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG [Q09]: the components (deficit, growth) are verified via S001/INSEE but the euro-level computation and the multi-year series must be built properly from INSEE euro aggregates (debt delta vs nominal GDP delta, 2000-2025). Beware: this ratio is NOT a causal multiplier - GDP growth is not produced solely by the deficit. It is an accounting contrast, powerful for the hook, but the essay must not oversell it as causality. The causal version needs a fiscal-impulse counterfactual."
+   "notes": "Q09 RESOLVED (run 12): euro-level series built from INSEE IR 78 + IP 2105/2106. HONESTY RULES: (1) this is an accounting contrast, not a causal multiplier - the essay says 'added X of debt for every euro of new economy', never 'debt bought growth'; (2) the ratio swings with inflation (2023 was below 1 because nominal GDP surged) - the multi-year trend is carried by the debt/GDP ratio itself (109.5% -> 112.6% -> 115.7%), and the inflation objection is answered separately [F074]; (3) 2025 nominal growth (+1.9%) was disinflation-dampened - quote 2024 alongside 2025, never 2025 alone."
   },
   {
    "id": "F028",
@@ -911,16 +1166,19 @@
   },
   {
    "id": "F034",
-   "statement": "Long-run growth is highly sensitive to school quality: the canonical Hanushek-Woessmann estimates put ~+0.5pp of annual long-run GDP growth per +25 PISA-type points of cognitive skills (OECD, 'The High Cost of Low Educational Performance'). France's PISA math decline (F022) therefore has a first-order growth cost on a 20-30 year horizon - and education reform is a first-class growth lever on that horizon.",
+   "statement": "Canonical growth-education elasticity (OECD 2010, 'The High Cost of Low Educational Performance', Hanushek & Woessmann): 1.74pp of annual per-capita growth per standard deviation (100 PISA points); a +25-point improvement yields ~+0.47pp of annual long-run growth once the improved cohorts fill the labor force. Contested: Komatsu & Rappleye (2017) show the correlation weakens when scores are matched to subsequent growth; endogeneity concerns make it an upper bound.",
    "values": {
-    "growth_per_25_pisa_points_pp": 0.5
+    "growth_per_25_pisa_points_pp": 0.47,
+    "growth_per_sd_pp": 1.74
    },
    "unit": "pp of annual long-run growth",
    "geography": "cross-country",
-   "sources": [],
+   "sources": [
+    "S060"
+   ],
    "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: source the OECD/Hanushek-Woessmann paper properly and check how contested the elasticity is (it is debated; record the range, not just the headline). Essential to the 30-year program: education is the slowest lever and therefore must start first."
+   "status": "verified",
+   "notes": "Verified run 12 with the critique recorded. The model already halves the elasticity (model.py) - keep that haircut; treat as upper bound, not forecast."
   },
   {
    "id": "F035",
@@ -1053,81 +1311,113 @@
   },
   {
    "id": "F042",
-   "statement": "Housing is French households' largest expense (roughly a quarter or more of consumption); real house prices roughly doubled since 2000 while new construction has fallen to its lowest levels in decades (~270-300k units/year vs ~500k in the mid-2000s); the ZAN (zero net artificialization) rule adds a binding land constraint.",
+   "statement": "Housing (incl. water/energy) is French households' largest expense: 27.8% of final consumption in 2024 (food 15.6%, transport 12.7%; includes owner-occupiers' imputed rents). Real house prices doubled from 2000 to the 2022 peak (OECD real index 58 -> 120, 2015=100) and stand ~+77% vs 2000 after the correction. Housing starts fell to 274,611 in 2025 vs the 2006 record of 494,000.",
    "values": {
-    "housing_share_consumption_approx_pct": 26,
-    "construction_recent_units_k": 280,
-    "construction_mid2000s_units_k": 490
+    "housing_share_consumption_2024_pct": 27.8,
+    "real_price_ratio_2000_to_2022peak": 2.06,
+    "real_price_vs_2000_now_pct": 77,
+    "starts_2025": 274611,
+    "starts_2006_record": 494000
    },
    "unit": "mixed",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S049"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify with INSEE (comptes du logement), SDES construction statistics. Anchors the housing pillar (C17): scarcity taxes mobility, family formation, and disposable income."
+   "notes": "Verified run 12 (INSEE portrait social 2025; OECD analytical house prices; SDES Sitadel)."
   },
   {
    "id": "F043",
-   "statement": "France's immigration is weakly employment-oriented: work permits are a small minority of first residence permits (~15%, behind students and family), whereas Canada's points system makes the economic class ~60% of admissions. France has no large-scale skills-based channel.",
+   "statement": "France's immigration is weakly employment-oriented, verified (2024): of 343,024 first residence permits, 58,374 (17.0%) were economic; students 32.3%, family 26.4%, humanitarian 15.9% (Ministere de l'Interieur/DGEF). Canada: the economic class was 58.2% of 483,640 permanent admissions in 2024 (IRCC).",
    "values": {
-    "france_work_share_first_permits_approx_pct": 15,
-    "canada_economic_class_share_pct": 60
+    "france_first_permits_2024": 343024,
+    "france_economic_share_pct": 17.0,
+    "canada_economic_share_pct": 58.2
    },
    "unit": "% of admissions",
    "geography": "France vs Canada",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify with DGEF/ministere de l'Interieur first-permits data and IRCC annual report; OECD International Migration Outlook for cross-country framing. Anchors the demography pillar (C16)."
+   "sources": [
+    "S068"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Definitional caveat when quoting: France counts first permits incl. temporary (students) and excludes EU citizens; Canada counts permanent admissions and its economic class includes dependents. The 17-vs-58 contrast survives the caveat."
   },
   {
    "id": "F044",
-   "statement": "France's fertility was Europe's highest (~2.0 in 2010) while it ran the OECD's most generous family-policy complex (~3.5-4% of GDP incl. childcare, quotient familial, allocations). The post-2014 retrenchment (lower quotient cap, means-tested allocations 2015, reformed parental leave) preceded the slide toward 1.56/1.45 [F038]. Causality is debated; the fertility-INTENTIONS gap (desired ~2.3 children vs realized ~1.6) is the policy target.",
+   "statement": "Fertility and family policy, verified: French TFR was 2.02 in 2010 (2nd in the EU behind Ireland, 1st for most of the 2010s), 1.61 in 2024, 1.56 in 2025 - the lowest since the end of WWI; deaths exceeded births in 2025 for the first time since 1945 (INSEE Bilan demographique 2025). Policy timeline confirmed: quotient familial cap cut 2013 (EUR 2,336 -> 2,000) and 2014 (-> 1,500); allocations familiales means-modulated from July 2015 (~EUR 760mn/yr saved). France's family-policy effort (~3.6% of GDP, IGAS broad measure) was the OECD's highest on that measure. The fertility slide began in 2015; chronology verified, causality contested.",
    "values": {
-    "tfr_2010": 2.0,
-    "family_policy_spend_approx_pct_gdp": 3.7,
-    "desired_fertility_approx": 2.3
+    "tfr_2010": 2.02,
+    "tfr_2024": 1.61,
+    "tfr_2025": 1.56,
+    "family_effort_pct_gdp": 3.6
    },
    "unit": "mixed",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify with OECD Family Database, INED surveys on desired fertility, HCFEA reports. The honest framing: pro-natal policy cannot force births, but France is the one country with quasi-experimental evidence that family policy SUPPORTED near-replacement fertility - and it dismantled parts of it just before the slide."
+   "sources": [
+    "S070"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. CORRECTIONS: 2010 rank was 2nd (behind Ireland), not 1st; 'highest in OECD' holds only on the broad IGAS measure (OECD's own PF1.1 names Iceland/Poland). The fertility-intentions gap (~2.3 desired) still to pin separately [Q21]. Frame causality as hypothesis; chronology (2013-15 cuts, 2015-on slide) as fact.",
+   "chartable": true
   },
   {
    "id": "F045",
-   "statement": "France is one of the world's largest EXPORTERS of elite technical talent: a top-5 origin country for top-tier AI researchers, most of whom work in US labs; rising expatriation of engineers, doctors and finance professionals toward the US, Switzerland, and the Gulf.",
-   "values": {},
+   "statement": "France is the #4 origin country of elite (top-2%) AI researchers worldwide - after the US, China and India, with ~4% of the global pool (MacroPolo Global AI Talent Tracker 2.0, 2023, NeurIPS-based; origin = undergraduate degree) - and the largest European source. A large share of European top-tier AI talent outside academia works for American companies; MacroPolo notes France 'notably improved retention' recently.",
+   "values": {
+    "france_origin_rank": 4,
+    "share_of_global_elite_pool_pct": 4
+   },
    "unit": "qualitative + rankings",
    "geography": "France",
-   "sources": [],
-   "confidence": "low",
-   "status": "unverified",
-   "notes": "BACKLOG: MacroPolo Global AI Talent Tracker, CAE note on expatriation, Order of Physicians data. The diagnosis's human-capital leak: France pays for elite training and the US collects the returns. Complements F022 (bottom of the distribution) - the leak is at BOTH ends."
+   "sources": [
+    "S062"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "notes": "Verified run 12. CORRECTED: 'most work in US labs' is not published for France specifically - say 'a large share work for US labs'. Tracker frozen at 2023; do not cite unofficial 3.0 versions. Broader expatriation data (CAE, Ordre des medecins) still unverified."
   },
   {
    "id": "F046",
-   "statement": "The anti-system vote has structurally risen with stagnation: the combined RN + radical-left blocs went from marginal (1980s) to roughly half of first-round votes in the 2022 presidential and 2024 legislative elections, with RN becoming the largest single party by popular vote in 2024. Governments have lost stable majorities since 2022.",
-   "values": {},
+   "statement": "The anti-system vote roughly rose from a third to half of first-round votes in twenty years. 2002 presidential R1: Le Pen + Megret + far left + PCF ~33%. 2022 presidential R1 (Conseil constitutionnel): Le Pen 23.15 + Zemmour 7.07 + Melenchon 21.95 = 52.2% (57.8% adding smaller anti-system candidates). 2024 European: RN 31.4 + Reconquete 5.5 + LFI 9.9 = 46.7%.",
+   "values": {
+    "2002_approx_pct": 33,
+    "2022_presidential_r1_pct": 52.2,
+    "2024_european_pct": 46.7
+   },
    "unit": "vote shares",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify exact shares with ministere de l'Interieur results. For C15 (the political decline loop). Keep descriptive - the thesis does not need a partisan reading, only the instability-reversibility mechanism (F026: reforms suspended under no-confidence pressure)."
+   "sources": [
+    "S069"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Definition must be named when quoted (which candidates counted); 'roughly half' holds on the narrow three-candidate definition in 2022, slightly below half in 2024.",
+   "chartable": true
   },
   {
    "id": "F047",
-   "statement": "France is among the OECD countries where social origin most strongly determines student outcomes (PISA equity rankings); teacher starting salaries are below the OECD average and far below Germany's at mid-career; the math decline [F022] is concentrated among weaker students.",
-   "values": {},
+   "statement": "French school equity, verified: socio-economic status explains 21% of the variance in PISA 2022 math performance in France vs 15% OECD average; the advantaged-disadvantaged gap is 113 points vs 93 OECD - among the strongest social determinism in the OECD. Teacher pay: starting salaries reached the OECD average after the 2023 attractiveness measures, but at 15 years' experience France pays ~USD 53k (PPP) vs an OECD ~62k and roughly HALF of Germany's level.",
+   "values": {
+    "ses_variance_france_pct": 21,
+    "ses_variance_oecd_pct": 15,
+    "advantaged_gap_points": 113,
+    "oecd_gap_points": 93,
+    "salary_15yr_france_usd_ppp": 53086,
+    "salary_15yr_oecd_usd_ppp": 61563
+   },
    "unit": "rankings",
    "geography": "France vs OECD",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: OECD PISA 2022 France country note; Education at a Glance teacher-salary tables. Anchors the education lever: the French school produces BOTH too few excellent students and the OECD's strongest reproduction of social class - an equity argument FOR reform, usable against the inequality objection."
+   "sources": [
+    "S047"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. TWO CORRECTIONS: (1) 'starting salaries below OECD average' is outdated (2023 measures closed it); the mid-career gap vs Germany (~2x) is the live fact. (2) The 'math decline concentrated among weaker students' leg is REFUTED (see F022) - the equity claim rests on the SES gradient, not on the decline's distribution. 'Among the most class-determined' is the defensible superlative, not 'the most'."
   },
   {
    "id": "F048",
@@ -1144,104 +1434,135 @@
   },
   {
    "id": "F049",
-   "statement": "Core sovereign functions are understaffed while transfers dominate: France has roughly 11 professional judges per 100k inhabitants vs a European median around 18-22 (CEPEJ); civil justice delays run in years; prisons exceed 120% occupancy. The state is overweight in transfers, underweight in state capacity.",
+   "statement": "France has 11.3 professional judges per 100,000 inhabitants (7,690 judges) vs a Council of Europe median of 17.7 and an EU-27 median of 22.9 (CEPEJ 2024 evaluation, 2022 data). Prisons: occupancy 141.3% overall and 174.5% in maisons d'arret (July 2026, record 89,446 detainees for 63,289 places).",
    "values": {
-    "judges_per_100k_france_approx": 11,
-    "european_median_approx": 20,
-    "prison_occupancy_pct_approx": 120
+    "judges_per_100k_france": 11.3,
+    "coe_median": 17.7,
+    "eu27_median": 22.9,
+    "prison_density_overall_pct": 141.3,
+    "prison_density_maisons_darret_pct": 174.5
    },
    "unit": "per 100k / %",
    "geography": "France vs Europe",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: CEPEJ evaluation reports. Reframes the size-of-state debate: the French state is not uniformly big - it is a giant insurer with an understaffed sovereign core. Supports the program's 'rebalance, not shrink indiscriminately' line."
+   "sources": [
+    "S048"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. The old '>120%' understated: ~140% overall, ~175% in remand prisons. When quoting the judges median, name which one (CoE 17.7 or EU-27 22.9)."
   },
   {
    "id": "F050",
-   "statement": "The wealth-tax alternative, steelmanned with numbers: the pre-2017 ISF yielded ~EUR 4-5bn/year at its peak; proponents of a Zucman-style 2% minimum tax on the largest fortunes estimate ~EUR 15-25bn/year for France (behavioral erosion disputed). Even the optimistic end covers roughly a fifth of the program's annual financing needs (~EUR 100-130bn across debt stabilization, production-tax cut, and investment) and none of the labor-supply gap.",
+   "statement": "The wealth-tax alternative, with verified numbers: the ISF yielded ~EUR 5.0-5.2bn/yr in its final years (2015-2017, DGFiP). Zucman's proposed 2% minimum tax on fortunes above EUR 100mn (~1,800 households): ~EUR 20bn/yr central estimate by its author (15-25 range); economists applying the CAE's behavioral elasticities (Bach, Bozio et al., Focus 118, Jul 2025) put the yield near EUR 5bn. The bill passed the Assemblee in Feb 2025 and was rejected by the Senate in Jun 2025. Even the optimistic estimate covers roughly a fifth of the program's annual financing needs and none of the labor-supply gap.",
    "values": {
-    "isf_peak_yield_eur_bn": 5,
-    "zucman_estimate_range_eur_bn": "15-25"
+    "isf_final_years_eur_bn": "5.0-5.2",
+    "zucman_central_eur_bn": 20,
+    "zucman_range_eur_bn": "15-25",
+    "cae_elasticity_estimate_eur_bn": 5
    },
    "unit": "EUR billion/year",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: DGFiP ISF series, Zucman 2024 note and its critiques (Conseil des prelevements obligatoires). The point is NOT that wealth taxation is impossible - it is that its arithmetic cannot substitute for the program; at best it is a complement whose incidence and exit effects must be argued separately."
+   "sources": [
+    "S052"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. The yield is disputed by a factor of four between camps - quote both numbers; the essay's argument (complement, not alternative) survives on either."
   },
   {
    "id": "F051",
-   "statement": "France spends roughly twice as much on public pensions as on its entire education system: pensions EUR 388bn / 13.9% of GDP [F018] vs total education spending ~6.7-6.8% of GDP (~EUR 190-200bn, all levels, public+private). Pensions also exceed education + defense + justice + police combined.",
+   "statement": "France spends about twice as much on public pensions as on its entire education system - and 2.6x on a public-vs-public basis. Same-year comparison (2024): pensions EUR 407bn / 13.9% of GDP (COR, June 2025) vs total education spending (DIE, public+private) EUR 197.1bn / 6.8% of GDP (DEPP) = 2.04x. Eurostat COFOG public-only (2024): old-age 13.4% of GDP vs education 5.1% = 2.63x (EU-27: 10.7 vs 4.8).",
    "values": {
-    "pensions_pct_gdp": 13.9,
-    "education_pct_gdp_approx": 6.8
+    "pensions_2024_eur_bn": 407,
+    "pensions_2024_pct_gdp": 13.9,
+    "education_die_2024_eur_bn": 197.1,
+    "education_die_2024_pct_gdp": 6.8,
+    "ratio_broad": 2.04,
+    "ratio_cofog_public": 2.63
    },
    "unit": "% of GDP",
    "geography": "France",
    "sources": [
-    "S017"
+    "S046"
    ],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: verify education total with INSEE/DEPP Compte de l'education; the pensions side is verified [F018]. If confirmed, this is the single most powerful sentence of the consequences section: the ratio IS the intergenerational trade, in one line."
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12 on same-year 2024 data. 'Roughly twice' is the conservative floor (DIE includes private spending); public-vs-public the ratio is ~2.6. F018's EUR 388bn was the 2023 vintage - use EUR 407bn (2024, COR) going forward.",
+   "chartable": true
   },
   {
    "id": "F052",
-   "statement": "Nuclear delivery risk, quantified by precedent: Flamanville 3 (EPR) was budgeted at EUR 3.3bn (2004) and delivered ~12 years late at ~EUR 13.2bn construction cost (2015 euros) - ~EUR 19bn including financing per the Cour des comptes; EDF carries net debt around EUR 50-55bn while facing the EUR 83bn EPR2 program [F032] plus grid investment.",
+   "statement": "Flamanville 3 (EPR): budgeted EUR 3.3bn with service planned for June 2012 (2004); construction cost EUR 12.4bn-2015 (Cour des comptes 2020; EDF's 2022 revision: 13.2), full cost ~EUR 19.1bn-2015 including financing (Cour 2020), raised to EUR 20.4bn-2015 / 23.7bn-2023 at completion (Cour, Jan 2025). Grid connection 21 December 2024 - about 12.5 years late. EDF net financial debt: EUR 51.5bn (end-2025).",
    "values": {
-    "flamanville_initial_eur_bn": 3.3,
-    "flamanville_final_construction_eur_bn": 13.2,
-    "flamanville_full_cost_eur_bn": 19,
-    "edf_net_debt_approx_eur_bn": 54
+    "initial_budget_eur_bn": 3.3,
+    "construction_cost_2015eur_bn": 12.4,
+    "full_cost_completion_2015eur_bn": 20.4,
+    "full_cost_completion_2023eur_bn": 23.7,
+    "years_late": 12.5,
+    "edf_net_debt_end2025_eur_bn": 51.5
    },
    "unit": "EUR billion",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: Cour des comptes Flamanville report (2020), EDF annual accounts. The risk budget for Lever 3: the thesis bets on nuclear WITH this precedent on the table, arguing series effects + design freeze + state risk-sharing [F032] make EPR2 different - a claim to defend, not assume."
+   "sources": [
+    "S056"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12 (Cour des comptes 2020 + Jan 2025 follow-up; EDF FY2025 results). 'Four times over budget' matches construction cost (3.8-4x); the full-cost multiple is ~6x - the essay's phrasing ('four times over budget and twelve years late') is the conservative version."
   },
   {
    "id": "F053",
-   "statement": "French hourly productivity LEVEL remains among the highest in the world (broadly comparable to Germany, within ~10-15% of the US depending on dataset and PPP vintage). The French problem is the GROWTH of productivity (stalled) and the QUANTITY of labor (lowest hours per capita) - not workers' hourly performance.",
-   "values": {},
+   "statement": "French hourly productivity LEVEL is world-class: GDP per hour worked (OECD, current PPPs, 2024): France USD 92.7, Germany 100.7, United States 100.1, UK 85.7, Italy 80.7, OECD 78.7. France/US = 92.6% (a ~7% gap), France/Germany = 92.1%. The French problem is the QUANTITY of labor (hours per capita) and the GROWTH of productivity, not workers' hourly performance.",
+   "values": {
+    "france_usd_2024": 92.7,
+    "germany_usd_2024": 100.7,
+    "us_usd_2024": 100.1,
+    "france_over_us_pct": 92.6
+   },
    "unit": "level comparison",
    "geography": "France vs US, Germany",
    "sources": [
-    "S005"
+    "S051"
    ],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: compute from OECD Compendium data (S005). Fairness anchor for the diagnosis: the thesis indicts the SYSTEM, not the workers - rhetorically and analytically essential, and it sharpens the puzzle: world-class hourly output, mediocre national outcome."
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Current-PPP levels move with ICP benchmark revisions (the 2021 round lifted Europe vs the US): 'within ~10% of the US' is the safe phrasing; on BdF constant-2015-PPP accounting the hourly gap is larger [F006 notes]. Norway, Denmark, Belgium, Luxembourg (and artificially Ireland) rank above France."
   },
   {
    "id": "F054",
-   "statement": "The US is the cautionary tale for growth without a floor: life expectancy gaps by income are extreme (~10-15 years between top and bottom 1% of incomes, Chetty et al. 2016 JAMA) and widened over time; bottom-quartile life expectancy stagnated in recent decades despite frontier GDP growth.",
+   "statement": "US life expectancy gaps by income are extreme (Chetty et al. 2016, JAMA, 2001-2014 tax records): 14.6 years between top-1% and bottom-1% incomes for men, 10.1 for women (at age 40). Over 2001-2014, the top 5% gained ~2.3-2.9 years of life expectancy; the bottom 5% gained ~0.3 (men) / 0.04 (women) - stagnation at the bottom despite frontier GDP growth.",
    "values": {
-    "life_expectancy_gap_top1_bottom1_years": "10-15"
+    "gap_top1_bottom1_men_years": 14.6,
+    "gap_top1_bottom1_women_years": 10.1,
+    "bottom5_gain_men_years": 0.32,
+    "bottom5_gain_women_years": 0.04
    },
    "unit": "years",
    "geography": "United States",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: Chetty et al. (2016), 'The Association Between Income and Life Expectancy in the United States', JAMA. Core evidence for C19's honest concession: US-style growth demonstrably fails its bottom quartile on the metric that matters most."
+   "sources": [
+    "S063"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Attribute precisely: the stagnation finding is for the bottom 5% (not quartile); the 14.6/10.1 gaps are top-1% vs bottom-1% at age 40."
   },
   {
    "id": "F055",
-   "statement": "The US spends ~17% of GDP on health - roughly 5-6 points more than France (~11.5-12%) - for LOWER life expectancy and worse coverage. The health comparison is the strongest single case that market organization is not automatically superior, and that France's universal system is an asset to defend, not a cost to apologize for.",
+   "statement": "The US spends 17.2% of GDP on health vs France 11.5% (2024, OECD Health at a Glance 2025) - USD 14,885 vs 7,367 per capita PPP - for life expectancy of 78.4 years vs France's 83.0 (2023). Germany (12.3%) now outspends France in Europe.",
    "values": {
-    "us_health_pct_gdp": 17,
-    "france_health_pct_gdp": 11.7
+    "us_health_pct_gdp_2024": 17.2,
+    "france_health_pct_gdp_2024": 11.5,
+    "us_life_expectancy_2023": 78.4,
+    "france_life_expectancy_2023": 83.0
    },
    "unit": "% of GDP",
    "geography": "US vs France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: OECD Health Statistics. Verify shares and add life-expectancy comparison (France ~83y vs US ~78.4y is in F006-adjacent search data). For C20 and the natural-monopoly/universalism boundary map."
+   "sources": [
+    "S059"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. The gap is 5.7 points of GDP - 'nearly six points', not five."
   },
   {
    "id": "F056",
@@ -1259,28 +1580,40 @@
   },
   {
    "id": "F057",
-   "statement": "UK rail privatization (1993-) is the cautionary tale for privatizing network monopolies: fragmentation, safety crises, Railtrack's collapse back into public hands (Network Rail, 2002), public subsidy HIGHER in real terms than under British Rail, and progressive renationalization of operators since 2018. Competition via duplicated or fragmented networks destroyed value rather than creating it.",
-   "values": {},
+   "statement": "UK rail privatization, verified: average annual government support tripled in real terms - GBP 1.7bn/yr (five years to 1991/92) vs GBP 5.3bn/yr (five years to 2017/18), both in 2017/18 prices (ORR data); GBP 11.9bn in 2024/25. Railtrack collapsed into Network Rail (Oct 2002). Renationalization: operators from 2018 (LNER), Public Ownership Act Nov 2024, all DfT operators public by end-2027; Great British Railways bill Nov 2025.",
+   "values": {
+    "subsidy_pre_privatization_gbp_bn": 1.7,
+    "subsidy_2017_18_gbp_bn": 5.3,
+    "support_2024_25_gbp_bn": 11.9
+   },
    "unit": "case study",
    "geography": "United Kingdom",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: UK NAO/Transport Committee reports, academic assessments. For C20: the boundary map's anti-example on the privatization side, mirroring the US health anti-example."
+   "sources": [
+    "S057"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Subsidy comparisons sensitive to scope (HS2/Crossrail, Network Rail loans excluded from the tripling figure); direction holds on every basis."
   },
   {
    "id": "F058",
-   "statement": "The health-efficiency frontier: several systems deliver French-level or better outcomes for materially less spending - e.g. Israel, Singapore, South Korea, Spain, Italy (roughly 7-9.5% of GDP vs France ~11.5-12%) - via primary-care gatekeeping, digitalization, price regulation, and different hospital/ambulatory mixes. Efficiency gains within universality are demonstrably possible; privatization is not the only (or the observed) route.",
+   "statement": "The health-efficiency frontier, verified (OECD Health at a Glance 2025: spending 2024 % GDP / life expectancy 2023): France 11.5 / 83.0; Spain 9.2 / 84.0; Italy 8.4 / 83.5; Korea 8.4 / 83.5; Israel 7.6 / 83.8; Singapore (WHO) 4.5 / 83.7. Several universal systems deliver French-level or better longevity for 2-7 points of GDP less.",
    "values": {
-    "frontier_examples_pct_gdp": "7-9.5",
-    "france_pct_gdp": 11.7
+    "france": "11.5 / 83.0",
+    "spain": "9.2 / 84.0",
+    "italy": "8.4 / 83.5",
+    "korea": "8.4 / 83.5",
+    "israel": "7.6 / 83.8"
    },
    "unit": "% of GDP",
    "geography": "cross-country",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: OECD Health Statistics, Commonwealth Fund rankings. For C20: the constructive half - the program's health line is 'universality kept, frontier sought', not cuts."
+   "sources": [
+    "S059"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Life expectancy is a crude outcome proxy but treatable-mortality data points the same way; Singapore's compulsory-savings model limits comparability - lead with Spain (universal, European, 2.3 points cheaper, longer lives).",
+   "chartable": true
   },
   {
    "id": "F059",
@@ -1308,16 +1641,20 @@
   },
   {
    "id": "F061",
-   "statement": "French public employment is quasi-irreversible in practice: dismissal for professional insufficiency is vanishingly rare (on the order of a hundred cases per year across ~5.7 million agents), performance management is weak, and mobility rules trap both the state and its employees. This rigidity - not headcount alone - is a core driver of public-service inefficiency and of the hiring caution that understaffs priority services.",
+   "statement": "Dismissal for professional insufficiency in the French State civil service: 13 cases in 2022, across ~2.5 million agents (DGAFP figures released in the April 2024 reform debate; plus 222 disciplinary revocations). No official aggregate exists for all three branches of the fonction publique (5.80 million agents at end-2023, DGAFP/INSEE).",
    "values": {
-    "public_agents_mn": 5.7
+    "dismissals_insufficiency_fpe_2022": 13,
+    "fpe_agents_mn": 2.5,
+    "total_public_agents_mn": 5.8
    },
    "unit": "institutional fact",
    "geography": "France",
-   "sources": [],
+   "sources": [
+    "S058"
+   ],
    "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: DGAFP annual reports, Cour des comptes on HR management in the fonction publique; compare with Nordic public-employment contracts (largely standard labor law). Author's point recorded: 'on ne peut pas virer les fonctionnaires incompetents' - the program's state-reform lever must address statut reform honestly, framed as the precondition for BETTER services, not fewer."
+   "status": "verified",
+   "notes": "Verified run 12 - best available figure, State service only, ministry data cited in the reform debate rather than a published series (hence confidence medium). CORRECTED: the old 'a hundred cases across 5.7mn' both overstated the count and mixed scopes; the true rarity is starker."
   },
   {
    "id": "F062",
@@ -1332,84 +1669,113 @@
   },
   {
    "id": "F063",
-   "statement": "Innovators capture only ~2.2% of the social surplus their innovations create; ~98% flows to consumers and society (Nordhaus 2004, 'Schumpeterian Profits in the American Economy', US data 1948-2001). Billionaire entrepreneurial wealth is, on this evidence, a small fee on value overwhelmingly given away.",
+   "statement": "Innovators capture ~2.2% of the social surplus their innovations create (range 1.3-3.3% across specifications); ~98% flows to consumers (Nordhaus 2004, NBER WP 10433, US nonfarm business 1948-2001, from ~7% instantaneous appropriability and ~20%/yr profit depreciation).",
    "values": {
-    "innovator_capture_pct": 2.2
+    "innovator_capture_pct": 2.2,
+    "range_pct": "1.3-3.3"
    },
    "unit": "% of social surplus",
    "geography": "United States",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: Nordhaus (2004), NBER WP 10433. Quantifies the author's intuition that a billionaire entrepreneur 'impacted lives at the scale of billions' - and reframes top entrepreneurial wealth as a residual of consumer surplus creation, not extraction. Core support for C22."
+   "sources": [
+    "S064"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Cite as an order of magnitude: an economy-wide average under strong assumptions; excludes rents captured via founder equity or star wages; says nothing about marginal innovations."
   },
   {
    "id": "F064",
-   "statement": "French electricity is among the cleanest of any large economy: ~40-60 gCO2/kWh carbon intensity vs ~350-400 for Germany and ~230-250 for the EU average - the French power sector decarbonized decades ago via nuclear. At the margin, French growth is among the lowest-carbon growth available anywhere.",
+   "statement": "French grid carbon intensity (Ember, 2026 release): 40.5 gCO2e/kWh (2024), 41.4 (2025) - vs Germany 336/330 and EU average 211/210. France is about one-eighth of Germany's intensity and one-fifth of the EU's; RTE's direct-emissions method gives France ~20g.",
    "values": {
-    "france_gco2_kwh": "40-60",
-    "germany_gco2_kwh": "350-400",
-    "eu_avg_gco2_kwh": "230-250"
+    "france_2025_g": 41.4,
+    "germany_2025_g": 330,
+    "eu_avg_2025_g": 210
    },
    "unit": "gCO2/kWh",
    "geography": "France vs Germany, EU",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S054",
+    "S053"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: RTE, electricityMap/Ember yearly averages. Load-bearing for the degrowth answer (IV.12): the 'finite world' objection has the least purchase on the large economy with the cleanest marginal growth."
+   "notes": "Verified run 12. CORRECTED: Germany is ~330 (not 350-400) and the EU ~210 (not 230-250) - both fell. Use one methodology (Ember lifecycle-type) consistently across geographies; 'a tenth of Germany's' overstated - 'an eighth' is right."
   },
   {
    "id": "F065",
-   "statement": "Absolute decoupling is an observed fact, not a hope: 30+ countries - including France, Germany, the UK and the US - have grown GDP while cutting CO2 emissions in absolute terms, INCLUDING consumption-based (imported) emissions, since the mid-2000s.",
+   "statement": "Absolute decoupling is observed, France included: over 2005-2023 French GDP grew +21.8% while consumption-based CO2 fell -25.3% (545 -> 407 Mt; Global Carbon Project / World Bank via OWID). Peer-reviewed anchor: Le Quere et al. 2019 (Nature Climate Change) documents 18 developed economies cutting CO2 on both territorial and consumption bases while growing (2005-2015); broader recent counts find 30+ (up to ~39) countries absolutely decoupled per capita on a consumption basis.",
    "values": {
-    "decoupled_countries_approx": "30+"
+    "france_gdp_growth_2005_2023_pct": 21.8,
+    "france_consumption_co2_change_pct": -25.3,
+    "peer_reviewed_count": 18,
+    "broader_count": "30-39"
    },
    "unit": "country count",
    "geography": "cross-country",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S055"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: Our World in Data (Ritchie), Global Carbon Project consumption-based series. Kills the strong form of 'growth = emissions' empirically; the honest residual debate is about SPEED of decoupling vs carbon budgets, which is where the steelmanned degrowth case lives [Q31]."
+   "notes": "Verified run 12. Lead with the France-specific numbers (grew a fifth, cut a quarter, imports included); use '18 in peer-reviewed work, 30+ on broader counts' rather than a naked '30+'. CEPII caveat: France's consumption-based decline concentrates after ~2008."
   },
   {
    "id": "F066",
-   "statement": "Illustration of administered vs market pricing of social value: a French GP or hospital doctor - whose work saves lives - earns well above the average wage but below senior private-sector executives, finance, and tech professionals, largely because medical tariffs are administered (CNAM) while tech/finance pay rides market scale-leverage. Price reflects scarcity, leverage and bargaining structure - not social contribution.",
-   "values": {},
+   "statement": "Administered vs market pricing, with numbers: French medecins liberaux averaged EUR 124,000/yr of activity income in 2021 (GPs EUR 98,300; other specialists EUR 153,300 - DREES), with 92% of income at CNAM-set tariffs. The top 1% of private-sector salaried posts starts at ~EUR 122,600/yr net (INSEE 2023); salaried heads of 500+ employee firms average ~EUR 203,000/yr net; finance-market cadres ~EUR 132,000. An average GP earns ~3.5x the average private wage yet sits below the top-1% threshold and at roughly half a big-firm executive's pay.",
+   "values": {
+    "medecins_liberaux_avg_eur": 124000,
+    "gp_avg_eur": 98300,
+    "top1pct_threshold_eur_yr": 122600,
+    "big_firm_exec_avg_eur_yr": 203000
+   },
    "unit": "illustration",
    "geography": "France",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: DREES physician income data, INSEE cadres pay distributions. Handle carefully: French self-employed specialists can earn very well; the clean version of the point is the PRICING MECHANISM contrast (administered vs market-scaled), not victimhood. For C22."
+   "sources": [
+    "S065"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. The 'administered tariffs' clause is an interpretation (DREES documents the tariff structure, makes no causal claim); sector-2 extra billing is the escape valve. The clean version remains the PRICING MECHANISM contrast."
   },
   {
    "id": "F067",
-   "statement": "The 'essential workers' revelation: pandemic-era official lists of workers required to keep society running (care aides, nurses, logistics, food retail, sanitation) were dominated by BELOW-median-wage occupations - direct evidence that the economy's load-bearing jobs and its best-paid jobs are largely different sets.",
-   "values": {},
+   "statement": "The 'second line' verified (DARES-CEET 2021): 17 occupations, 4.6 million private-sector employees kept France running through lockdowns - drivers, cleaners, cashiers, home-care aides, security guards, construction and agri-food workers. Their average full-time wage was ~30% below the private-sector average (EUR 1,634 vs 2,337 net/month), and the gap widens with age (-37% at 55-59).",
+   "values": {
+    "workers_mn": 4.6,
+    "wage_gap_pct": -30,
+    "avg_wage_eur_month": 1634,
+    "private_avg_eur_month": 2337
+   },
    "unit": "occupational analysis",
    "geography": "France, cross-country",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG: DARES/INSEE analyses of 'deuxieme ligne' workers (2020-21), comparable US/UK studies. For C23: the execution workforce is infrastructure, and the price system does not rank it accordingly."
+   "sources": [
+    "S066"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 12. Private sector only; excludes the medical 'first line'."
   },
   {
    "id": "F069",
-   "statement": "The historical high-water mark: French GDP per capita converged on the American level through the trente glorieuses (from ~50% of the US level in 1950, after war destruction) and peaked around 1975-1980 at roughly 80-85% in purchasing-power terms - the closest it ever came. Measured in current dollars at the exchange rates of the day, France briefly MATCHED or exceeded the US figure around 1980 (strong franc, weak dollar). French output per HOUR surpassed the American level as late as ~2000 (see F007).",
+   "statement": "The historical high-water mark, verified: French GDP per capita was 54.2% of the US level in 1950 (Maddison 2023, 2011 int'l $) and converged to ~79.5% by 1975-1980 (series peak 82.6% in 1982, flattered by the US recession) - the closest any large European country came. At market exchange rates, France MATCHED the US in 1980: $12,565 vs $12,575 (World Bank current-US$, 99.9%). French output per HOUR surpassed the US level around 2000 [F007].",
    "values": {
-    "france_pct_of_us_1950_ppp": 50,
-    "france_pct_of_us_peak_ppp": "80-85",
-    "peak_years": "1975-1980"
+    "france_pct_of_us_1950": 54.2,
+    "france_pct_of_us_1980": 79.5,
+    "series_peak_1982_pct": 82.6,
+    "france_gdp_pc_1980_usd": 12565,
+    "us_gdp_pc_1980_usd": 12575
    },
    "unit": "% of US GDP per capita",
    "geography": "France vs US",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
+   "sources": [
+    "S043"
+   ],
+   "confidence": "high",
+   "status": "verified",
    "chartable": true,
-   "notes": "BACKLOG: verify with Maddison Project Database (PPP series) and World Bank current-USD series for the ~1980 nominal crossover. PRECISION MATTERS: in PPP terms France never exceeded the US; the 'comparable, even superior' memory is true only at market exchange rates (~1980) and for output per hour (~2000). The essay states both honestly ('in the dollars of the day'). Author dated it '50s or 80s': the 1950s were the LOW point (catch-up start), the late 1970s/1980 the peak - the fact entry records this so future runs don't mis-correct it."
+   "notes": "Verified run 12. CORRECTED: 'matched', never 'exceeded' (current WDI vintage puts France $10 below); 85% PPP never reached. The 1980 parity is a currency phenomenon (strong franc, pre-Volcker dollar) - the essay's 'in the dollars of the day' phrasing is exactly right."
   },
   {
    "id": "F070",
@@ -1454,14 +1820,16 @@
   },
   {
    "id": "F068",
-   "statement": "Two canonical results ground the complementarity argument: Kremer's O-ring theory (1993, QJE) - production is chains of complementary tasks where one failing link destroys the value of all others, so 'low-skill' links carry system-critical value; and Baumol's cost disease (1966-2012) - as frontier productivity rises, the relative cost of labor-intensive essential services (care, teaching) rises mechanically, meaning the FLOOR'S AFFORDABILITY IS FUNDED BY FRONTIER GROWTH, or not at all.",
+   "statement": "Two canonical results ground the complementarity argument: Kremer's O-ring theory (QJE 108(3), 1993) - production is chains of complementary tasks where one failing link destroys the value of all others; and Baumol's cost disease (Baumol & Bowen 1966; Baumol 2012, 'The Cost Disease', Yale UP) - as frontier productivity rises, the relative cost of labor-intensive essential services (care, teaching) rises mechanically, so the floor's affordability is funded by frontier growth or not at all.",
    "values": {},
    "unit": "economic theory (canonical)",
    "geography": "theory",
-   "sources": [],
+   "sources": [
+    "S067"
+   ],
    "confidence": "high",
-   "status": "unverified",
-   "notes": "BACKLOG: fetch Kremer (1993) and Baumol (2012, 'The Cost Disease') for the registry. Baumol is the deepest pro-growth argument available to a person of the left: the services the left most values are precisely the ones whose funding requires the growth the left distrusts. For C23."
+   "status": "verified",
+   "notes": "Citations verified run 12."
   },
   {
    "id": "F072",
@@ -2097,7 +2465,7 @@
   {
    "id": "C20",
    "claim": "BOUNDARY MAP - The program is not a privatization program. Where competition requires duplicating a network (rail, electricity grids, water), a single regulated operator beats fragmented markets (UK rail as anti-example, F057?); where universal insurance beats market insurance (health: the US spends 17% of GDP for worse outcomes, F055?), universality stays. The honest counterpart: French public-service inefficiency is real and structural - above all the quasi-impossibility of managing out incompetence under the statut (F061?) - and the remedy is management and governance reform WITHIN public/universal frames (health-efficiency frontier, F058?; smart frictions with distributional guardrails, F059?), not ownership transfer.",
-   "status": "hypothesis",
+   "status": "supported",
    "supporting_facts": [
     "F055",
     "F057",
@@ -2167,7 +2535,7 @@
   {
    "id": "C22",
    "claim": "PRICE IS NOT WORTH - Market income measures marginal scarcity and scale leverage, not social contribution: water is priceless and nearly free (the diamond-water paradox, resolved by marginal utility); a life-saving doctor under administered tariffs earns less than a market-leveraged executive (F066?); and innovators capture ~2% of the surplus they create (F063?). Two consequences run in OPPOSITE political directions, and the thesis needs both: (a) market outcomes carry no moral verdict - the poor are not 'worth less', so the floor is justified inside market logic, not against it; (b) top entrepreneurial wealth is mostly a receipt for surplus given away, so confiscating the receipt does not recover the surplus - it discourages its creation. Prices are for allocation; they are not a theory of desert.",
-   "status": "hypothesis",
+   "status": "supported",
    "supporting_facts": [
     "F063",
     "F066",
@@ -2185,7 +2553,7 @@
   {
    "id": "C23",
    "claim": "COMPLEMENTS, NOT COMPETITORS - The economy needs two workforces: growth engines (those who improve the productive system) and execution workers (those who run it daily). They are complements in an O-ring production chain (F068?): one failing link destroys the value of the rest, and pandemic-era 'essential worker' lists were dominated by below-median-wage jobs (F067?). Baumol's cost disease closes the loop (F068?): the essential services the floor depends on become RELATIVELY more expensive as the frontier advances - so the floor is affordable only in a growing economy. Protecting the bottom quartile is not charity taxed on growth; it is maintenance of the productive chain, funded by growth.",
-   "status": "hypothesis",
+   "status": "supported",
    "supporting_facts": [
     "F067",
     "F068",
@@ -2203,7 +2571,7 @@
   {
    "id": "C24",
    "claim": "CLEAN GROWTH POSITION (the degrowth answer) - France is the large economy where 'infinite growth on a finite planet' has the least purchase: its electricity is already near-decarbonized (F064?), absolute decoupling of GDP from CO2 - including consumption-based - is an observed fact in 30+ countries (F065?), and the climate transition is a capital-hungry program only a growing economy funds (F032). Unilateral French degrowth would not save the planet (coordination problem) but would guarantee the imposed adjustment (C7, C14): a shrinking GDP raises debt/GDP mechanically, collapses the tax base of the welfare state degrowthers want, and the bottom quartile pays first. The kernel to concede: material throughput cannot grow forever and the honest debate is decoupling SPEED vs carbon budgets [Q31] - but that is an argument about the world's 22nd century, not about France's 2030 balance sheet.",
-   "status": "hypothesis",
+   "status": "supported",
    "supporting_facts": [
     "F064",
     "F065",
@@ -2225,14 +2593,16 @@
   {
    "id": "Q01",
    "question": "Is the post-2019 French productivity slump mostly composition (apprenticeship boom, labor hoarding) or structural? Determines how alarmed the essay should be about F014.",
-   "status": "open",
-   "priority": "high"
+   "status": "resolved",
+   "priority": "high",
+   "resolution": "Run 12: largely resolved - per-head gap -8.5% vs trend by mid-2023, ~4.9pp explained (apprentices 1.2, composition 1.4, hoarding 1.7 temporary, scars 0.4); hourly gap ~-4.9pt in 2025; durable potential-productivity loss ~-2.7% (BdF). Partly the flip side of the employment gains. See F014."
   },
   {
    "id": "Q02",
    "question": "Reconcile the France-US GDP per capita gap: BdF says 33% (2023), World Bank current-PPP implies ~26% (2024). Pick one dataset (OECD or WDI), one vintage, and stick to it everywhere (see F006).",
-   "status": "open",
-   "priority": "high"
+   "status": "resolved",
+   "priority": "high",
+   "resolution": "Run 12: resolved - the BdF/WDI dispute is a PPP-vintage artifact; constant-PPP series agree on ~10-11pp widening since 2000; current-PPP level today ~27-28% below the US. Essay quotes BdF (one dataset both years) + level check. See F006."
   },
   {
    "id": "Q03",
@@ -2274,8 +2644,9 @@
   {
    "id": "Q09",
    "question": "Build the debt-vs-growth contrast series properly (F027): annual debt increase in euros vs annual nominal GDP increase in euros, France 2000-2025, from INSEE aggregates. Then the honest causal version: given fiscal multiplier estimates, how much of measured French growth since 2019 is fiscal impulse? What would growth have been at a stabilized debt ratio?",
-   "status": "open",
-   "priority": "high"
+   "status": "resolved",
+   "priority": "high",
+   "resolution": "Run 12: resolved - euro-level series built from INSEE May-2026 vintage: 2025 deficit 152.5 vs GDP delta +55.8 (2.7 per euro); 2024: 169.1 vs +101.4 (1.7); 2023 inflation-flattered (below 1). See F027."
   },
   {
    "id": "Q10",
@@ -2367,8 +2738,9 @@
   {
    "id": "Q24",
    "question": "Verification sweep of the run-4 diagnosis facts: F042 (housing costs/construction), F043 (permit composition), F044 (family policy history), F045 (talent export), F046 (anti-system vote), F047 (PISA equity, teacher pay), F048 (university funding), F049 (CEPEJ justice), F050 (ISF/Zucman yields), F051 (pensions = 2x education), F052 (Flamanville/EDF), F053 (productivity level). None may carry the essay while unverified.",
-   "status": "open",
-   "priority": "high"
+   "status": "mostly_resolved",
+   "priority": "high",
+   "resolution": "Run 12 sweep: F042-F047, F049-F055, F057, F058, F061, F063-F070 verified (see entries). Remaining unverified: F048 (universities), F012 (superseded), F056 (Germany floor check, Q25), F059 (RAND), F062 (GDP-B), F076 (median gap, Q34)."
   },
   {
    "id": "Q25",
@@ -2398,7 +2770,8 @@
    "id": "Q29",
    "question": "Verify the price-is-not-worth evidence base (C22): Nordhaus 2004 (F063), French physician vs executive pay via DREES/INSEE (F066), and find the cleanest rent-vs-surplus decomposition of top incomes (finance rents literature) so C22 does not read as blanket apologetics.",
    "status": "open",
-   "priority": "medium"
+   "priority": "medium",
+   "note": " Run 12: Nordhaus (F063) and doctor-pay (F066) verified; the rent-vs-surplus carve-out remains the open half."
   },
   {
    "id": "Q30",
