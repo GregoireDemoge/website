@@ -595,6 +595,139 @@
    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028493476/",
    "type": "primary_legal",
    "accessed": "2026-08-11"
+  },
+  {
+   "id": "S081",
+   "name": "Matsaganis & Leventi (2014), 'The Distributional Impact of Austerity and the Recession in Southern Europe', South European Society and Politics 19(3) (EUROMOD-based decile incidence for Greece)",
+   "url": "https://doi.org/10.1080/13608746.2014.947700",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S082",
+   "name": "Eurostat: at-risk-of-poverty rate anchored at 2008 (ilc_li22b), relative AROP by age (ilc_li02), unemployment rates (une_rt_a / une_rt_m); ELSTAT SILC releases",
+   "url": "https://ec.europa.eu/eurostat/databrowser/product/view/ilc_li22b",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S083",
+   "name": "Bank of Greece, Economic Bulletin 43 (July 2016), Lazaretou: the Greek brain drain 2008-2014 (cumulative outflow of residents 15-64)",
+   "url": "https://www.bankofgreece.gr/Publications/4320160703_en.pdf",
+   "type": "primary_central_bank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S084",
+   "name": "IMF Country Report 13/156 (June 2013): Greece - Ex Post Evaluation of Exceptional Access under the 2010 Stand-By Arrangement",
+   "url": "https://www.imf.org/external/pubs/ft/scr/2013/cr13156.pdf",
+   "type": "primary_institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S085",
+   "name": "Leventi & Matsaganis (2016), 'Estimating the distributional impact of the Greek crisis (2009-2014)', OECD Economics Department WP 1312",
+   "url": "https://doi.org/10.1787/5jlv2jl6c9f3-en",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S086",
+   "name": "Lenoel, Macchiarelli & Dolphin (2023), 'Greece 2010-18: What Could Have Been Done Differently?', Open Economies Review 34 (public investment as 'flagship adjustment variable'); World Bank, 'The Greek Pension Reform Strategy 2010-2016'; Tinios, 'Pensions: Halfway through adjustment'",
+   "url": "https://www.lse.ac.uk/Hellenic-Observatory/Assets/Documents/Publications/GreeSE-Papers/GreeSE-172.pdf",
+   "type": "peer_reviewed",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S087",
+   "name": "OECD Income Distribution Database (DSD_WISE_IDD@DF_IDD, METH2012): median and mean equivalised disposable household income; converted at OECD household-consumption PPPs (ANA Table 4, PPP_P31S14; method per Society at a Glance 2024)",
+   "url": "https://data-explorer.oecd.org/vis?df[ag]=OECD.WISE.INE&df[id]=DSD_WISE_IDD%40DF_IDD",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S088",
+   "name": "Luxembourg Income Study (LIS), median equivalised disposable income, int-$ 2021 prices (accessed via Our World in Data grapher 'median-income-after-tax-lis')",
+   "url": "https://ourworldindata.org/grapher/median-income-after-tax-lis",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S089",
+   "name": "KFF 2024 Employer Health Benefits Survey (worker premium contributions, deductibles); Peterson-KFF Health System Tracker (out-of-pocket spending of insured families)",
+   "url": "https://www.kff.org/health-costs/2024-employer-health-benefits-survey/",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S090",
+   "name": "INSEE Analyses no. 118: 'Revenus des menages elargis a l'ensemble de l'economie en 2023' (in-kind transfers EUR 15,800 per consumption unit; 51% of broadened inequality reduction)",
+   "url": "https://www.insee.fr/fr/statistiques/8974371",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S091",
+   "name": "Verbist, Forster & Vaalavuo (2012), 'The Impact of Publicly Provided Services on the Distribution of Resources', OECD SEM WP 130 (in-kind transfers raise disposable income ~29% OECD average, >30% France)",
+   "url": "https://doi.org/10.1787/5k9h363c5szq-en",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S092",
+   "name": "Agence France Tresor, Bulletin mensuel no. 425 (Oct 2025): bond-by-bond OAT list with CAC flags; EU Economic and Financial Committee page on euro-area model CACs (mandatory since 2013)",
+   "url": "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/425_Bulletin%20mensuel%20octobre%202025.pdf",
+   "type": "primary_institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S093",
+   "name": "OFCE: Durand & Villemot, 'Balance sheets after the EMU' (WP 2016-31: foreign-law French sovereign debt ~zero on BIS data; franc misalignment ~11%); OFCE Policy Brief 16 (2017): competitiveness gain of exit ~zero, dominant effect a balance-sheet banking crisis; CEPII (Mar 2017) concurs",
+   "url": "https://sciencespo.hal.science/hal-03409079/file/WP2016-31.pdf",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S094",
+   "name": "Institut Montaigne (Feb 2017), costing of the FN euro-exit program (liberal-leaning think tank, leaning noted): 20% depreciation assumption; median scenario -2.3% GDP year one, -9% long run, ~500k jobs (numbers as reported by Les Echos and Capital)",
+   "url": "https://www.lesechos.fr/2017/02/sortie-de-leuro-les-effets-desastreux-du-projet-economique-du-front-national-160249",
+   "type": "think_tank",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S095",
+   "name": "S&P Global (Moritz Kraemer, head of sovereign ratings, Feb 2017, via Reuters): redenomination of French debt into francs 'would be a default'; Moody's DRD default definitions (forced currency redenomination = default event); ISDA 2014 Credit Derivatives Definitions (redenomination = Restructuring credit event)",
+   "url": "https://www.reuters.com/article/world/le-pens-french-debt-plan-would-trigger-default-sp-tells-economist-idUSKBN15J0OD/",
+   "type": "primary_via_press_of_record",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S096",
+   "name": "Yale Journal of Financial Crises: 'Greece: Bank Holiday and Capital Controls, 2015' (deposit flight EUR 47.6bn = 27.5% of base Dec 2014-Jun 2015, on Bank of Greece data); Greek Legislative Act of 28 June 2015 (bank holiday, EUR 60/day ATM cap)",
+   "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1652&context=journal-of-financial-crises",
+   "type": "institutional",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S097",
+   "name": "SDES (French ecology ministry statistical service): Bilan energetique de la France / Chiffres cles de l'energie - net energy import bill (EUR 116.3bn in 2022; ~71bn 2023; ~56-58bn 2024 provisional)",
+   "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-en-2023-synthese",
+   "type": "primary_statistical",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S098",
+   "name": "The euro-exit political record (press of record for current events): RN abandons Frexit (RTL 29 Jan 2019; Radio France 15 Apr 2019; Les Echos on the retiree fear); LFI/NUPES 'ni quitter l'Europe ni quitter l'euro' (La Croix/AFP 18 Jan 2022; Les Echos 2022); euro support: ECB Economic Bulletin 7/2025 box on Eurobarometer 103 (83% euro-area record; France lowest); Cluster17/Le Grand Continent barometer Sept 2025 (FR: 59% euro vs 23% national currency)",
+   "url": "https://www.radiofrance.fr/franceinter/europeennes-marine-le-pen-renonce-officiellement-au-frexit-dans-son-projet-7372164",
+   "type": "press_of_record",
+   "accessed": "2026-08-11"
+  },
+  {
+   "id": "S099",
+   "name": "LSE European Institute, LEQS Paper 123 (2017), 'Why Grexit cannot save Greece' (compiled exit-cost estimates: IMF -13%, NBG -22%, BNP -20%, Citi -17% of GDP)",
+   "url": "https://www.lse.ac.uk/european-institute/Assets/Documents/LEQS-Discussion-Papers/LEQSPaper123.pdf",
+   "type": "peer_reviewed_wp",
+   "accessed": "2026-08-11"
   }
  ],
  "facts": [
@@ -1969,14 +2102,24 @@
   },
   {
    "id": "F076",
-   "statement": "The mean-vs-median caveat on the US comparison: US GDP per capita is a mean pulled up by a top-heavy income distribution; the France-US gap in MEDIAN equivalized disposable household income (PPP) is smaller than the GDP-per-capita gap, and part of US gross income buys healthcare and college that France provides publicly. The gap does not disappear at the median, but it shrinks; the exact median-to-median figure must be pinned (LIS or OECD income distribution database) before the essay quotes one.",
-   "values": {},
-   "unit": "comparison caveat",
+   "statement": "The mean-vs-median caveat, pinned: on the OECD Income Distribution Database (2023, converted at the OECD's household-consumption PPPs), median equivalised disposable income is $38,752 (France) vs $49,885 (US) - France at 77.7% of the US median, a 22.3% gap; the same dataset's MEAN gap is 28.1%. LIS (2022, int-$ 2021 prices) gives a 25.6% median gap. The median gap runs 5-6 points below the mean gap in every year of both series. The honest prose rendering: 'a third behind at the average, roughly a quarter median to median'.",
+   "values": {
+    "fr_median_2023_usd_ppp": 38752,
+    "us_median_2023_usd": 49885,
+    "median_gap_pct_oecd_2023": 22.3,
+    "mean_gap_pct_same_dataset": 28.1,
+    "median_gap_pct_lis_2022": 25.6
+   },
+   "unit": "USD PPP / percent",
    "geography": "France vs US",
-   "sources": [],
-   "confidence": "medium",
-   "status": "unverified",
-   "notes": "BACKLOG [Q34]: pin median equivalized disposable income PPP France vs US (LIS/OECD IDD), same year. Grounds the new objection IV.16. The answer does not depend on the exact number: the diagnosis's decomposition (F007) measures production, not distribution; the hours and pension comparisons run against Germany/EU [F031][F018]; and the fiscal arithmetic is internal [F024][F025]."
+   "sources": [
+    "S087",
+    "S088"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14 [Q34 resolved]. Honesty in both directions: (a) cash disposable income omits in-kind transfers (worth >30% of French disposable income per OECD WP 130 [S091]; 51% of France's broadened inequality reduction per INSEE Analyses 118 [S090]) and omits US out-of-pocket health costs (~$9,860/yr premiums+cost-sharing for an insured family of four, KFF 2024 [S089]) - so the median comparison understates France; (b) even the OECD measure that ADDS in-kind services back (How's Life adjusted disposable income, 2023: $48,534 vs $64,233) leaves the US mean ~24% ahead - the caveats shave the gap, they do not erase it. VINTAGE WARNING: the median gap was 31-32% in 2019-2021; the narrowing to ~22-26% is recent and partly an artifact of expiring US pandemic transfers and the ICP-2021 PPP re-benchmarking. Never write 'the gap collapses at the median'. The BdF 33% (constant 2015 PPPs) and the current-PPP ~26% GDP gap are different vintages of the same yardstick [F006 notes].",
+   "chartable": true
   },
   {
    "id": "F077",
@@ -2143,6 +2286,163 @@
    "confidence": "high",
    "status": "verified",
    "notes": "Verified run 13. This SHARPENS C25 rather than weakening it: the electoral constraint binds exactly when the median voter's proxies hold the parliamentary balance - which demography makes more likely every cycle [F070][F038]."
+  },
+  {
+   "id": "F085",
+   "statement": "The Greek forced adjustment did not pick its victims by tax tables. The DESIGNED measures were broadly progressive on paper: holding 2009 deciles fixed, the poorest 10% lost 34% of income by 2013 against a 36% average (public-wage cuts drove the progressivity; VAT hikes were the regressive exception). The collapse around the measures created a new poor: re-ranked, the income of whoever occupied the bottom decile in 2013 was 69% below its 2009 counterpart (twice the average loss); ~65% of the population changed decile 2009-2013; at-risk-of-poverty ANCHORED at 2008 rose from 18.0% (2010) to 44.3% (2013) and 48.0% (2014-2015). Austerity's first-order effects account for roughly half of the anchored-poverty rise in 2010-11 and a third in 2013; the rest arrived through mass unemployment.",
+   "values": {
+    "fixed_decile_bottom_loss_pct_2009_2013": 34,
+    "average_loss_pct_2009_2013": 36,
+    "reranked_bottom_decile_loss_pct": 69,
+    "anchored_poverty_2010_pct": 18.0,
+    "anchored_poverty_2013_pct": 44.3,
+    "anchored_poverty_2014_15_pct": 48.0
+   },
+   "unit": "percent",
+   "geography": "Greece",
+   "sources": [
+    "S081",
+    "S082",
+    "S085"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 14 [Q20 resolved]. CORRECTS the essay's earlier line 'the poorest quarter pays fastest' - wrong as written: the mechanism was mass unemployment plus a safety net with no minimum-income floor for the new poor, NOT regressive tax-benefit design. Never blur designed-progressivity with outcome-regressivity in prose. The 13.2->27.4% anchored series in S085 uses a different anchor; do not mix the two series - the essay quotes Eurostat ilc_li22b (18->48)."
+  },
+  {
+   "id": "F086",
+   "statement": "The Greek adjustment's generational incidence: youth (15-24) unemployment 59.2% annual in 2013 (monthly peak 61.4% mid-2013), above 50% for four consecutive years (2012-2015). Relative poverty for 65+ FELL from 21.3% (2010) to 13.7% (2015) while for 18-24 it rose from 22.3% (2009) to 34.1% (2013); anchored poverty rose +32.4pp for ages 18-29 vs +20.4pp for 65+ (2009-2013); the elderly's share of the bottom quintile halved (18% to 10%). About 427,000 residents aged 15-64 left Greece over 2008-2013/14, ~223,000 of them aged 25-39, disproportionately educated (Bank of Greece). Pensions in payment were cut on 10-12 occasions, cumulatively ~14% (smallest pensions) to 40-50% (largest), progressive by design: pensioners were relatively, not absolutely, protected (their anchored poverty still reached ~47% by 2014).",
+   "values": {
+    "youth_unemployment_2013_annual_pct": 59.2,
+    "elderly_relative_poverty_2010_pct": 21.3,
+    "elderly_relative_poverty_2015_pct": 13.7,
+    "young_adult_relative_poverty_2013_pct": 34.1,
+    "emigrants_15_64_2008_2014": 427000,
+    "pension_cut_rounds": "10-12"
+   },
+   "unit": "mixed",
+   "geography": "Greece",
+   "sources": [
+    "S082",
+    "S083",
+    "S086"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "chartable": true,
+   "notes": "Verified run 14 [Q20 resolved]. The load-bearing symmetry for C14/C25: the forced adjustment reproduced the insider/outsider machine - the settled kept their relative place, the young and the newly unemployed absorbed the collapse. 'Sixty percent youth unemployment' in prose = 59.2 annual / 61.4 monthly peak, fair rounding."
+  },
+  {
+   "id": "F087",
+   "statement": "What a forced consolidation cuts first: Greek general government investment fell from ~EUR 14bn (2009) to under EUR 5bn (2011) and stayed there through the third program, against a first-program plan of only ~0.2pp of GDP - peer-reviewed work calls public investment the 'flagship adjustment variable' because it is politically the easiest line to cut. The IMF's own ex-post evaluation of the 2010 SBA concedes on the record: growth projections were far too optimistic, an upfront debt restructuring 'would have been better for Greece' but was unacceptable to euro partners, and the lesson is 'the importance of spreading the burden of adjustment across different strata of society' (the 2016 background paper glosses: the burden 'was not sufficiently spread').",
+   "values": {
+    "gg_investment_2009_bn_eur": 14,
+    "gg_investment_2011_bn_eur": 5
+   },
+   "unit": "EUR bn",
+   "geography": "Greece",
+   "sources": [
+    "S086",
+    "S084"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14 [Q20 resolved]. 'Fell by two thirds in two years' is the honest prose rendering (14 -> <5)."
+  },
+  {
+   "id": "F088",
+   "statement": "Euro exit is not legally impossible: essentially all French negotiable government debt is issued under French law (foreign-law international bonds of the French general government are ~zero on BIS data), so parliament could redenominate by lex monetae. The euro-CACs mandatory on all euro-area issues since 2013 (~83% of the OAT stock by end-Sept 2025 on AFT bond-by-bond data) do not block a statutory currency change on the dominant legal-economic view (De Santis/ECB via CEPR; Codogno & Galli), though litigation would be certain.",
+   "values": {
+    "oat_stock_with_cacs_pct": 83,
+    "foreign_law_sovereign_debt": "~0"
+   },
+   "unit": "percent of stock",
+   "geography": "France",
+   "sources": [
+    "S092",
+    "S093"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Recorded deliberately so the essay never overclaims legal impossibility: the answer to the euro-exit objection must rest on economics, not law."
+  },
+  {
+   "id": "F089",
+   "statement": "The costed economics of a franc return: redenominating French-law debt into a depreciating franc is a default under S&P's and Moody's published definitions (both said so publicly in Feb 2017 about the FN plan) and a Restructuring credit event under ISDA's 2014 CDS definitions. The FN's own experts assumed a new-franc depreciation 'on the order of 20%'; Institut Montaigne's costing (liberal-leaning, flagged) put the median scenario at -2.3% GDP in year one (range -0.6 to -3.2), ~-9% long run, ~500,000 jobs destroyed; OFCE's equilibrium estimate of the franc's needed real depreciation is ~11%, and OFCE and CEPII both concluded the competitiveness gain would net to about zero (southern members would exit and depreciate alongside) while the dominant effect is a balance-sheet banking crisis. Compiled Grexit estimates (IMF, NBG, Citigroup, BNP) ran -13% to -22% of GDP for the exiting debtor.",
+   "values": {
+    "assumed_depreciation_pct": 20,
+    "montaigne_gdp_year1_pct": -2.3,
+    "montaigne_gdp_longrun_pct": -9,
+    "montaigne_jobs_destroyed": 500000,
+    "ofce_misalignment_pct": -11
+   },
+   "unit": "mixed",
+   "geography": "France",
+   "sources": [
+    "S094",
+    "S095",
+    "S093",
+    "S099"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Direction uncontested across sources of three different leanings (Montaigne liberal, OFCE Keynesian-left, CEPII public); magnitudes are scenario estimates, confidence medium on any single number, high on the sign and order of magnitude. Grexit numbers are for Greece, a smaller and already-broken economy: use only as the family of estimates, never as a French forecast."
+  },
+  {
+   "id": "F090",
+   "statement": "Greece 2015, the dress rehearsal inside the euro: EUR 47.6bn of deposits (27.5% of the deposit base) left Greek banks between December 2014 and 28 June 2015 on the mere possibility of exit; capital controls were imposed by legislative act on 28 June 2015; banks stayed closed for three weeks (reopened 20 July); ATM withdrawals were capped at EUR 60 per day per card; controls were fully lifted only in September 2019.",
+   "values": {
+    "deposit_flight_bn_eur": 47.6,
+    "deposit_flight_share_pct": 27.5,
+    "bank_closure_weeks": 3,
+    "atm_cap_eur_per_day": 60
+   },
+   "unit": "mixed",
+   "geography": "Greece",
+   "sources": [
+    "S096"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "Verified run 14. The strongest single exhibit for the euro-exit objection: this is what the approach to the door cost a country that stayed inside."
+  },
+  {
+   "id": "F091",
+   "statement": "What printing francs cannot buy: France's net energy import bill was EUR 116.3bn in 2022 (record year; oil and biofuels 58.6, natural gas 46.7 - essentially dollar-priced fossil imports), ~EUR 71bn in 2023, ~EUR 56-58bn in 2024 (provisional, SDES). France runs a structural current-account deficit, and the Banque de France's TARGET2 position is a net liability oscillating roughly between -EUR 110bn and -EUR 240bn through 2024-25, which on exit would fall due in euros.",
+   "values": {
+    "energy_bill_2022_bn_eur": 116.3,
+    "energy_bill_2023_bn_eur": 71,
+    "energy_bill_2024_bn_eur": "56-58"
+   },
+   "unit": "EUR bn",
+   "geography": "France",
+   "sources": [
+    "S097",
+    "S093"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "TARGET2 single-month figures are volatile; verify on the ECB statistics page before quoting any one month. The essay quotes only the 2022 energy bill."
+  },
+  {
+   "id": "F092",
+   "statement": "The political record of euro exit: both French parties that carried the proposal dropped it. The RN declared exit 'no longer a priority' (Jan 2019) and formally abandoned the franc in its April 2019 European manifesto; reporting at the time attributed the reversal to the proposal terrifying retirees, the wealth-holding cohort. LFI replaced its 2017 'plan B' with 'disobedience' in the 2021 edition of L'Avenir en commun and signed 'ni quitter l'Europe ni quitter l'euro' into the 2022 NUPES accord; Melenchon cited the external deficit ('I don't see how we would manage, given our external trade deficit', Jan 2022, translated). Opinion: euro-area support for the euro hit a record 83% (Eurobarometer 103, spring 2025); France is the euro area's lowest-support member; Cluster17 (Sept 2025): 59% of French prefer the euro, 23% a national currency.",
+   "values": {
+    "rn_abandonment": "2019",
+    "lfi_abandonment": "2021-2022",
+    "ea_euro_support_pct_2025": 83,
+    "fr_prefer_euro_pct": 59,
+    "fr_prefer_franc_pct": 23
+   },
+   "unit": "record",
+   "geography": "France / euro area",
+   "sources": [
+    "S098"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "notes": "High confidence on the party record (multiple press-of-record accounts, platform texts); medium on the single-wave Cluster17 split; the retiree attribution for the RN reversal is the press's interpretation and must stay attributed in prose. Melenchon's stated reason is the thesis's own argument from its opponent's mouth - see F078 for why retirees' balance sheets decide this. Exact French Eurobarometer percentage still unpinned [Q35]."
   }
  ],
  "comparables": [
@@ -2575,10 +2875,13 @@
   },
   {
    "id": "C14",
-   "claim": "CONSEQUENCE - The imposed adjustment is regressive: when consolidation is forced by markets or a program, it is fast, front-loaded, and falls on what can be cut by decree - transfers to the vulnerable, public investment, public wages - while the protected statuses that caused the drift resist longest. The young and the poor pay first (Greek precedent). Choosing the adjustment early, with composition control [F040], is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
-   "status": "hypothesis",
+   "claim": "CONSEQUENCE - The imposed adjustment runs the insider/outsider machine at creditor speed: the designed measures may even be progressive on paper (Greece's were, F085), but investment is cut first because it is politically easiest (the 'flagship adjustment variable', F087), the collapse creates a new poor faster than the safety net can catch them (anchored poverty 18->48% in four years, bottom-decile position -69%, F085), and the burden concentrates on the young and the newly unemployed while organized insiders and pensioners keep their relative place (F086). Choosing the adjustment early, with composition control (Sweden, F040), is therefore the PROGRESSIVE option - the thesis's answer to 'reform is right-wing cruelty'.",
+   "status": "supported",
    "supporting_facts": [
     "F040",
+    "F085",
+    "F086",
+    "F087",
     "F025",
     "F026"
    ],
@@ -2586,8 +2889,13 @@
    "counterarguments": [
     {
      "argument": "Chosen adjustments can be just as regressive; composition depends on who governs, not on timing.",
-     "status": "open",
-     "note": "Partially true - the answer is that timing determines the OPTION SET: an early adjustment can protect schools and hospitals (Sweden did, F040); a forced one cannot. Verify the Greek adjustment's distributional record [Q20]."
+     "status": "answered",
+     "note": "Timing determines the OPTION SET: Sweden's chosen adjustment protected schools and hospitals (-0.1/-0.2pp of GDP) while cutting transfers and subsidies [F040]; Greece's forced one cut investment by two thirds in two years and let anchored poverty go from 18% to 48% [F085][F087] - and even Greece's progressive-on-paper tax-benefit design could not protect the bottom once mass unemployment did the distributing. The IMF's own ex-post evaluation concedes the burden was not sufficiently spread [F087]."
+    },
+    {
+     "argument": "The Greek record shows pensioners were relatively protected even under creditors - so the essay cannot claim the forced version finally disciplines the transfer machine.",
+     "status": "answered",
+     "note": "Correct, and the thesis uses it: the forced adjustment does NOT break the gerontocratic machine [C25]; it runs the same machine faster against the young (elderly relative poverty FELL from 21.3% to 13.7% while young-adult poverty rose by half, F086). This is why 'the crisis will fix it' is not an answer and why the program must be written before the window opens."
     }
    ]
   },
@@ -2951,9 +3259,9 @@
   {
    "id": "Q20",
    "question": "Distributional record of forced adjustments (for C14): who actually paid in Greece 2010-2015 (and Portugal, Ireland)? Income-decile incidence of program cuts, youth unemployment and emigration effects, health outcomes. Needed to ground 'imposed = regressive' beyond assertion.",
-   "status": "open",
+   "status": "resolved",
    "priority": "high",
-   "note": " PRIORITY RAISED run 12: the essay's 'The choice' section states the regressive-incidence claim ('the poorest quarter pays fastest, the way they paid in Athens') - C14 is still a hypothesis; pin the Greek incidence data (youth unemployment >50%, emigration, distributional studies of the memoranda) or soften the sentence."
+   "note": "RESOLVED run 14. Peer-reviewed record (Matsaganis-Leventi 2014; Leventi-Matsaganis OECD 2016; Avram et al. EUROMOD): the DESIGNED Greek measures were broadly progressive; the collapse created a new poor (re-ranked bottom decile -69%; anchored poverty 18->48%); incidence fell on the young and newly unemployed; pensioners were relatively protected (elderly relative poverty fell by a third; pensions cut 10-12 times progressively). Facts F085-F087; C14 refined to 'supported'; the essay's 'poorest quarter pays fastest' line was corrected (it was wrong as written)."
   },
   {
    "id": "Q21",
@@ -3039,8 +3347,15 @@
   {
    "id": "Q34",
    "question": "Pin the median-vs-median income comparison (F076/IV.16): median equivalized disposable household income, PPP, France vs US vs Germany, same year and dataset (LIS preferred, OECD IDD acceptable). Also check post-tax-and-transfer income including in-kind (health, education) if a credible series exists (e.g. Blanchet-Chancel-Gethin DINA for Europe vs US).",
+   "status": "resolved",
+   "priority": "medium",
+   "note": "RESOLVED run 14. OECD IDD 2023: median gap 22.3% vs mean gap 28.1% (same dataset, same PPPs); LIS 2022: 25.6%. Essay says 'roughly a quarter median to median'; F076 verified with vintage warning (31-32% in 2019-21) and both-directions caveats (in-kind transfers, US out-of-pocket health)."
+  },
+  {
+   "id": "Q35",
+   "question": "Pin France's exact country-level euro-support percentage in Standard Eurobarometer 103/104 (spring/autumn 2025, France factsheet annex). France is reported as the euro area's lowest-support member (F092); the exact number is missing. The essay currently quotes no euro-support number, so this blocks nothing.",
    "status": "open",
-   "priority": "medium"
+   "priority": "low"
   }
  ]
 }

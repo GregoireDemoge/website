@@ -4,6 +4,30 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 14 — 2026-08-11 — Athens corrected, the median pinned, the euro escape hatch closed
+
+**Queue followed (run 13's order), plus one bird's-eye find.** The essay says "a currency France cannot print" four times and never answered the question every French reader asks next: then leave the euro. Half the electorate has flirted with parties that proposed exactly that. The gap got a full objection this run. Three parallel research tracks (primary sources: Eurostat SILC/ELSTAT, Bank of Greece, IMF ex-post evaluation, Matsaganis-Leventi and OECD WP 1312, OECD IDD via SDMX, LIS, AFT bond-by-bond CAC data, SDES, OFCE/CEPII/Montaigne, rating-agency definitions, press of record for the party reversals).
+
+**Killed: "the poorest quarter pays fastest, the way they paid in Athens" [Q20 resolved].** The peer-reviewed record says the line was wrong as written: Greece's *designed* measures were broadly progressive on paper (fixed-decile bottom-10% lost 34% vs 36% average; public-wage cuts drove it). What actually happened is subtler and worse, and better for the spine: investment was cut first (EUR 14bn to under 5bn in two years, the "flagship adjustment variable"); the collapse created a new poor faster than the net could catch them (anchored poverty 18→48% in four years; the bottom-decile *position* lost 69%); the incidence was generational (youth unemployment 59%, 427,000 educated emigrants, young-adult poverty up by half) while pensioners, cut 10-12 times, *improved their relative place* (elderly relative poverty fell 21.3→13.7%). So the forced adjustment does not break the gerontocratic machine; it runs it at creditor speed against the young. C14 refined and upgraded to supported (F085-F087); a second counterargument ("the crisis will discipline the machine") recorded and answered with the same data. The essay's first morning now carries the pinned numbers, and the IMF's own concession ("the burden was not sufficiently spread") sits in the fact file.
+
+**Pinned: the median-to-median gap [Q34 resolved].** OECD IDD 2023 at the OECD's own consumption PPPs: FR $38,752 vs US $49,885 median — a 22.3% gap against 28.1% at the same dataset's mean; LIS 2022 says 25.6%. The essay's concession now reads "the gap shrinks to roughly a quarter" (F076 verified, high). Vintage warning recorded: the median gap was 31-32% in 2019-21; the narrowing is partly expiring US pandemic transfers plus ICP-2021 re-benchmarking — never write "collapses at the median". Both-directions caveats in the notes (in-kind transfers understate France; even the in-kind-adjusted OECD measure leaves the US ~24% ahead).
+
+**Added: the euro-exit objection (thesis IV.17; essay's sixth collapsible, placed right after Japan).** The answer concedes the law first (essentially all OATs French-law, redenominable; CACs on ~83% of the stock don't block it — F088) and then runs the economics: default by the agencies' published definitions, ~20% depreciation on the sponsors' own assumption, Montaigne's -2.3% GDP year one and 500k jobs (leaning flagged; OFCE/CEPII concur on direction), dollar-priced energy (EUR 116bn in 2022), EUR 1,571bn of euro-fund life insurance converting with the franc, and Greece 2015 as the dress rehearsal (EUR 47.6bn of deposit flight, three closed weeks, EUR 60/day) — F089-F091. The coda ties it to the impasse: the RN buried the franc after it terrified retirees, the wealth-holding cohort [F078][F092], and Mélenchon renounced it citing the external deficit — the essay's own argument from its opponent's mouth.
+
+**Prose (cold read).** The draft is close to converged on style: a full pass found only minor work. Fingerprints paragraph split in two for rhythm; "This coming, forced, unwanted moment" lost its first adjective; one "exactly" pruned. Audit after integration: 0 banned patterns, 0 intensifiers, 7 X-not-Y per 7,250 words, 9 questions all answered in place; one new 33-word sentence caught and split into its beats; max 32, average 13.2.
+
+**State: 92 facts, 87 verified; zero `?` tags left in the essay; every quoted number verified.** The five facts still unverified (F012, F048, F056, F059, F062) carry no number the essay quotes.
+
+**Next run should attack, in order:**
+
+1. The dedicated prose-only cold read (definition-of-done #4): a run that changes no content, only reads. This run changed content, so it does not count.
+2. [Q25] The two-curves dashboard and the F056 Germany floor check — the last load-bearing open questions for Part 0.
+3. [Q31] Steelmanned degrowth with decoupling-speed numbers (required vs observed rates for France).
+4. The F078 saving-loop candidate (pensions → retiree savings → life insurance → OATs → the deficit): verify insurers' OAT-holder chain before writing a word.
+5. Kill-or-verify the five remaining `?` facts; [Q35] the Eurobarometer France number (low). Then citation conversion and the HTML/charts phase.
+
+---
+
 ## Run 13 — 2026-08-11 — The overshoot and the fingerprints (author input)
 
 **Author input.** (1) Retirees living better than workers is itself the anomaly, not merely its financing: parity might be defensible, but they also hold the capital, and bequests land on the already-comfortable 45-50+. (2) Dig into "policy serves its principal voter": pension indexation vs the unindexed vehicles of the working; the 10% deduction for professional expenses retirees do not have; source all of it.
