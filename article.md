@@ -1,6 +1,6 @@
 # When France Runs Out of Road
 
-Status: **first draft (v0.1)** — written 2026-08-11 against thesis v1. Tag conventions: `[F001]` = verified fact in `facts.json`; `[F012?]` = fact recorded but not yet verified against a primary source — every `?` must be cleared before publication. A late pass converts tags to reader-friendly citations.
+Status: **FROZEN — tone prototype only.** The author correctly flagged that this draft was written before the solution half of the thesis existed (protocol violation, see journal run 2). It is kept as a voice/tone reference. Do NOT extend or polish it until `thesis.md` Part II (the solution thesis) is marked stable — then the essay gets rewritten against the full spine, with the program section carrying the quantified levers (C8-C13). Tag conventions: `[F001]` = verified fact in `facts.json`; `[F012?]` = fact recorded but not yet verified — every `?` must be cleared before publication.
 
 ---
 

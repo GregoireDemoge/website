@@ -22,7 +22,7 @@ The thesis must be a **vision**, not a list of politically safe tweaks. The auth
 | `AGENTS.md` | This manual | Update only if the protocol itself improves. |
 | `facts.json` | The evidence base: sources, facts, comparables, claims, open questions | Single source of truth for every number. The essay may not contain a number that is absent from this file. |
 | `thesis.md` | The argumentative spine: the central thesis, its claims, their evidence, the counterarguments | Logic lives here. If `thesis.md` is incoherent, fixing it takes priority over everything else. |
-| `article.md` | The copy itself — the essay the reader will see | Prose lives here. It is the narrative rendering of `thesis.md`, never a source of new claims. |
+| `article.md` | The copy itself — the essay the reader will see | Prose lives here. It is the narrative rendering of `thesis.md`, never a source of new claims. **Gate rule (added run 2 after a violation): essay prose may only be written or extended for parts whose spine is marked settled/stable in `thesis.md`. Spine first, prose second — always.** |
 | `journal.md` | The logbook | Append one entry per run. Newest entry on top. |
 
 Everything in the repo is in English.

@@ -150,6 +150,55 @@
       "url": "https://www.bfmtv.com/economie/economie-social/france/le-capitalisme-a-toujours-une-mauvaise-image-en-france_AN-202112020015.html",
       "type": "survey_via_press",
       "accessed": "2026-08-11"
+    },
+    {
+      "id": "S020",
+      "name": "DG Tresor / France Strategie (HCFiPS annex, 2024) - Effects of aligning the French employment rate on Germany's",
+      "url": "https://www.strategie-plan.gouv.fr/files/2025-01/20240807_annexe_emploi_fr_all_vf.pdf",
+      "type": "government_primary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S021",
+      "name": "Rexecode, Reperes de politique economique #13 - Augmenter la quantite de travail en France (March 2025; employer-side think tank, leaning noted)",
+      "url": "https://www.rexecode.fr/competitivite-croissance/reperes-de-politique-economique/augmenter-la-quantite-de-travail-en-france-enjeux-et-leviers",
+      "type": "think_tank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S022",
+      "name": "Banque de France - Epargne des menages 2025-Q4 and Rapport sur l'epargne reglementee 2025",
+      "url": "https://www.banque-france.fr/fr/statistiques/epargne/epargne-des-menages-2025-q4",
+      "type": "central_bank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S023",
+      "name": "DG Tresor, Tresor-Eco n. 378 (January 2026) - Que finance l'epargne financiere des menages francais ?",
+      "url": "https://www.tresor.economie.gouv.fr/Articles/65d8041b-b2bf-4b9c-87f6-d5f7078f9a0a/files/474a7aa1-b9cd-48e1-a3e0-950bb970836f",
+      "type": "government_primary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S024",
+      "name": "Institut Montaigne / Forvis Mazars - European Production Tax Barometer 2026 (2024 data; liberal think tank, leaning noted); FIPECO for Eurostat-method cross-check",
+      "url": "https://institutmontaigne.org/publications/barometre-europeen-des-impots-de-production-2026",
+      "type": "think_tank",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S025",
+      "name": "EDF press release (18 December 2025) - EPR2 programme forecasted cost estimate",
+      "url": "https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/edf-presente-son-devis-previsionnel-du-programme-epr2-a-hauteur-de-728-mdeu",
+      "type": "company_primary",
+      "accessed": "2026-08-11"
+    },
+    {
+      "id": "S026",
+      "name": "Paris AI Action Summit investment commitments (February 2025) - via tech-insider.org retrospective (April 2026); PRIMARY SOURCE (Elysee) still to fetch",
+      "url": "https://tech-insider.org/fr/france-109-milliards-data-centers-ia-campus-bruyeres-2026/",
+      "type": "press_for_current_events",
+      "accessed": "2026-08-11"
     }
   ],
   "facts": [
@@ -290,7 +339,7 @@
       "confidence": "medium",
       "status": "unverified",
       "chartable": true,
-      "notes": "BACKLOG: compute from OECD data (total hours / population). This is the correct labor-input metric for the decomposition in F007."
+      "notes": "Largely SUPERSEDED by F031 (verified): 673 hours/inhabitant (15-74) vs 776 Germany, 748 Sweden, 750 EU (Rexecode/OECD). Keep this entry only for the France-vs-US comparison, still to be computed from OECD data for the decomposition in F007."
     },
     {
       "id": "F013",
@@ -328,14 +377,15 @@
     },
     {
       "id": "F016",
-      "statement": "French production taxes (taxes on production regardless of profit) are several times the German level as a share of GDP (~3.5% vs ~0.7% pre-2021; partially cut since).",
-      "values": { "france_pre2021_approx": 3.5, "germany_approx": 0.7 },
-      "unit": "% of GDP",
-      "geography": "France vs Germany",
-      "sources": [],
-      "confidence": "medium",
-      "status": "unverified",
-      "notes": "BACKLOG: verify with Eurostat national tax lists and check post-2021 CVAE cuts (partially reversed/postponed). Key for industrial competitiveness argument."
+      "statement": "French production taxes (levied on firms regardless of profit) were EUR 104bn in 2024 - 3.57% of GDP, three times the median of 13 European peers (1.2%) and roughly six times Germany's share (0.6%). On Eurostat's broader method: France 4.4% of GDP vs euro area 2.2% and Germany 1.0%. Germany collects almost four times less in absolute euros despite an economy 1.5x larger.",
+      "values": { "france_2024_eur_bn": 104, "france_2024_pct_gdp": 3.57, "peer_median_pct_gdp": 1.2, "germany_pct_gdp_montaigne": 0.6, "france_eurostat_pct": 4.4, "germany_eurostat_pct": 1.0, "euro_area_eurostat_pct": 2.2 },
+      "unit": "% of GDP / EUR billion",
+      "geography": "France vs Germany, euro area",
+      "sources": ["S024"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Two methodologies recorded on purpose (Montaigne includes CO2 tax and PEEC; Eurostat includes payroll-based taxes). Sweden is the only country higher (10.2% Eurostat) but its production taxes REPLACE social contributions - not comparable. Normalizing France to the peer median would return ~EUR 65-70bn/year to firms before profit."
     },
     {
       "id": "F017",
@@ -410,14 +460,15 @@
     },
     {
       "id": "F023",
-      "statement": "French households hold one of the highest saving rates in Europe (~17-18% of disposable income), but savings flow disproportionately to low-risk assets (livrets, euro-fund life insurance) rather than equity - capital exists but does not fund risk.",
-      "values": { "saving_rate_approx": 17.5 },
-      "unit": "% of gross disposable income",
+      "statement": "French households save 17.9% of disposable income (2025, a near-record; financial saving 10.5% of income - above German households for the first time since 2000) and hold EUR 6,590bn of financial wealth (end-2025): roughly twice the public debt and 2.7 times the CAC 40's market capitalization. But only EUR 310bn sits in directly-held listed shares; interest-rate products total EUR 3,911bn vs EUR 2,576bn in equity-type products. Regulated savings accounts hold EUR 947bn; euro-fund life insurance EUR 1,571bn. Insurers alone hold ~10% of the State's debt.",
+      "values": { "saving_rate_2025_pct": 17.9, "financial_wealth_eur_bn": 6590.5, "listed_shares_direct_eur_bn": 310, "rate_products_eur_bn": 3911, "equity_products_eur_bn": 2576, "livrets_eur_bn": 947.5, "av_euro_funds_eur_bn": 1570.6, "domestic_allocation_pct": 58 },
+      "unit": "EUR billion / %",
       "geography": "France",
-      "sources": [],
-      "confidence": "medium",
-      "status": "unverified",
-      "notes": "BACKLOG: verify with INSEE/Banque de France financial accounts; get equity share of household financial assets vs US/Sweden."
+      "sources": ["S022", "S023"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "The core capital-misallocation fact: the world's most anti-capitalist rich public (F021) holds a savings pool the size of two national debts, allocated to lending its own state money. 58% of placements stay in France, 80% in the euro area - the home bias means redirection is plumbing, not patriotism. Rexecode's line fits: 'the French save a lot, but have little savings' (low-yield allocation)."
     },
     {
       "id": "F024",
@@ -490,6 +541,65 @@
       "status": "verified",
       "chartable": true,
       "notes": "Two-sided fact by design. The refinancing wall is real (interest compounds as old low-coupon debt rolls into 2.5-3.5% paper), but 2025 issuance conditions EASED - the essay must not imply an ongoing rate spiral. The squeeze is stock-driven (volume), not only rate-driven."
+    },
+    {
+      "id": "F030",
+      "statement": "Aligning France's employment rate on Germany's (gap: 8.7 points in 2022, 68.1% vs 76.8%) would create +1.5 million jobs and raise GDP by +3.2% after adjusting for Germany's higher part-time share - or +3.6 million jobs and +7.0% GDP unadjusted. Fiscal effect of the adjusted scenario: ~EUR 38bn of additional general-government revenue, ~EUR 20bn improvement of the social-protection balance (DG Tresor for the HCFiPS).",
+      "values": { "employment_rate_gap_2022_pp": 8.7, "jobs_adjusted_mn": 1.5, "gdp_gain_adjusted_pct": 3.2, "jobs_unadjusted_mn": 3.6, "gdp_gain_unadjusted_pct": 7.0, "revenue_gain_eur_bn": 38, "social_balance_gain_eur_bn": 20 },
+      "unit": "mixed",
+      "geography": "France vs Germany",
+      "sources": ["S020"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Government primary source (DG Tresor note for the Haut Conseil du financement de la protection sociale). The gap concentrates on the young and seniors. This is the single most bankable number of the solution thesis: the labor lever is worth 3-7% of GDP in LEVEL, plus a large fiscal double dividend."
+    },
+    {
+      "id": "F031",
+      "statement": "France works 673 hours per year per inhabitant (15-74), vs 750 EU average, 776 Germany, 748 Sweden - a deficit of 6% vs the EU and 9% vs Germany/Sweden. Employment deficit vs Germany: 2.8 million jobs; vs Nordics: 4 million. Aligning labor quantity on Germany/Sweden would add up to +5% of GDP net of the lower productivity of added workers (+3% on the EU average). Rexecode's conclusion: the single most effective lever is raising the effective retirement age.",
+      "values": { "france_hours_per_capita": 673, "eu_avg": 750, "germany": 776, "sweden": 748, "gdp_gain_germany_alignment_pct": 5, "gdp_gain_eu_alignment_pct": 3 },
+      "unit": "hours/year per inhabitant aged 15-74 / % GDP",
+      "geography": "France vs EU, Germany, Sweden",
+      "sources": ["S021"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Employer-side think tank (leaning noted) but the hours data is OECD/Eurostat-based and consistent with S020's government numbers. Supersedes the rough estimate previously in F012 (which compared to the US; the relevant policy benchmark is Germany/Nordics). France's demographic structure (smaller working-age share) explains part of the per-inhabitant gap - the fixable part is employment rates at BOTH ends of working life."
+    },
+    {
+      "id": "F032",
+      "statement": "EDF's programme of six EPR2 reactors (Penly, Gravelines, Bugey) is costed at EUR 72.8bn in 2020 euros (~EUR 83bn in 2025 euros), presented as a ceiling - up ~40% from the initial 2022 estimate of EUR 51.7bn. First reactor targeted for 2038, then one every 12-18 months. Final investment decision expected end-2026, with state support: a subsidised loan covering at least 50% of construction and a 40-year contract-for-difference.",
+      "values": { "cost_eur2020_bn": 72.8, "cost_eur2025_bn": 83, "initial_estimate_2022_bn": 51.7, "first_commissioning": 2038, "reactors": 6 },
+      "unit": "EUR billion",
+      "geography": "France",
+      "sources": ["S025"],
+      "confidence": "high",
+      "status": "verified",
+      "chartable": true,
+      "notes": "Company primary source. Two-sided by design: the asset (F017) is real but the delivery risk is real too - +40% cost drift BEFORE construction start, and Flamanville's history behind it. The solution thesis must treat new nuclear as a bet with a risk budget, not a free lunch."
+    },
+    {
+      "id": "F033",
+      "statement": "At the Paris AI Action Summit (February 2025), EUR 109bn of private AI infrastructure commitments for France were announced; by spring 2026, over EUR 50bn of AI datacenter projects were underway, making France the largest AI datacenter build-out in Europe (Nvidia, Microsoft, Brookfield, MGX among investors), explicitly anchored on nuclear power availability.",
+      "values": { "commitments_eur_bn": 109, "projects_underway_eur_bn": 50 },
+      "unit": "EUR billion",
+      "geography": "France",
+      "sources": ["S026"],
+      "confidence": "medium",
+      "status": "verified",
+      "chartable": false,
+      "notes": "The 109bn announcement is widely documented; the follow-through figure (50bn underway) comes from a niche tech outlet - re-source from primary (Elysee, France 2030) before the essay leans on the second number. Evidence that the nuclear-AI thesis (C10) is not hypothetical: the market is already voting."
+    },
+    {
+      "id": "F034",
+      "statement": "Long-run growth is highly sensitive to school quality: the canonical Hanushek-Woessmann estimates put ~+0.5pp of annual long-run GDP growth per +25 PISA-type points of cognitive skills (OECD, 'The High Cost of Low Educational Performance'). France's PISA math decline (F022) therefore has a first-order growth cost on a 20-30 year horizon - and education reform is a first-class growth lever on that horizon.",
+      "values": { "growth_per_25_pisa_points_pp": 0.5 },
+      "unit": "pp of annual long-run growth",
+      "geography": "cross-country",
+      "sources": [],
+      "confidence": "medium",
+      "status": "unverified",
+      "notes": "BACKLOG: source the OECD/Hanushek-Woessmann paper properly and check how contested the elasticity is (it is debated; record the range, not just the headline). Essential to the 30-year program: education is the slowest lever and therefore must start first."
     }
   ],
   "comparables": [
@@ -659,6 +769,71 @@
         { "argument": "Predicting a default date is astrology; economists have cried wolf on French debt for 30 years.", "status": "open", "note": "The strongest objection, sharpened by F029: 2025 issuance rates EASED (2.78% vs 3.06%). What changed vs the last 30 years must be argued on stock dynamics (interest fastest-growing budget line, refinancing wall of EUR 175bn+/year amortizations, lost double-A, 54.6% foreign holders) not on a rate panic. Thesis v1 uses the reframed hook: forced adjustment with a closing choice window, plus an explicit falsifiable marker list instead of a naked date [Q10 partially resolved]." },
         { "argument": "Cutting the deficit by 5pp of GDP would itself crush growth (multiplier logic cuts both ways).", "status": "open", "note": "This is actually the deepest version of the user's intuition: stabilizing debt/GDP costs several years of measured growth, which is exactly why no government does it voluntarily - and why the thesis must center on raising g, not just cutting. Connects C7 to C1/C6." }
       ]
+    },
+    {
+      "id": "C8",
+      "claim": "SOLUTION - Work: raising France's labor quantity to German/Nordic levels is worth +3 to +7% of GDP in level (+~EUR 38bn/year of public revenue), phased over 10-15 years; the single most effective lever is the effective retirement age, followed by youth entry and senior employment. This is the largest, best-documented, most bankable lever France has.",
+      "status": "supported",
+      "supporting_facts": ["F030", "F031", "F011", "F018"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Added workers are less productive than average; the gain is overstated.", "status": "answered", "note": "Already netted out: the +3.2%/+5% figures explicitly account for lower productivity of marginal workers (S020, S021). The unadjusted ceiling is +7%." },
+        { "argument": "France tried (2023 reform) and the reform was suspended - the lever is politically unavailable.", "status": "open", "note": "True and central; this is why the solution thesis makes the mindset mechanism (C12) load-bearing rather than decorative." }
+      ]
+    },
+    {
+      "id": "C9",
+      "claim": "SOLUTION - Capital: France does not need foreign capital to fund its transformation; it needs to redirect its own. EUR 6,590bn of household financial wealth exists, but interest-rate products outweigh equity 3,911 to 2,576 and only EUR 310bn is in directly-held listed shares. A Swedish/Australian-style auto-enrollment capitalization layer plus normalization of production taxes (EUR 104bn, 3x peer median) redirects existing flows (~EUR 130bn/year of net placements) toward productive equity without raising the saving effort.",
+      "status": "supported",
+      "supporting_facts": ["F023", "F016"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Redirecting savings from public debt to equity removes the state's captive buyer exactly when it needs one (insurers hold ~10% of state debt).", "status": "open", "note": "Serious sequencing constraint: the capital reversal only works AFTER or WITH fiscal stabilization (C11). Order of operations matters; record in program sequencing." },
+        { "argument": "Auto-enrollment pension funds expose households to market crashes and will be politically radioactive in an anti-capitalist country.", "status": "open", "note": "Answer via design (default lifecycle funds, state co-contribution for low earners) and via C12: ownership is precisely the mechanism that moves the attitudes. Sweden's AP7 and Australia's superannuation are the comparables to stress-test [Q13]." }
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "SOLUTION - Frontier: France's defensible niche is energy-intensive intelligence: the only large economy in Europe with cheap, expandable low-carbon baseload (existing fleet + 6 EPR2) at the exact moment AI demand is constrained by electricity. Pair the energy advantage with R&D intensity raised from 2.2% toward 3.5% of GDP (+~EUR 35-40bn/year, concentrated on young firms) and elite-math talent, and France becomes Europe's compute and AI-industry hub - a position no EU peer can replicate this generation.",
+      "status": "hypothesis",
+      "supporting_facts": ["F009", "F017", "F032", "F033"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "New nuclear is a cost-drift machine: EPR2 already +40% before construction; Flamanville was 6x over budget.", "status": "open", "note": "Concede and budget it: the thesis must carry delivery risk explicitly (state audit, fixed-design series effect) rather than assume EDF competence. F032 records the drift on purpose." },
+        { "argument": "AI value accrues to US model owners; hosting datacenters is a low-margin utility business.", "status": "open", "note": "Partially true - the answer is the full stack argument: cheap power attracts compute, compute anchors labs and inference infrastructure, talent and firms follow (Mistral as existence proof). Needs evidence on where AI value pools land [new research]." }
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "SOLUTION - State: the pension machine is the financing source for everything else. France spends 4 points of GDP more than Germany on pensions (~EUR 115bn/year at current GDP); recovering even a third of that over 15 years - via retirement age, indexation discipline and convergence of special regimes - simultaneously (a) stabilizes the debt (needs ~EUR 25bn/year, F025), (b) funds the production-tax normalization (~EUR 65-70bn, F016), and (c) leaves room for education and research investment. No other budget line has this capacity; refusing this lever means refusing the program.",
+      "status": "supported",
+      "supporting_facts": ["F018", "F025", "F016", "F005"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Pension cuts are recessionary: retirees consume locally.", "status": "open", "note": "Answer via composition and phasing: the program shifts spending from transfers to investment gradually; and the labor lever (C8) generates +EUR 38bn of revenue that reduces the required cut. Model properly in [Q12]." },
+        { "argument": "This is the exact reform France just proved it cannot hold (2023 reform suspended 2025).", "status": "open", "note": "The honest answer is C12 plus crisis dynamics (C7): the program exists for the moment the countdown forces the choice. Sweden passed its NDC pension reform AFTER its 1991 crisis, with cross-party consensus." }
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "SOLUTION - Mindset: beliefs follow ownership, not lectures. The mechanism that flips French anti-capitalism (F021) is not rhetoric but universal capital ownership: auto-enrollment makes every French worker a shareholder with a visible account; the Odoxa data already shows acceptance of capitalism tracks having a stake (executives 58% positive vs workers 31%). The mindset is downstream of the capital reversal (C9) - which is why the program can work in the country that today rejects it.",
+      "status": "hypothesis",
+      "supporting_facts": ["F021", "F023"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "No causal evidence that ownership changes economic attitudes at national scale.", "status": "open", "note": "Find the literature: UK Thatcher-era privatization/right-to-buy studies, Sweden post-1990s attitudes, 401(k) effects on US attitudes, employee-shareholding studies. If the evidence is weak, C12 downgrades to 'plausible complement', not mechanism [new research task]." }
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "TARGET - The powerhouse scenario: stacking the levers plausibly takes French potential growth from ~1.1% to ~2.3-2.6%/year sustained for two decades (labor +0.3-0.4pp for 10-15y; capital deepening +0.2-0.3pp; innovation/TFP +0.3-0.5pp; education +0.3-0.5pp arriving after year 10). Against a euro-area trend of ~1-1.2%, France compounds ~+1.2pp/year relative: by 2045-2050 it overtakes Germany in GDP per capita and becomes the largest growth pole in Europe. That is the 'declassement' reversed - the deculottee, quantified.",
+      "status": "hypothesis",
+      "supporting_facts": ["F030", "F031", "F009", "F016", "F023", "F032", "F033", "F034"],
+      "contradicting_facts": [],
+      "counterarguments": [
+        { "argument": "Adding lever effects double-counts (the same GDP gain claimed by labor and fiscal channels); level effects are being dressed as permanent growth effects.", "status": "open", "note": "The central technical risk of the whole thesis. Requires an explicit growth-accounting model with sourced elasticities and no double-counting [Q12]. Until then C13 stays hypothesis and the essay presents it as a scenario with stated assumptions, never as a forecast." },
+        { "argument": "Every country claims it will out-grow its neighbors; general-equilibrium effects (wages, exchange-rate-like adjustments within the euro) erode relative gains.", "status": "open", "note": "Fair - though within a currency union, a Germany-style decade of outperformance (2005-2019) shows large persistent relative gains are possible. Use Germany itself as the existence proof." }
+      ]
     }
   ],
   "open_questions": [
@@ -729,6 +904,30 @@
       "status": "resolved",
       "priority": "high",
       "resolution": "2026-08-11: F028 (54.6% non-resident, end-2025, Banque de France) and F029 (EUR 300-310bn/year gross MLT issuance, EUR 175.8bn amortizations 2026, avg rate 2.78% in 2025 - eased vs 2024). Remaining nice-to-have: ECB/Eurosystem holding share and average residual maturity (~8.5 years per AFT, unrecorded)."
+    },
+    {
+      "id": "Q12",
+      "question": "Build the growth-accounting model behind C13 with sourced elasticities and NO double-counting: (a) labor levers as level effects phased over 10-15y (F030/F031); (b) capital deepening from the savings reversal and production-tax cut; (c) R&D-to-TFP elasticity (source: Guellec/OECD, Bloom-Jones-Van Reenen); (d) education arriving with a 10+ year lag (F034); (e) fiscal drag from the C11 consolidation netted OUT. Output: one assumptions table the essay can print and a reader can attack.",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q13",
+      "question": "Design parameters and comparables for the auto-enrollment capitalization layer (C9/C12): Sweden's premium pension/AP7, Australia's superannuation (verify size ~AUD 3tn+ / % of GDP), UK's NEST. What contribution rate builds a fund of 50-100% of GDP in 25-30 years given French wage mass? What share can be steered to French/EU equity without violating prudential rules?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q14",
+      "question": "Energy-AI numbers for C10: industrial electricity prices France vs Germany vs US (F017 still unverified); grid-connection queue and buildable pipeline for datacenters; EDF balance-sheet capacity and what the EPR2 risk-sharing means for public debt classification; where does AI value actually pool (compute hosting vs models vs applications)?",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "Q15",
+      "question": "Evidence for the ownership-changes-beliefs mechanism (C12): UK right-to-buy and privatization-era attitude studies, 401(k)/equity-exposure effects on US policy preferences, employee shareholding literature, Sweden pre/post-1990s reform attitudes. If weak, C12 downgrades and the program needs a different mindset mechanism.",
+      "status": "open",
+      "priority": "high"
     }
   ]
 }

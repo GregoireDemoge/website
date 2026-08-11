@@ -4,6 +4,32 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 2 — 2026-08-11 — Course correction + the solution thesis, quantified
+
+**Author input (two directives).** (1) No time constraint: a 20-30 year program is acceptable — slow levers become first-class. (2) Process critique, accepted: run 1 wrote the essay before the solution half of the thesis existed. Consequences drawn: `article.md` is FROZEN as a tone prototype; a gate rule was added to `AGENTS.md` (prose only for spine sections marked stable); this run worked exclusively on the spine. The ambition was also raised explicitly: not "avoid the wall" but "become Europe's growth powerhouse" — outgrow everyone, durably.
+
+**What was built: Part II of `thesis.md` — the solution thesis (v1).** A thirty-year program with a falsifiable target (C13: potential growth 2.3-2.6% for two decades; overtake Germany in GDP per capita by 2045-2050) and five quantified levers:
+
+- **C8 Work** (+3 to +7% of GDP): verified via DG Tresor [F030] — aligning employment on Germany = +1.5M jobs, +3.2% GDP net of composition, +EUR 38bn revenue; Rexecode [F031] — France works 673 h/inhabitant vs 776 Germany; retirement age = the most effective single lever.
+- **C9 Capital**: verified via Banque de France/Tresor-Eco [F023] — EUR 6,590bn of household financial wealth (2x public debt), only EUR 310bn in directly-held listed shares; program = auto-enrollment capitalization layer (Sweden/Australia comparables [Q13]) + production-tax normalization [F016 verified: EUR 104bn, 3x peer median, ~6x Germany].
+- **C10 Frontier** (energy-intensive intelligence): EPR2 verified via EDF [F032] — 6 reactors, EUR 72.8bn(2020), first unit 2038, +40% cost drift recorded honestly; AI build-out [F033] — EUR 109bn commitments, largest datacenter pipeline in Europe, anchored on nuclear.
+- **C11 State** (the war chest): the 4-points-of-GDP pension gap with Germany (~EUR 115bn/yr [F018]) is the only budget line big enough to fund debt stabilization + production-tax cut + R&D/education simultaneously. Any plan that skips pensions is decoration.
+- **C12 Ownership** (the mindset engine): beliefs follow ownership; the capitalization fund puts a growing personal stake in every worker's pocket; Odoxa's distributional split (executives 58% pro vs workers 31%) is the supporting hint. Causal evidence at national scale still to gather [Q15] — decisive.
+
+Plus: financing coherence (sources and uses close only if C11 delivers), three-decade sequencing (education starts first BECAUSE it is slowest [F034]), and an explicit falsification list for the program.
+
+**Weakest point, named.** C13's lever-stacking risks double-counting level vs growth effects. Until a growth-accounting model with sourced elasticities exists [Q12], C13 is a scenario, never a forecast. This is the top research priority.
+
+**Next run should attack, in order:**
+
+1. [Q12] Build the growth-accounting model (assumptions table, sourced elasticities, no double-counting). The whole "powerhouse" claim hangs on it.
+2. [Q15] Ownership-changes-beliefs evidence (UK right-to-buy, 401(k) literature, employee shareholding) — C12 is the program's political engine.
+3. [Q13] Capitalization scheme design + verify Australia superannuation size; [Q14] industrial electricity prices and AI value-pool evidence.
+4. Verify X01 Sweden numbers properly (the 20pp spending cut claim is still unverified) and F034 (Hanushek-Woessmann).
+5. Only after Q12: unfreeze `article.md` and rewrite against the full spine.
+
+---
+
 ## Run 1 — 2026-08-11 — Thesis v1 settled, first full draft written
 
 **What was done.** Pushed the reflection to a first complete position: verified five high-value backlog items, settled the central thesis (v1), and wrote the first full draft of the essay (~2,600 words, `article.md` v0.1).
