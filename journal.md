@@ -4,6 +4,29 @@ One entry per run, newest on top. Each entry: date, what was dug into, what chan
 
 ---
 
+## Run 15 — 2026-08-11 — The missing objection, and two claims the data killed
+
+**Bird's-eye find first.** The essay's central lever is the retirement age, and the most common French objection to it — "make the old work longer and the young will have no jobs" — was nowhere in the file. Fifty years of French policy were built on that exact belief (Mauroy, Lille, 1981: the oldest should "release jobs so that everyone can have a job"). It got the full treatment this run. Four parallel research tracks (primary sources: NBER/Gruber-Wise volume + France chapter, INSEE/OFCE historical series, Rabaté-Rochut/CNAV, CAE; Eurostat SILC via API, OECD IDD, DIW/SOEP; GCP/CITEPA/HCC/UNEP, Vogel-Hickel and Keyßer-Lenzen read at the source; Trésor-Éco n°378, Sénat r24-902, ACPR, France Assureurs).
+
+**Added: the lump-of-labor objection (thesis IV.18, C26; essay's seventh collapsible).** France ran the experiment at full scale: 1971-1993, senior employment −21pp, youth unemployment 6% (end-1973) → 25% (end-1984), never below 15% since 1982; the recoveries (1993-2005, 2013-2023) moved both rates the other way together [F094]. Gruber-Wise's twelve-country study found no case anywhere of the substitution working; every significant estimate runs the other way [F093]. Cross-section 2024: Japan 79/4 vs France 60/19 [F095]. Counterevidence absorbed honestly [F096]: the 2010 reform leaked ~a fifth of its savings into unemployment/disability among the seniors themselves (Rabaté-Rochut), and the firm-level evidence is split (Boeri vs Carta) — a design instruction, so III.1 and the essay's Work paragraph now carry the senior-employment package as load-bearing.
+
+**Killed: "France likely beats Germany at the floor today" (F056 refuted; Q25's load-bearing half resolved).** The author's instruction was follow-the-data; the data said no: on SILC 2024 Germany's P10 sits 8% above France's and the poverty rates are a tie; France led by 13% as late as 2014 and stood still while Germany crossed over (the repair driven by the 2015 minimum wage, not growth alone — F098 keeps both edges). What survives is sharper: netting out housing restores parity [F097], and the US floor is below France's despite a median 29% richer [F099]. Thesis 0.1 and IV.6 rewritten; the essay gains the US-floor flip in the median concession and the Germany scoreboard in "What growth is for" ("The floor France borrows to defend has stopped rising").
+
+**Killed: the degrowth collapsible's old logic (Q31 resolved).** The old text used France's decoupling record as a rebuttal; the record CONFIRMS the "too slow" claim (achieved −1.6%/yr consumption-based vs required ~7.5%/yr for 1.5°C; SNBC-3's −5%/yr hit once outside a lockdown) [F100]. The mandatory concession is now in the fact notes and the collapsible concedes it in its second sentence. The answer went comparative, on the opponents' own literature: York's asymmetry (a 1% recession buys ~0.4% of emissions, once), the 2020 natural experiment (GDP −7.4%, footprint −10.3%, full rebound), ~2pp of debt ratio per year of mild contraction, Keyßer-Lenzen's 27-fold renewables build-out, and EUROGREEN's France-calibrated degrowth scenario breaching the deficit ceiling by 2040 despite a wealth tax [F101]. C24 hypothesis → supported.
+
+**Tested and rejected as prose: the strong savings-loop closure (run 14's F078 candidate).** "The pensioners themselves are the main holders of the funds that buy the state's bonds" outruns the evidence (60+ are 48.7% of assurance-vie holders; the only balances-by-age figure is a dated 44%-with-the-65+ survey). What IS printable and now printed: households hold EUR 752bn of government bonds through intermediaries, one euro in ten of their financial wealth, per the finance ministry's own look-through [F102] — one sentence added to the loop paragraph. Honesty marker recorded: the domestic circuit is shrinking (insurers 39.6% of state debt in 2000, 9.8% today; the marginal buyer is foreign).
+
+**State: 102 facts, 97 verified; F056 refuted by design; every quoted number in the essay verified (91 tags checked by script).** Audit after integration: 0 banned patterns, 0 intensifiers, 7 X-not-Y per ~7,800 words (unchanged from run 14, none added), 10 questions (one added in the new collapsible, answered in place per the Boron directive), max sentence 32, average 13.3.
+
+**Next run should attack, in order:**
+
+1. The dedicated prose-only cold read (definition-of-done #4) — still outstanding; runs 14 and 15 both changed content, so neither counts.
+2. Kill-or-verify the four remaining `?` facts (F048, F059, F062, F012 — none quoted in the essay); [Q26] health frictions if F059 is kept; [Q35] the Eurobarometer France number (low).
+3. The counter-majoritarian-rules counterargument on C25 is answered in the claim file but not yet in prose — decide whether the essay needs it or the thesis note suffices.
+4. Then: citation conversion (fact tags → reader-friendly citations) and the HTML/charts phase (chartable facts are flagged in facts.json).
+
+---
+
 ## Run 14 — 2026-08-11 — Athens corrected, the median pinned, the euro escape hatch closed
 
 **Queue followed (run 13's order), plus one bird's-eye find.** The essay says "a currency France cannot print" four times and never answered the question every French reader asks next: then leave the euro. Half the electorate has flirted with parties that proposed exactly that. The gap got a full objection this run. Three parallel research tracks (primary sources: Eurostat SILC/ELSTAT, Bank of Greece, IMF ex-post evaluation, Matsaganis-Leventi and OECD WP 1312, OECD IDD via SDMX, LIS, AFT bond-by-bond CAC data, SDES, OFCE/CEPII/Montaigne, rating-agency definitions, press of record for the party reversals).
