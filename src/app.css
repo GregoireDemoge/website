@@ -6,16 +6,7 @@
 	--ink-soft: #55546a;
 	--ink-muted: #8c8b9a;
 	--line: #e6e6ea;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: #15141f;
-		--ink: #ecebf0;
-		--ink-soft: #b4b3c0;
-		--ink-muted: #7c7b8a;
-		--line: #2a2938;
-	}
+	color-scheme: light;
 }
 
 * {
