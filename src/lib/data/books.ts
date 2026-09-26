@@ -1,9 +1,6 @@
 export type BookCategory = {
 	id: string;
 	name: string;
-	tagline: string;
-	/** Hue used for the generated cover (0-360). */
-	hue: number;
 };
 
 export type Book = {
@@ -11,47 +8,34 @@ export type Book = {
 	author: string;
 	blurb: string;
 	category: BookCategory['id'];
-	/** Optional real cover image. When absent, a generated cover is shown. */
-	cover?: string;
-	url?: string;
+	/** File name in static/covers/. */
+	cover: string;
 };
 
 export const categories: BookCategory[] = [
 	{
 		id: 'product',
-		name: 'Product craft',
-		tagline: 'What the job actually is, and how to do it well.',
-		hue: 14
+		name: 'Product craft'
 	},
 	{
 		id: 'discovery',
-		name: 'Customer discovery',
-		tagline: 'Finding out whether the pain is real before building anything.',
-		hue: 152
+		name: 'Customer discovery'
 	},
 	{
 		id: 'design',
-		name: 'Design & UX',
-		tagline: 'Making things people understand without thinking.',
-		hue: 262
+		name: 'Design & UX'
 	},
 	{
 		id: 'strategy',
-		name: 'Strategy & decisions',
-		tagline: 'Frameworks I reach for when the answer is not obvious.',
-		hue: 214
+		name: 'Strategy & decisions'
 	},
 	{
 		id: 'marketing',
-		name: 'Positioning & writing',
-		tagline: 'Saying the right thing, to the right people, in words that land.',
-		hue: 38
+		name: 'Positioning & writing'
 	},
 	{
 		id: 'management',
-		name: 'Management & people',
-		tagline: 'Leading a team, giving feedback, having the hard conversations.',
-		hue: 340
+		name: 'Management & people'
 	}
 ];
 
@@ -59,6 +43,7 @@ export const books: Book[] = [
 	// Product craft
 	{
 		title: 'Product Management in Practice',
+		cover: 'product-management-in-practice.jpg',
 		author: 'Matt LeMay',
 		category: 'product',
 		blurb:
@@ -66,6 +51,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Inspired',
+		cover: 'inspired.jpg',
 		author: 'Marty Cagan',
 		category: 'product',
 		blurb:
@@ -73,6 +59,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Empowered',
+		cover: 'empowered.jpg',
 		author: 'Marty Cagan & Chris Jones',
 		category: 'product',
 		blurb:
@@ -80,6 +67,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Running Lean',
+		cover: 'running-lean.jpg',
 		author: 'Ash Maurya',
 		category: 'product',
 		blurb:
@@ -89,6 +77,7 @@ export const books: Book[] = [
 	// Customer discovery
 	{
 		title: 'The Mom Test',
+		cover: 'the-mom-test.jpg',
 		author: 'Rob Fitzpatrick',
 		category: 'discovery',
 		blurb:
@@ -96,6 +85,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Lean Customer Development',
+		cover: 'lean-customer-development.jpg',
 		author: 'Cindy Alvarez',
 		category: 'discovery',
 		blurb:
@@ -103,6 +93,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Competing Against Luck',
+		cover: 'competing-against-luck.jpg',
 		author: 'Clayton Christensen',
 		category: 'discovery',
 		blurb:
@@ -112,6 +103,7 @@ export const books: Book[] = [
 	// Design & UX
 	{
 		title: 'The Design of Everyday Things',
+		cover: 'the-design-of-everyday-things.jpg',
 		author: 'Don Norman',
 		category: 'design',
 		blurb:
@@ -119,6 +111,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Refactoring UI',
+		cover: 'refactoring-ui.jpg',
 		author: 'Adam Wathan & Steve Schoger',
 		category: 'design',
 		blurb:
@@ -126,6 +119,7 @@ export const books: Book[] = [
 	},
 	{
 		title: "Don't Make Me Think",
+		cover: 'dont-make-me-think.jpg',
 		author: 'Steve Krug',
 		category: 'design',
 		blurb:
@@ -135,6 +129,7 @@ export const books: Book[] = [
 	// Strategy & decisions
 	{
 		title: 'Good Strategy / Bad Strategy',
+		cover: 'good-strategy-bad-strategy.jpg',
 		author: 'Richard Rumelt',
 		category: 'strategy',
 		blurb:
@@ -142,6 +137,7 @@ export const books: Book[] = [
 	},
 	{
 		title: "Poor Charlie's Almanack",
+		cover: 'poor-charlies-almanack.jpg',
 		author: 'Charlie Munger',
 		category: 'strategy',
 		blurb:
@@ -149,6 +145,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Algorithms to Live By',
+		cover: 'algorithms-to-live-by.jpg',
 		author: 'Brian Christian & Tom Griffiths',
 		category: 'strategy',
 		blurb:
@@ -158,6 +155,7 @@ export const books: Book[] = [
 	// Positioning & writing
 	{
 		title: 'Obviously Awesome',
+		cover: 'obviously-awesome.jpg',
 		author: 'April Dunford',
 		category: 'marketing',
 		blurb:
@@ -165,6 +163,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'The Boron Letters',
+		cover: 'the-boron-letters.jpg',
 		author: 'Gary Halbert',
 		category: 'marketing',
 		blurb:
@@ -172,6 +171,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Ogilvy on Advertising',
+		cover: 'ogilvy-on-advertising.jpg',
 		author: 'David Ogilvy',
 		category: 'marketing',
 		blurb:
@@ -181,6 +181,7 @@ export const books: Book[] = [
 	// Management & people
 	{
 		title: 'High Output Management',
+		cover: 'high-output-management.jpg',
 		author: 'Andrew Grove',
 		category: 'management',
 		blurb:
@@ -188,6 +189,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Crucial Conversations',
+		cover: 'crucial-conversations.jpg',
 		author: 'Patterson, Grenny, McMillan & Switzler',
 		category: 'management',
 		blurb:
@@ -195,6 +197,7 @@ export const books: Book[] = [
 	},
 	{
 		title: 'Radical Candor',
+		cover: 'radical-candor.jpg',
 		author: 'Kim Scott',
 		category: 'management',
 		blurb:

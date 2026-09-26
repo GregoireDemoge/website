@@ -9,7 +9,7 @@ npm run build    # production build (adapter-vercel)
 npm run check    # type-check
 ```
 
-Content lives in `src/lib/data/`: `site.ts` (bio, topics, companies, links) and `books.ts` (book list and categories). To swap a generated book cover for a real one, add a `cover` URL on the book entry.
+Content lives in `src/lib/data/`: `site.ts` (bio, topics, companies, links) and `books.ts` (book list and categories). Book covers are static images in `static/covers/`, referenced by file name from `books.ts`.
 
 Deploy: import the repo in Vercel, framework preset SvelteKit, no extra config.
 
