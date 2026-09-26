@@ -17,8 +17,6 @@
 </svelte:head>
 
 <main>
-	<h1>{site.name}</h1>
-
 	<section>
 		<p>Hi, I'm Greg.</p>
 		<p>
@@ -83,13 +81,7 @@
 	main {
 		max-width: 640px;
 		margin: 0 auto;
-		padding: 72px 20px 96px;
-	}
-
-	h1 {
-		font-size: 16px;
-		font-weight: 700;
-		margin-bottom: 40px;
+		padding: 8px 20px 96px;
 	}
 
 	h2 {
