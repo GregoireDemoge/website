@@ -63,7 +63,7 @@
 							alt={`Cover of ${book.title}`}
 							width="56"
 							height="84"
-							loading="lazy"
+							decoding="async"
 						/>
 						<div>
 							<p>
