@@ -1,0 +1,52 @@
+@import '@fontsource-variable/plus-jakarta-sans';
+
+:root {
+	--bg: #ffffff;
+	--ink: #1a192b;
+	--ink-soft: #55546a;
+	--ink-muted: #8c8b9a;
+	--line: #e6e6ea;
+	color-scheme: light;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Plus Jakarta Sans Variable', system-ui, sans-serif;
+	font-size: 16px;
+	line-height: 1.65;
+	color: var(--ink);
+	background: var(--bg);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: var(--ink-muted);
+	text-underline-offset: 3px;
+}
+
+a:hover {
+	text-decoration-color: var(--ink);
+}
